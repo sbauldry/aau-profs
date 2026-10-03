@@ -1,6 +1,6 @@
 # AAU Sociology Full Professors: Schema and Codebook
 
-Version 0.1.10 (draft), October 2026
+Version 0.1.11 (draft), October 2026
 
 ## 1. Purpose and scope
 
@@ -276,6 +276,7 @@ This table is the single log of adopted changes that affect comparability across
 | 2026-10 | 0.1.8 | Added prompt versioning rules (§9). Pre-collection; effective with the first collection year (2026). |
 | 2026-10 | 0.1.9 | Pinned models: Sonnet 5.5 (`claude-sonnet-5-5`) for extraction, Opus 5.5 (`claude-opus-5-5`) for coding. Pre-collection; effective with the first collection year (2026). |
 | 2026-10 | 0.1.10 | §8 designated the single log of comparability-affecting changes; `logs/` holds run records only. Pre-collection; effective with the first collection year (2026). |
+| 2026-10 | 0.1.11 | Added scraping conduct rules (§10). Pre-collection; effective with the first collection year (2026). |
 
 ## 9. Prompt versioning and pinned models
 
@@ -286,3 +287,11 @@ This table is the single log of adopted changes that affect comparability across
 - **Separation:** extraction and coding prompts are separate files and separate runs.
 - **Pinned models (from 2026):** extraction uses Sonnet 5.5 (`claude-sonnet-5-5`); coding to ASA sections uses Opus 5.5 (`claude-opus-5-5`). Record the exact string in `extract_model` and `code_model` for every run.
 - **Changing a model:** a model change for either step can break comparability across years. Flag it before adopting, log it in §8 with the effective year, and consider re-running the prior year with the new model to measure the difference.
+
+## 10. Scraping conduct
+
+- **robots.txt:** check each host's `robots.txt` before fetching and honor it.
+- **User-agent:** descriptive and identifying, e.g., `aau-profs-research/1.0 (academic research; contact: <email>)`. The contact address is read from the `SCRAPER_CONTACT` environment variable (set in `~/.Renviron`) and is never written into the repo.
+- **Rate:** at least 2 seconds between requests to the same host; one pass per page; no retry storms.
+- **Failures:** log fetch failures (403s, dead links, JavaScript-only pages) in `logs/` with the URL and date. A page that cannot be fetched is flagged for hand review; an institution is never dropped silently.
+- **Blocks:** if a site blocks automated access, do not work around the block. Flag it and handle that institution by hand.

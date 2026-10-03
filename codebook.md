@@ -1,6 +1,6 @@
 # AAU Sociology Full Professors: Schema and Codebook
 
-Version 0.1.1 (draft), October 2026
+Version 0.1.2 (draft), October 2026
 
 ## 1. Purpose and scope
 
@@ -14,17 +14,20 @@ An annual panel of full professors of sociology at member institutions of the As
 
 **Unit:** a person × year × institution.
 
+**Scope.** Tenured full professors only. Tenure is inferred from rank on a tenure line: a title of Professor (including named or distinguished professorships) on the tenure track counts as tenured, since department pages rarely state tenure status. Non-tenure-line professor titles are excluded.
+
 **Include** a person in a year if all of the following hold:
 1. The department's official faculty listing or the person's university profile lists them as Professor or as a named or distinguished Professor. "Professor" with no qualifier counts as full professor only when the department's listing distinguishes it from Associate and Assistant Professor.
-2. The appointment is in a sociology department. A department that combines sociology with another field (e.g., "Sociology and Criminology") counts if sociology is in its name.
-3. The appointment is primary or a formal joint appointment (a budgeted share in sociology).
+2. The appointment is tenure-line and in a sociology department. A department that combines sociology with another field (e.g., "Sociology and Criminology") counts if sociology is in its name.
+3. The appointment is primary or a formal joint appointment (a budgeted share in sociology). A sociology faculty member who also holds a joint appointment in another department or unit is included (record the other units in `joint_units`).
+4. Administrative roles do not affect inclusion. Department heads and chairs, deans, and other administrators are included if they hold a tenured full professor appointment in sociology (record the role in `admin_role`).
 
 **Exclude, but retain in `snapshots` with `included = FALSE`:**
 - Emeritus or emerita, including research professors emeriti
 - Courtesy, affiliated, adjunct, or "by courtesy" appointments
 - Clinical, teaching, research, and practice professor tracks (non-tenure-line)
 - Visiting professors
-- Administrators listed only in an administrative role, such as a dean with no listed sociology faculty appointment
+- Administrators with no sociology faculty appointment, such as a dean listed only in an administrative role
 
 **Edge cases to flag** (`review_flag = TRUE`):
 - A department lists someone as faculty but the university profile gives a different rank
@@ -250,3 +253,4 @@ Never merge two IDs automatically. Merges are recorded by hand with a note.
 |---|---|---|
 | 2026-10 | 0.1 | Initial draft |
 | 2026-10 | 0.1.1 | Renamed `wave` to `year` throughout (`first_wave` to `first_year`); `year` is the collection year. Snapshots and areas keyed by person × year × institution (`inst_id` added to `areas`). Pre-collection harmonization; no data affected. Effective with the first collection year (2026). |
+| 2026-10 | 0.1.2 | Inclusion clarified: scope is tenured full professors (tenure inferred from tenure-line Professor rank); administrators and holders of joint appointments with other units are included; administrators with no sociology appointment remain excluded. Pre-collection; effective with the first collection year (2026). |

@@ -1,6 +1,6 @@
 # AAU Sociology Full Professors: Schema and Codebook
 
-Version 0.1.11 (draft), October 2026
+Version 0.1.12 (draft), October 2026
 
 ## 1. Purpose and scope
 
@@ -237,6 +237,7 @@ The section-in-formation (Creative Sociology) is excluded unless it gains full s
 5. Apply `rgc` only when the profile frames the work as intersectional. Otherwise use `rem`, `gender`, or `inequality` as appropriate.
 6. Use `teaching` and `public` only when these are listed as research areas, not as service or teaching activity.
 7. If the profile lists no areas, leave the person uncoded (no rows in `areas`) and set `review_flag`.
+8. Whenever `other` is assigned, set `review_flag` and describe the area in `review_note` (in `snapshots`). Every `other` is hand-reviewed. At the yearly vocabulary re-verification, tally `other` notes by theme; a recurring theme prompts a decision on whether the vocabulary needs a change (log it in §8).
 
 Optionally, a crosswalk to coarser groupings (e.g., demography and health; stratification; culture and theory; institutions; methods) can be defined later as a separate table without recoding.
 
@@ -277,6 +278,7 @@ This table is the single log of adopted changes that affect comparability across
 | 2026-10 | 0.1.9 | Pinned models: Sonnet 5.5 (`claude-sonnet-5-5`) for extraction, Opus 5.5 (`claude-opus-5-5`) for coding. Pre-collection; effective with the first collection year (2026). |
 | 2026-10 | 0.1.10 | §8 designated the single log of comparability-affecting changes; `logs/` holds run records only. Pre-collection; effective with the first collection year (2026). |
 | 2026-10 | 0.1.11 | Added scraping conduct rules (§10). Pre-collection; effective with the first collection year (2026). |
+| 2026-10 | 0.1.12 | Coding rule 8: every `other` code is flagged, described in `review_note`, hand-reviewed, and tallied yearly to inform vocabulary changes. Pre-collection; effective with the first collection year (2026). |
 
 ## 9. Prompt versioning and pinned models
 

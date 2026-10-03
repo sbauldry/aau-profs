@@ -1,6 +1,6 @@
 # AAU Sociology Full Professors: Schema and Codebook
 
-Version 0.1.12 (draft), October 2026
+Version 0.1.13 (draft), October 2026
 
 ## 1. Purpose and scope
 
@@ -256,7 +256,9 @@ Never merge two IDs automatically. Merges are recorded by hand with a note, and 
 
 ## 7. Validation
 
-- **First year:** hand-code a stratified random sample of about 50 people (by institution size) on rank, inclusion, and areas. Report agreement with the automated output: percent agreement for rank and inclusion, and Krippendorff's alpha for area codes.
+- **First year:** hand-code a stratified random sample of about 50 people (by institution size) on rank, inclusion, and areas. Report agreement with the automated output:
+  - **Rank and inclusion:** percent agreement.
+  - **Area codes:** (a) Krippendorff's alpha computed per section on presence/absence (is the person coded to that section by each coder), reported per section and averaged across sections that have at least one coding; and (b) percent agreement on the first-listed code, and on whether the two coders share at least one code. With about 50 people, per-section alphas for rare sections are noisy, so report the number of cases per section.
 - **Later years:** hand-review all rows in `changes` plus a random 10% of unchanged rows.
 - Keep validation results in `validation/` with the year in the file name.
 
@@ -279,6 +281,7 @@ This table is the single log of adopted changes that affect comparability across
 | 2026-10 | 0.1.10 | §8 designated the single log of comparability-affecting changes; `logs/` holds run records only. Pre-collection; effective with the first collection year (2026). |
 | 2026-10 | 0.1.11 | Added scraping conduct rules (§10). Pre-collection; effective with the first collection year (2026). |
 | 2026-10 | 0.1.12 | Coding rule 8: every `other` code is flagged, described in `review_note`, hand-reviewed, and tallied yearly to inform vocabulary changes. Pre-collection; effective with the first collection year (2026). |
+| 2026-10 | 0.1.13 | Validation scoring specified for area codes: per-section presence/absence Krippendorff's alpha plus percent agreement on first-listed and any-overlap. Pre-collection; effective with the first collection year (2026). |
 
 ## 9. Prompt versioning and pinned models
 

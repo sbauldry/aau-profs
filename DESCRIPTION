@@ -6,4 +6,5 @@ Imports:
     tidyverse,
     rvest,
     chromote,
-    ellmer
+    ellmer,
+    irr

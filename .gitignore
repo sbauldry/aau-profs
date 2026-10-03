@@ -1,0 +1,27 @@
+# Secrets
+.Renviron
+.env
+*.key
+
+# R session
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata
+*.Rcheck/
+
+# renv: track renv.lock, activate.R, settings.json; ignore the library
+renv/library/
+renv/local/
+renv/cellar/
+renv/lock/
+renv/python/
+renv/sandbox/
+renv/staging/
+
+# Raw scraped HTML (large, re-fetchable; retrieval date and path live in snapshots)
+data/raw_html/
+
+# Scratch / OS
+.DS_Store
+*.log

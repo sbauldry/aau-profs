@@ -1,0 +1,9 @@
+Package: aauprofs
+Title: AAU Sociology Full Professors Database
+Version: 0.0.0.9000
+Description: Pipeline dependencies for the AAU sociology full professors panel.
+Imports:
+    tidyverse,
+    rvest,
+    chromote,
+    ellmer

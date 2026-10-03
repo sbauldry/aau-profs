@@ -1,6 +1,6 @@
 # AAU Sociology Full Professors: Schema and Codebook
 
-Version 0.1.8 (draft), October 2026
+Version 0.1.9 (draft), October 2026
 
 ## 1. Purpose and scope
 
@@ -272,11 +272,14 @@ Never merge two IDs automatically. Merges are recorded by hand with a note, and 
 | 2026-10 | 0.1.6 | AAU member list sourced from AAU's official members page, with a dated copy saved in `data/seeds/` each year. Pre-collection; effective with the first collection year (2026). |
 | 2026-10 | 0.1.7 | Added the `person_id` registry (§3.2a): sequential `p######` IDs minted from a version-controlled registry; retired IDs are kept and never reused. Pre-collection; effective with the first collection year (2026). |
 | 2026-10 | 0.1.8 | Added prompt versioning rules (§9). Pre-collection; effective with the first collection year (2026). |
+| 2026-10 | 0.1.9 | Pinned models: Sonnet 5.5 (`claude-sonnet-5-5`) for extraction, Opus 5.5 (`claude-opus-5-5`) for coding. Pre-collection; effective with the first collection year (2026). |
 
-## 9. Prompt versioning
+## 9. Prompt versioning and pinned models
 
 - **Location and names:** `prompts/extraction/extract_v1.md`, `prompts/coding/code_v1.md`, then `_v2`, and so on.
 - **Header:** each file begins with a short header giving its version string, date created, and one line on what changed from the prior version.
 - **Recorded values:** the version string (e.g., `v1`) goes in `extract_prompt_ver` and `code_prompt_ver`, alongside the exact model ID in `extract_model` and `code_model`.
 - **Immutability:** a prompt file is never edited after it has been used in a run. Any change, however small, creates a new version file and an entry in §8 stating the year it takes effect. A prompt change can break comparability across years, so flag it before adopting.
 - **Separation:** extraction and coding prompts are separate files and separate runs.
+- **Pinned models (from 2026):** extraction uses Sonnet 5.5 (`claude-sonnet-5-5`); coding to ASA sections uses Opus 5.5 (`claude-opus-5-5`). Record the exact string in `extract_model` and `code_model` for every run.
+- **Changing a model:** a model change for either step can break comparability across years. Flag it before adopting, log it in §8 with the effective year, and consider re-running the prior year with the new model to measure the difference.

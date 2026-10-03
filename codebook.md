@@ -1,6 +1,6 @@
 # AAU Sociology Full Professors: Schema and Codebook
 
-Version 0.1.9 (draft), October 2026
+Version 0.1.10 (draft), October 2026
 
 ## 1. Purpose and scope
 
@@ -261,6 +261,8 @@ Never merge two IDs automatically. Merges are recorded by hand with a note, and 
 
 ## 8. Change log
 
+This table is the single log of adopted changes that affect comparability across years (inclusion rules, field definitions, vocabulary, prompts, models, ID matching), each with the year it takes effect. Run records (date, model ID, prompt version, input and output counts) go in `logs/`, not here.
+
 | Date | Version | Change |
 |---|---|---|
 | 2026-10 | 0.1 | Initial draft |
@@ -273,6 +275,7 @@ Never merge two IDs automatically. Merges are recorded by hand with a note, and 
 | 2026-10 | 0.1.7 | Added the `person_id` registry (§3.2a): sequential `p######` IDs minted from a version-controlled registry; retired IDs are kept and never reused. Pre-collection; effective with the first collection year (2026). |
 | 2026-10 | 0.1.8 | Added prompt versioning rules (§9). Pre-collection; effective with the first collection year (2026). |
 | 2026-10 | 0.1.9 | Pinned models: Sonnet 5.5 (`claude-sonnet-5-5`) for extraction, Opus 5.5 (`claude-opus-5-5`) for coding. Pre-collection; effective with the first collection year (2026). |
+| 2026-10 | 0.1.10 | §8 designated the single log of comparability-affecting changes; `logs/` holds run records only. Pre-collection; effective with the first collection year (2026). |
 
 ## 9. Prompt versioning and pinned models
 

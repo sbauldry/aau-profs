@@ -57,7 +57,7 @@ Institutional frame: all AAU members, including the Canadian members (Toronto, M
 - `data/seeds/`: dated copies of the AAU member list (from AAU's official members page) and verified faculty-directory URLs
 - `data/raw_html/`: cached scraped pages (git-ignored; local only, not archived, not guaranteed recoverable)
 - `data/interim/`: intermediate extraction/coding outputs
-- `data/final/`: `institutions`, `people`, `snapshots`, `areas`, `changes` tables
+- `data/final/`: `institutions`, `people`, `snapshots`, `areas`, `changes` tables and `person_id_registry.csv`
 - `validation/`: hand-coding and agreement results, year in file name
 - `logs/`: run logs (model ID, prompt version) and comparability change log
 - `output/`: reports and figures

@@ -1,6 +1,6 @@
 # AAU Sociology Full Professors: Schema and Codebook
 
-Version 0.1.6 (draft), October 2026
+Version 0.1.7 (draft), October 2026
 
 ## 1. Purpose and scope
 
@@ -71,6 +71,14 @@ One row per person, stable across years.
 | `phd_inst` | chr | PhD-granting institution |
 | `phd_year` | int | Year of PhD |
 | `first_year` | int | First year observed |
+
+### 3.2a `person_id` registry
+
+`person_id` values are minted only from a registry file, `data/final/person_id_registry.csv`, which is version-controlled.
+
+- **Format:** `p` plus six digits (e.g., `p000123`), assigned sequentially from `p000001`. The next ID is the maximum ever issued plus one, counting retired IDs.
+- **Fields:** `person_id`, `minted_year`, `status` (`active` or `retired`), `merged_into` (the surviving `person_id`, if retired by a merge), `note`.
+- **Rules:** an ID, once minted, is never reused or reassigned. A confirmed merge (see §6) marks one ID `retired` with `merged_into` set; it is never deleted. Only the registry code mints IDs, and it writes to the registry before any table uses the new ID.
 
 ### 3.3 `snapshots`
 
@@ -262,3 +270,4 @@ Never merge two IDs automatically. Merges are recorded by hand with a note, and 
 | 2026-10 | 0.1.4 | Identity matching: rules 3 and 4 now yield candidates only; links and `moved` labels require hand confirmation. Pre-collection; effective with the first collection year (2026). |
 | 2026-10 | 0.1.5 | Raw HTML is not archived. Cached pages are a local working copy, git-ignored and not guaranteed recoverable; `profile_url` and `retrieved` are the audit trail. Pre-collection; effective with the first collection year (2026). |
 | 2026-10 | 0.1.6 | AAU member list sourced from AAU's official members page, with a dated copy saved in `data/seeds/` each year. Pre-collection; effective with the first collection year (2026). |
+| 2026-10 | 0.1.7 | Added the `person_id` registry (§3.2a): sequential `p######` IDs minted from a version-controlled registry; retired IDs are kept and never reused. Pre-collection; effective with the first collection year (2026). |

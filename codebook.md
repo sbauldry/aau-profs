@@ -1,6 +1,6 @@
 # AAU Sociology Full Professors: Schema and Codebook
 
-Version 0.1.4 (draft), October 2026
+Version 0.1.5 (draft), October 2026
 
 ## 1. Purpose and scope
 
@@ -94,7 +94,7 @@ One row per person × year × institution. This is the analytic core.
 | `review_note` | chr | Reason for the flag or the resolution |
 | `profile_url` | chr | URL of the individual profile |
 | `retrieved` | date | Date the page was retrieved |
-| `html_file` | chr | Path to the cached HTML |
+| `html_file` | chr | Path to the cached HTML (local working copy only; cached pages are not archived or version-controlled, so the file may not exist on another machine) |
 | `extract_model` | chr | Model string used for extraction |
 | `extract_prompt_ver` | chr | Version of the extraction prompt |
 
@@ -260,3 +260,4 @@ Never merge two IDs automatically. Merges are recorded by hand with a note, and 
 | 2026-10 | 0.1.2 | Inclusion clarified: scope is tenured full professors (tenure inferred from tenure-line Professor rank); administrators and holders of joint appointments with other units are included; administrators with no sociology appointment remain excluded. Pre-collection; effective with the first collection year (2026). |
 | 2026-10 | 0.1.3 | Canadian AAU members included. University of Toronto restricted to the St. George campus. Pre-collection; effective with the first collection year (2026). |
 | 2026-10 | 0.1.4 | Identity matching: rules 3 and 4 now yield candidates only; links and `moved` labels require hand confirmation. Pre-collection; effective with the first collection year (2026). |
+| 2026-10 | 0.1.5 | Raw HTML is not archived. Cached pages are a local working copy, git-ignored and not guaranteed recoverable; `profile_url` and `retrieved` are the audit trail. Pre-collection; effective with the first collection year (2026). |

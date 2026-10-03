@@ -1,6 +1,6 @@
 # AAU Sociology Full Professors: Schema and Codebook
 
-Version 0.1.5 (draft), October 2026
+Version 0.1.6 (draft), October 2026
 
 ## 1. Purpose and scope
 
@@ -8,7 +8,7 @@ An annual panel of full professors of sociology at member institutions of the As
 
 **Reference date.** Each year reflects department websites as retrieved during a fixed collection window (target: October 15 – November 15). Record the actual retrieval date for every page.
 
-**Institutional frame.** AAU membership as of the year's reference date. Record membership changes in `institutions`. Canadian members (currently the University of Toronto and McGill University) are included; set `country` to `CA`.
+**Institutional frame.** AAU membership as of the year's reference date. Record membership changes in `institutions`. **Source:** AAU's official member institutions page. Each year, save a dated copy of the list (e.g., `data/seeds/aau_members_2026-10-15.csv`, with the retrieval date in the file name and the page URL recorded) and build `institutions` from it. Canadian members (currently the University of Toronto and McGill University) are included; set `country` to `CA`.
 
 **Campus restriction.** Multi-campus institutions are restricted to a single campus. For the University of Toronto (`utoronto`), include only the St. George campus; exclude the Mississauga and Scarborough campuses, even though they have sociology units. Record the campus restriction in `institutions.notes`. If a person is listed at St. George and at another campus, include them only if they hold a tenured full professor appointment at St. George, and set `review_flag`.
 
@@ -261,3 +261,4 @@ Never merge two IDs automatically. Merges are recorded by hand with a note, and 
 | 2026-10 | 0.1.3 | Canadian AAU members included. University of Toronto restricted to the St. George campus. Pre-collection; effective with the first collection year (2026). |
 | 2026-10 | 0.1.4 | Identity matching: rules 3 and 4 now yield candidates only; links and `moved` labels require hand confirmation. Pre-collection; effective with the first collection year (2026). |
 | 2026-10 | 0.1.5 | Raw HTML is not archived. Cached pages are a local working copy, git-ignored and not guaranteed recoverable; `profile_url` and `retrieved` are the audit trail. Pre-collection; effective with the first collection year (2026). |
+| 2026-10 | 0.1.6 | AAU member list sourced from AAU's official members page, with a dated copy saved in `data/seeds/` each year. Pre-collection; effective with the first collection year (2026). |

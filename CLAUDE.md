@@ -54,7 +54,7 @@ Institutional frame: all AAU members, including the Canadian members (Toronto, M
 - `codebook.md`: schema, inclusion rules, ASA vocabulary, matching rules, change log (authoritative)
 - `R/`: pipeline code, one script/function file per stage (verify, scrape, extract, code, diff)
 - `prompts/extraction/`, `prompts/coding/`: versioned LLM prompt files (e.g., `extract_v1.md`)
-- `data/seeds/`: institution list and verified faculty-directory URLs
+- `data/seeds/`: dated copies of the AAU member list (from AAU's official members page) and verified faculty-directory URLs
 - `data/raw_html/`: cached scraped pages (git-ignored; local only, not archived, not guaranteed recoverable)
 - `data/interim/`: intermediate extraction/coding outputs
 - `data/final/`: `institutions`, `people`, `snapshots`, `areas`, `changes` tables

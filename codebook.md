@@ -1,6 +1,6 @@
 # AAU Sociology Full Professors: Schema and Codebook
 
-Version 0.1.2 (draft), October 2026
+Version 0.1.3 (draft), October 2026
 
 ## 1. Purpose and scope
 
@@ -8,17 +8,19 @@ An annual panel of full professors of sociology at member institutions of the As
 
 **Reference date.** Each year reflects department websites as retrieved during a fixed collection window (target: October 15 – November 15). Record the actual retrieval date for every page.
 
-**Institutional frame.** AAU membership as of the year's reference date. Record membership changes in `institutions`. Decision pending: include or exclude the Canadian members.
+**Institutional frame.** AAU membership as of the year's reference date. Record membership changes in `institutions`. Canadian members (currently the University of Toronto and McGill University) are included; set `country` to `CA`.
+
+**Campus restriction.** Multi-campus institutions are restricted to a single campus. For the University of Toronto (`utoronto`), include only the St. George campus; exclude the Mississauga and Scarborough campuses, even though they have sociology units. Record the campus restriction in `institutions.notes`. If a person is listed at St. George and at another campus, include them only if they hold a tenured full professor appointment at St. George, and set `review_flag`.
 
 ## 2. Unit of observation and inclusion rules
 
 **Unit:** a person × year × institution.
 
-**Scope.** Tenured full professors only. Tenure is inferred from rank on a tenure line: a title of Professor (including named or distinguished professorships) on the tenure track counts as tenured, since department pages rarely state tenure status. Non-tenure-line professor titles are excluded.
+**Scope.** Tenured full professors only. Tenure is inferred from rank on a tenure line: a title of Professor (including named or distinguished professorships) on the tenure track counts as tenured, since department pages rarely state tenure status. Non-tenure-line professor titles are excluded (at Canadian institutions, e.g., "Professor, teaching stream"; "tenure-stream" is the equivalent of tenure-line).
 
 **Include** a person in a year if all of the following hold:
 1. The department's official faculty listing or the person's university profile lists them as Professor or as a named or distinguished Professor. "Professor" with no qualifier counts as full professor only when the department's listing distinguishes it from Associate and Assistant Professor.
-2. The appointment is tenure-line and in a sociology department. A department that combines sociology with another field (e.g., "Sociology and Criminology") counts if sociology is in its name.
+2. The appointment is tenure-line and in a sociology department (at a multi-campus institution, on the designated campus; see §1). A department that combines sociology with another field (e.g., "Sociology and Criminology") counts if sociology is in its name.
 3. The appointment is primary or a formal joint appointment (a budgeted share in sociology). A sociology faculty member who also holds a joint appointment in another department or unit is included (record the other units in `joint_units`).
 4. Administrative roles do not affect inclusion. Department heads and chairs, deans, and other administrators are included if they hold a tenured full professor appointment in sociology (record the role in `admin_role`).
 
@@ -254,3 +256,4 @@ Never merge two IDs automatically. Merges are recorded by hand with a note.
 | 2026-10 | 0.1 | Initial draft |
 | 2026-10 | 0.1.1 | Renamed `wave` to `year` throughout (`first_wave` to `first_year`); `year` is the collection year. Snapshots and areas keyed by person × year × institution (`inst_id` added to `areas`). Pre-collection harmonization; no data affected. Effective with the first collection year (2026). |
 | 2026-10 | 0.1.2 | Inclusion clarified: scope is tenured full professors (tenure inferred from tenure-line Professor rank); administrators and holders of joint appointments with other units are included; administrators with no sociology appointment remain excluded. Pre-collection; effective with the first collection year (2026). |
+| 2026-10 | 0.1.3 | Canadian AAU members included. University of Toronto restricted to the St. George campus. Pre-collection; effective with the first collection year (2026). |

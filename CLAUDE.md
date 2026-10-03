@@ -24,6 +24,8 @@ Never reassign or recycle a `person_id`. Matching people across years should be 
 
 Scope is tenured full professors only (tenure inferred from tenure-line Professor rank). Full rules and edge cases are in codebook.md §2.
 
+Institutional frame: all AAU members, including the Canadian members (Toronto, McGill). University of Toronto is restricted to the St. George campus only.
+
 - Include: tenured full professors, including named/distinguished professors, with a primary or formal joint appointment (budgeted share) in a sociology department. Administrators (heads, chairs, deans, etc.) and people with joint appointments in other units are included.
 - Exclude but flag (`included = FALSE`, kept in the data so exclusions are auditable): emeriti, courtesy/affiliated/adjunct, non-tenure-line (clinical, teaching, research, practice), visiting, and administrators with no sociology faculty appointment.
 

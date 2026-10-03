@@ -1,0 +1,250 @@
+# AAU Sociology Full Professors: Schema and Codebook
+
+Version 0.1 (draft), October 2026
+
+## 1. Purpose and scope
+
+An annual panel of full professors of sociology at member institutions of the Association of American Universities (AAU). Each annual wave records who holds the rank of full professor in each sociology department, their appointment details, and their research areas.
+
+**Reference date.** Each wave reflects department websites as retrieved during a fixed collection window (target: October 15 – November 15). Record the actual retrieval date for every page.
+
+**Institutional frame.** AAU membership as of the wave's reference date. Record membership changes in `institutions`. Decision pending: include or exclude the Canadian members.
+
+## 2. Unit of observation and inclusion rules
+
+**Unit:** a person × year (wave).
+
+**Include** a person in a wave if all of the following hold:
+1. The department's official faculty listing or the person's university profile lists them as Professor or as a named or distinguished Professor. "Professor" with no qualifier counts as full professor only when the department's listing distinguishes it from Associate and Assistant Professor.
+2. The appointment is in a sociology department. A department that combines sociology with another field (e.g., "Sociology and Criminology") counts if sociology is in its name.
+3. The appointment is primary or a formal joint appointment (a budgeted share in sociology).
+
+**Exclude, but retain in `snapshots` with `included = FALSE`:**
+- Emeritus or emerita, including research professors emeriti
+- Courtesy, affiliated, adjunct, or "by courtesy" appointments
+- Clinical, teaching, research, and practice professor tracks (non-tenure-line)
+- Visiting professors
+- Administrators listed only in an administrative role, such as a dean with no listed sociology faculty appointment
+
+**Edge cases to flag** (`review_flag = TRUE`):
+- A department lists someone as faculty but the university profile gives a different rank
+- The person appears on the faculty page but no rank is stated anywhere
+- Joint appointments where the sociology share is unclear
+- A person also listed as full professor at a second AAU institution
+
+## 3. Tables
+
+### 3.1 `institutions`
+
+One row per institution per wave.
+
+| Field | Type | Description |
+|---|---|---|
+| `inst_id` | chr | Stable short code, e.g., `purdue`, `umich` |
+| `inst_name` | chr | Official name |
+| `wave` | int | Year of collection |
+| `aau_member` | lgl | AAU member as of the reference date |
+| `country` | chr | `US` or `CA` |
+| `has_soc_dept` | lgl | Has a sociology department, or a combined department meeting rule 2 above |
+| `dept_name` | chr | Department name as listed |
+| `faculty_url` | chr | Seed URL for the faculty directory |
+| `url_verified` | date | Date the seed URL was confirmed to work |
+| `notes` | chr | Free text |
+
+### 3.2 `people`
+
+One row per person, stable across waves.
+
+| Field | Type | Description |
+|---|---|---|
+| `person_id` | chr | Stable ID, e.g., `p000123`; never reused |
+| `name_last` | chr | Last name |
+| `name_first` | chr | First name |
+| `name_middle` | chr | Middle name or initial, if listed |
+| `name_variants` | chr | Semicolon-separated alternate forms seen across waves |
+| `orcid` | chr | ORCID iD, if available; primary key for matching |
+| `phd_inst` | chr | PhD-granting institution |
+| `phd_year` | int | Year of PhD |
+| `first_wave` | int | First wave observed |
+
+### 3.3 `snapshots`
+
+One row per person × wave × institution. This is the analytic core.
+
+| Field | Type | Description |
+|---|---|---|
+| `person_id` | chr | FK to `people` |
+| `wave` | int | Year of collection |
+| `inst_id` | chr | FK to `institutions` |
+| `rank` | factor | See §4.1 |
+| `title_raw` | chr | Full title exactly as listed |
+| `named_chair` | lgl | Holds a named or endowed professorship |
+| `distinguished` | lgl | Holds a university-level distinguished title |
+| `appointment_type` | factor | See §4.2 |
+| `joint_units` | chr | Other units, semicolon-separated |
+| `admin_role` | chr | Current administrative role, e.g., Department Head |
+| `areas_raw` | chr | Research areas exactly as listed on the profile |
+| `included` | lgl | Meets the inclusion rules in §2 |
+| `review_flag` | lgl | Needs hand review |
+| `review_note` | chr | Reason for the flag or the resolution |
+| `profile_url` | chr | URL of the individual profile |
+| `retrieved` | date | Date the page was retrieved |
+| `html_file` | chr | Path to the cached HTML |
+| `extract_model` | chr | Model string used for extraction |
+| `extract_prompt_ver` | chr | Version of the extraction prompt |
+
+### 3.4 `areas`
+
+Long format, with one row per person × wave × coded area.
+
+| Field | Type | Description |
+|---|---|---|
+| `person_id` | chr | FK |
+| `wave` | int | FK |
+| `area_code` | chr | See §5 |
+| `area_order` | int | 1 = most prominent as listed; maximum 3 |
+| `code_model` | chr | Model string used for coding |
+| `code_prompt_ver` | chr | Coding prompt version |
+| `hand_coded` | lgl | Coded or corrected by hand |
+
+### 3.5 `changes`
+
+Generated each wave by comparing it with the prior wave. This table drives the hand review.
+
+| Field | Type | Description |
+|---|---|---|
+| `person_id` | chr | FK |
+| `wave` | int | Current wave |
+| `change_type` | factor | `new_full`, `promoted`, `exit`, `moved`, `rank_change`, `title_change`, `name_change` |
+| `prior_inst` | chr | Institution in the prior wave |
+| `current_inst` | chr | Institution in the current wave |
+| `resolution` | chr | e.g., retired, died, moved to non-AAU, left academia, data error, unknown |
+| `verified_by` | chr | Initials |
+
+## 4. Value labels
+
+### 4.1 `rank`
+
+| Code | Meaning |
+|---|---|
+| `full` | Professor (tenure-line full professor, including named or distinguished titles) |
+| `associate` | Associate Professor (retained only to detect promotions) |
+| `assistant` | Assistant Professor (retained only to detect promotions) |
+| `emeritus` | Professor Emeritus/Emerita |
+| `nontenure` | Clinical, teaching, research, or practice professor |
+| `other` | Visiting, adjunct, lecturer, other |
+| `unknown` | Rank not determinable |
+
+Collecting associate professors is optional. It costs little extra scraping and lets the `promoted` change type be observed directly rather than inferred.
+
+### 4.2 `appointment_type`
+
+| Code | Meaning |
+|---|---|
+| `primary` | Primary or tenure home in sociology |
+| `joint` | Formal joint appointment with a budgeted share in sociology |
+| `courtesy` | Courtesy, affiliated, or by-courtesy appointment |
+| `unknown` | Cannot be determined |
+
+### 4.3 Missing data
+
+Use `NA` for not applicable or not listed. Do not use `"unknown"` for character fields other than the factors above.
+
+## 5. Research area vocabulary (ASA sections)
+
+Areas are coded to ASA sections. The list below was retrieved October 2026 from ASA's Current Sections page. ASA's sections landing page reports 53 sections and 2 sections-in-formation, while the current-sections page lists 54 plus one section-in-formation. Re-verify each wave, and log any additions or renamings in §8.
+
+| Code | ASA Section |
+|---|---|
+| `aging` | Aging and the Life Course |
+| `altruism` | Altruism, Morality, and Social Solidarity |
+| `animals` | Animals and Society |
+| `asia` | Asia and Asian America |
+| `biology` | Biology and Society |
+| `children` | Children and Youth |
+| `movements` | Collective Behavior and Social Movements |
+| `media` | Communication, Information Technologies, and Media Sociology |
+| `urban` | Community and Urban Sociology |
+| `comphist` | Comparative-Historical Sociology |
+| `consumption` | Consumers and Consumption |
+| `crime` | Crime, Law, and Deviance |
+| `networks` | Decision-Making, Social Networks, and Society |
+| `disability` | Disability in Society |
+| `drugs` | Drugs and Society |
+| `economic` | Economic Sociology |
+| `environment` | Environmental Sociology |
+| `ethnometh` | Ethnomethodology and Conversation Analysis |
+| `family` | Family |
+| `global` | Global and Transnational Sociology |
+| `mena` | Global Middle East and North Africa |
+| `history` | History of Sociology and Social Thought |
+| `inequality` | Inequality, Poverty, and Mobility |
+| `migration` | International Migration |
+| `labor` | Labor and Labor Movements |
+| `latinx` | Latina/o Sociology |
+| `marxist` | Marxist Sociology |
+| `mathematical` | Mathematical Sociology |
+| `medical` | Medical Sociology |
+| `methods` | Methodology |
+| `oow` | Organizations, Occupations, and Work |
+| `peace` | Peace, War, and Social Conflict |
+| `pews` | Political Economy of the World-System |
+| `political` | Political Sociology |
+| `rgc` | Race, Gender, and Class |
+| `rem` | Racial and Ethnic Minorities |
+| `science` | Science, Knowledge, and Technology |
+| `socpsych` | Social Psychology |
+| `public` | Sociological Practice and Public Sociology |
+| `culture` | Sociology of Culture |
+| `development` | Sociology of Development |
+| `education` | Sociology of Education |
+| `emotions` | Sociology of Emotions |
+| `humanrights` | Sociology of Human Rights |
+| `indigenous` | Sociology of Indigenous Peoples and Native Nations |
+| `law` | Sociology of Law |
+| `mentalhealth` | Sociology of Mental Health |
+| `population` | Sociology of Population |
+| `religion` | Sociology of Religion |
+| `gender` | Sociology of Sex and Gender |
+| `sexualities` | Sociology of Sexualities |
+| `body` | Sociology of the Body and Embodiment |
+| `teaching` | Teaching and Learning in Sociology |
+| `theory` | Theory |
+| `other` | No section fits; describe in `review_note` |
+
+The section-in-formation (Creative Sociology) is excluded unless it gains full section status.
+
+### 5.1 Coding rules
+
+1. Code from `areas_raw` and the profile text only, not from publication titles or outside knowledge.
+2. Assign one to three codes, ordered by prominence on the profile (first listed = 1).
+3. Code substantive areas over methods. Assign `methods` or `mathematical` only when the profile presents methodology as a research area in its own right.
+4. When an area maps onto two sections (e.g., "racial inequality in health"), take the more specific substantive one first (`medical`), then the other (`rem`).
+5. Apply `rgc` only when the profile frames the work as intersectional. Otherwise use `rem`, `gender`, or `inequality` as appropriate.
+6. Use `teaching` and `public` only when these are listed as research areas, not as service or teaching activity.
+7. If the profile lists no areas, leave the person uncoded (no rows in `areas`) and set `review_flag`.
+
+Optionally, a crosswalk to coarser groupings (e.g., demography and health; stratification; culture and theory; institutions; methods) can be defined later as a separate table without recoding.
+
+## 6. Identity matching across waves
+
+Apply these in order:
+1. ORCID match, which is definitive.
+2. Same institution plus exact normalized name (lowercased, diacritics stripped, middle names dropped).
+3. Same institution plus fuzzy name match (Jaro-Winkler ≥ 0.92) and overlapping `areas_raw`. Flag for review.
+4. Different AAU institution plus exact normalized name plus matching PhD institution and year. Code as `moved` and flag.
+5. Otherwise, a new `person_id`.
+
+Never merge two IDs automatically. Merges are recorded by hand with a note.
+
+## 7. Validation
+
+- **First wave:** hand-code a stratified random sample of about 50 people (by institution size) on rank, inclusion, and areas. Report agreement with the automated output: percent agreement for rank and inclusion, and Krippendorff's alpha for area codes.
+- **Later waves:** hand-review all rows in `changes` plus a random 10% of unchanged rows.
+- Keep validation results in `validation/` with the wave in the file name.
+
+## 8. Change log
+
+| Date | Version | Change |
+|---|---|---|
+| 2026-10 | 0.1 | Initial draft |

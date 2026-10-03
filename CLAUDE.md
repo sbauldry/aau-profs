@@ -14,7 +14,9 @@ Builds and annually updates a database of full professors of sociology at AAU me
 Panel structure; do not flatten.
 
 - **people**: one row per person, stable `person_id` that persists across years.
-- **snapshots**: keyed by `person_id` × `year`. Fields: rank, title, institution, appointment type, research areas (raw), research areas (coded).
+- **snapshots**: keyed by `person_id` × `year` × `inst_id`. Fields: rank, title, institution, appointment type, research areas (raw), research areas (coded).
+
+`inst_id` is a stable short institution code (e.g., `purdue`); see `institutions` in codebook.md. `year` is the collection year (not "wave").
 
 Never reassign or recycle a `person_id`. Matching people across years should be conservative; send uncertain matches to hand review rather than guessing.
 
@@ -48,7 +50,7 @@ Never reassign or recycle a `person_id`. Matching people across years should be 
 - `data/raw_html/`: cached scraped pages (git-ignored; re-fetchable)
 - `data/interim/`: intermediate extraction/coding outputs
 - `data/final/`: `institutions`, `people`, `snapshots`, `areas`, `changes` tables
-- `validation/`: hand-coding and agreement results, wave in file name
+- `validation/`: hand-coding and agreement results, year in file name
 - `logs/`: run logs (model ID, prompt version) and comparability change log
 - `output/`: reports and figures
 - `renv/`, `renv.lock`: pinned package environment (`renv::restore()` to rebuild)

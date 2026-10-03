@@ -1,20 +1,20 @@
 # AAU Sociology Full Professors: Schema and Codebook
 
-Version 0.1 (draft), October 2026
+Version 0.1.1 (draft), October 2026
 
 ## 1. Purpose and scope
 
-An annual panel of full professors of sociology at member institutions of the Association of American Universities (AAU). Each annual wave records who holds the rank of full professor in each sociology department, their appointment details, and their research areas.
+An annual panel of full professors of sociology at member institutions of the Association of American Universities (AAU). Each annual collection records who holds the rank of full professor in each sociology department, their appointment details, and their research areas.
 
-**Reference date.** Each wave reflects department websites as retrieved during a fixed collection window (target: October 15 – November 15). Record the actual retrieval date for every page.
+**Reference date.** Each year reflects department websites as retrieved during a fixed collection window (target: October 15 – November 15). Record the actual retrieval date for every page.
 
-**Institutional frame.** AAU membership as of the wave's reference date. Record membership changes in `institutions`. Decision pending: include or exclude the Canadian members.
+**Institutional frame.** AAU membership as of the year's reference date. Record membership changes in `institutions`. Decision pending: include or exclude the Canadian members.
 
 ## 2. Unit of observation and inclusion rules
 
-**Unit:** a person × year (wave).
+**Unit:** a person × year × institution.
 
-**Include** a person in a wave if all of the following hold:
+**Include** a person in a year if all of the following hold:
 1. The department's official faculty listing or the person's university profile lists them as Professor or as a named or distinguished Professor. "Professor" with no qualifier counts as full professor only when the department's listing distinguishes it from Associate and Assistant Professor.
 2. The appointment is in a sociology department. A department that combines sociology with another field (e.g., "Sociology and Criminology") counts if sociology is in its name.
 3. The appointment is primary or a formal joint appointment (a budgeted share in sociology).
@@ -36,13 +36,13 @@ An annual panel of full professors of sociology at member institutions of the As
 
 ### 3.1 `institutions`
 
-One row per institution per wave.
+One row per institution per year.
 
 | Field | Type | Description |
 |---|---|---|
 | `inst_id` | chr | Stable short code, e.g., `purdue`, `umich` |
 | `inst_name` | chr | Official name |
-| `wave` | int | Year of collection |
+| `year` | int | Year of collection |
 | `aau_member` | lgl | AAU member as of the reference date |
 | `country` | chr | `US` or `CA` |
 | `has_soc_dept` | lgl | Has a sociology department, or a combined department meeting rule 2 above |
@@ -53,7 +53,7 @@ One row per institution per wave.
 
 ### 3.2 `people`
 
-One row per person, stable across waves.
+One row per person, stable across years.
 
 | Field | Type | Description |
 |---|---|---|
@@ -61,20 +61,20 @@ One row per person, stable across waves.
 | `name_last` | chr | Last name |
 | `name_first` | chr | First name |
 | `name_middle` | chr | Middle name or initial, if listed |
-| `name_variants` | chr | Semicolon-separated alternate forms seen across waves |
+| `name_variants` | chr | Semicolon-separated alternate forms seen across years |
 | `orcid` | chr | ORCID iD, if available; primary key for matching |
 | `phd_inst` | chr | PhD-granting institution |
 | `phd_year` | int | Year of PhD |
-| `first_wave` | int | First wave observed |
+| `first_year` | int | First year observed |
 
 ### 3.3 `snapshots`
 
-One row per person × wave × institution. This is the analytic core.
+One row per person × year × institution. This is the analytic core.
 
 | Field | Type | Description |
 |---|---|---|
 | `person_id` | chr | FK to `people` |
-| `wave` | int | Year of collection |
+| `year` | int | Year of collection |
 | `inst_id` | chr | FK to `institutions` |
 | `rank` | factor | See §4.1 |
 | `title_raw` | chr | Full title exactly as listed |
@@ -95,12 +95,13 @@ One row per person × wave × institution. This is the analytic core.
 
 ### 3.4 `areas`
 
-Long format, with one row per person × wave × coded area.
+Long format, with one row per person × year × institution × coded area.
 
 | Field | Type | Description |
 |---|---|---|
 | `person_id` | chr | FK |
-| `wave` | int | FK |
+| `year` | int | FK |
+| `inst_id` | chr | FK to `institutions` |
 | `area_code` | chr | See §5 |
 | `area_order` | int | 1 = most prominent as listed; maximum 3 |
 | `code_model` | chr | Model string used for coding |
@@ -109,15 +110,15 @@ Long format, with one row per person × wave × coded area.
 
 ### 3.5 `changes`
 
-Generated each wave by comparing it with the prior wave. This table drives the hand review.
+Generated each year by comparing it with the prior year. This table drives the hand review.
 
 | Field | Type | Description |
 |---|---|---|
 | `person_id` | chr | FK |
-| `wave` | int | Current wave |
+| `year` | int | Current year |
 | `change_type` | factor | `new_full`, `promoted`, `exit`, `moved`, `rank_change`, `title_change`, `name_change` |
-| `prior_inst` | chr | Institution in the prior wave |
-| `current_inst` | chr | Institution in the current wave |
+| `prior_inst` | chr | Institution in the prior year |
+| `current_inst` | chr | Institution in the current year |
 | `resolution` | chr | e.g., retired, died, moved to non-AAU, left academia, data error, unknown |
 | `verified_by` | chr | Initials |
 
@@ -152,7 +153,7 @@ Use `NA` for not applicable or not listed. Do not use `"unknown"` for character 
 
 ## 5. Research area vocabulary (ASA sections)
 
-Areas are coded to ASA sections. The list below was retrieved October 2026 from ASA's Current Sections page. ASA's sections landing page reports 53 sections and 2 sections-in-formation, while the current-sections page lists 54 plus one section-in-formation. Re-verify each wave, and log any additions or renamings in §8.
+Areas are coded to ASA sections. The list below was retrieved October 2026 from ASA's Current Sections page. ASA's sections landing page reports 53 sections and 2 sections-in-formation, while the current-sections page lists 54 plus one section-in-formation. Re-verify each year, and log any additions or renamings in §8.
 
 | Code | ASA Section |
 |---|---|
@@ -226,7 +227,7 @@ The section-in-formation (Creative Sociology) is excluded unless it gains full s
 
 Optionally, a crosswalk to coarser groupings (e.g., demography and health; stratification; culture and theory; institutions; methods) can be defined later as a separate table without recoding.
 
-## 6. Identity matching across waves
+## 6. Identity matching across years
 
 Apply these in order:
 1. ORCID match, which is definitive.
@@ -239,12 +240,13 @@ Never merge two IDs automatically. Merges are recorded by hand with a note.
 
 ## 7. Validation
 
-- **First wave:** hand-code a stratified random sample of about 50 people (by institution size) on rank, inclusion, and areas. Report agreement with the automated output: percent agreement for rank and inclusion, and Krippendorff's alpha for area codes.
-- **Later waves:** hand-review all rows in `changes` plus a random 10% of unchanged rows.
-- Keep validation results in `validation/` with the wave in the file name.
+- **First year:** hand-code a stratified random sample of about 50 people (by institution size) on rank, inclusion, and areas. Report agreement with the automated output: percent agreement for rank and inclusion, and Krippendorff's alpha for area codes.
+- **Later years:** hand-review all rows in `changes` plus a random 10% of unchanged rows.
+- Keep validation results in `validation/` with the year in the file name.
 
 ## 8. Change log
 
 | Date | Version | Change |
 |---|---|---|
 | 2026-10 | 0.1 | Initial draft |
+| 2026-10 | 0.1.1 | Renamed `wave` to `year` throughout (`first_wave` to `first_year`); `year` is the collection year. Snapshots and areas keyed by person × year × institution (`inst_id` added to `areas`). Pre-collection harmonization; no data affected. Effective with the first collection year (2026). |

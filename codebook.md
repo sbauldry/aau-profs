@@ -1,6 +1,6 @@
 # AAU Sociology Full Professors: Schema and Codebook
 
-Version 0.1.3 (draft), October 2026
+Version 0.1.4 (draft), October 2026
 
 ## 1. Purpose and scope
 
@@ -237,11 +237,13 @@ Optionally, a crosswalk to coarser groupings (e.g., demography and health; strat
 Apply these in order:
 1. ORCID match, which is definitive.
 2. Same institution plus exact normalized name (lowercased, diacritics stripped, middle names dropped).
-3. Same institution plus fuzzy name match (Jaro-Winkler ≥ 0.92) and overlapping `areas_raw`. Flag for review.
-4. Different AAU institution plus exact normalized name plus matching PhD institution and year. Code as `moved` and flag.
+3. Same institution plus fuzzy name match (Jaro-Winkler ≥ 0.92) and overlapping `areas_raw`. This is a candidate match only: flag for hand review before linking.
+4. Different AAU institution plus exact normalized name plus matching PhD institution and year. This is a candidate move only: do not apply the `moved` label until a reviewer confirms it by hand.
 5. Otherwise, a new `person_id`.
 
-Never merge two IDs automatically. Merges are recorded by hand with a note.
+Only rules 1 and 2 link records automatically. Rules 3 and 4 produce candidates, which are queued for hand review with `review_flag = TRUE` and a `review_note` naming the candidate `person_id`. Until a reviewer confirms, the record keeps its own `person_id` (no link, no `moved` row in `changes`). On confirmation, the link or `moved` change is recorded by hand with the reviewer's initials and a note. On rejection, the note records the decision so the pair is not re-queued.
+
+Never merge two IDs automatically. Merges are recorded by hand with a note, and a retired ID is never reused.
 
 ## 7. Validation
 
@@ -257,3 +259,4 @@ Never merge two IDs automatically. Merges are recorded by hand with a note.
 | 2026-10 | 0.1.1 | Renamed `wave` to `year` throughout (`first_wave` to `first_year`); `year` is the collection year. Snapshots and areas keyed by person × year × institution (`inst_id` added to `areas`). Pre-collection harmonization; no data affected. Effective with the first collection year (2026). |
 | 2026-10 | 0.1.2 | Inclusion clarified: scope is tenured full professors (tenure inferred from tenure-line Professor rank); administrators and holders of joint appointments with other units are included; administrators with no sociology appointment remain excluded. Pre-collection; effective with the first collection year (2026). |
 | 2026-10 | 0.1.3 | Canadian AAU members included. University of Toronto restricted to the St. George campus. Pre-collection; effective with the first collection year (2026). |
+| 2026-10 | 0.1.4 | Identity matching: rules 3 and 4 now yield candidates only; links and `moved` labels require hand confirmation. Pre-collection; effective with the first collection year (2026). |

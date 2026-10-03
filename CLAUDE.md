@@ -9,6 +9,10 @@ Builds and annually updates a database of full professors of sociology at AAU me
 - Structured extraction: `ellmer` with Claude
 - Data management: tidyverse
 
+## Source of truth
+
+codebook.md is authoritative for the schema (tables, fields, value labels), inclusion rules, research-area vocabulary and coding rules, identity matching, validation, and the change log. This file summarizes; if the two disagree, codebook.md wins. Update codebook.md first, then bring this file into line.
+
 ## Data model
 
 Panel structure; do not flatten.
@@ -34,7 +38,7 @@ Institutional frame: all AAU members, including the Canadian members (Toronto, M
 1. Verify seed URLs (AAU member list → sociology department faculty pages).
 2. Scrape faculty pages.
 3. Extract structured records with Claude via `ellmer`.
-4. Code research areas to the controlled vocabulary (ASA sections). This is a separate step from extraction; never combine them. Research-area coding rules and the ASA section vocabulary are in codebook.md; treat it as authoritative.
+4. Code research areas to the controlled vocabulary (ASA sections). This is a separate step from extraction; never combine them. Research-area coding rules and the ASA section vocabulary are in codebook.md.
 5. Diff against the prior year and hand-review only changes: new full professors, exits, rank changes.
 
 ## Conventions

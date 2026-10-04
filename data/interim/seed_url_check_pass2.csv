@@ -1,0 +1,35 @@
+inst_id,url,robots_ok,status,final_url,has_sociology,has_professor,error,checked
+asu,https://thesanfordschool.asu.edu/people/faculty,TRUE,200,https://thesanfordschool.asu.edu/people/faculty,TRUE,FALSE,NA,2026-10-03
+indiana,https://sociology.indiana.edu/about/faculty/index.html,TRUE,200,https://sociology.indiana.edu/about/faculty/index.html,TRUE,TRUE,NA,2026-10-03
+osu,https://sociology.osu.edu/people,TRUE,200,https://sociology.osu.edu/people,TRUE,TRUE,NA,2026-10-03
+purdue,https://www.cla.purdue.edu/sociology/people/index.html,TRUE,404,https://www.cla.purdue.edu/academic/sociology/people/index.html,TRUE,FALSE,NA,2026-10-03
+rutgers,https://sociology.rutgers.edu/people/faculty,TRUE,200,https://sociology.rutgers.edu/people/faculty,TRUE,TRUE,NA,2026-10-03
+stonybrook,https://www.stonybrook.edu/sociology/people/,TRUE,200,https://www.stonybrook.edu/sociology/people/,TRUE,TRUE,NA,2026-10-03
+tamu,https://artsci.tamu.edu/sociology/people/faculty.html,TRUE,200,https://artsci.tamu.edu/sociology/people/faculty.html,TRUE,FALSE,NA,2026-10-03
+buffalo,https://arts-sciences.buffalo.edu/sociology-criminology/faculty/faculty-directory.html,TRUE,200,https://arts-sciences.buffalo.edu/sociology-criminology/faculty/faculty-directory.html,TRUE,TRUE,NA,2026-10-03
+ucberkeley,https://sociology.berkeley.edu/people/faculty,TRUE,200,https://sociology.berkeley.edu/people/faculty,TRUE,TRUE,NA,2026-10-03
+ucirvine,https://www.sociology.uci.edu/people/faculty.php,TRUE,200,https://www.sociology.uci.edu/people/faculty.php,TRUE,TRUE,NA,2026-10-03
+ucriverside,https://sociology.ucr.edu/faculty,TRUE,200,https://sociology.ucr.edu/faculty,TRUE,FALSE,NA,2026-10-03
+ucsd,https://sociology.ucsd.edu/people/faculty/index.html,TRUE,200,https://sociology.ucsd.edu/people/faculty/index.html,TRUE,TRUE,NA,2026-10-03
+ucsb,https://soc.ucsb.edu/people,TRUE,200,https://soc.ucsb.edu/people,TRUE,TRUE,NA,2026-10-03
+cuboulder,https://www.colorado.edu/sociology/our-people/,TRUE,200,https://www.colorado.edu/sociology/ourpeople,TRUE,FALSE,NA,2026-10-03
+ufl,https://soccrim.clas.ufl.edu/directory/,TRUE,NA,NA,NA,NA,"Failed to perform HTTP request.
+Caused by error in `curl::curl_fetch_memory()`:
+! Timeout was reached [soccrim.clas.ufl.edu]:
+Operation timed out after 30002 milliseconds with 0 bytes received",2026-10-03
+mizzou,https://sociology.missouri.edu/people,TRUE,200,https://sociology.missouri.edu/people,TRUE,TRUE,NA,2026-10-03
+uoregon,https://cas.uoregon.edu/directory/sociology,TRUE,200,https://cas.uoregon.edu/directory/sociology,TRUE,TRUE,NA,2026-10-03
+usf,https://www.usf.edu/arts-sciences/departments/sociology/people/index.aspx,TRUE,200,https://www.usf.edu/arts-sciences/departments/sociology/people/index.aspx,TRUE,TRUE,NA,2026-10-03
+utaustin,https://liberalarts.utexas.edu/sociology/people/,TRUE,404,https://liberalarts.utexas.edu/sociology/people/,FALSE,FALSE,NA,2026-10-03
+utah,https://soc.utah.edu/people/index.php,TRUE,200,https://soc.utah.edu/people/index.php,TRUE,TRUE,NA,2026-10-03
+wisc,https://sociology.wisc.edu/faculty/,TRUE,200,https://sociology.wisc.edu/faculty/,TRUE,FALSE,NA,2026-10-03
+cwru,https://sociology.case.edu/people/,TRUE,200,https://sociology.case.edu/people/,TRUE,TRUE,NA,2026-10-03
+dartmouth,https://sociology.dartmouth.edu/people,TRUE,200,https://sociology.dartmouth.edu/people,TRUE,TRUE,NA,2026-10-03
+emory,https://sociology.emory.edu/people/index.html,TRUE,200,https://sociology.emory.edu/people/index.html,TRUE,TRUE,NA,2026-10-03
+gwu,https://sociology.columbian.gwu.edu/core-faculty,TRUE,200,https://sociology.columbian.gwu.edu/core-faculty,TRUE,TRUE,NA,2026-10-03
+rice,https://sociology.rice.edu/department-faculty,TRUE,200,https://sociology.rice.edu/department-faculty,TRUE,FALSE,NA,2026-10-03
+uchicago,https://sociology.uchicago.edu/people/faculty,TRUE,200,https://sociology.uchicago.edu/people/faculty,TRUE,TRUE,NA,2026-10-03
+miami,https://www.sociology.as.miami.edu/people/index.html,TRUE,200,https://www.sociology.as.miami.edu/people/index.html,TRUE,TRUE,NA,2026-10-03
+vanderbilt,https://as.vanderbilt.edu/sociology/people/,TRUE,200,https://as.vanderbilt.edu/sociology/people/,TRUE,TRUE,NA,2026-10-03
+wustl,https://sociology.washu.edu/faculty-staff,TRUE,200,https://sociology.washu.edu/people,TRUE,TRUE,NA,2026-10-03
+yale,https://sociology.yale.edu/people,TRUE,200,https://sociology.yale.edu/faculty,TRUE,TRUE,NA,2026-10-03

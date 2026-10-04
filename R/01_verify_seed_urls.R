@@ -1,6 +1,6 @@
 # Stage 1: check candidate faculty-directory URLs (codebook.md §10 conduct rules).
-# Input : data/seeds/institutions_seed_candidates.csv
-# Output: data/interim/seed_url_check.csv  (one row per institution, one GET each)
+# Input : candidate CSV (arg 1; default data/seeds/institutions_seed_candidates.csv)
+# Output: check CSV (arg 2; default data/interim/seed_url_check.csv), one GET per institution
 
 library(tidyverse)
 library(httr2)
@@ -40,10 +40,14 @@ check_url <- function(inst_id, url) {
          has_professor = str_detect(body, regex("professor", ignore_case = TRUE)))
 }
 
-res <- read_csv("data/seeds/institutions_seed_candidates.csv", show_col_types = FALSE) |>
+args <- commandArgs(trailingOnly = TRUE)
+in_file <- if (length(args) >= 1) args[1] else "data/seeds/institutions_seed_candidates.csv"
+out_file <- if (length(args) >= 2) args[2] else "data/interim/seed_url_check.csv"
+
+res <- read_csv(in_file, show_col_types = FALSE) |>
   select(inst_id, candidate_url) |>
   pmap(\(inst_id, candidate_url) check_url(inst_id, candidate_url)) |>
   list_rbind()
 
-write_csv(res, "data/interim/seed_url_check.csv")
+write_csv(res, out_file)
 count(res, status, error) |> print(n = Inf)

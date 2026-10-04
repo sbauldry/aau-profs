@@ -1,0 +1,3 @@
+inst_id,url,robots_ok,status,final_url,has_sociology,has_professor,error,checked
+msu,https://sociology.msu.edu/people/index.html,TRUE,200,https://sociology.msu.edu/people/index.html,FALSE,FALSE,NA,2026-10-03
+cuboulder,https://www.colorado.edu/sociology/our-people/faculty,TRUE,200,https://www.colorado.edu/sociology/our-people/faculty,TRUE,FALSE,NA,2026-10-03

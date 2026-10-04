@@ -5,7 +5,7 @@ library(tidyverse)
 cand <- read_csv("data/seeds/institutions_seed_candidates.csv", show_col_types = FALSE)
 p1 <- read_csv("data/interim/seed_url_check.csv", show_col_types = FALSE)
 # Later passes supersede earlier ones for the same institution
-passes <- map(c("pass2", "pass3", "pass4"),
+passes <- map(c("pass2", "pass3", "pass4", "pass5"),
               \(p) read_csv(str_glue("data/interim/seed_url_check_{p}.csv"), show_col_types = FALSE))
 chk <- reduce(passes, \(old, new) bind_rows(anti_join(old, new, by = "inst_id"), new), .init = p1) |>
   select(inst_id, faculty_url = url, status, has_sociology, has_professor, error, checked)
@@ -25,6 +25,12 @@ blocked_urls <- tribble(
   "mcgill",    "https://www.mcgill.ca/sociology/contact-us/faculty")
 blocked <- blocked_urls$inst_id
 
+# Headless-browser (chromote) check of pages whose plain-HTTP text lacked 'sociolog'/'professor'
+js <- bind_rows(
+  read_csv("data/interim/seed_js_check.csv", show_col_types = FALSE) |> filter(!inst_id %in% c("msu", "cuboulder")),
+  read_csv("data/interim/seed_js_check_pass5.csv", show_col_types = FALSE)) |>
+  transmute(inst_id, js_ok = n_professor_lines >= 5 & has_sociology)
+
 # Results of hand checks (user, 2026-10-03)
 hand <- read_csv("data/seeds/hand_check_2026-10.csv", show_col_types = FALSE) |>
   filter(confirmed == "yes") |> select(inst_id, hand_check = check)
@@ -34,6 +40,7 @@ out <- cand |>
   left_join(chk, by = "inst_id") |>
   left_join(blocked_urls, by = "inst_id") |>
   left_join(hand, by = "inst_id") |>
+  left_join(js, by = "inst_id") |>
   mutate(
     faculty_url = coalesce(search_url, faculty_url),
     url_status = case_when(
@@ -44,16 +51,24 @@ out <- cand |>
       status %in% 200 & has_sociology %in% TRUE & has_professor %in% TRUE ~ "reachable",
       status %in% 200 ~ "reachable_check_content",  # 200 but text lacks 'sociolog'/'professor': likely JavaScript-rendered or wrong page
       TRUE ~ "failed_find_url"),
+    url_status = case_when(
+      url_status == "reachable_check_content" & js_ok %in% TRUE ~ "reachable_js_rendered",
+      inst_id == "pitt" ~ "reachable_names_only",   # faculty names, paginated; ranks only on profile pages
+      inst_id == "ucriverside" ~ "reachable_embedded", # roster is an iframe from profiles.ucr.edu
+      .default = url_status),
     has_soc_dept = case_when(inst_id %in% no_dept ~ FALSE,
                              hand_check %in% "url_is_faculty_list" ~ TRUE,
                              .default = NA),
-    url_verified = case_when(url_status == "reachable" ~ checked,
+    url_verified = case_when(url_status %in% c("reachable", "reachable_js_rendered", "reachable_names_only", "reachable_embedded") ~ coalesce(checked, as.Date("2026-10-03")),
                              hand_check %in% "url_is_faculty_list" ~ as.Date("2026-10-03"),
                              .default = as.Date(NA)),
     faculty_url = if_else(inst_id %in% no_dept, NA_character_, faculty_url),
     notes = case_when(
       inst_id == "utoronto" ~ "St. George campus only (codebook §1).",
       inst_id == "asu" ~ "Unit is The Sanford School of Social and Family Dynamics; name lacks 'sociology' (codebook §2 rule 2): decide inclusion.",
+      url_status == "reachable_js_rendered" ~ "Roster renders client-side: scrape with chromote.",
+      inst_id == "pitt" ~ "Listing shows names only, paginated; rank must come from profile pages.",
+      inst_id == "ucriverside" ~ "Roster is an iframe from profiles.ucr.edu; scrape the embed URL.",
       inst_id == "ufl" ~ "Unit is Sociology, Criminology & Law.",
       inst_id %in% blocked ~ "Site returned 403 to automated access (do not work around, codebook §10); URL confirmed by hand 2026-10-03; faculty list must be collected by hand.",
       inst_id %in% no_dept ~ "No sociology department (confirmed by hand 2026-10-03).",

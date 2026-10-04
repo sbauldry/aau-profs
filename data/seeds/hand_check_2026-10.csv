@@ -1,0 +1,13 @@
+inst_id,inst_name,check,url_to_check,confirmed,correct_url_or_note
+caltech,California Institute of Technology,has_no_soc_dept,NA,,
+cmu,Carnegie Mellon University,has_no_soc_dept,NA,,
+mit,Massachusetts Institute of Technology,has_no_soc_dept,NA,,
+rochester,University of Rochester,has_no_soc_dept,NA,,
+brandeis,Brandeis University,url_is_faculty_list,https://www.brandeis.edu/sociology/people/index.html,,
+columbia,Columbia University,url_is_faculty_list,https://sociology.columbia.edu/faculty,,
+harvard,Harvard University,url_is_faculty_list,https://sociology.fas.harvard.edu/people/faculty,,
+jhu,The Johns Hopkins University,url_is_faculty_list,https://soc.jhu.edu/people/,,
+mcgill,McGill University,url_is_faculty_list,https://www.mcgill.ca/sociology/contact-us/faculty,,
+princeton,Princeton University,url_is_faculty_list,https://sociology.princeton.edu/people/faculty,,
+ucdavis,"University of California, Davis",url_is_faculty_list,https://sociology.ucdavis.edu/people/faculty,,
+umich,University of Michigan,url_is_faculty_list,https://lsa.umich.edu/soc/people.directory.html,,

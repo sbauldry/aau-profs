@@ -1,0 +1,72 @@
+inst_id,inst_name,country,candidate_url
+asu,Arizona State University,US,https://sociology.asu.edu/people/faculty
+gatech,Georgia Institute of Technology,US,https://hsoc.gatech.edu/people/faculty
+indiana,Indiana University,US,https://sociology.indiana.edu/people/faculty/index.html
+msu,Michigan State University,US,https://sociology.msu.edu/people/faculty/
+osu,The Ohio State University,US,https://sociology.osu.edu/people/faculty
+psu,The Pennsylvania State University,US,https://sociology.psu.edu/directory/faculty
+purdue,Purdue University,US,https://www.cla.purdue.edu/academic/sociology/people/index.html
+rutgers,Rutgers University – New Brunswick,US,https://sociology.rutgers.edu/people-pages/faculty
+stonybrook,Stony Brook University – The State University of New York,US,https://www.stonybrook.edu/commcms/sociology/people/faculty.php
+tamu,Texas A&M University,US,https://sociology.tamu.edu/people/faculty/
+uarizona,The University of Arizona,US,https://sociology.arizona.edu/people/faculty
+buffalo,University at Buffalo – The State University of New York,US,https://sociology.buffalo.edu/people/faculty.html
+ucberkeley,"University of California, Berkeley",US,https://sociology.berkeley.edu/professors
+ucdavis,"University of California, Davis",US,https://sociology.ucdavis.edu/people/faculty
+ucirvine,"University of California, Irvine",US,https://sociology.uci.edu/faculty/
+ucla,"University of California, Los Angeles",US,https://soc.ucla.edu/people/faculty
+ucriverside,"University of California, Riverside",US,https://sociology.ucr.edu/people/faculty
+ucsd,"University of California, San Diego",US,https://sociology.ucsd.edu/people/faculty.html
+ucsb,"University of California, Santa Barbara",US,https://www.soc.ucsb.edu/people/faculty
+ucsc,"University of California, Santa Cruz",US,https://sociology.ucsc.edu/people/faculty/
+cuboulder,"University of Colorado, Boulder",US,https://www.colorado.edu/soc/people/faculty
+ufl,University of Florida,US,https://soc.ufl.edu/people/faculty/
+uiuc,University of Illinois Urbana-Champaign,US,https://sociology.illinois.edu/directory/faculty
+uiowa,The University of Iowa,US,https://sociology.uiowa.edu/people/faculty
+ku,The University of Kansas,US,https://sociology.ku.edu/faculty
+umd,University of Maryland at College Park,US,https://sociology.umd.edu/people/faculty
+umich,University of Michigan,US,https://lsa.umich.edu/soc/people/faculty.html
+umn,"University of Minnesota, Twin Cities",US,https://cla.umn.edu/sociology/people/faculty
+mizzou,"University of Missouri, Columbia",US,https://sociology.missouri.edu/people/faculty
+unc,The University of North Carolina at Chapel Hill,US,https://sociology.unc.edu/people/faculty/
+uoregon,University of Oregon,US,https://sociology.uoregon.edu/people/faculty/
+pitt,University of Pittsburgh,US,https://www.sociology.pitt.edu/people/faculty
+usf,University of South Florida,US,https://www.usf.edu/arts-sciences/departments/sociology/people/faculty.aspx
+utaustin,The University of Texas at Austin,US,https://liberalarts.utexas.edu/sociology/faculty/
+utah,The University of Utah,US,https://soc.utah.edu/people/faculty.php
+uva,University of Virginia,US,https://sociology.virginia.edu/people/faculty
+uw,University of Washington,US,https://soc.washington.edu/people/faculty
+wisc,The University of Wisconsin – Madison,US,https://sociology.wisc.edu/people/faculty/
+bu,Boston University,US,https://www.bu.edu/sociology/people/faculty/
+brandeis,Brandeis University,US,https://www.brandeis.edu/sociology/people/faculty.html
+brown,Brown University,US,https://sociology.brown.edu/people/faculty
+caltech,California Institute of Technology,US,
+cmu,Carnegie Mellon University,US,
+cwru,Case Western Reserve University,US,https://case.edu/artsci/soci/people/faculty
+columbia,Columbia University,US,https://sociology.columbia.edu/people/faculty
+cornell,Cornell University,US,https://sociology.cornell.edu/faculty
+dartmouth,Dartmouth,US,https://sociology.dartmouth.edu/people/faculty
+duke,Duke University,US,https://sociology.duke.edu/people/faculty
+emory,Emory University,US,https://sociology.emory.edu/people/faculty/index.html
+gwu,The George Washington University,US,https://sociology.columbian.gwu.edu/faculty
+harvard,Harvard University,US,https://sociology.fas.harvard.edu/people/faculty
+jhu,The Johns Hopkins University,US,https://soc.jhu.edu/people/
+mit,Massachusetts Institute of Technology,US,
+nyu,New York University,US,https://as.nyu.edu/departments/sociology/people/faculty.html
+northwestern,Northwestern University,US,https://sociology.northwestern.edu/people/faculty/
+princeton,Princeton University,US,https://sociology.princeton.edu/people/faculty
+rice,Rice University,US,https://sociology.rice.edu/people/faculty
+stanford,Stanford University,US,https://sociology.stanford.edu/people/faculty
+tufts,Tufts University,US,https://as.tufts.edu/sociology/people/faculty
+tulane,Tulane University,US,https://liberalarts.tulane.edu/departments/sociology/people
+uchicago,The University of Chicago,US,https://sociology.uchicago.edu/directory/faculty
+miami,University of Miami,US,https://www.as.miami.edu/sociology/people/index.html
+notredame,University of Notre Dame,US,https://sociology.nd.edu/people/faculty/
+upenn,University of Pennsylvania,US,https://sociology.sas.upenn.edu/people/standing-faculty
+rochester,University of Rochester,US,
+usc,University of Southern California,US,https://dornsife.usc.edu/soci/faculty/
+vanderbilt,Vanderbilt University,US,https://as.vanderbilt.edu/sociology/people/faculty.php
+wustl,Washington University in St. Louis,US,https://sociology.wustl.edu/people/faculty
+yale,Yale University,US,https://sociology.yale.edu/people/faculty
+mcgill,McGill University,CA,https://www.mcgill.ca/sociology/people/faculty
+utoronto,University of Toronto,CA,https://sociology.utoronto.ca/people/directories/all-faculty/

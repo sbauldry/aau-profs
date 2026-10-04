@@ -1,0 +1,84 @@
+inst_id,url,robots_ok,status,final_url,has_sociology,has_professor,error,checked
+asu,https://sociology.asu.edu/people/faculty,TRUE,200,https://thesanfordschool.asu.edu/asu-sociology,TRUE,FALSE,NA,2026-10-03
+gatech,https://hsoc.gatech.edu/people/faculty,TRUE,200,https://hsoc.gatech.edu/people/faculty,TRUE,TRUE,NA,2026-10-03
+indiana,https://sociology.indiana.edu/people/faculty/index.html,TRUE,404,https://sociology.indiana.edu/people/faculty/index.html,TRUE,FALSE,NA,2026-10-03
+msu,https://sociology.msu.edu/people/faculty/,TRUE,200,https://sociology.msu.edu/people/faculty/,FALSE,FALSE,NA,2026-10-03
+osu,https://sociology.osu.edu/people/faculty,TRUE,404,https://sociology.osu.edu/people/faculty,TRUE,FALSE,NA,2026-10-03
+psu,https://sociology.psu.edu/directory/faculty,NA,NA,NA,NA,NA,"Failed to perform HTTP request.
+Caused by error in `curl::curl_fetch_memory()`:
+! Could not resolve hostname [sociology.psu.edu]:
+Could not resolve host: sociology.psu.edu",2026-10-03
+purdue,https://www.cla.purdue.edu/academic/sociology/people/index.html,TRUE,404,https://www.cla.purdue.edu/academic/sociology/people/index.html,TRUE,FALSE,NA,2026-10-03
+rutgers,https://sociology.rutgers.edu/people-pages/faculty,TRUE,404,https://sociology.rutgers.edu/people-pages/faculty,TRUE,FALSE,NA,2026-10-03
+stonybrook,https://www.stonybrook.edu/commcms/sociology/people/faculty.php,TRUE,404,https://www.stonybrook.edu/sociology/people/faculty.php,FALSE,FALSE,NA,2026-10-03
+tamu,https://sociology.tamu.edu/people/faculty/,TRUE,200,https://artsci.tamu.edu/sociology/index.html,TRUE,FALSE,NA,2026-10-03
+uarizona,https://sociology.arizona.edu/people/faculty,TRUE,200,https://sociology.arizona.edu/people/faculty,TRUE,TRUE,NA,2026-10-03
+buffalo,https://sociology.buffalo.edu/people/faculty.html,TRUE,200,https://arts-sciences.buffalo.edu/sociology-criminology.html,TRUE,TRUE,NA,2026-10-03
+ucberkeley,https://sociology.berkeley.edu/professors,TRUE,404,https://sociology.berkeley.edu/professors,TRUE,TRUE,NA,2026-10-03
+ucdavis,https://sociology.ucdavis.edu/people/faculty,TRUE,403,https://sociology.ucdavis.edu/people/faculty,FALSE,FALSE,NA,2026-10-03
+ucirvine,https://sociology.uci.edu/faculty/,TRUE,404,https://www.sociology.uci.edu/faculty/,TRUE,FALSE,NA,2026-10-03
+ucla,https://soc.ucla.edu/people/faculty,TRUE,200,https://soc.ucla.edu/people/faculty/core-faculty/,TRUE,TRUE,NA,2026-10-03
+ucriverside,https://sociology.ucr.edu/people/faculty,TRUE,404,https://sociology.ucr.edu/people/faculty,TRUE,FALSE,NA,2026-10-03
+ucsd,https://sociology.ucsd.edu/people/faculty.html,TRUE,404,https://sociology.ucsd.edu/people/faculty.html,FALSE,FALSE,NA,2026-10-03
+ucsb,https://www.soc.ucsb.edu/people/faculty,TRUE,404,https://www.soc.ucsb.edu/people/faculty,TRUE,FALSE,NA,2026-10-03
+ucsc,https://sociology.ucsc.edu/people/faculty/,TRUE,200,https://sociology.ucsc.edu/people/faculty/,TRUE,TRUE,NA,2026-10-03
+cuboulder,https://www.colorado.edu/soc/people/faculty,TRUE,404,https://www.colorado.edu/soc/people/faculty,FALSE,FALSE,NA,2026-10-03
+ufl,https://soc.ufl.edu/people/faculty/,TRUE,NA,NA,NA,NA,"Failed to perform HTTP request.
+Caused by error in `curl::curl_fetch_memory()`:
+! Timeout was reached [soccrim.clas.ufl.edu]:
+Operation timed out after 30277 milliseconds with 0 bytes received",2026-10-03
+uiuc,https://sociology.illinois.edu/directory/faculty,TRUE,200,https://sociology.illinois.edu/directory/faculty,TRUE,TRUE,NA,2026-10-03
+uiowa,https://sociology.uiowa.edu/people/faculty,TRUE,200,https://sociology.uiowa.edu/people/faculty,TRUE,TRUE,NA,2026-10-03
+ku,https://sociology.ku.edu/faculty,TRUE,200,https://sociology.ku.edu/faculty,TRUE,TRUE,NA,2026-10-03
+umd,https://sociology.umd.edu/people/faculty,NA,NA,NA,NA,NA,"Failed to perform HTTP request.
+Caused by error in `curl::curl_fetch_memory()`:
+! Could not resolve hostname [sociology.umd.edu]:
+Could not resolve host: sociology.umd.edu",2026-10-03
+umich,https://lsa.umich.edu/soc/people/faculty.html,TRUE,403,https://lsa.umich.edu/soc/people/faculty.html,FALSE,FALSE,NA,2026-10-03
+umn,https://cla.umn.edu/sociology/people/faculty,TRUE,200,https://cla.umn.edu/sociology/people/faculty,TRUE,TRUE,NA,2026-10-03
+mizzou,https://sociology.missouri.edu/people/faculty,TRUE,404,https://sociology.missouri.edu/people/faculty,TRUE,FALSE,NA,2026-10-03
+unc,https://sociology.unc.edu/people/faculty/,TRUE,200,https://sociology.unc.edu/people/faculty/,TRUE,TRUE,NA,2026-10-03
+uoregon,https://sociology.uoregon.edu/people/faculty/,TRUE,200,https://socialsciences.uoregon.edu/sociology,TRUE,TRUE,NA,2026-10-03
+pitt,https://www.sociology.pitt.edu/people/faculty,TRUE,200,https://www.sociology.pitt.edu/people/faculty,TRUE,FALSE,NA,2026-10-03
+usf,https://www.usf.edu/arts-sciences/departments/sociology/people/faculty.aspx,TRUE,404,https://www.usf.edu/error/404.aspx?aspxerrorpath=/arts-sciences/departments/sociology/people/faculty.aspx,FALSE,FALSE,NA,2026-10-03
+utaustin,https://liberalarts.utexas.edu/sociology/faculty/,TRUE,200,https://liberalarts.utexas.edu/sociology/faculty/,TRUE,FALSE,NA,2026-10-03
+utah,https://soc.utah.edu/people/faculty.php,TRUE,404,https://soc.utah.edu/people/faculty.php,TRUE,FALSE,NA,2026-10-03
+uva,https://sociology.virginia.edu/people/faculty,NA,NA,NA,NA,NA,"Failed to perform HTTP request.
+Caused by error in `curl::curl_fetch_memory()`:
+! Could not resolve hostname [sociology.virginia.edu]:
+Could not resolve host: sociology.virginia.edu",2026-10-03
+uw,https://soc.washington.edu/people/faculty,TRUE,200,https://soc.washington.edu/people/faculty,TRUE,TRUE,NA,2026-10-03
+wisc,https://sociology.wisc.edu/people/faculty/,TRUE,404,https://sociology.wisc.edu/people/faculty/,TRUE,FALSE,NA,2026-10-03
+bu,https://www.bu.edu/sociology/people/faculty/,TRUE,200,https://www.bu.edu/sociology/people/faculty/,TRUE,TRUE,NA,2026-10-03
+brandeis,https://www.brandeis.edu/sociology/people/faculty.html,TRUE,403,https://www.brandeis.edu/sociology/people/faculty.html,FALSE,FALSE,NA,2026-10-03
+brown,https://sociology.brown.edu/people/faculty,TRUE,200,https://sociology.brown.edu/people/faculty,TRUE,TRUE,NA,2026-10-03
+caltech,NA,NA,NA,NA,NA,NA,no candidate url,2026-10-03
+cmu,NA,NA,NA,NA,NA,NA,no candidate url,2026-10-03
+cwru,https://case.edu/artsci/soci/people/faculty,TRUE,404,https://case.edu/artsci/soci/people/faculty,FALSE,FALSE,NA,2026-10-03
+columbia,https://sociology.columbia.edu/people/faculty,TRUE,403,https://sociology.columbia.edu/people/faculty,TRUE,FALSE,NA,2026-10-03
+cornell,https://sociology.cornell.edu/faculty,TRUE,200,https://sociology.cornell.edu/faculty,TRUE,TRUE,NA,2026-10-03
+dartmouth,https://sociology.dartmouth.edu/people/faculty,TRUE,404,https://sociology.dartmouth.edu/people/faculty,TRUE,FALSE,NA,2026-10-03
+duke,https://sociology.duke.edu/people/faculty,TRUE,200,https://sociology.duke.edu/people/faculty,TRUE,TRUE,NA,2026-10-03
+emory,https://sociology.emory.edu/people/faculty/index.html,TRUE,404,https://sociology.emory.edu/people/faculty/index.html,FALSE,TRUE,NA,2026-10-03
+gwu,https://sociology.columbian.gwu.edu/faculty,TRUE,404,https://sociology.columbian.gwu.edu/faculty,TRUE,FALSE,NA,2026-10-03
+harvard,https://sociology.fas.harvard.edu/people/faculty,TRUE,403,https://sociology.fas.harvard.edu/people/faculty,TRUE,FALSE,NA,2026-10-03
+jhu,https://soc.jhu.edu/people/,TRUE,403,https://soc.jhu.edu/people/,FALSE,FALSE,NA,2026-10-03
+mit,NA,NA,NA,NA,NA,NA,no candidate url,2026-10-03
+nyu,https://as.nyu.edu/departments/sociology/people/faculty.html,TRUE,200,https://as.nyu.edu/departments/sociology/people/faculty.html,TRUE,TRUE,NA,2026-10-03
+northwestern,https://sociology.northwestern.edu/people/faculty/,TRUE,200,https://sociology.northwestern.edu/people/faculty/,TRUE,TRUE,NA,2026-10-03
+princeton,https://sociology.princeton.edu/people/faculty,TRUE,403,https://sociology.princeton.edu/people/faculty,TRUE,FALSE,NA,2026-10-03
+rice,https://sociology.rice.edu/people/faculty,TRUE,404,https://sociology.rice.edu/people/faculty,TRUE,FALSE,NA,2026-10-03
+stanford,https://sociology.stanford.edu/people/faculty,TRUE,200,https://sociology.stanford.edu/people/faculty,TRUE,TRUE,NA,2026-10-03
+tufts,https://as.tufts.edu/sociology/people/faculty,TRUE,200,https://as.tufts.edu/sociology/people/faculty,TRUE,TRUE,NA,2026-10-03
+tulane,https://liberalarts.tulane.edu/departments/sociology/people,TRUE,200,https://liberalarts.tulane.edu/sociology/people,TRUE,TRUE,NA,2026-10-03
+uchicago,https://sociology.uchicago.edu/directory/faculty,TRUE,404,https://sociology.uchicago.edu/directory/faculty,TRUE,FALSE,NA,2026-10-03
+miami,https://www.as.miami.edu/sociology/people/index.html,TRUE,200,https://sociology.as.miami.edu/index.html,TRUE,TRUE,NA,2026-10-03
+notredame,https://sociology.nd.edu/people/faculty/,TRUE,200,https://sociology.nd.edu/people/faculty/,TRUE,TRUE,NA,2026-10-03
+upenn,https://sociology.sas.upenn.edu/people/standing-faculty,TRUE,200,https://sociology.sas.upenn.edu/people/standing-faculty,TRUE,TRUE,NA,2026-10-03
+rochester,NA,NA,NA,NA,NA,NA,no candidate url,2026-10-03
+usc,https://dornsife.usc.edu/soci/faculty/,TRUE,200,https://dornsife.usc.edu/soci/faculty/,TRUE,TRUE,NA,2026-10-03
+vanderbilt,https://as.vanderbilt.edu/sociology/people/faculty.php,TRUE,404,https://as.vanderbilt.edu/sociology/people/faculty.php,FALSE,FALSE,NA,2026-10-03
+wustl,https://sociology.wustl.edu/people/faculty,TRUE,404,https://sociology.washu.edu/people/faculty,TRUE,FALSE,NA,2026-10-03
+yale,https://sociology.yale.edu/people/faculty,TRUE,404,https://sociology.yale.edu/people/faculty,TRUE,FALSE,NA,2026-10-03
+mcgill,https://www.mcgill.ca/sociology/people/faculty,TRUE,403,https://www.mcgill.ca/sociology/people/faculty,FALSE,FALSE,NA,2026-10-03
+utoronto,https://sociology.utoronto.ca/people/directories/all-faculty/,TRUE,200,https://sociology.utoronto.ca/people/directories/all-faculty/,FALSE,FALSE,NA,2026-10-03

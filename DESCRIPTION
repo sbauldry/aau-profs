@@ -7,4 +7,6 @@ Imports:
     rvest,
     chromote,
     ellmer,
-    irr
+    irr,
+    httr2,
+    robotstxt

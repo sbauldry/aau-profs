@@ -1,6 +1,6 @@
 # AAU Sociology Full Professors: Schema and Codebook
 
-Version 0.1.13 (draft), October 2026
+Version 0.1.14 (draft), October 2026
 
 ## 1. Purpose and scope
 
@@ -97,7 +97,10 @@ One row per person × year × institution. This is the analytic core.
 | `joint_units` | chr | Other units, semicolon-separated |
 | `admin_role` | chr | Current administrative role, e.g., Department Head |
 | `areas_raw` | chr | Research areas exactly as listed on the profile |
-| `included` | lgl | Meets the inclusion rules in §2 |
+| `listing_section` | chr | Heading the person was listed under on the page (e.g., "Emeriti") |
+| `rank_evidence` | chr | Exact page text supporting `rank`; kept because raw HTML is not archived |
+| `appointment_evidence` | chr | Exact page text supporting `appointment_type` and `joint_units` |
+| `included` | lgl | Meets the inclusion rules in §2; derived by code from the extracted fields, never set by the extraction model |
 | `review_flag` | lgl | Needs hand review |
 | `review_note` | chr | Reason for the flag or the resolution |
 | `profile_url` | chr | URL of the individual profile |
@@ -282,6 +285,7 @@ This table is the single log of adopted changes that affect comparability across
 | 2026-10 | 0.1.11 | Added scraping conduct rules (§10). Pre-collection; effective with the first collection year (2026). |
 | 2026-10 | 0.1.12 | Coding rule 8: every `other` code is flagged, described in `review_note`, hand-reviewed, and tallied yearly to inform vocabulary changes. Pre-collection; effective with the first collection year (2026). |
 | 2026-10 | 0.1.13 | Validation scoring specified for area codes: per-section presence/absence Krippendorff's alpha plus percent agreement on first-listed and any-overlap. Pre-collection; effective with the first collection year (2026). |
+| 2026-10 | 0.1.14 | Added `listing_section`, `rank_evidence`, `appointment_evidence` to `snapshots`; `included` is derived by code, not by the model. Pre-collection; effective with the first collection year (2026). |
 
 ## 9. Prompt versioning and pinned models
 

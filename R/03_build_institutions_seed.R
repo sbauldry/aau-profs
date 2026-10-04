@@ -25,26 +25,38 @@ blocked_urls <- tribble(
   "mcgill",    "https://www.mcgill.ca/sociology/contact-us/faculty")
 blocked <- blocked_urls$inst_id
 
+# Results of hand checks (user, 2026-10-03)
+hand <- read_csv("data/seeds/hand_check_2026-10.csv", show_col_types = FALSE) |>
+  filter(confirmed == "yes") |> select(inst_id, hand_check = check)
+
 out <- cand |>
   select(inst_id, inst_name, country) |>
   left_join(chk, by = "inst_id") |>
   left_join(blocked_urls, by = "inst_id") |>
+  left_join(hand, by = "inst_id") |>
   mutate(
     faculty_url = coalesce(search_url, faculty_url),
     url_status = case_when(
+      hand_check %in% "has_no_soc_dept" ~ "no_soc_dept",
+      hand_check %in% "url_is_faculty_list" ~ "url_confirmed_by_hand_blocked",
       inst_id %in% no_dept ~ "no_soc_dept_confirm",
       inst_id %in% blocked ~ "blocked_hand_check",
       status %in% 200 & has_sociology %in% TRUE & has_professor %in% TRUE ~ "reachable",
       status %in% 200 ~ "reachable_check_content",  # 200 but text lacks 'sociolog'/'professor': likely JavaScript-rendered or wrong page
       TRUE ~ "failed_find_url"),
-    has_soc_dept = if_else(inst_id %in% no_dept, FALSE, NA),
-    url_verified = if_else(url_status == "reachable", checked, as.Date(NA)),
+    has_soc_dept = case_when(inst_id %in% no_dept ~ FALSE,
+                             hand_check %in% "url_is_faculty_list" ~ TRUE,
+                             .default = NA),
+    url_verified = case_when(url_status == "reachable" ~ checked,
+                             hand_check %in% "url_is_faculty_list" ~ as.Date("2026-10-03"),
+                             .default = as.Date(NA)),
     faculty_url = if_else(inst_id %in% no_dept, NA_character_, faculty_url),
     notes = case_when(
       inst_id == "utoronto" ~ "St. George campus only (codebook §1).",
       inst_id == "asu" ~ "Unit is The Sanford School of Social and Family Dynamics; name lacks 'sociology' (codebook §2 rule 2): decide inclusion.",
       inst_id == "ufl" ~ "Unit is Sociology, Criminology & Law.",
-      inst_id %in% blocked ~ "Site returned 403 to automated access; URL from web search, not fetched. Hand check.",
+      inst_id %in% blocked ~ "Site returned 403 to automated access (do not work around, codebook §10); URL confirmed by hand 2026-10-03; faculty list must be collected by hand.",
+      inst_id %in% no_dept ~ "No sociology department (confirmed by hand 2026-10-03).",
       TRUE ~ NA_character_)) |>
   select(inst_id, inst_name, country, has_soc_dept, faculty_url, url_verified, url_status, notes)
 

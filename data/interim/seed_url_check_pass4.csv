@@ -1,0 +1,3 @@
+inst_id,url,robots_ok,status,final_url,has_sociology,has_professor,error,checked
+umd,https://socy.umd.edu/faculty/Current%20Faculty,TRUE,200,https://socy.umd.edu/faculty/Current%20Faculty,TRUE,TRUE,NA,2026-10-03
+utaustin,https://liberalarts.utexas.edu/sociology/faculty/,TRUE,200,https://liberalarts.utexas.edu/sociology/faculty/,TRUE,FALSE,NA,2026-10-03

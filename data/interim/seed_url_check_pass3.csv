@@ -1,0 +1,7 @@
+inst_id,url,robots_ok,status,final_url,has_sociology,has_professor,error,checked
+psu,https://sociology.la.psu.edu/people/tenure-track-faculty,TRUE,200,https://sociology.la.psu.edu/people/tenure-track-faculty/,TRUE,TRUE,NA,2026-10-03
+umd,https://socy.umd.edu/,TRUE,200,https://socy.umd.edu/,TRUE,TRUE,NA,2026-10-03
+uva,https://sociology.as.virginia.edu/faculty,TRUE,200,https://sociology.as.virginia.edu/faculty,TRUE,TRUE,NA,2026-10-03
+purdue,https://www.cla.purdue.edu/academic/sociology/directory/index.html,TRUE,200,https://www.cla.purdue.edu/academic/sociology/directory/index.html,TRUE,TRUE,NA,2026-10-03
+utaustin,https://liberalarts.utexas.edu/sociology/faculty/index.php,TRUE,200,https://liberalarts.utexas.edu/sociology/,TRUE,FALSE,NA,2026-10-03
+ufl,https://soccrim.clas.ufl.edu/directory/,TRUE,200,https://soccrim.clas.ufl.edu/directory/,TRUE,TRUE,NA,2026-10-03

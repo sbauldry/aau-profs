@@ -3,7 +3,7 @@ prompt: extract
 version: v1
 created: 2026-10-03
 status: DRAFT (not yet used in any run; edit freely until first use, then freeze per codebook.md §9)
-changes: Initial version. Schema uses empty strings, not nulls, for unstated values (API limit on optional fields). Rule 7: dual-unit titles with no stated home are `unknown` plus a review flag. Links are passed in the page text as `text <url>`.
+changes: Initial version. Schema uses empty strings, not nulls, for unstated values (API limit on optional fields). Rule 7: dual-unit titles with no stated home are `unknown` plus a review flag. Links are passed in the page text as `text <url>`. Added optional `listing_context` input and rule 17 so profile pages take rank from the listing.
 schema: R/extract_schema.R
 codebook: v0.1.14
 ---
@@ -20,6 +20,7 @@ You receive, in the user message:
 - `department`: department name as listed
 - `page_url`: URL of the page
 - `retrieved`: date the page was retrieved
+- `listing_context` (optional): present when `page_text` is the profile of one person already found on a faculty listing. It gives that person's `rank`, `appointment_type`, `listing_section`, and `rank_evidence` as extracted from the listing.
 - `page_text`: the text of the page (a faculty listing, a single profile, or a section of a listing). Hyperlinks appear as `link text <url>`.
 
 ## Task
@@ -64,6 +65,11 @@ If the page lists no faculty, return an empty list.
     Otherwise `review_flag` is false and `review_note` is an empty string.
 15. **Do not decide inclusion.** Never output whether a person should be included in the study.
 16. **No duplicates.** If the same person appears twice on the page (for example in a summary and in a detailed section), return one record and use the more complete entry.
+
+17. **Listing context.** When `listing_context` is present, the page is the profile of that one person: return exactly one record. A lone profile cannot show how "Professor" differs from Associate or Assistant, so do not apply rule 5 and do not return `rank` as `unknown` for that reason. Instead:
+    - Take `rank`, `listing_section`, and `rank_evidence` from `listing_context`, unless the profile's own title clearly contradicts them (for example, it says Emeritus, Associate Professor, Visiting, or a teaching or research track). In that case use the rank the profile supports, quote that text in `rank_evidence`, and set `review_flag` with a note saying the listing and profile disagree.
+    - Take `appointment_type` from `listing_context`, unless the profile states a joint, courtesy, or primary appointment in sociology (rule 7). Then use what the profile states and quote it in `appointment_evidence`.
+    - Take everything else (`title_raw`, `areas_raw`, `admin_role`, `joint_units`, `orcid`, `phd_inst`, `phd_year`, `named_chair`, `distinguished`) from the profile text.
 
 ## Output
 

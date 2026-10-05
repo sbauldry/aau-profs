@@ -38,8 +38,14 @@ extract_schema_v1 <- type_object(
 )
 
 # Convert a model result to a tibble with NA for "not stated" and an integer phd_year.
+# Free-text fields containing markup or model artifacts (e.g. "</think>", "}]}") are marked
+# text_defect = TRUE so they can be cleaned or re-run.
+stray_pattern <- "</?think|\\}\\s*\\]\\s*\\}|```|<function|\\[\\{\"|\\bnull\\b\\s*[,}]"
 as_extract_tibble <- function(res) {
   dplyr::as_tibble(res$faculty) |>
     dplyr::mutate(dplyr::across(where(is.character), \(x) dplyr::na_if(stringr::str_squish(x), "")),
-                  phd_year = suppressWarnings(as.integer(phd_year)))
+                  phd_year = suppressWarnings(as.integer(phd_year))) |>
+    dplyr::mutate(text_defect = dplyr::if_else(
+      dplyr::if_any(c(title_raw, areas_raw, review_note, rank_evidence, appointment_evidence, admin_role),
+                    \(x) stringr::str_detect(dplyr::coalesce(x, ""), stray_pattern)), TRUE, FALSE))
 }

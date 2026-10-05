@@ -14,11 +14,14 @@ system_prompt <- read_file("prompts/extraction/extract_v1.md") |>
 ua <- str_glue("aau-profs-research/1.0 (academic research; contact: {Sys.getenv('SCRAPER_CONTACT')})")
 seed <- read_csv("data/seeds/institutions_seed.csv", show_col_types = FALSE)
 
-names_to_test <- c("Carla A. Pfeffer", "Barbara Schneider",
+names_to_test <- c(
                    "Corey M. Abramson", "Elaine Howard Ecklund", "Bridget K. Gorman",
                    "Light, Michael", "Emirbayer, Mustafa", "Rogers, Joel")
 roster <- read_csv("data/interim/extract_test_v1_links.csv", show_col_types = FALSE) |>
-  filter(name_raw %in% names_to_test) |> select(inst_id, name_raw, profile_url)
+  filter(name_raw %in% names_to_test) |>
+  mutate(listing_context = str_glue(
+    "rank: {rank}\nappointment_type: {appointment_type}\nlisting_section: {listing_section}\nrank_evidence: {rank_evidence}")) |>
+  select(inst_id, name_raw, profile_url, listing_context)
 
 fetch_profile <- function(inst_id, name_raw, profile_url) {
   Sys.sleep(2)
@@ -38,15 +41,16 @@ fetch_profile <- function(inst_id, name_raw, profile_url) {
          text = html_text2(node) |> str_replace_all("\n{3,}", "\n\n"), note = NA_character_)
 }
 
-pages <- pmap(roster, fetch_profile) |> list_rbind()
+pages <- pmap(select(roster, inst_id, name_raw, profile_url), fetch_profile) |> list_rbind() |>
+  left_join(select(roster, name_raw, listing_context), by = "name_raw")
 print(select(pages, inst_id, name_raw, status, note) |> mutate(chars = nchar(pages$text)))
 
 if (!nzchar(Sys.getenv("ANTHROPIC_API_KEY"))) { message("No API key: fetch only."); quit(save = "no") }
 
-run_one <- function(inst_id, name_raw, profile_url, text, ...) {
+run_one <- function(inst_id, name_raw, profile_url, text, listing_context, ...) {
   row <- filter(seed, inst_id == !!inst_id)
   input <- str_glue("institution: {row$inst_name}\ndepartment: (as listed on page)\n",
-                    "page_url: {profile_url}\nretrieved: {Sys.Date()}\n\npage_text:\n{text}")
+                    "page_url: {profile_url}\nretrieved: {Sys.Date()}\n\nlisting_context:\n{listing_context}\n\npage_text:\n{text}")
   chat <- chat_anthropic(system_prompt = system_prompt, model = model_id, echo = "none",
                          params = params(max_tokens = 16000))
   as_extract_tibble(chat$chat_structured(input, type = extract_schema_v1)) |>
@@ -54,6 +58,6 @@ run_one <- function(inst_id, name_raw, profile_url, text, ...) {
            extract_model = model_id, extract_prompt_ver = prompt_ver, run_type = "test", .before = 1)
 }
 
-out <- pages |> filter(status %in% 200) |> pmap(run_one) |> list_rbind()
-write_csv(out, "data/interim/extract_test_v1_profiles.csv")
-print(select(out, roster_name, name_raw, rank, appointment_type, named_chair, distinguished, review_flag), width = 200)
+out <- pages |> filter(status %in% 200, nchar(text) > 0) |> pmap(run_one) |> list_rbind()
+write_csv(out, "data/interim/extract_test_v1_profiles_ctx.csv")
+print(select(out, roster_name, name_raw, rank, appointment_type, named_chair, distinguished, review_flag, text_defect), width = 200)

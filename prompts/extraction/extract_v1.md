@@ -3,7 +3,7 @@ prompt: extract
 version: v1
 created: 2026-10-03
 status: DRAFT (not yet used in any run; edit freely until first use, then freeze per codebook.md §9)
-changes: Initial version. Schema uses empty strings, not nulls, for unstated values (API limit on optional fields).
+changes: Initial version. Schema uses empty strings, not nulls, for unstated values (API limit on optional fields). Rule 7: dual-unit titles with no stated home are `unknown` plus a review flag. Links are passed in the page text as `text <url>`.
 schema: R/extract_schema.R
 codebook: v0.1.14
 ---
@@ -20,7 +20,7 @@ You receive, in the user message:
 - `department`: department name as listed
 - `page_url`: URL of the page
 - `retrieved`: date the page was retrieved
-- `page_text`: the text of the page (a faculty listing, a single profile, or a section of a listing)
+- `page_text`: the text of the page (a faculty listing, a single profile, or a section of a listing). Hyperlinks appear as `link text <url>`.
 
 ## Task
 
@@ -47,13 +47,13 @@ If the page lists no faculty, return an empty list.
    - `primary`: sociology is the person's home department, or the page gives no other-department home and lists them as department faculty
    - `joint`: the page states a joint appointment with a share in sociology (for example, "joint appointment with Political Science")
    - `courtesy`: courtesy, affiliated, adjunct, "by courtesy", or "secondary" appointments in sociology
-   - `unknown`: cannot be determined
+   - `unknown`: cannot be determined. Use `unknown`, with `review_flag` set to true, when a title names sociology together with another unit (for example, "Professor of Sociology and Law") but the page does not say which is the home department or that the appointment is joint. Use `joint` only when the page states a joint appointment.
    Put other units a person is also appointed in (joint, affiliated, or center roles stated as appointments) in `joint_units`, separated by semicolons.
 8. **Named and distinguished titles.** Set `named_chair` to true if the title names an endowed or named professorship or chair (for example, "John Smith Professor of Sociology"). Set `distinguished` to true if the title includes a university-level distinguished or university professor title ("Distinguished Professor", "University Professor", "Regents Professor"). Otherwise false.
 9. **Administrative roles.** Put a current administrative role in `admin_role` (department chair or head, director of graduate or undergraduate studies, dean, center director). Use an empty string if none. An administrative role does not change `rank`.
 10. **Research areas.** Copy the research interests, specialties, or areas exactly as listed for the person into `areas_raw`. Do not summarize, translate, reorder, or map them to categories. If the person has none listed, return an empty string. Do not use publication titles or biography text as areas unless the page labels them as research interests.
 11. **Other person fields.** Fill `orcid`, `phd_inst`, and `phd_year` only if stated on the page; otherwise an empty string. `orcid` is the bare iD (0000-0000-0000-0000). `phd_year` is a four-digit year written as text.
-12. **Profile link.** Put the person's individual profile URL in `profile_url` if the page gives one. Make relative links absolute using `page_url`. Otherwise an empty string.
+12. **Profile link.** Put the person's individual profile URL in `profile_url` if a link in the page text is clearly that person's profile (usually the link on their name). Use the URL as given; links are already absolute. Otherwise an empty string.
 13. **Evidence.** Copy into `rank_evidence` the shortest exact text from the page that supports `rank` (the title or the heading). Copy into `appointment_evidence` the exact text that supports `appointment_type` or `joint_units`, or an empty string if the appointment type rests only on the absence of any other statement.
 14. **Review flags.** Set `review_flag` to true, with a short `review_note`, when:
     - no rank is stated anywhere for the person

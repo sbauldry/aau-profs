@@ -16,15 +16,23 @@ system_prompt <- read_file(prompt_file) |>
 seed <- read_csv("data/seeds/institutions_seed.csv", show_col_types = FALSE)
 test_ids <- c("rice", "wisc", "msu")
 
-page_text <- function(inst_id) {
-  read_html(file.path("data/raw_html", str_glue("{inst_id}_seedcheck.html"))) |>
-    html_element("main, body") |> html_text2() |> str_replace_all("\n{3,}", "\n\n")
+# Page text with hyperlinks kept as "link text <absolute url>"
+page_text <- function(inst_id, base_url) {
+  node <- read_html(file.path("data/raw_html", str_glue("{inst_id}_seedcheck.html"))) |>
+    html_element("main, body")
+  for (a in html_elements(node, "a")) {
+    href <- html_attr(a, "href")
+    if (!is.na(href) && !str_detect(href, "^(#|mailto:|tel:|javascript:)")) {
+      xml2::xml_text(a) <- str_glue("{str_squish(html_text2(a))} <{url_absolute(href, base_url)}>")
+    }
+  }
+  html_text2(node) |> str_replace_all("\n{3,}", "\n\n")
 }
 
 make_input <- function(inst_id) {
   row <- filter(seed, inst_id == !!inst_id)
   str_glue("institution: {row$inst_name}\ndepartment: (as listed on page)\npage_url: {row$faculty_url}\n",
-           "retrieved: 2026-10-03\n\npage_text:\n{page_text(inst_id)}")
+           "retrieved: 2026-10-03\n\npage_text:\n{page_text(inst_id, row$faculty_url)}")
 }
 
 inputs <- set_names(map(test_ids, make_input), test_ids)
@@ -45,5 +53,5 @@ run_one <- function(inst_id) {
 }
 
 out <- map(test_ids, run_one) |> list_rbind()
-write_csv(out, "data/interim/extract_test_v1.csv")
+write_csv(out, "data/interim/extract_test_v1_links.csv")
 out |> count(inst_id, rank) |> print(n = Inf)

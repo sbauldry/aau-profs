@@ -36,9 +36,10 @@ if (!nzchar(Sys.getenv("ANTHROPIC_API_KEY"))) {
 }
 
 run_one <- function(inst_id) {
-  chat <- chat_anthropic(system_prompt = system_prompt, model = model_id, echo = "none")
+  chat <- chat_anthropic(system_prompt = system_prompt, model = model_id, echo = "none",
+                         params = params(max_tokens = 16000))
   res <- chat$chat_structured(inputs[[inst_id]], type = extract_schema_v1)
-  as_tibble(res$faculty) |>
+  as_extract_tibble(res) |>
     mutate(inst_id = inst_id, extract_model = model_id, extract_prompt_ver = prompt_ver,
            run_type = "test", .before = 1)
 }

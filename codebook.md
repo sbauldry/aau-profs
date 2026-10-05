@@ -1,6 +1,6 @@
 # AAU Sociology Full Professors: Schema and Codebook
 
-Version 0.1.14 (draft), October 2026
+Version 0.1.15 (draft), October 2026
 
 ## 1. Purpose and scope
 
@@ -53,7 +53,8 @@ One row per institution per year.
 | `has_soc_dept` | lgl | Has a sociology department, or a combined department meeting rule 2 above |
 | `dept_name` | chr | Department name as listed |
 | `faculty_url` | chr | Seed URL for the faculty directory |
-| `url_verified` | date | Date the seed URL was confirmed to work |
+| `url_verified` | date | Date the seed URL was confirmed to work (loads and shows faculty-like content, or confirmed by hand) |
+| `url_status` | chr | How the URL was checked: `reachable`, `reachable_js_rendered` (needs `chromote`), `reachable_names_only`, `reachable_embedded`, `url_confirmed_by_hand_blocked` (site refuses automated access; collect by hand), `no_soc_dept` |
 | `notes` | chr | Free text |
 
 ### 3.2 `people`
@@ -66,6 +67,7 @@ One row per person, stable across years.
 | `name_last` | chr | Last name |
 | `name_first` | chr | First name |
 | `name_middle` | chr | Middle name or initial, if listed |
+| `name_suffix` | chr | Jr., III, etc., if listed |
 | `name_variants` | chr | Semicolon-separated alternate forms seen across years |
 | `orcid` | chr | ORCID iD, if available; primary key for matching |
 | `phd_inst` | chr | PhD-granting institution |
@@ -165,7 +167,7 @@ Collecting associate professors is optional. It costs little extra scraping and 
 
 ### 4.3 Missing data
 
-Use `NA` for not applicable or not listed. Do not use `"unknown"` for character fields other than the factors above.
+Use `NA` for not applicable or not listed. (The extraction model returns an empty string for unstated values because of an API limit on optional fields; code converts empty strings to `NA`.) Do not use `"unknown"` for character fields other than the factors above.
 
 ## 5. Research area vocabulary (ASA sections)
 
@@ -286,6 +288,7 @@ This table is the single log of adopted changes that affect comparability across
 | 2026-10 | 0.1.12 | Coding rule 8: every `other` code is flagged, described in `review_note`, hand-reviewed, and tallied yearly to inform vocabulary changes. Pre-collection; effective with the first collection year (2026). |
 | 2026-10 | 0.1.13 | Validation scoring specified for area codes: per-section presence/absence Krippendorff's alpha plus percent agreement on first-listed and any-overlap. Pre-collection; effective with the first collection year (2026). |
 | 2026-10 | 0.1.14 | Added `listing_section`, `rank_evidence`, `appointment_evidence` to `snapshots`; `included` is derived by code, not by the model. Pre-collection; effective with the first collection year (2026). |
+| 2026-10 | 0.1.15 | Added `url_status` to `institutions` and `name_suffix` to `people`; documented empty-string-to-`NA` convention for extraction output. Pre-collection; effective with the first collection year (2026). |
 
 ## 9. Prompt versioning and pinned models
 

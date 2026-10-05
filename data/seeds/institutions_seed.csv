@@ -2,7 +2,7 @@ inst_id,inst_name,country,has_soc_dept,faculty_url,url_verified,url_status,notes
 asu,Arizona State University,US,NA,https://thesanfordschool.asu.edu/people/faculty,2026-10-03,reachable_js_rendered,Unit is The Sanford School of Social and Family Dynamics; name lacks 'sociology' (codebook §2 rule 2): decide inclusion.
 gatech,Georgia Institute of Technology,US,NA,https://hsoc.gatech.edu/people/faculty,2026-10-03,reachable,NA
 indiana,Indiana University,US,NA,https://sociology.indiana.edu/about/faculty/index.html,2026-10-03,reachable,NA
-msu,Michigan State University,US,NA,https://sociology.msu.edu/people/index.html,2026-10-03,reachable_js_rendered,Roster renders client-side: scrape with chromote.
+msu,Michigan State University,US,NA,https://sociology.msu.edu/people/index.html,2026-10-03,reachable_js_rendered,Roster renders client-side (chromote). Individual profile pages return a bot-challenge page (Incapsula) to plain HTTP: do not work around (codebook §10); collect research areas by hand.
 osu,The Ohio State University,US,NA,https://sociology.osu.edu/people,2026-10-03,reachable,NA
 psu,The Pennsylvania State University,US,NA,https://sociology.la.psu.edu/people/tenure-track-faculty,2026-10-03,reachable,NA
 purdue,Purdue University,US,NA,https://www.cla.purdue.edu/academic/sociology/directory/index.html,2026-10-03,reachable,NA

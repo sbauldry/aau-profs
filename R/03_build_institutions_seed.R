@@ -66,6 +66,7 @@ out <- cand |>
     notes = case_when(
       inst_id == "utoronto" ~ "St. George campus only (codebook §1).",
       inst_id == "asu" ~ "Unit is The Sanford School of Social and Family Dynamics; name lacks 'sociology' (codebook §2 rule 2): decide inclusion.",
+      inst_id == "msu" ~ "Roster renders client-side (chromote). Individual profile pages return a bot-challenge page (Incapsula) to plain HTTP: do not work around (codebook §10); collect research areas by hand.",
       url_status == "reachable_js_rendered" ~ "Roster renders client-side: scrape with chromote.",
       inst_id == "pitt" ~ "Listing shows names only, paginated; rank must come from profile pages.",
       inst_id == "ucriverside" ~ "Roster is an iframe from profiles.ucr.edu; scrape the embed URL.",

@@ -1,0 +1,11 @@
+inst_id,kind,url,method,retrieved,status,final_url,html_file,text_chars,robots_ok,note
+rice,profile,https://profiles.rice.edu/faculty/corey-m-abramson,http,2026-10-09,200,https://profiles.rice.edu/faculty/corey-m-abramson,data/raw_html/test/rice/profiles/profiles_rice_edu_faculty_corey_m_abramson.html,8963,TRUE,NA
+rice,profile,https://profiles.rice.edu/faculty/jenifer-bratter,http,2026-10-09,200,https://profiles.rice.edu/faculty/jenifer-bratter,data/raw_html/test/rice/profiles/profiles_rice_edu_faculty_jenifer_bratter.html,4956,TRUE,NA
+rice,profile,https://profiles.rice.edu/faculty/tony-n-brown,http,2026-10-09,200,https://profiles.rice.edu/faculty/tony-n-brown,data/raw_html/test/rice/profiles/profiles_rice_edu_faculty_tony_n_brown.html,6124,TRUE,NA
+wisc,profile,https://sociology.wisc.edu/staff/accominotti-fabien/,http,2026-10-09,200,https://sociology.wisc.edu/staff/accominotti-fabien/,data/raw_html/test/wisc/profiles/sociology_wisc_edu_staff_accominotti_fabien_.html,6398,TRUE,NA
+wisc,profile,https://sociology.wisc.edu/staff/besbris-max/,http,2026-10-09,200,https://sociology.wisc.edu/staff/besbris-max/,data/raw_html/test/wisc/profiles/sociology_wisc_edu_staff_besbris_max_.html,3807,TRUE,NA
+wisc,profile,https://sociology.wisc.edu/staff/calarco-jessica/,http,2026-10-09,200,https://sociology.wisc.edu/staff/calarco-jessica/,data/raw_html/test/wisc/profiles/sociology_wisc_edu_staff_calarco_jessica_.html,5658,TRUE,NA
+duke,profile,https://scholars.duke.edu/person/christopher.bail,http,2026-10-09,200,https://scholars.duke.edu/person/christopher.bail,data/raw_html/test/duke/profiles/scholars_duke_edu_person_christopher_bail.html,10941,TRUE,NA
+duke,profile,https://scholars.duke.edu/person/ldbaker,http,2026-10-09,200,https://scholars.duke.edu/person/ldbaker,data/raw_html/test/duke/profiles/scholars_duke_edu_person_ldbaker.html,8468,TRUE,NA
+duke,profile,https://scholars.duke.edu/person/eduardo.bonilla.silva,http,2026-10-09,200,https://scholars.duke.edu/person/eduardo.bonilla.silva,data/raw_html/test/duke/profiles/scholars_duke_edu_person_eduardo_bonilla_silva.html,8507,TRUE,NA
+msu,profile,https://sociology.msu.edu/people/directory/pfeffer-carla.html,hand,2026-10-09,skipped,NA,NA,NA,NA,profile pages block automated access; collect by hand

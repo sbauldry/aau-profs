@@ -22,5 +22,10 @@ site_config <- function(seed_file = "data/seeds/institutions_seed.csv") {
       paginate = inst_id == "pitt", max_pages = 20,
       note = notes) |>
     mutate(roster_url = if_else(inst_id == "ucriverside", ucr_embed_url, roster_url),
-           profile_method = if_else(inst_id == "msu", "hand", profile_method))
+           profile_method = if_else(inst_id == "msu", "hand", profile_method),
+           # NYU answered 200 on 2026-10-03 but an HTTP 202 bot challenge with an empty body on
+           # 2026-10-09: treat as hand until it is retried inside the collection window.
+           method = if_else(inst_id == "nyu", "hand", method),
+           profile_method = if_else(inst_id == "nyu", "hand", profile_method),
+           note = if_else(inst_id == "nyu", "Bot challenge (HTTP 202, empty body) on 2026-10-09; retry in the collection window.", note))
 }

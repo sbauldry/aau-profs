@@ -54,9 +54,11 @@ robots_allows <- function(url) {
 
 # A challenge marker only counts when the page is small: real pages from WAF-protected sites
 # (e.g. msu) also embed the vendor's script, so the marker alone is not evidence of a block.
-looks_blocked <- function(html, status) {
+looks_blocked <- function(html, status, final_url = "") {
   marker <- str_detect(html, regex("_Incapsula_Resource|Just a moment|cf-browser-verification|captcha|Access Denied|Request unsuccessful", TRUE))
   status %in% c(401, 403, 429) ||
+    nchar(html) < 100 ||                                  # empty body (e.g. 202 challenge with no content)
+    str_detect(coalesce(final_url, ""), "[?&]challenge=") ||
     (marker && nchar(html) < 5000) ||
     (nchar(html) < 600 && str_detect(html, regex("<body>\\s*</body>", TRUE)))
 }
@@ -73,6 +75,20 @@ close_browser <- function() {
   .scrape$browser <- NULL
 }
 
+# Wait until client-side rendering settles: text length unchanged for 2 polls and no
+# "Loading, please wait" placeholder (max `max_s` seconds).
+wait_for_render <- function(b, max_s = 20) {
+  prev <- -1; stable <- 0
+  for (k in seq_len(max_s)) {
+    Sys.sleep(1)
+    len <- b$Runtime$evaluate("document.body ? document.body.innerText.length : 0")$result$value
+    loading <- b$Runtime$evaluate("document.body ? /loading, please wait|loading\\.\\.\\./i.test(document.body.innerText) : true")$result$value
+    stable <- if (!isTRUE(loading) && identical(len, prev)) stable + 1 else 0
+    prev <- len
+    if (stable >= 2) break
+  }
+}
+
 fetch_html <- function(url, method = c("http", "chromote")) {
   method <- match.arg(method)
   if (method == "http") {
@@ -84,7 +100,7 @@ fetch_html <- function(url, method = c("http", "chromote")) {
     b <- browser_session()
     b$Page$navigate(url, wait_ = FALSE)
     b$Page$loadEventFired(timeout_ = 30)
-    Sys.sleep(4)  # allow client-side rendering
+    wait_for_render(b)
     html <- b$Runtime$evaluate("document.documentElement.outerHTML")$result$value
     final <- b$Runtime$evaluate("window.location.href")$result$value
     list(status = 200L, final_url = final, html = html)  # chromote does not expose the HTTP status simply
@@ -94,8 +110,12 @@ fetch_html <- function(url, method = c("http", "chromote")) {
 # Page text with hyperlinks kept as "link text <absolute url>"
 page_to_text <- function(html, base_url) {
   doc <- read_html(html)
+  xml2::xml_remove(html_elements(doc, "script, style, noscript, template"))  # code, never content
   node <- html_element(doc, "main")
-  if (inherits(node, "xml_missing") || nchar(html_text2(node)) < 200) node <- html_element(doc, "body")
+  if (inherits(node, "xml_missing") || nchar(html_text2(node)) < 200) {
+    node <- html_element(doc, "body")
+    xml2::xml_remove(html_elements(node, "nav, header, footer, aside"))     # site chrome, when no <main>
+  }
   for (a in html_elements(node, "a")) {
     href <- html_attr(a, "href")
     if (!is.na(href) && !str_detect(href, "^(#|mailto:|tel:|javascript:)"))
@@ -131,7 +151,7 @@ scrape_page <- function(inst_id, url, method, kind, html_dir, tag = "page") {
     return(list(text = NA_character_, html = NA_character_,
                 manifest = manifest_row(inst_id, kind, url, method, "error", robots = robots,
                                         note = str_sub(str_replace_all(res$error, "\n", " "), 1, 160))))
-  if (looks_blocked(res$html, res$status))
+  if (looks_blocked(res$html, res$status, res$final_url))
     return(list(text = NA_character_, html = NA_character_,
                 manifest = manifest_row(inst_id, kind, url, method, "blocked", res$final_url, robots = robots,
                                         note = "bot block or challenge: not worked around; collect by hand")))

@@ -52,7 +52,7 @@ Institutional frame: all AAU members, including the Canadian members (Toronto, M
 ## Folder map
 
 - `codebook.md`: schema, inclusion rules, ASA vocabulary, matching rules, change log (authoritative)
-- `R/`: pipeline code. Numbered scripts so far: `01_verify_seed_urls.R`, `02_discover_faculty_links.R`, `03_build_institutions_seed.R`, `04_check_js_pages.R` (stage 1); `05_test_extraction.R`, `06_test_profiles.R` (development tests of the extraction prompt); `extract_schema.R` (ellmer schema + `as_extract_tibble()`); stage 2 scraper: `scrape.R` (fetch, robots, rate limit, block detection, link-preserving text, chunking, pagination), `site_config.R` (per-institution method from the seed table), tests `07_scrape_test.R`, `08_scrape_profiles_test.R`
+- `R/`: pipeline code. Numbered scripts so far: `01_verify_seed_urls.R`, `02_discover_faculty_links.R`, `03_build_institutions_seed.R`, `04_check_js_pages.R` (stage 1); `05_test_extraction.R`, `06_test_profiles.R` (development tests of the extraction prompt); `extract_schema.R` (ellmer schema + `as_extract_tibble()`); stage 2 scraper: `scrape.R` (fetch, robots, rate limit, block detection, link-preserving text, chunking, pagination), `site_config.R` (per-institution method from the seed table), tests `07_scrape_test.R`, `08_scrape_profiles_test.R`, `09_end_to_end_test.R`, `10_scrape_all_rosters.R`, `11_rebuild_roster_text.R`; `extract.R` (run the extraction prompt on a page), `assemble.R` (dedupe, profile merge, derive `included`)
 - `prompts/extraction/`, `prompts/coding/`: versioned LLM prompt files (e.g., `extract_v1.md`)
 - `data/seeds/`: dated copies of the AAU member list (from AAU's official members page) and verified faculty-directory URLs
 - `data/raw_html/`: cached scraped pages (git-ignored; local only, not archived, not guaranteed recoverable)
@@ -89,11 +89,12 @@ Codebook is at v0.1.15 (draft); the change log in codebook.md §8 records every 
 - 8 sites need `chromote` for the roster (ASU, MSU, Texas A&M, Colorado Boulder, UT Austin, Wisconsin, Rice, Toronto); Pitt lists names only (paginated; rank is on profile pages); UC Riverside's roster is an iframe from `profiles.ucr.edu`.
 - ASU: the unit (Sanford School of Social and Family Dynamics) has no "sociology" in its name; inclusion under codebook §2 rule 2 is undecided.
 - Extraction: pass page text with hyperlinks as `text <url>`; set `max_tokens` to 16000 and split very long listings; use `listing_context` when extracting a profile; rank comes from the roster, areas from the profile.
-- Roster recall (missed faculty) has not been checked, and the "profile contradicts listing" rule is untested.
+- Trial roster scrape of all institutions: 58 fetched OK, NYU blocked (HTTP 202 bot challenge; config treats it as hand until retried in the window). See `logs/scrape_all_rosters_2026-10-09.md` for per-site notes (Pitt names only, UC Riverside partial, Oregon menu noise, Toronto cross-campus titles).
+- Roster recall (missed faculty) was checked only for Duke (44 of 44 faculty found), and the "profile contradicts listing" rule is untested.
 
 **Next steps**
 1. Re-run stage 1 inside the collection window (Oct 15 – Nov 15) and save the dated AAU member list as `data/seeds/aau_members_<date>.csv` (drop `_TRIAL`); confirm `url_verified` dates.
-2. Finish the stage 2 scraper (core built and tested on 8 institutions, see `logs/scrape_test_2026-10-09.md`; still to do: scroll/lazy-load handling for UC Riverside, check the remaining ~55 rosters, wire scraper output into extraction with `listing_context`, merge chunk duplicates). Original scope: roster fetch (httr2 or chromote per site), profile fetch, link-preserving text, chunking, §10 conduct (robots.txt, user-agent, 2 s delay, failure log in `logs/`).
+2. Finish the stage 2 scraper (all rosters scraped in trial; end-to-end tested on Duke, `logs/e2e_test_duke_2026-10-09.md`; still to do: scroll handling for UC Riverside, Oregon menu stripping, run extraction on all rosters and the profile step for ambiguous full professors). Original scope: roster fetch (httr2 or chromote per site), profile fetch, link-preserving text, chunking, §10 conduct (robots.txt, user-agent, 2 s delay, failure log in `logs/`).
 3. Build the `person_id` registry code and `people`/`snapshots` assembly (derive `included` in code from rank, appointment type, and flags).
 4. Draft the ASA coding prompt `prompts/coding/code_v1.md` (stage 4; Opus 5.5; separate from extraction).
 5. Freeze `extract_v1.md` at the first production run; any later change is a new version plus a §8 entry.

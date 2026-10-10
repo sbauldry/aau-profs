@@ -1,0 +1,9 @@
+# Trial extraction over all scraped rosters (prompt v1 draft, claude-sonnet-5-5)
+
+- Date: 2026-10-09. Script: `R/12_extract_all_rosters.R` (resumable; budget guard $20). Outputs: one CSV per institution in `data/interim/extract_trial/`, combined in `data/interim/extract_trial_all.csv`. Console log: `logs/extract_all_rosters_2026-10-09.log`. Token log: `logs/api_usage.csv`.
+- Coverage: 58 rosters (those fetched in the trial scrape), 2,029 records, 695 with rank `full`. Roster chunks of 9,000 characters (5,000 for UCSB, which truncated at max_tokens at 9,000).
+- Cost (from `summarize_usage()`): 103 calls, 316,015 input tokens, 692,443 output tokens, about $6.81 at Sonnet 5.5 rates. This excludes earlier tests (not logged) and failed calls that hit max_tokens (not logged, billed).
+- Rank counts: full 695, associate 385, assistant 301, emeritus 233, other 156, nontenure 143, unknown 116. Appointment type: primary 1,679, unknown 241, courtesy 107, joint 2. Review flags 460. Text defects 0. profile_url filled for 1,917.
+- Pagination found and fixed during the run: Toronto (10 of ~108 people shown on page 1), Oregon (A-Z letter pages; 6 of 51), Chicago (2 pages). Scraper now supports `paginate` = next / pages / letters; multi-page rosters drop long boilerplate lines (menus) that repeat on nearly every page.
+- Not yet verified: roster completeness at other sites (UIUC 24 records, Missouri 11, Tufts 17, GWU 12 look small but have no pager). Only Duke has been checked against page links.
+- Cases that need profile pages or hand review: Pitt (no ranks on roster, all 20 unknown); Oregon (letter pages list staff and graduate students with no title, 21 unknown); Toronto (directory covers cross-appointed people from other units; 37 with no rank on the listing); Duke, PSU, Tulane, UVA, GWU (many full professors whose home unit is another department; appointment type unknown).

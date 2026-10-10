@@ -19,7 +19,9 @@ site_config <- function(seed_file = "data/seeds/institutions_seed.csv") {
                           "url_confirmed_by_hand_blocked" ~ "hand",
                           "no_soc_dept" ~ "none"),
       profile_method = if_else(method %in% c("hand", "none"), method, "http"),
-      paginate = inst_id == "pitt", max_pages = 20,
+      paginate = case_match(inst_id, "pitt" ~ "next", c("utoronto", "uchicago") ~ "pages",
+                            "uoregon" ~ "letters", .default = NA_character_),
+      max_pages = 30,
       note = notes) |>
     mutate(roster_url = if_else(inst_id == "ucriverside", ucr_embed_url, roster_url),
            profile_method = if_else(inst_id == "msu", "hand", profile_method),

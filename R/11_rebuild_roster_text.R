@@ -10,7 +10,7 @@ old <- readRDS(file.path(out_dir, "roster_chunks.rds"))
 new <- man |> group_split(inst_id) |> set_names(map_chr(group_split(man, inst_id), \(d) d$inst_id[1])) |>
   map(\(d) {
     texts <- map2_chr(d$html_file, d$final_url, \(f, u) page_to_text(read_file(f), u))
-    unlist(map(paste(texts, collapse = "\n\n"), chunk_text))
+    unlist(map(paste(drop_boilerplate(texts), collapse = "\n\n"), chunk_text))
   })
 # hand / none / blocked institutions keep their empty entries
 for (id in setdiff(names(old), names(new))) new[[id]] <- character()

@@ -133,6 +133,21 @@ next_page_url <- function(html, base_url) {
   if (length(href)) url_absolute(href[[1]], base_url) else NA_character_
 }
 
+# Further roster pages linked from a page: numbered pagers (?page=N on the same path) and
+# A-Z letter pagers (same directory, final path segment a single capital letter).
+pager_urls <- function(html, base_url, kind = c("pages", "letters")) {
+  kind <- match.arg(kind)
+  hrefs <- read_html(html) |> html_elements("a") |> html_attr("href") |> discard(is.na)
+  urls <- url_absolute(hrefs, base_url) |> str_remove("#.*$") |> unique()
+  base_path <- str_remove(base_url, "[?#].*$") |> str_remove("/$")
+  if (kind == "pages") {
+    keep <- urls[str_detect(urls, "[?&]page=[1-9][0-9]*(&|$)") & str_remove(urls, "[?#].*$") |> str_remove("/$") == base_path]
+  } else {
+    keep <- urls[str_detect(urls, "/[A-Z]$") & str_remove(urls, "/[A-Z]$") == base_path]
+  }
+  sort(keep)
+}
+
 manifest_row <- function(inst_id, kind, url, method, status, final_url = NA, file = NA, chars = NA,
                          robots = NA, note = NA) {
   tibble(inst_id, kind, url, method, retrieved = as.character(Sys.Date()), status = as.character(status),
@@ -182,26 +197,44 @@ chunk_text <- function(text, max_chars = 20000, overlap = 6) {
   unlist(chunks)
 }
 
-# Roster: follows pagination when the config asks for it. Returns list(chunks, manifest).
+# For multi-page rosters: remove long lines (>= 40 characters) that repeat on nearly every page
+# (site menus, department lists). Short lines such as titles are always kept.
+drop_boilerplate <- function(texts, min_pages = 3, share = 0.9, min_chars = 40) {
+  if (length(texts) < min_pages) return(texts)
+  lines <- map(texts, \(t) unique(str_split_1(t, "\n")))
+  counts <- table(unlist(lines))
+  boiler <- names(counts)[counts >= share * length(texts) & nchar(names(counts)) >= min_chars]
+  map_chr(texts, \(t) str_split_1(t, "\n") |> setdiff(boiler) |> paste(collapse = "\n"))
+}
+
+# Roster: follows pagination when the config asks for it (paginate = "next" follows a Next link,
+# "pages" follows ?page=N links, "letters" follows A-Z letter pages). Returns list(chunks, manifest).
 scrape_roster <- function(cfg, year, root = "data/raw_html") {
   id <- cfg$inst_id
   if (cfg$method %in% c("hand", "none"))
     return(list(chunks = character(),
                 manifest = manifest_row(id, "roster", cfg$roster_url, cfg$method, "skipped",
                                         note = if (cfg$method == "none") "no sociology department" else cfg$note)))
+  mode <- cfg$paginate
+  if (isTRUE(mode)) mode <- "next"
   html_dir <- file.path(root, year, id)
-  url <- cfg$roster_url; texts <- character(); manifest <- list(); seen <- character(); i <- 1
-  repeat {
+  queue <- cfg$roster_url; seen <- character(); texts <- character(); manifest <- list(); i <- 0
+  while (length(queue) && i < cfg$max_pages) {
+    url <- queue[[1]]; queue <- queue[-1]
+    if (url %in% seen) next
+    i <- i + 1; seen <- c(seen, url)
     page <- scrape_page(id, url, cfg$method, "roster", html_dir, tag = str_glue("roster_p{i}"))
     manifest[[length(manifest) + 1]] <- page$manifest
-    if (is.na(page$text)) break
-    texts <- c(texts, page$text); seen <- c(seen, url)
-    if (!isTRUE(cfg$paginate) || i >= cfg$max_pages) break
-    nxt <- next_page_url(page$html, page$manifest$final_url)
-    if (is.na(nxt) || nxt %in% seen) break
-    url <- nxt; i <- i + 1
+    if (is.na(page$text)) { if (i == 1) break else next }
+    texts <- c(texts, page$text)
+    more <- switch(as.character(mode),
+                   "next" = next_page_url(page$html, page$manifest$final_url),
+                   "pages" = pager_urls(page$html, cfg$roster_url, "pages"),
+                   "letters" = pager_urls(page$html, cfg$roster_url, "letters"),
+                   NA_character_)
+    queue <- c(queue, setdiff(na.omit(more), c(seen, queue)))
   }
-  list(chunks = unlist(map(paste(texts, collapse = "\n\n"), chunk_text)), manifest = list_rbind(manifest))
+  list(chunks = unlist(map(paste(drop_boilerplate(texts), collapse = "\n\n"), chunk_text)), manifest = list_rbind(manifest))
 }
 
 # One individual profile page.

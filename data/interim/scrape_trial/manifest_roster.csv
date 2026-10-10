@@ -1,4 +1,5 @@
 inst_id,kind,url,method,retrieved,status,final_url,html_file,text_chars,robots_ok,note
+asu,roster,https://thesanfordschool.asu.edu/people/faculty,chromote,2026-10-09,200,https://thesanfordschool.asu.edu/people/faculty,data/raw_html/trial/asu/roster_p1.html,14682,TRUE,NA
 brandeis,roster,https://www.brandeis.edu/sociology/people/index.html,hand,2026-10-09,skipped,NA,NA,NA,NA,"Site returned 403 to automated access (do not work around, codebook §10); URL confirmed by hand 2026-10-03; faculty list must be collected by hand."
 brown,roster,https://sociology.brown.edu/people/faculty,http,2026-10-09,200,https://sociology.brown.edu/people/faculty,data/raw_html/trial/brown/roster_p1.html,16105,TRUE,NA
 bu,roster,https://www.bu.edu/sociology/people/faculty/,http,2026-10-09,200,https://www.bu.edu/sociology/people/faculty/,data/raw_html/trial/bu/roster_p1.html,4244,TRUE,NA
@@ -7,6 +8,7 @@ caltech,roster,NA,none,2026-10-09,skipped,NA,NA,NA,NA,no sociology department
 cmu,roster,NA,none,2026-10-09,skipped,NA,NA,NA,NA,no sociology department
 columbia,roster,https://sociology.columbia.edu/faculty,hand,2026-10-09,skipped,NA,NA,NA,NA,"Site returned 403 to automated access (do not work around, codebook §10); URL confirmed by hand 2026-10-03; faculty list must be collected by hand."
 cornell,roster,https://sociology.cornell.edu/faculty,http,2026-10-09,200,https://sociology.cornell.edu/faculty,data/raw_html/trial/cornell/roster_p1.html,5827,TRUE,NA
+cuboulder,roster,https://www.colorado.edu/sociology/our-people/faculty,chromote,2026-10-09,200,https://www.colorado.edu/sociology/our-people/faculty,data/raw_html/trial/cuboulder/roster_p1.html,5142,TRUE,NA
 cwru,roster,https://sociology.case.edu/people/,http,2026-10-09,200,https://sociology.case.edu/people/,data/raw_html/trial/cwru/roster_p1.html,12402,TRUE,NA
 dartmouth,roster,https://sociology.dartmouth.edu/people,http,2026-10-09,200,https://sociology.dartmouth.edu/people,data/raw_html/trial/dartmouth/roster_p1.html,7345,TRUE,NA
 duke,roster,https://sociology.duke.edu/people/faculty,http,2026-10-09,200,https://sociology.duke.edu/people/faculty,data/raw_html/trial/duke/roster_p1.html,9443,TRUE,NA
@@ -21,26 +23,30 @@ mcgill,roster,https://www.mcgill.ca/sociology/contact-us/faculty,hand,2026-10-09
 miami,roster,https://www.sociology.as.miami.edu/people/index.html,http,2026-10-09,200,https://www.sociology.as.miami.edu/people/index.html,data/raw_html/trial/miami/roster_p1.html,20351,TRUE,NA
 mit,roster,NA,none,2026-10-09,skipped,NA,NA,NA,NA,no sociology department
 mizzou,roster,https://sociology.missouri.edu/people,http,2026-10-09,200,https://sociology.missouri.edu/people,data/raw_html/trial/mizzou/roster_p1.html,1957,TRUE,NA
+msu,roster,https://sociology.msu.edu/people/index.html,chromote,2026-10-09,200,https://sociology.msu.edu/people/index.html,data/raw_html/trial/msu/roster_p1.html,5235,TRUE,NA
 northwestern,roster,https://sociology.northwestern.edu/people/faculty/,http,2026-10-09,200,https://sociology.northwestern.edu/people/faculty/,data/raw_html/trial/northwestern/roster_p1.html,7408,TRUE,NA
 notredame,roster,https://sociology.nd.edu/people/faculty/,http,2026-10-09,200,https://sociology.nd.edu/people/faculty/,data/raw_html/trial/notredame/roster_p1.html,4558,TRUE,NA
+nyu,roster,https://as.nyu.edu/departments/sociology/people/faculty.html,http,2026-10-09,blocked,https://as.nyu.edu/departments/sociology/people/faculty.html?challenge=d06e90d7-4d8f-4b88-9d8c-10b73beb60f1,NA,NA,TRUE,bot block or challenge: not worked around; collect by hand
 osu,roster,https://sociology.osu.edu/people,http,2026-10-09,200,https://sociology.osu.edu/people,data/raw_html/trial/osu/roster_p1.html,19511,TRUE,NA
 pitt,roster,https://www.sociology.pitt.edu/people/faculty,http,2026-10-09,200,https://www.sociology.pitt.edu/people/faculty,data/raw_html/trial/pitt/roster_p1.html,1142,TRUE,NA
 pitt,roster,https://www.sociology.pitt.edu/people/faculty?page=1,http,2026-10-09,200,https://www.sociology.pitt.edu/people/faculty?page=1,data/raw_html/trial/pitt/roster_p2.html,1135,TRUE,NA
 princeton,roster,https://sociology.princeton.edu/people/faculty,hand,2026-10-09,skipped,NA,NA,NA,NA,"Site returned 403 to automated access (do not work around, codebook §10); URL confirmed by hand 2026-10-03; faculty list must be collected by hand."
 psu,roster,https://sociology.la.psu.edu/people/tenure-track-faculty,http,2026-10-09,200,https://sociology.la.psu.edu/people/tenure-track-faculty/,data/raw_html/trial/psu/roster_p1.html,72455,TRUE,NA
 purdue,roster,https://www.cla.purdue.edu/academic/sociology/directory/index.html,http,2026-10-09,200,https://www.cla.purdue.edu/academic/sociology/directory/index.html,data/raw_html/trial/purdue/roster_p1.html,13947,TRUE,NA
+rice,roster,https://sociology.rice.edu/department-faculty,chromote,2026-10-09,200,https://sociology.rice.edu/department-faculty,data/raw_html/trial/rice/roster_p1.html,7084,TRUE,NA
 rochester,roster,NA,none,2026-10-09,skipped,NA,NA,NA,NA,no sociology department
 rutgers,roster,https://sociology.rutgers.edu/people/faculty,http,2026-10-09,200,https://sociology.rutgers.edu/people/faculty,data/raw_html/trial/rutgers/roster_p1.html,11251,TRUE,NA
 stanford,roster,https://sociology.stanford.edu/people/faculty,http,2026-10-09,200,https://sociology.stanford.edu/people/faculty,data/raw_html/trial/stanford/roster_p1.html,6464,TRUE,NA
 stonybrook,roster,https://www.stonybrook.edu/sociology/people/,http,2026-10-09,200,https://www.stonybrook.edu/sociology/people/,data/raw_html/trial/stonybrook/roster_p1.html,14572,TRUE,NA
+tamu,roster,https://artsci.tamu.edu/sociology/people/faculty.html,chromote,2026-10-09,200,https://artsci.tamu.edu/sociology/people/faculty.html#All,data/raw_html/trial/tamu/roster_p1.html,9241,TRUE,NA
 tufts,roster,https://as.tufts.edu/sociology/people/faculty,http,2026-10-09,200,https://as.tufts.edu/sociology/people/faculty,data/raw_html/trial/tufts/roster_p1.html,6279,TRUE,NA
 tulane,roster,https://liberalarts.tulane.edu/departments/sociology/people,http,2026-10-09,200,https://liberalarts.tulane.edu/sociology/people,data/raw_html/trial/tulane/roster_p1.html,3811,TRUE,NA
 uarizona,roster,https://sociology.arizona.edu/people/faculty,http,2026-10-09,200,https://sociology.arizona.edu/people/faculty,data/raw_html/trial/uarizona/roster_p1.html,19978,TRUE,NA
 ucberkeley,roster,https://sociology.berkeley.edu/people/faculty,http,2026-10-09,200,https://sociology.berkeley.edu/people/faculty,data/raw_html/trial/ucberkeley/roster_p1.html,23455,TRUE,NA
 ucdavis,roster,https://sociology.ucdavis.edu/people/faculty,hand,2026-10-09,skipped,NA,NA,NA,NA,"Site returned 403 to automated access (do not work around, codebook §10); URL confirmed by hand 2026-10-03; faculty list must be collected by hand."
-uchicago,roster,https://sociology.uchicago.edu/people/faculty,http,2026-10-09,200,https://sociology.uchicago.edu/people/faculty,data/raw_html/trial/uchicago/roster_p1.html,17715,TRUE,NA
 ucirvine,roster,https://www.sociology.uci.edu/people/faculty.php,http,2026-10-09,200,https://www.sociology.uci.edu/people/faculty.php,data/raw_html/trial/ucirvine/roster_p1.html,9982,TRUE,NA
 ucla,roster,https://soc.ucla.edu/people/faculty,http,2026-10-09,200,https://soc.ucla.edu/people/faculty/core-faculty/,data/raw_html/trial/ucla/roster_p1.html,13552,TRUE,NA
+ucriverside,roster,https://profiles.ucr.edu/app/embed?groupId=2220536&profilePictureMode=ifPresent&viewProfileButtonMode=ifPresent&showAlphaLinks=true&showFilter=true&showTitle=false&affiliationFilter=All&viewProfilesMode=cards&enableViewModeButton=false&disableSocialLinks=false&excludeStudentEmployees=false&excludeSecondaryDepartmentEmployees=false,chromote,2026-10-09,200,https://profiles.ucr.edu/app/embed?groupId=2220536&profilePictureMode=ifPresent&viewProfileButtonMode=ifPresent&showAlphaLinks=true&showFilter=true&showTitle=false&affiliationFilter=All&viewProfilesMode=cards&enableViewModeButton=false&disableSocialLinks=false&excludeStudentEmployees=false&excludeSecondaryDepartmentEmployees=false,data/raw_html/trial/ucriverside/roster_p1.html,1675,TRUE,NA
 ucsb,roster,https://soc.ucsb.edu/people,http,2026-10-09,200,https://soc.ucsb.edu/people,data/raw_html/trial/ucsb/roster_p1.html,13974,TRUE,NA
 ucsc,roster,https://sociology.ucsc.edu/people/faculty/,http,2026-10-09,200,https://sociology.ucsc.edu/people/faculty/,data/raw_html/trial/ucsc/roster_p1.html,13227,TRUE,NA
 ucsd,roster,https://sociology.ucsd.edu/people/faculty/index.html,http,2026-10-09,200,https://sociology.ucsd.edu/people/faculty/index.html,data/raw_html/trial/ucsd/roster_p1.html,14574,TRUE,NA
@@ -51,23 +57,50 @@ umd,roster,https://socy.umd.edu/faculty/Current%20Faculty,http,2026-10-09,200,ht
 umich,roster,https://lsa.umich.edu/soc/people.directory.html,hand,2026-10-09,skipped,NA,NA,NA,NA,"Site returned 403 to automated access (do not work around, codebook §10); URL confirmed by hand 2026-10-03; faculty list must be collected by hand."
 umn,roster,https://cla.umn.edu/sociology/people/faculty,http,2026-10-09,200,https://cla.umn.edu/sociology/people/faculty,data/raw_html/trial/umn/roster_p1.html,16539,TRUE,NA
 unc,roster,https://sociology.unc.edu/people/faculty/,http,2026-10-09,200,https://sociology.unc.edu/people/faculty/,data/raw_html/trial/unc/roster_p1.html,5714,TRUE,NA
-uoregon,roster,https://cas.uoregon.edu/directory/sociology,http,2026-10-09,200,https://cas.uoregon.edu/directory/sociology,data/raw_html/trial/uoregon/roster_p1.html,13089,TRUE,NA
 upenn,roster,https://sociology.sas.upenn.edu/people/standing-faculty,http,2026-10-09,200,https://sociology.sas.upenn.edu/people/standing-faculty,data/raw_html/trial/upenn/roster_p1.html,14879,TRUE,NA
 usc,roster,https://dornsife.usc.edu/soci/faculty/,http,2026-10-09,200,https://dornsife.usc.edu/soci/faculty/,data/raw_html/trial/usc/roster_p1.html,11424,TRUE,NA
 usf,roster,https://www.usf.edu/arts-sciences/departments/sociology/people/index.aspx,http,2026-10-09,200,https://www.usf.edu/arts-sciences/departments/sociology/people/index.aspx,data/raw_html/trial/usf/roster_p1.html,14935,TRUE,NA
 utah,roster,https://soc.utah.edu/people/index.php,http,2026-10-09,200,https://soc.utah.edu/people/index.php,data/raw_html/trial/utah/roster_p1.html,5812,TRUE,NA
+utaustin,roster,https://liberalarts.utexas.edu/sociology/faculty/,chromote,2026-10-09,200,https://liberalarts.utexas.edu/sociology/faculty/,data/raw_html/trial/utaustin/roster_p1.html,23499,TRUE,NA
 uva,roster,https://sociology.as.virginia.edu/faculty,http,2026-10-09,200,https://sociology.as.virginia.edu/faculty,data/raw_html/trial/uva/roster_p1.html,16047,TRUE,NA
 uw,roster,https://soc.washington.edu/people/faculty,http,2026-10-09,200,https://soc.washington.edu/people/faculty,data/raw_html/trial/uw/roster_p1.html,13579,TRUE,NA
 vanderbilt,roster,https://as.vanderbilt.edu/sociology/people/,http,2026-10-09,200,https://as.vanderbilt.edu/sociology/people/,data/raw_html/trial/vanderbilt/roster_p1.html,10301,TRUE,NA
+wisc,roster,https://sociology.wisc.edu/faculty/,chromote,2026-10-09,200,https://sociology.wisc.edu/faculty/,data/raw_html/trial/wisc/roster_p1.html,8871,TRUE,NA
 wustl,roster,https://sociology.washu.edu/faculty-staff,http,2026-10-09,200,https://sociology.washu.edu/people,data/raw_html/trial/wustl/roster_p1.html,10330,TRUE,NA
 yale,roster,https://sociology.yale.edu/people,http,2026-10-09,200,https://sociology.yale.edu/faculty,data/raw_html/trial/yale/roster_p1.html,3201,TRUE,NA
-asu,roster,https://thesanfordschool.asu.edu/people/faculty,chromote,2026-10-09,200,https://thesanfordschool.asu.edu/people/faculty,data/raw_html/trial/asu/roster_p1.html,14682,TRUE,NA
-msu,roster,https://sociology.msu.edu/people/index.html,chromote,2026-10-09,200,https://sociology.msu.edu/people/index.html,data/raw_html/trial/msu/roster_p1.html,5235,TRUE,NA
-tamu,roster,https://artsci.tamu.edu/sociology/people/faculty.html,chromote,2026-10-09,200,https://artsci.tamu.edu/sociology/people/faculty.html#All,data/raw_html/trial/tamu/roster_p1.html,9241,TRUE,NA
-ucriverside,roster,https://profiles.ucr.edu/app/embed?groupId=2220536&profilePictureMode=ifPresent&viewProfileButtonMode=ifPresent&showAlphaLinks=true&showFilter=true&showTitle=false&affiliationFilter=All&viewProfilesMode=cards&enableViewModeButton=false&disableSocialLinks=false&excludeStudentEmployees=false&excludeSecondaryDepartmentEmployees=false,chromote,2026-10-09,200,https://profiles.ucr.edu/app/embed?groupId=2220536&profilePictureMode=ifPresent&viewProfileButtonMode=ifPresent&showAlphaLinks=true&showFilter=true&showTitle=false&affiliationFilter=All&viewProfilesMode=cards&enableViewModeButton=false&disableSocialLinks=false&excludeStudentEmployees=false&excludeSecondaryDepartmentEmployees=false,data/raw_html/trial/ucriverside/roster_p1.html,1675,TRUE,NA
-cuboulder,roster,https://www.colorado.edu/sociology/our-people/faculty,chromote,2026-10-09,200,https://www.colorado.edu/sociology/our-people/faculty,data/raw_html/trial/cuboulder/roster_p1.html,5142,TRUE,NA
-utaustin,roster,https://liberalarts.utexas.edu/sociology/faculty/,chromote,2026-10-09,200,https://liberalarts.utexas.edu/sociology/faculty/,data/raw_html/trial/utaustin/roster_p1.html,23499,TRUE,NA
-wisc,roster,https://sociology.wisc.edu/faculty/,chromote,2026-10-09,200,https://sociology.wisc.edu/faculty/,data/raw_html/trial/wisc/roster_p1.html,8871,TRUE,NA
-nyu,roster,https://as.nyu.edu/departments/sociology/people/faculty.html,http,2026-10-09,blocked,https://as.nyu.edu/departments/sociology/people/faculty.html?challenge=d06e90d7-4d8f-4b88-9d8c-10b73beb60f1,NA,NA,TRUE,bot block or challenge: not worked around; collect by hand
-rice,roster,https://sociology.rice.edu/department-faculty,chromote,2026-10-09,200,https://sociology.rice.edu/department-faculty,data/raw_html/trial/rice/roster_p1.html,7084,TRUE,NA
-utoronto,roster,https://sociology.utoronto.ca/people/directories/all-faculty/,chromote,2026-10-09,200,https://www.sociology.utoronto.ca/people/directories/all-faculty/,data/raw_html/trial/utoronto/roster_p1.html,27128,TRUE,NA
+uoregon,roster,https://cas.uoregon.edu/directory/sociology,http,2026-10-09,200,https://cas.uoregon.edu/directory/sociology,data/raw_html/trial/uoregon/roster_p1.html,13089,TRUE,NA
+uoregon,roster,https://cas.uoregon.edu/directory/sociology/A,http,2026-10-09,200,https://cas.uoregon.edu/directory/sociology/A,data/raw_html/trial/uoregon/roster_p2.html,5254,TRUE,NA
+uoregon,roster,https://cas.uoregon.edu/directory/sociology/B,http,2026-10-09,200,https://cas.uoregon.edu/directory/sociology/B,data/raw_html/trial/uoregon/roster_p3.html,7317,TRUE,NA
+uoregon,roster,https://cas.uoregon.edu/directory/sociology/C,http,2026-10-09,200,https://cas.uoregon.edu/directory/sociology/C,data/raw_html/trial/uoregon/roster_p4.html,7772,TRUE,NA
+uoregon,roster,https://cas.uoregon.edu/directory/sociology/D,http,2026-10-09,200,https://cas.uoregon.edu/directory/sociology/D,data/raw_html/trial/uoregon/roster_p5.html,5246,TRUE,NA
+uoregon,roster,https://cas.uoregon.edu/directory/sociology/E,http,2026-10-09,200,https://cas.uoregon.edu/directory/sociology/E,data/raw_html/trial/uoregon/roster_p6.html,4675,TRUE,NA
+uoregon,roster,https://cas.uoregon.edu/directory/sociology/F,http,2026-10-09,200,https://cas.uoregon.edu/directory/sociology/F,data/raw_html/trial/uoregon/roster_p7.html,4881,TRUE,NA
+uoregon,roster,https://cas.uoregon.edu/directory/sociology/G,http,2026-10-09,200,https://cas.uoregon.edu/directory/sociology/G,data/raw_html/trial/uoregon/roster_p8.html,8055,TRUE,NA
+uoregon,roster,https://cas.uoregon.edu/directory/sociology/H,http,2026-10-09,200,https://cas.uoregon.edu/directory/sociology/H,data/raw_html/trial/uoregon/roster_p9.html,7580,TRUE,NA
+uoregon,roster,https://cas.uoregon.edu/directory/sociology/J,http,2026-10-09,200,https://cas.uoregon.edu/directory/sociology/J,data/raw_html/trial/uoregon/roster_p10.html,4660,TRUE,NA
+uoregon,roster,https://cas.uoregon.edu/directory/sociology/K,http,2026-10-09,200,https://cas.uoregon.edu/directory/sociology/K,data/raw_html/trial/uoregon/roster_p11.html,4790,TRUE,NA
+uoregon,roster,https://cas.uoregon.edu/directory/sociology/L,http,2026-10-09,200,https://cas.uoregon.edu/directory/sociology/L,data/raw_html/trial/uoregon/roster_p12.html,8124,TRUE,NA
+uoregon,roster,https://cas.uoregon.edu/directory/sociology/M,http,2026-10-09,200,https://cas.uoregon.edu/directory/sociology/M,data/raw_html/trial/uoregon/roster_p13.html,8002,TRUE,NA
+uoregon,roster,https://cas.uoregon.edu/directory/sociology/N,http,2026-10-09,200,https://cas.uoregon.edu/directory/sociology/N,data/raw_html/trial/uoregon/roster_p14.html,5198,TRUE,NA
+uoregon,roster,https://cas.uoregon.edu/directory/sociology/O,http,2026-10-09,200,https://cas.uoregon.edu/directory/sociology/O,data/raw_html/trial/uoregon/roster_p15.html,5026,TRUE,NA
+uoregon,roster,https://cas.uoregon.edu/directory/sociology/P,http,2026-10-09,200,https://cas.uoregon.edu/directory/sociology/P,data/raw_html/trial/uoregon/roster_p16.html,5723,TRUE,NA
+uoregon,roster,https://cas.uoregon.edu/directory/sociology/R,http,2026-10-09,200,https://cas.uoregon.edu/directory/sociology/R,data/raw_html/trial/uoregon/roster_p17.html,4865,TRUE,NA
+uoregon,roster,https://cas.uoregon.edu/directory/sociology/S,http,2026-10-09,200,https://cas.uoregon.edu/directory/sociology/S,data/raw_html/trial/uoregon/roster_p18.html,7425,TRUE,NA
+uoregon,roster,https://cas.uoregon.edu/directory/sociology/T,http,2026-10-09,200,https://cas.uoregon.edu/directory/sociology/T,data/raw_html/trial/uoregon/roster_p19.html,4563,TRUE,NA
+uoregon,roster,https://cas.uoregon.edu/directory/sociology/V,http,2026-10-09,200,https://cas.uoregon.edu/directory/sociology/V,data/raw_html/trial/uoregon/roster_p20.html,5355,TRUE,NA
+uoregon,roster,https://cas.uoregon.edu/directory/sociology/W,http,2026-10-09,200,https://cas.uoregon.edu/directory/sociology/W,data/raw_html/trial/uoregon/roster_p21.html,5704,TRUE,NA
+uoregon,roster,https://cas.uoregon.edu/directory/sociology/Y,http,2026-10-09,200,https://cas.uoregon.edu/directory/sociology/Y,data/raw_html/trial/uoregon/roster_p22.html,5386,TRUE,NA
+uoregon,roster,https://cas.uoregon.edu/directory/sociology/Z,http,2026-10-09,200,https://cas.uoregon.edu/directory/sociology/Z,data/raw_html/trial/uoregon/roster_p23.html,4446,TRUE,NA
+uchicago,roster,https://sociology.uchicago.edu/people/faculty,http,2026-10-09,200,https://sociology.uchicago.edu/people/faculty,data/raw_html/trial/uchicago/roster_p1.html,7816,TRUE,NA
+uchicago,roster,https://sociology.uchicago.edu/people/faculty?page=1,http,2026-10-09,200,https://sociology.uchicago.edu/people/faculty?page=1,data/raw_html/trial/uchicago/roster_p2.html,6804,TRUE,NA
+utoronto,roster,https://sociology.utoronto.ca/people/directories/all-faculty/,chromote,2026-10-09,200,https://www.sociology.utoronto.ca/people/directories/all-faculty/,data/raw_html/trial/utoronto/roster_p1.html,5739,TRUE,NA
+utoronto,roster,https://sociology.utoronto.ca/people/directories/all-faculty?page=1,chromote,2026-10-09,200,https://www.sociology.utoronto.ca/people/directories/all-faculty?page=1,data/raw_html/trial/utoronto/roster_p2.html,5581,TRUE,NA
+utoronto,roster,https://sociology.utoronto.ca/people/directories/all-faculty?page=2,chromote,2026-10-09,200,https://www.sociology.utoronto.ca/people/directories/all-faculty?page=2,data/raw_html/trial/utoronto/roster_p3.html,5527,TRUE,NA
+utoronto,roster,https://sociology.utoronto.ca/people/directories/all-faculty?page=3,chromote,2026-10-09,200,https://www.sociology.utoronto.ca/people/directories/all-faculty?page=3,data/raw_html/trial/utoronto/roster_p4.html,5512,TRUE,NA
+utoronto,roster,https://sociology.utoronto.ca/people/directories/all-faculty?page=4,chromote,2026-10-09,200,https://www.sociology.utoronto.ca/people/directories/all-faculty?page=4,data/raw_html/trial/utoronto/roster_p5.html,5740,TRUE,NA
+utoronto,roster,https://sociology.utoronto.ca/people/directories/all-faculty?page=5,chromote,2026-10-09,200,https://www.sociology.utoronto.ca/people/directories/all-faculty?page=5,data/raw_html/trial/utoronto/roster_p6.html,5537,TRUE,NA
+utoronto,roster,https://sociology.utoronto.ca/people/directories/all-faculty?page=6,chromote,2026-10-09,200,https://www.sociology.utoronto.ca/people/directories/all-faculty?page=6,data/raw_html/trial/utoronto/roster_p7.html,5415,TRUE,NA
+utoronto,roster,https://sociology.utoronto.ca/people/directories/all-faculty?page=7,chromote,2026-10-09,200,https://www.sociology.utoronto.ca/people/directories/all-faculty?page=7,data/raw_html/trial/utoronto/roster_p8.html,5679,TRUE,NA
+utoronto,roster,https://sociology.utoronto.ca/people/directories/all-faculty?page=8,chromote,2026-10-09,200,https://www.sociology.utoronto.ca/people/directories/all-faculty?page=8,data/raw_html/trial/utoronto/roster_p9.html,5825,TRUE,NA
+utoronto,roster,https://sociology.utoronto.ca/people/directories/all-faculty?page=9,chromote,2026-10-09,200,https://www.sociology.utoronto.ca/people/directories/all-faculty?page=9,data/raw_html/trial/utoronto/roster_p10.html,5450,TRUE,NA
+utoronto,roster,https://sociology.utoronto.ca/people/directories/all-faculty?page=10,chromote,2026-10-09,200,https://www.sociology.utoronto.ca/people/directories/all-faculty?page=10,data/raw_html/trial/utoronto/roster_p11.html,4832,TRUE,NA

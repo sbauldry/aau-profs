@@ -59,7 +59,7 @@ Institutional frame: all AAU members, including the Canadian members (Toronto, M
 - `data/interim/`: intermediate extraction/coding outputs
 - `data/final/`: `institutions`, `people`, `snapshots`, `areas`, `changes` tables and `person_id_registry.csv`
 - `validation/`: hand-coding and agreement results, year in file name
-- `logs/`: run records (date, model ID, prompt version, counts); the comparability change log is codebook.md §8
+- `logs/`: run records (date, model ID, prompt version, counts); `api_usage.csv` is the per-call token log written by `R/extract.R` (summarize with `summarize_usage()`); the comparability change log is codebook.md §8
 - `output/`: reports and figures
 - `renv/`, `renv.lock`: pinned package environment (`renv::restore()` to rebuild)
 

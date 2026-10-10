@@ -1,0 +1,2 @@
+timestamp,step,model,prompt_ver,source_url,input,output,cached_input
+2026-10-09 21:45:44,extract,claude-sonnet-5-5,v1,https://profiles.rice.edu/faculty/corey-m-abramson,7346,442,0

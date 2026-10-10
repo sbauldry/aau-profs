@@ -52,7 +52,7 @@ Institutional frame: all AAU members, including the Canadian members (Toronto, M
 ## Folder map
 
 - `codebook.md`: schema, inclusion rules, ASA vocabulary, matching rules, change log (authoritative)
-- `R/`: pipeline code. Numbered scripts so far: `01_verify_seed_urls.R`, `02_discover_faculty_links.R`, `03_build_institutions_seed.R`, `04_check_js_pages.R` (stage 1); `05_test_extraction.R`, `06_test_profiles.R` (development tests of the extraction prompt); `extract_schema.R` (ellmer schema + `as_extract_tibble()`); stage 2 scraper: `scrape.R` (fetch, robots, rate limit, block detection, link-preserving text, chunking, pagination), `site_config.R` (per-institution method from the seed table), tests `07_scrape_test.R`, `08_scrape_profiles_test.R`, `09_end_to_end_test.R`, `10_scrape_all_rosters.R`, `11_rebuild_roster_text.R`; `extract.R` (run the extraction prompt on a page), `assemble.R` (dedupe, profile merge, derive `included`)
+- `R/`: pipeline code. Numbered scripts so far: `01_verify_seed_urls.R`, `02_discover_faculty_links.R`, `03_build_institutions_seed.R`, `04_check_js_pages.R` (stage 1); `05_test_extraction.R`, `06_test_profiles.R` (development tests of the extraction prompt); `extract_schema.R` (ellmer schema + `as_extract_tibble()`); stage 2 scraper: `scrape.R` (fetch, robots, rate limit, block detection, link-preserving text, chunking, pagination), `site_config.R` (per-institution method from the seed table), tests `07_scrape_test.R`, `08_scrape_profiles_test.R`, `09_end_to_end_test.R`, `10_scrape_all_rosters.R`, `11_rebuild_roster_text.R`, `12_extract_all_rosters.R` (trial extraction over every roster); `extract.R` (run the extraction prompt on a page), `assemble.R` (dedupe, profile merge, derive `included`)
 - `prompts/extraction/`, `prompts/coding/`: versioned LLM prompt files (e.g., `extract_v1.md`)
 - `data/seeds/`: dated copies of the AAU member list (from AAU's official members page) and verified faculty-directory URLs
 - `data/raw_html/`: cached scraped pages (git-ignored; local only, not archived, not guaranteed recoverable)
@@ -73,29 +73,33 @@ Institutional frame: all AAU members, including the Canadian members (Toronto, M
 4. `data/raw_html/` is git-ignored and will be empty. Scripts `04`, `05` and `06` read cached pages from it; rerun `R/04_check_js_pages.R` (and `06`, which fetches its own profiles) to regenerate what they need.
 5. Check that `Sys.getenv("SCRAPER_CONTACT")` and `nzchar(Sys.getenv("ANTHROPIC_API_KEY"))` look right before any scraping or API call.
 
-## Status (as of 2026-10-05)
+## Status (as of 2026-10-09)
 
-Codebook is at v0.1.15 (draft); the change log in codebook.md §8 records every decision so far. Nothing has been collected yet: the collection window is Oct 15 – Nov 15, 2026. All work to date is pre-collection setup and trial runs.
+Codebook is at v0.1.15 (draft); the change log in codebook.md §8 records every decision so far. Nothing has been collected for real yet: the collection window is Oct 15 – Nov 15, 2026. Everything so far is pre-collection setup and trial runs (retrieved dates are Oct 3–9 and are not the production wave).
 
 **Done**
 - Project scaffolding, renv, folder structure, GitHub remote.
 - Decisions recorded in the codebook: key = person × year × institution; scope = tenured full professors (administrators and joint appointees included); Canadian members included, Toronto = St. George only; fuzzy and cross-institution matches need hand review; raw HTML is not archived; `person_id` registry design; prompt versioning; pinned models (Sonnet 5.5 for extraction, Opus 5.5 for coding); scraping conduct rules; validation scoring; every `other` area code is hand-reviewed.
 - Stage 1 trial: `data/seeds/aau_members_2026-10-03_TRIAL.csv` (71 members) and `data/seeds/institutions_seed.csv` (faculty URL and `url_status` for all 71). 67 institutions have sociology departments; Caltech, CMU, MIT and Rochester do not.
-- Extraction prompt `prompts/extraction/extract_v1.md` (draft, not yet used in a production run) with schema `R/extract_schema.R`. Tested on roster pages (Rice, Wisconsin, MSU) and profile pages (Rice, Wisconsin); results and issues in `logs/extract_test_2026-10-05.md`.
+- Stage 2 scraper (`R/scrape.R`, `R/site_config.R`): robots.txt, user-agent, 2 s delay, block detection (never worked around), link-preserving text, chunking, pagination (next / numbered pages / A–Z letters), multi-page boilerplate removal. Trial scrape of every roster: 58 fetched OK; 9 institutions are hand-collect (the 8 that refuse automated access plus NYU, which returned an HTTP 202 bot challenge on 2026-10-09); 4 have no department. Logs: `logs/scrape_all_rosters_2026-10-09.md`.
+- Stage 3 extraction: prompt `prompts/extraction/extract_v1.md` (draft, not frozen) with `R/extract_schema.R`, `R/extract.R` (per-call token log in `logs/api_usage.csv`), `R/assemble.R`. Tested on rosters, profile pages with `listing_context`, and Duke end to end. Trial extraction over all 58 rosters: 2,029 records, 695 at rank `full`, about $6.81 (`data/interim/extract_trial_all.csv`, `logs/extract_all_rosters_2026-10-09.md`).
+- Cost so far: roughly $7–9 of API spend including the earlier tests. Measured profile call: about 7,300 tokens in, 440 out, $0.02. Estimated first full year: $30–40 (profiles ~$15, Opus coding ~$8); Batch API halves it for non-urgent steps.
 
 **Known issues and per-site handling for stage 2**
-- 8 institutions refuse automated access (UC Davis, Michigan, Brandeis, Columbia, Harvard, Johns Hopkins, Princeton, McGill): faculty URLs confirmed by hand; collect lists by hand. Do not work around blocks.
+- 9 institutions are hand-collect: UC Davis, Michigan, Brandeis, Columbia, Harvard, Johns Hopkins, Princeton, McGill (URLs confirmed by hand), and NYU (retry in the window). Do not work around blocks.
 - MSU: roster loads in `chromote`, but profile pages return a bot-challenge page; collect MSU research areas by hand.
-- 8 sites need `chromote` for the roster (ASU, MSU, Texas A&M, Colorado Boulder, UT Austin, Wisconsin, Rice, Toronto); Pitt lists names only (paginated; rank is on profile pages); UC Riverside's roster is an iframe from `profiles.ucr.edu`.
+- `chromote` rosters: ASU, MSU, Texas A&M, Colorado Boulder, UT Austin, Wisconsin, Rice, Toronto. Pitt lists names only (paginated; ranks on profile pages). UC Riverside's roster is an iframe from `profiles.ucr.edu`, partly lazy-loaded (only about 9 faculty visible; scrolling not implemented, profile links missing).
 - ASU: the unit (Sanford School of Social and Family Dynamics) has no "sociology" in its name; inclusion under codebook §2 rule 2 is undecided.
-- Extraction: pass page text with hyperlinks as `text <url>`; set `max_tokens` to 16000 and split very long listings; use `listing_context` when extracting a profile; rank comes from the roster, areas from the profile.
-- Trial roster scrape of all institutions: 58 fetched OK, NYU blocked (HTTP 202 bot challenge; config treats it as hand until retried in the window). See `logs/scrape_all_rosters_2026-10-09.md` for per-site notes (Pitt names only, UC Riverside partial, Oregon menu noise, Toronto cross-campus titles).
-- Roster recall (missed faculty) was checked only for Duke (44 of 44 faculty found), and the "profile contradicts listing" rule is untested.
+- Rosters that may be incomplete (small, no pager found; only Duke has been checked against page links): UIUC (24 records), Missouri (11), Tufts (17), GWU (12).
+- Rosters without ranks: Pitt (all 20 unknown), Oregon (21 untitled staff or graduate students on the letter pages), Toronto (37 with no rank; the all-faculty directory also lists cross-appointed people from other units). These need profile pages or hand review.
+- Mixed home units (many full professors whose home department is elsewhere, appointment type unknown): Duke, Penn State, Tulane, UVA, GWU. Profile pages resolve some; the rest go to hand review.
+- Extraction: pass page text with hyperlinks as `text <url>`; chunk rosters at about 9,000 characters (5,000 if a response hits max_tokens, as at UCSB); use `listing_context` for profile pages; rank comes from the roster, areas from the profile; `included` is derived in code, never by the model. Failed calls that hit max_tokens are billed but not logged.
+- Untested: the "profile contradicts listing" rule; roster recall beyond Duke.
 
 **Next steps**
-1. Re-run stage 1 inside the collection window (Oct 15 – Nov 15) and save the dated AAU member list as `data/seeds/aau_members_<date>.csv` (drop `_TRIAL`); confirm `url_verified` dates.
-2. Finish the stage 2 scraper (all rosters scraped in trial; end-to-end tested on Duke, `logs/e2e_test_duke_2026-10-09.md`; still to do: scroll handling for UC Riverside, Oregon menu stripping, run extraction on all rosters and the profile step for ambiguous full professors). Original scope: roster fetch (httr2 or chromote per site), profile fetch, link-preserving text, chunking, §10 conduct (robots.txt, user-agent, 2 s delay, failure log in `logs/`).
-3. Build the `person_id` registry code and `people`/`snapshots` assembly (derive `included` in code from rank, appointment type, and flags).
-4. Draft the ASA coding prompt `prompts/coding/code_v1.md` (stage 4; Opus 5.5; separate from extraction).
-5. Freeze `extract_v1.md` at the first production run; any later change is a new version plus a §8 entry.
-6. First-year validation sample (~50 people) per codebook §7.
+1. Run the profile step for full professors and ambiguous cases (about 800 calls, roughly $15). Try one institution with a pager or rank problem first (Toronto), then roll out. Add the profile fetch to a script (`R/13_...`), reusing `scrape_profile()` and `extract_page(..., listing_context)`; MSU profiles and the hand-collect sites are skipped by config.
+2. Check the small rosters (UIUC, Missouri, Tufts, GWU) against the live pages; add UC Riverside scrolling; decide the ASU question.
+3. Build the `person_id` registry code and `people`/`snapshots` assembly (derive `included` in code from rank, appointment type and flags; see `R/assemble.R`).
+4. Draft the ASA coding prompt `prompts/coding/code_v1.md` (stage 4; Opus 5.5; separate from extraction; log tokens with `log_usage()`).
+5. Re-run stage 1 inside the collection window (Oct 15 – Nov 15): save the dated AAU member list as `data/seeds/aau_members_<date>.csv` (drop `_TRIAL`), recheck URLs and the NYU block, re-scrape, then run the production extraction. Freeze `extract_v1.md` at that first production run; any later change is a new version plus a §8 entry.
+6. Hand-collect the 9 blocked institutions (and MSU profiles); first-year validation sample (~50 people) per codebook §7.

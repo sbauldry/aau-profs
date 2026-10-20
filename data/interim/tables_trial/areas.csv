@@ -1,41 +1,15 @@
 person_id,year,inst_id,area_code,area_order,matched_text,code_model,code_prompt_ver,hand_coded
-p000007,2026,asu,socpsych,1,Peer relationships,claude-opus-5-5,v1,FALSE
-p000007,2026,asu,crime,2,peer victimization,claude-opus-5-5,v1,FALSE
-p000007,2026,asu,children,3,social development,claude-opus-5-5,v1,FALSE
-p000010,2026,asu,gender,1,gender development,claude-opus-5-5,v1,FALSE
-p000010,2026,asu,children,2,relationships in children,claude-opus-5-5,v1,FALSE
-p000010,2026,asu,socpsych,3,gender identity and stereotypes,claude-opus-5-5,v1,FALSE
-p000018,2026,asu,children,1,children's and adolescents' friendships,claude-opus-5-5,v1,FALSE
-p000018,2026,asu,socpsych,2,peer group relations,claude-opus-5-5,v1,FALSE
 p000022,2026,asu,crime,1,Guns in Society,claude-opus-5-5,v1,FALSE
 p000022,2026,asu,law,2,Law & Society,claude-opus-5-5,v1,FALSE
 p000022,2026,asu,inequality,3,Social Inequalities,claude-opus-5-5,v1,FALSE
-p000035,2026,asu,children,1,children's relationships,claude-opus-5-5,v1,FALSE
-p000036,2026,asu,children,1,youth,claude-opus-5-5,v1,FALSE
-p000036,2026,asu,family,2,families,claude-opus-5-5,v1,FALSE
-p000036,2026,asu,law,3,law and society,claude-opus-5-5,v1,FALSE
 p000048,2026,asu,children,1,Children - Teens,claude-opus-5-5,v1,FALSE
 p000048,2026,asu,family,2,Families,claude-opus-5-5,v1,FALSE
 p000048,2026,asu,rem,3,Race and Ethnicity,claude-opus-5-5,v1,FALSE
 p000049,2026,asu,inequality,1,Inequality,claude-opus-5-5,v1,FALSE
 p000049,2026,asu,law,2,Law,claude-opus-5-5,v1,FALSE
-p000050,2026,asu,children,1,youth development,claude-opus-5-5,v1,FALSE
-p000050,2026,asu,methods,2,methodological advances,claude-opus-5-5,v1,FALSE
-p000050,2026,asu,mentalhealth,3,mental health,claude-opus-5-5,v1,FALSE
-p000051,2026,asu,children,1,early peer relationships and developmental outcomes,claude-opus-5-5,v1,FALSE
-p000051,2026,asu,education,2,school-based discipline,claude-opus-5-5,v1,FALSE
-p000051,2026,asu,gender,3,gender and relationships,claude-opus-5-5,v1,FALSE
-p000055,2026,asu,medical,1,Public and Community Health,claude-opus-5-5,v1,FALSE
-p000055,2026,asu,crime,2,Violence,claude-opus-5-5,v1,FALSE
 p000058,2026,asu,drugs,1,youth drug use,claude-opus-5-5,v1,FALSE
 p000058,2026,asu,medical,2,health disparities,claude-opus-5-5,v1,FALSE
 p000058,2026,asu,rem,3,ethnicity,claude-opus-5-5,v1,FALSE
-p000060,2026,asu,methods,1,scale development,claude-opus-5-5,v1,FALSE
-p000060,2026,asu,education,2,educational assessment practices,claude-opus-5-5,v1,FALSE
-p000060,2026,asu,disability,3,students with disabilities,claude-opus-5-5,v1,FALSE
-p000061,2026,asu,children,1,socio-emotional development of young children,claude-opus-5-5,v1,FALSE
-p000061,2026,asu,family,2,parenting,claude-opus-5-5,v1,FALSE
-p000061,2026,asu,altruism,3,altruism,claude-opus-5-5,v1,FALSE
 p000063,2026,brown,comphist,1,Comparative Sociology,claude-opus-5-5,v1,FALSE
 p000063,2026,brown,political,2,Political,claude-opus-5-5,v1,FALSE
 p000063,2026,brown,economic,3,Economic,claude-opus-5-5,v1,FALSE

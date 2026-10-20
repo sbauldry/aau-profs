@@ -1,6 +1,6 @@
 # AAU Sociology Full Professors: Schema and Codebook
 
-Version 0.1.21 (draft), October 2026
+Version 0.1.22 (draft), October 2026
 
 ## 1. Purpose and scope
 
@@ -20,7 +20,7 @@ An annual panel of full professors of sociology at member institutions of the As
 
 **Include** a person in a year if all of the following hold:
 1. The department's official faculty listing or the person's university profile lists them as Professor or as a named or distinguished Professor. "Professor" with no qualifier counts as full professor only when the department's listing distinguishes it from Associate and Assistant Professor.
-2. The appointment is tenure-line and in a sociology department (at a multi-campus institution, on the designated campus; see §1). A department that combines sociology with another field (e.g., "Sociology and Criminology") counts if sociology is in its name.
+2. The appointment is tenure-line and in a sociology department (at a multi-campus institution, on the designated campus; see §1). A department that combines sociology with another field (e.g., "Sociology and Criminology") counts if sociology is in its name. Exception: where a unit houses sociology but its name lacks the word (ASU's Sanford School of Social and Family Dynamics), inclusion is decided per person from the profile (§8, v0.1.22; seed file `data/seeds/person_scope.csv`).
 3. The appointment is primary or a formal joint appointment (a budgeted share in sociology). A sociology faculty member who also holds a joint appointment in another department or unit is included (record the other units in `joint_units`).
 4. Administrative roles do not affect inclusion. Department heads and chairs, deans, and other administrators are included if they hold a tenured full professor appointment in sociology (record the role in `admin_role`).
 
@@ -313,6 +313,7 @@ This table is the single log of adopted changes that affect comparability across
 | 2026-10 | 0.1.19 | §3.5 `changes`: added `detail` (what the code saw, to guide hand review) and defined each `change_type`. Records with an undecided appointment type (`included = NA`) generate no changes; they are listed in a separate unresolved file. `moved` is generated only for one `person_id` at two institutions (ORCID match or hand-confirmed link); a candidate move appears as an `exit` plus a `new_full` with different IDs. Pre-collection; effective with the first collection year (2026). |
 | 2026-10 | 0.1.20 | §3.4 `areas`: added `matched_text` (the exact fragment of `areas_raw` supporting each code, kept as audit evidence like `rank_evidence`). Areas are coded for `included = TRUE` snapshots only; records with no `areas_raw` are left uncoded by rule and flagged without an API call; a record is re-coded only when `areas_raw`, the model, or the prompt version changes, and hand-coded rows are never overwritten. Pre-collection; effective with the first collection year (2026). |
 | 2026-10 | 0.1.21 | Sibling faculty lists (emeriti, affiliated, joint, adjunct, visiting, non-tenure-line) linked from each department's faculty page are now scraped and extracted, so excluded people are kept and auditable as §2 already required. Seed table `data/seeds/institution_pages.csv` lists them per institution (reviewed by hand from automatic discovery). `snapshots.source_list` records which list a record came from. The list decides what a bare title cannot: emeriti, visiting and non-tenure lists set the rank accordingly; affiliated and adjunct lists set `courtesy`; a joint list sets the appointment type to `unknown` (no budgeted share is stated), so those people are undecided. All of these except a settled joint appointment are `included = FALSE`. Scope limit: sibling lists are not paginated and profile pages are not fetched for them. Pre-collection; effective with the first collection year (2026). |
+| 2026-10 | 0.1.22 | §2 rule 2 exception for units whose name lacks "sociology" but which house sociologists (decided for ASU's T. Denny Sanford School of Social and Family Dynamics, home of ASU's Sociology MA and PhD): scope is decided person by person from the profile. A tenured full professor counts as a sociologist if the profile states a sociology title or a sociology degree; one with no sociology title or degree is excluded; a person who cannot be confirmed (or any later addition) stays undecided for hand review. The confirmed decisions are the seed file `data/seeds/person_scope.csv`, reviewed each year. 2026 trial result at ASU: 5 included, 9 excluded, 2 undecided of 16 full professors. Effective with the first collection year (2026). |
 
 ## 9. Prompt versioning and pinned models
 

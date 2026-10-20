@@ -1,16 +1,7 @@
 inst_id,our_name,our_rank,appointment_type,included,title_raw,listing_section,source_list,outcome,person_id
-asu,Becky Ladd,full,primary,TRUE,"Professor, The Sanford School",Faculty,faculty,ours only: included full professor not in hand file,p000007
-asu,Carol Martin,full,primary,TRUE,"Director of Research and Professor, The Sanford School",Faculty,faculty,ours only: included full professor not in hand file,p000010
-asu,Gary Ladd,full,primary,TRUE,"Associate Director and Professor, The Sanford School",Faculty,faculty,ours only: included full professor not in hand file,p000018
-asu,Laura Hanish,full,primary,TRUE,"Executive Director, Sanford Harmony Institute",Faculty,faculty,ours only: included full professor not in hand file,p000035
-asu,Leslie Paik,full,primary,TRUE,"Associate Director and Professor, The Sanford School",Faculty,faculty,ours only: included full professor not in hand file,p000036
-asu,Rebecca White,full,primary,TRUE,"Professor, The Sanford School",Faculty,faculty,ours only: included full professor not in hand file,p000050
-asu,Richard Fabes,full,primary,TRUE,"Director of Innovation and Professor, The Sanford School",Faculty,faculty,ours only: included full professor not in hand file,p000051
-asu,Sarah Lindstrom Johnson,full,primary,TRUE,"Professor, The Sanford School",Faculty,faculty,ours only: included full professor not in hand file,p000055
+asu,Leslie Paik,full,primary,NA,"Associate Director and Professor, The Sanford School",Faculty,faculty,ours only: undecided (appointment type unknown),p000036
 asu,Stephen Kulis,full,primary,TRUE,"Professor, The Sanford School",Faculty,faculty,ours only: included full professor not in hand file,p000058
 asu,Stephen Russell,full,primary,TRUE,"Director and Professor, The Sanford School",Faculty,faculty,ours only: included full professor not in hand file,p000059
-asu,Steve Elliott,full,primary,TRUE,"Professor, The Sanford School",Faculty,faculty,ours only: included full professor not in hand file,p000060
-asu,Tracy Spinrad,full,primary,TRUE,"Professor, The Sanford School",Faculty,faculty,ours only: included full professor not in hand file,p000061
 brown,John Eason,full,primary,TRUE,Professor,Faculty,faculty,ours only: included full professor not in hand file,p000082
 buffalo,Ashley Barr,full,primary,TRUE,Director of Graduate Studies Professor,Faculty Directory,faculty,ours only: included full professor not in hand file,p000130
 buffalo,Hanna Grol-Prokopczyk,full,primary,TRUE,Professor,NA,faculty,ours only: included full professor not in hand file,p000136

@@ -25,6 +25,35 @@ merge_profile <- function(roster, profile) {
            text_defect = text_defect | coalesce(profile_text_defect, FALSE))
 }
 
+# Units whose name lacks "sociology" but which house sociologists (codebook §2 rule 2 exception, v0.1.22).
+# For institutions listed in data/seeds/person_scope.csv, a tenured full professor on the main faculty list is in
+# scope only if confirmed as a sociologist: "sociology" counts, "not sociology" excludes, "review" and anyone not
+# listed (e.g., a new hire) stay undecided for hand review. Sets scope_status for derive_included().
+person_key <- function(x) {
+  x <- stringi::stri_trans_general(coalesce(x, ""), "Latin-ASCII")
+  after <- stringr::str_squish(stringr::str_remove(x, "^[^,]*,?"))
+  # "Name, PhD" / "Name, Jr." drop the suffix; any other comma means "Last, First ..." and is reordered.
+  suffix <- !stringr::str_detect(x, ",") | stringr::str_detect(stringr::str_to_lower(after), "^(ph\\.?\\s?d\\.?|jr\\.?|sr\\.?|ii|iii|iv|m\\.?d\\.?|dr\\.?|esq\\.?)\\b")
+  x <- if_else(suffix, stringr::str_remove(x, ",.*$"), paste(stringr::str_remove(after, "\\([^)]*\\)"), stringr::str_remove(x, ",.*$")))
+  t <- stringr::str_split(stringr::str_squish(stringr::str_to_lower(x)), " ")
+  purrr::map_chr(t, \(v) { v <- stringr::str_remove_all(v, "[^a-z]"); v <- v[v != ""]; if (length(v) < 2) NA_character_ else paste(v[1], v[length(v)]) })
+}
+apply_person_scope <- function(df, file = "data/seeds/person_scope.csv") {
+  df$scope_status <- NA_character_
+  if (!file.exists(file)) return(df)
+  sc <- readr::read_csv(file, show_col_types = FALSE, col_types = readr::cols(.default = "c")) |> mutate(key = person_key(name))
+  app <- df$inst_id %in% sc$inst_id & df$rank %in% "full" & coalesce(df$list_type, "faculty") == "faculty"
+  hit <- sc[match(paste(df$inst_id, person_key(df$name_raw)), paste(sc$inst_id, sc$key)), ]
+  status <- case_when(!app ~ NA_character_, hit$scope %in% "sociology" ~ "ok", hit$scope %in% "not sociology" ~ "excluded", TRUE ~ "undecided")
+  note <- case_when(status == "excluded" ~ paste0("outside sociology: ", hit$basis),
+                    status == "undecided" & !is.na(hit$basis) ~ paste0("unit has no 'sociology' in its name; sociology appointment to confirm: ", hit$basis),
+                    status == "undecided" ~ "unit has no 'sociology' in its name; sociology appointment not yet checked",
+                    TRUE ~ NA_character_)
+  df$scope_status <- status
+  df$review_note <- if_else(is.na(note), df$review_note, if_else(is.na(df$review_note), note, paste(df$review_note, note, sep = " | ")))
+  df
+}
+
 # codebook.md §2: tenured full professor, primary or formal joint appointment in sociology.
 # Unknown appointment type on a full professor is not decided here: it is flagged for review.
 derive_included <- function(df) {
@@ -49,8 +78,11 @@ derive_included <- function(df) {
     # A person listed under an emeriti heading is emeritus whatever the bare title says ("Professor").
     emeriti_section = str_detect(coalesce(listing_section, ""), regex("emerit", ignore_case = TRUE)),
     rank = if_else(emeriti_section & rank == "full", "emeritus", rank),
-    included = rank == "full" & appointment_type %in% c("primary", "joint") & !on_excl_list,
+    scope_status = if ("scope_status" %in% names(df)) scope_status else NA_character_,
+    included = rank == "full" & appointment_type %in% c("primary", "joint") & !on_excl_list & !coalesce(scope_status == "excluded", FALSE),
     review_flag = review_flag | (rank == "full" & appointment_type == "unknown") | coalesce(text_defect, FALSE),
-    included = if_else(rank == "full" & appointment_type == "unknown", NA, included)) |>
-    select(-emeriti_section, -on_excl_list)
+    included = if_else(rank == "full" & appointment_type == "unknown", NA, included),
+    review_flag = review_flag | coalesce(scope_status == "undecided", FALSE),
+    included = if_else(coalesce(scope_status == "undecided", FALSE) & rank == "full" & !on_excl_list, NA, included)) |>
+    select(-emeriti_section, -on_excl_list, -scope_status)
 }

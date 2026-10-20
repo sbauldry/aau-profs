@@ -1,19 +1,9 @@
 person_id,year,inst_id,areas_hash,n_codes,more_available,review_flag,review_note,coded_by,code_model,code_prompt_ver,batch_tokens_input,batch_tokens_output
-p000007,2026,asu,9483555425e8c763f8269581662e8b0c,3,FALSE,TRUE,unsure whether peer relationships/bullying fit socpsych/crime or children,model,claude-opus-5-5,v1,7623,3799
-p000010,2026,asu,e93229c3ccb8c691957454b12c36d835,3,TRUE,TRUE,areas from prose,model,claude-opus-5-5,v1,7623,3799
-p000018,2026,asu,007551579651dbaa03b57127e8941b63,2,FALSE,FALSE,NA,model,claude-opus-5-5,v1,7623,3799
 p000022,2026,asu,d66e2e13a02169f86ef1a3607523104f,3,FALSE,TRUE,Guns in Society coded crime; uncertain,model,claude-opus-5-5,v1,7623,3799
-p000035,2026,asu,08bfef824d6e4d24ddbd43ce531cfe5a,1,FALSE,TRUE,areas from prose; 'well-being' too vague to code,model,claude-opus-5-5,v1,7623,3799
-p000036,2026,asu,12ee903d3d749b83c9bcce507ab985c9,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,7623,3799
 p000048,2026,asu,2b3d6b508c7ee7d414438d3980f382b9,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,7623,3799
 p000049,2026,asu,3601315beaf52e4d81921aea26ccc0b2,2,FALSE,FALSE,NA,model,claude-opus-5-5,v1,7623,3799
-p000050,2026,asu,fb374c19de5cb4314a427688dcf58850,3,FALSE,TRUE,areas from prose; unsure methods is a research area in its own right,model,claude-opus-5-5,v1,7623,3799
-p000051,2026,asu,147a8fb934b39b88007c3bb9d535cbfc,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,7623,3799
-p000055,2026,asu,28ffac0264da38a12e49bb14d39081c3,2,FALSE,TRUE,Human Development and Prevention and Intervention Science too vague to code; Violence could be crime or peace,model,claude-opus-5-5,v1,7623,3799
 p000058,2026,asu,896b474e0fa9d3ad14b393f3ca9a421e,3,TRUE,TRUE,areas from prose,model,claude-opus-5-5,v1,7623,3799
 p000059,2026,asu,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
-p000060,2026,asu,6f2be747fb4ce4c265e77929af8695e0,3,TRUE,TRUE,areas from prose,model,claude-opus-5-5,v1,7623,3799
-p000061,2026,asu,093e535efd8422cffad414ead7bcfa6e,3,TRUE,TRUE,areas from prose,model,claude-opus-5-5,v1,7623,3799
 p000063,2026,brown,efee64eab8115298092f3fdbc4329b65,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,7623,3799
 p000068,2026,brown,14aa9d6cdf93158db3e74f76aef8f728,2,FALSE,FALSE,NA,model,claude-opus-5-5,v1,7623,3799
 p000074,2026,brown,42dee8c3725e0e3d95705942f4cc2a73,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,7623,3799

@@ -70,7 +70,7 @@ for (id in ids) {
     # No profile data (hand-collect or blocked profiles): the roster record stands on its own.
     message("  no profiles extracted: roster only")
     final <- roster |> mutate(inst_id = id, has_profile = FALSE, profile_flag = NA, profile_note = NA_character_,
-                              text_defect = coalesce(text_defect, FALSE)) |> derive_included()
+                              text_defect = coalesce(text_defect, FALSE)) |> apply_person_scope() |> derive_included()
     write_csv(final, file.path(out_dir, paste0(id, "_merged.csv")))
     next
   }
@@ -78,7 +78,7 @@ for (id in ids) {
   profiles <- profiles |> mutate(across(c(named_chair, distinguished, review_flag, text_defect), as.logical),
                                  phd_year = as.integer(phd_year))
   roster <- roster |> mutate(phd_year = as.integer(phd_year))
-  final <- roster |> mutate(inst_id = id) |> merge_profile(profiles) |> derive_included()
+  final <- roster |> mutate(inst_id = id) |> merge_profile(profiles) |> apply_person_scope() |> derive_included()
   write_csv(profiles, file.path(out_dir, paste0(id, "_profiles.csv")))
   write_csv(final, file.path(out_dir, paste0(id, "_merged.csv")))
   cat("\n", id, ": profiles extracted =", nrow(profiles), "\n")

@@ -76,7 +76,7 @@ Institutional frame: all AAU members, including the Canadian members (Toronto, M
 
 ## Status (as of 2026-10-20)
 
-Codebook is at v0.1.21 (draft); the change log in codebook.md §8 records every decision so far. Nothing has been collected for real yet: the collection window is Oct 15 – Nov 15, 2026 (open as of Oct 15). Everything so far is pre-collection setup and trial runs (retrieved dates are Oct 3–20 and are not the production wave).
+Codebook is at v0.1.22 (draft); the change log in codebook.md §8 records every decision so far. Nothing has been collected for real yet: the collection window is Oct 15 – Nov 15, 2026 (open as of Oct 15). Everything so far is pre-collection setup and trial runs (retrieved dates are Oct 3–20 and are not the production wave).
 
 **Done**
 - Project scaffolding, renv, folder structure, GitHub remote.
@@ -99,7 +99,7 @@ Codebook is at v0.1.21 (draft); the change log in codebook.md §8 records every 
 - 9 institutions are hand-collect: UC Davis, Michigan, Brandeis, Columbia, Harvard, Johns Hopkins, Princeton, McGill (URLs confirmed by hand), and NYU (retry in the window). Do not work around blocks.
 - MSU: roster loads in `chromote`, but profile pages return a bot-challenge page; collect MSU research areas by hand.
 - `chromote` rosters: ASU, MSU, Texas A&M, Colorado Boulder, UT Austin, Wisconsin, Rice, Toronto. Pitt lists names only (paginated; ranks on profile pages). UC Riverside's roster is an iframe from `profiles.ucr.edu` (the embed URL is in `site_config.R`). It is complete at 9 people: its A-Z filter enables exactly the surname initials of the 9 captured, so it is not lazy-loaded and needs no scrolling (checked 2026-10-20). It has no profile links.
-- ASU: the unit (Sanford School of Social and Family Dynamics) has no "sociology" in its name; inclusion under codebook §2 rule 2 is undecided.
+- ASU (decided 2026-10-20, codebook §2 rule 2 exception, v0.1.22): the Sanford School of Social and Family Dynamics has no "sociology" in its name but houses ASU's Sociology MA and PhD, so inclusion is per person from the profile (a sociology title or degree). `data/seeds/person_scope.csv` holds the confirmed decisions; `apply_person_scope()` in `R/assemble.R` applies them before `derive_included()`. Trial result: 5 of 16 full professors included, 9 excluded (developmental psychology and human development), 2 undecided (Paik, Peguero). Anyone not in the file (a new hire) stays undecided.
 - Small rosters (UIUC, Missouri, Tufts, GWU) were checked name by name against the live pages on 2026-10-20 and are complete (`validation/small_roster_check_2026.md`).
 - Rosters without ranks: Pitt (all 20 unknown), Oregon (21 untitled staff or graduate students on the letter pages), Toronto (37 with no rank; the all-faculty directory also lists cross-appointed people from other units). These need profile pages or hand review.
 - Mixed home units (many full professors whose home department is elsewhere, appointment type unknown): Duke, Penn State, Tulane, UVA, GWU. Profile pages resolve some; the rest go to hand review.
@@ -108,7 +108,7 @@ Codebook is at v0.1.21 (draft); the change log in codebook.md §8 records every 
 
 **Next steps**
 1. Spot-check about 20 profile merges against the live pages (untested at scale: "profile contradicts listing" rule, roster recall); hand-review the 76 undecided and 42 unknown-rank records; hand-collect Tulane, Toronto and the other blocked profiles.
-2. Decide the ASU question (the Sanford School has no "sociology" in its name; codebook §2 rule 2). The small rosters (UIUC, Missouri, Tufts, GWU) are verified complete.
+2. Resolve ASU's two undecided people (Paik, Peguero) by hand. The small rosters (UIUC, Missouri, Tufts, GWU) are verified complete, and the ASU scope question is decided.
 3. Done in trial: `person_id` registry and `people`/`snapshots` assembly (`R/registry.R`, `R/build_tables.R`; 1,836 trial IDs under `data/interim/tables_trial/`). `changes` builder done and tested (codebook §3.5; the first year has no prior year, so it is empty until 2027). Remaining: `areas` table (after the coding step); hand review of `review_queue_2026.csv` and `unnamed_review.csv`; production run into `data/final` (never reuse trial IDs).
 4. Stage 4 trial done end to end: `prompts/coding/code_v1.md` (draft), `R/code_schema.R`, `R/code.R`, `R/areas.R`, `R/19_build_areas.R`. Trial over all 528 in-scope records: 450 coded by Opus 5.5 (about $1.5), 78 with no areas left uncoded by rule; 1,269 area rows, 155 flagged, `other` never assigned (`logs/coding_trial_all_2026-10-20.md`). Remaining: hand-code the validation sample (codebook §7) and compare; freeze at the first production run. Open design point: 78 of 528 included records have no `areas_raw`, since raw HTML is not archived.
 5. Re-run stage 1 inside the collection window (Oct 15 – Nov 15; open now): save the dated AAU member list as `data/seeds/aau_members_<date>.csv` (drop `_TRIAL`), recheck URLs and the NYU block, re-scrape, then run the production extraction and profile step. Freeze `extract_v1.md` at that first production run; any later change is a new version plus a §8 entry. The profile script currently reads rosters from `data/interim/extract_trial/` and writes to `profiles_trial/`; point it at production directories first.

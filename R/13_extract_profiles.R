@@ -5,6 +5,7 @@
 #
 # Usage (from the project root):
 #   INST=utoronto Rscript R/13_extract_profiles.R        # one institution (default: utoronto)
+#   INST=pitt,duke Rscript R/13_extract_profiles.R       # comma-separated list
 #   INST=all Rscript R/13_extract_profiles.R             # every institution with a roster file
 # Optional: MAX_PROFILES=5 (cap per institution, for a dry run), BUDGET_USD=20, RUN_YEAR=trial.
 # Resumable: per-profile results are cached, so a rerun only fetches/extracts what is missing.
@@ -25,7 +26,7 @@ cfg <- site_config()
 sp <- load_system_prompt()
 spent <- \() if (file.exists(usage_log_file)) sum(summarize_usage()$usd) else 0
 
-ids <- if (inst_arg == "all") str_remove(list.files(roster_dir, pattern = "\\.csv$"), "\\.csv$") else inst_arg
+ids <- if (inst_arg == "all") str_remove(list.files(roster_dir, pattern = "\\.csv$"), "\\.csv$") else str_split_1(inst_arg, ",")
 ids <- intersect(ids, cfg$inst_id[!cfg$profile_method %in% c("hand", "none")])
 
 for (id in ids) {
@@ -56,7 +57,9 @@ for (id in ids) {
 
   if (nrow(profiles) == 0) { message("  no profiles extracted"); next }
   # Re-type cached/new rows consistently before merging.
-  profiles <- profiles |> mutate(across(c(named_chair, distinguished, review_flag, text_defect), as.logical))
+  profiles <- profiles |> mutate(across(c(named_chair, distinguished, review_flag, text_defect), as.logical),
+                                 phd_year = as.integer(phd_year))
+  roster <- roster |> mutate(phd_year = as.integer(phd_year))
   final <- roster |> mutate(inst_id = id) |> merge_profile(profiles) |> derive_included()
   write_csv(profiles, file.path(out_dir, paste0(id, "_profiles.csv")))
   write_csv(final, file.path(out_dir, paste0(id, "_merged.csv")))

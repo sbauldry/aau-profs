@@ -1,0 +1,69 @@
+inst_id,in_hand,in_ours,url_status,status
+asu,TRUE,TRUE,reachable_js_rendered,compared
+brandeis,TRUE,FALSE,url_confirmed_by_hand_blocked,not compared: hand-collect site (blocked)
+brown,TRUE,TRUE,reachable,compared
+bu,TRUE,TRUE,reachable,compared
+buffalo,TRUE,TRUE,reachable,compared
+columbia,TRUE,FALSE,url_confirmed_by_hand_blocked,not compared: hand-collect site (blocked)
+cornell,TRUE,TRUE,reachable,compared
+cuboulder,TRUE,TRUE,reachable_js_rendered,compared
+cwru,TRUE,TRUE,reachable,compared
+dartmouth,TRUE,TRUE,reachable,compared
+duke,TRUE,TRUE,reachable,compared
+emory,TRUE,TRUE,reachable,compared
+gatech,TRUE,TRUE,reachable,compared
+gwu,TRUE,TRUE,reachable,compared
+harvard,TRUE,FALSE,url_confirmed_by_hand_blocked,not compared: hand-collect site (blocked)
+indiana,TRUE,TRUE,reachable,compared
+jhu,TRUE,FALSE,url_confirmed_by_hand_blocked,not compared: hand-collect site (blocked)
+ku,TRUE,TRUE,reachable,compared
+mcgill,TRUE,FALSE,url_confirmed_by_hand_blocked,not compared: hand-collect site (blocked)
+miami,TRUE,TRUE,reachable,compared
+mit,TRUE,FALSE,no_soc_dept,not compared: no sociology department
+mizzou,TRUE,TRUE,reachable,compared
+msu,TRUE,TRUE,reachable_js_rendered,compared
+northwestern,TRUE,TRUE,reachable,compared
+notredame,TRUE,TRUE,reachable,compared
+nyu,TRUE,FALSE,reachable,not compared: no data in our tables
+osu,TRUE,TRUE,reachable,compared
+pitt,TRUE,TRUE,reachable_names_only,compared
+princeton,TRUE,FALSE,url_confirmed_by_hand_blocked,not compared: hand-collect site (blocked)
+psu,TRUE,TRUE,reachable,compared
+purdue,FALSE,TRUE,reachable,ours only (not in hand file)
+rice,TRUE,TRUE,reachable_js_rendered,compared
+rutgers,TRUE,TRUE,reachable,compared
+stanford,TRUE,TRUE,reachable,compared
+stonybrook,TRUE,TRUE,reachable,compared
+tamu,TRUE,TRUE,reachable_js_rendered,compared
+tufts,TRUE,TRUE,reachable,compared
+tulane,TRUE,TRUE,reachable,compared
+uarizona,TRUE,TRUE,reachable,compared
+ucberkeley,TRUE,TRUE,reachable,compared
+ucdavis,TRUE,FALSE,url_confirmed_by_hand_blocked,not compared: hand-collect site (blocked)
+uchicago,TRUE,TRUE,reachable,compared
+ucirvine,TRUE,TRUE,reachable,compared
+ucla,TRUE,TRUE,reachable,compared
+ucriverside,TRUE,TRUE,reachable_embedded,compared
+ucsb,TRUE,TRUE,reachable,compared
+ucsc,TRUE,TRUE,reachable,compared
+ucsd,TRUE,TRUE,reachable,compared
+ufl,TRUE,TRUE,reachable,compared
+uiowa,TRUE,TRUE,reachable,compared
+uiuc,TRUE,TRUE,reachable,compared
+umd,TRUE,TRUE,reachable,compared
+umich,TRUE,FALSE,url_confirmed_by_hand_blocked,not compared: hand-collect site (blocked)
+umn,TRUE,TRUE,reachable,compared
+unc,TRUE,TRUE,reachable,compared
+uoregon,TRUE,TRUE,reachable,compared
+upenn,TRUE,TRUE,reachable,compared
+usc,TRUE,TRUE,reachable,compared
+usf,TRUE,TRUE,reachable,compared
+utah,TRUE,TRUE,reachable,compared
+utaustin,TRUE,TRUE,reachable_js_rendered,compared
+utoronto,TRUE,TRUE,reachable_js_rendered,compared
+uva,TRUE,TRUE,reachable,compared
+uw,TRUE,TRUE,reachable,compared
+vanderbilt,TRUE,TRUE,reachable,compared
+wisc,TRUE,TRUE,reachable_js_rendered,compared
+wustl,TRUE,TRUE,reachable,compared
+yale,TRUE,TRUE,reachable,compared

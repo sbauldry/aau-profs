@@ -24,8 +24,8 @@ site_config <- function(seed_file = "data/seeds/institutions_seed.csv") {
       max_pages = 30,
       note = notes) |>
     mutate(roster_url = if_else(inst_id == "ucriverside", ucr_embed_url, roster_url),
-           profile_method = if_else(inst_id %in% c("msu", "utoronto"), "hand", profile_method),
-           # Toronto profile pages return a JS challenge to plain HTTP (2026-10-20): not worked around;
+           profile_method = if_else(inst_id %in% c("msu", "utoronto", "tulane"), "hand", profile_method),
+           # Toronto profile pages return a JS challenge and Tulane's are blocked (2026-10-20): not worked around;
            # rank and areas come from the roster alone and the rest goes to hand review.
            # NYU answered 200 on 2026-10-03 but an HTTP 202 bot challenge with an empty body on
            # 2026-10-09: treat as hand until it is retried inside the collection window.

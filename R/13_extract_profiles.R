@@ -34,13 +34,13 @@ profile_cache_file <- function(dir, url) {
 }
 
 ids <- if (inst_arg == "all") str_remove(list.files(roster_dir, pattern = "\\.csv$"), "\\.csv$") else str_split_1(inst_arg, ",")
-ids <- intersect(ids, cfg$inst_id[!cfg$profile_method %in% c("hand", "none")])
+ids <- intersect(ids, cfg$inst_id)   # hand-profile sites keep their roster records; only the profile fetch is skipped
 
 for (id in ids) {
   row <- filter(cfg, inst_id == id)
   roster <- read_csv(file.path(roster_dir, paste0(id, ".csv")), show_col_types = FALSE)
   targets <- roster |>
-    filter(rank %in% c("full", "unknown"), !is.na(profile_url)) |>
+    filter(rank %in% c("full", "unknown"), !is.na(profile_url), !row$profile_method %in% c("hand", "none")) |>
     distinct(profile_url, .keep_all = TRUE) |> slice_head(n = max_n)
   message(sprintf("%s: %d roster records, %d profile targets", id, nrow(roster), nrow(targets)))
 
@@ -62,7 +62,14 @@ for (id in ids) {
     mutate(res, across(everything(), as.character))
   }) |> list_rbind()
 
-  if (nrow(profiles) == 0) { message("  no profiles extracted"); next }
+  if (nrow(profiles) == 0) {
+    # No profile data (hand-collect or blocked profiles): the roster record stands on its own.
+    message("  no profiles extracted: roster only")
+    final <- roster |> mutate(inst_id = id, has_profile = FALSE, profile_flag = NA, profile_note = NA_character_,
+                              text_defect = coalesce(text_defect, FALSE)) |> derive_included()
+    write_csv(final, file.path(out_dir, paste0(id, "_merged.csv")))
+    next
+  }
   # Re-type cached/new rows consistently before merging.
   profiles <- profiles |> mutate(across(c(named_chair, distinguished, review_flag, text_defect), as.logical),
                                  phd_year = as.integer(phd_year))

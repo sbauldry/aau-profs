@@ -32,3 +32,21 @@ Ours only: 79 included full professors and 25 undecided with no row in the hand 
 
 ## Ours only (79 included)
 Toronto 13 (the all-faculty directory includes cross-appointed people), ASU 12 (the Sanford School includes other fields), Georgia Tech 6 (History and Sociology), UCSB 6, and 1 to 3 at 28 other institutions.
+
+## Follow-up: live check of Indiana, Iowa and UCLA (2026-10-20)
+
+All hand-only names at these three departments are on sibling pages of the faculty list that the pipeline never fetched (the seed table holds one URL per institution):
+
+| Institution | Name(s) | Where they are | Hand Note |
+|---|---|---|---|
+| Indiana | Pescosolido | `/about/emeriti/` (Emeriti Faculty) | none |
+| Iowa | Heimer | `/emeritus-faculty` (Professor Emeritus) | none |
+| UCLA | Brubaker, Clayman, Kligman | `/people/faculty/emeriti/` | none |
+| UCLA | Panofsky | `/people/faculty/joint-faculty/` | not soc |
+
+Each site also has other lists: Indiana "Affiliate Faculty"; Iowa "Visiting", "Adjunct", "Affiliated" and "Emeritus"; UCLA "Joint Faculty" (25 people), "Emeriti" (27), "Academic Administrator & Lecturers", and "All Faculty". The UCLA seed URL redirects to "Core Faculty" only.
+
+What this means:
+- The pipeline's Indiana, Iowa and UCLA records are complete for the *current faculty* list, so the "hand only" differences are emeriti, as the user's file includes some emeritus faculty. They are not extraction misses.
+- Emeriti and affiliated people are not in our tables at all, although CLAUDE.md and codebook §2 say exclusions are kept with `included = FALSE` so they are auditable. This is a gap between the design and the scraper.
+- Joint faculty lists (UCLA) matter for inclusion: codebook §2 includes a formal joint appointment with a budgeted share in sociology, which the page title alone does not establish.

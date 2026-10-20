@@ -1,5 +1,5 @@
 inst_id,hand,agree,hand_only,ours_excludes,ours_undecided,ours_only,ours_only_undecided
-asu,11,3,3,4,1,2,1
+asu,11,4,3,4,0,3,0
 brown,17,17,0,0,0,1,0
 bu,7,6,0,1,0,0,0
 buffalo,6,5,0,1,0,3,0
@@ -13,11 +13,13 @@ gatech,5,5,0,0,0,6,0
 gwu,5,2,1,1,1,0,0
 indiana,14,13,0,1,0,1,0
 ku,7,5,0,2,0,1,0
+mcgill,7,7,0,0,0,0,0
 miami,9,5,0,4,0,0,0
 mizzou,2,2,0,0,0,0,0
 msu,10,7,1,2,0,1,0
 northwestern,13,10,0,0,3,0,0
 notredame,9,8,0,1,0,1,2
+nyu,16,13,1,0,2,0,0
 osu,24,22,0,2,0,3,0
 pitt,9,1,0,7,1,0,0
 psu,20,4,0,0,16,1,1

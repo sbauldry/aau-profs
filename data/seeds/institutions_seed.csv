@@ -68,5 +68,5 @@ usc,University of Southern California,US,NA,https://dornsife.usc.edu/soci/facult
 vanderbilt,Vanderbilt University,US,NA,https://as.vanderbilt.edu/sociology/people/,2026-10-03,reachable,NA
 wustl,Washington University in St. Louis,US,NA,https://sociology.washu.edu/faculty-staff,2026-10-03,reachable,NA
 yale,Yale University,US,NA,https://sociology.yale.edu/people,2026-10-03,reachable,NA
-mcgill,McGill University,CA,TRUE,https://www.mcgill.ca/sociology/contact-us/faculty,2026-10-03,url_confirmed_by_hand_blocked,"Site returned 403 to automated access (do not work around, codebook §10); URL confirmed by hand 2026-10-03; faculty list must be collected by hand."
+mcgill,McGill University,CA,TRUE,https://www.mcgill.ca/sociology/contact-us/faculty,2026-10-03,reachable,Returned 403 on 2026-10-03; answered the polite scraper on 2026-10-21 (retry inside the collection window). St. George-style campus restriction does not apply (McGill is a single campus).
 utoronto,University of Toronto,CA,NA,https://sociology.utoronto.ca/people/directories/all-faculty/,2026-10-03,reachable_js_rendered,St. George campus only (codebook §1).

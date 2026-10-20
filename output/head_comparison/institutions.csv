@@ -17,14 +17,14 @@ harvard,TRUE,FALSE,url_confirmed_by_hand_blocked,not compared: hand-collect site
 indiana,TRUE,TRUE,reachable,compared
 jhu,TRUE,FALSE,url_confirmed_by_hand_blocked,not compared: hand-collect site (blocked)
 ku,TRUE,TRUE,reachable,compared
-mcgill,TRUE,FALSE,url_confirmed_by_hand_blocked,not compared: hand-collect site (blocked)
+mcgill,TRUE,TRUE,reachable,compared
 miami,TRUE,TRUE,reachable,compared
 mit,TRUE,FALSE,no_soc_dept,not compared: no sociology department
 mizzou,TRUE,TRUE,reachable,compared
 msu,TRUE,TRUE,reachable_js_rendered,compared
 northwestern,TRUE,TRUE,reachable,compared
 notredame,TRUE,TRUE,reachable,compared
-nyu,TRUE,FALSE,reachable,not compared: no data in our tables
+nyu,TRUE,TRUE,reachable,compared
 osu,TRUE,TRUE,reachable,compared
 pitt,TRUE,TRUE,reachable_names_only,compared
 princeton,TRUE,FALSE,url_confirmed_by_hand_blocked,not compared: hand-collect site (blocked)

@@ -122,6 +122,13 @@ p000407,2026,ku,07037939d48af838998b9a9a8d8d1a2a,3,TRUE,FALSE,NA,model,claude-op
 p000411,2026,ku,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
 p000412,2026,ku,728e24a64090bbbcfc97c943d4250263,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1707,3973
 p000420,2026,ku,383644b6806bae53f528477edc6fd389,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1707,3973
+p002827,2026,mcgill,1d236799eeecaffecfb687b9a65e7ad0,2,FALSE,FALSE,NA,model,claude-opus-5-5,v1,7400,3849
+p002831,2026,mcgill,9c622769f51435662268a41ebefc9dac,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,7400,3849
+p002833,2026,mcgill,e3406158dd4607d79b5df3b2c2499b69,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,7400,3849
+p002835,2026,mcgill,af5e565ff9631e6761c040811f13d3de,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,7400,3849
+p002838,2026,mcgill,ce5cd4900119ff27c98511ca6e8c7a6a,2,FALSE,FALSE,NA,model,claude-opus-5-5,v1,7400,3849
+p002839,2026,mcgill,171016bae70f6e69ec70cbf97b9bf946,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,7400,3849
+p002841,2026,mcgill,126732aa1d87513bc1fa93202fb90bd9,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,7400,3849
 p001841,2026,miami,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
 p001844,2026,miami,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
 p001849,2026,miami,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
@@ -156,6 +163,19 @@ p000494,2026,notredame,823625bc7e45f4753d6d36fdefeec1c5,3,FALSE,TRUE,Development
 p000497,2026,notredame,eb6ee2680f596e20484b29fcb904ceab,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1444,3761
 p000498,2026,notredame,fe8d31f91681817b4b1438c2933b8b75,1,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1444,3761
 p000499,2026,notredame,ac5f95651463c1c2aeb42fbb8291e98d,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1444,3761
+p002843,2026,nyu,2afa303ee04103df492b2542b34a0d80,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,7400,3849
+p002850,2026,nyu,c5947399c49e44fed2622f0534eb5ed9,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,7400,3849
+p002851,2026,nyu,f83f0990fe2c5b9d5e47bf5a45a48b6e,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,7400,3849
+p002853,2026,nyu,06c05d51d19fad1b05791b49f0e49e55,3,TRUE,TRUE,distributive justice coded socpsych (could be altruism),model,claude-opus-5-5,v1,7400,3849
+p002854,2026,nyu,be4851cbd1eb3648188ae370f03a0b63,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,7400,3849
+p002856,2026,nyu,890404cf5b6c141023b66c830f83d74f,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,7400,3849
+p002857,2026,nyu,ea14a308ff39397962c07879ce8f876f,2,FALSE,FALSE,NA,model,claude-opus-5-5,v1,7400,3849
+p002858,2026,nyu,304c34a514bae9ae288f08c2fd5916b0,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,7400,3849
+p002859,2026,nyu,323219d7005ecd539c9d0f540d921682,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,7400,3849
+p002861,2026,nyu,a32e1fef91486f8bf1bf120ce170aeb6,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,7400,3849
+p002863,2026,nyu,79aa8c1a33ca8509ef7e19a60c6737a3,2,FALSE,TRUE,'Social Change' too vague to code,model,claude-opus-5-5,v1,7400,3849
+p002867,2026,nyu,ccb94b431dbcca0ba8824cadb1476d71,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,7400,3849
+p002868,2026,nyu,ac6eaec8c3a59ff209aad0bf92f7f166,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,7400,3849
 p000503,2026,osu,93c8097f1bd286e7bc707119b32c2f7a,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1444,3761
 p000515,2026,osu,2255a699f37e39b0404c68cbaf8138cf,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1444,3761
 p000517,2026,osu,43945f298d52d30bcb8418098c34481c,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1444,3761

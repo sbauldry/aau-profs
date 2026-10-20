@@ -1,5 +1,5 @@
 inst_id,our_name,our_rank,appointment_type,included,title_raw,listing_section,source_list,outcome,person_id
-asu,Leslie Paik,full,primary,NA,"Associate Director and Professor, The Sanford School",Faculty,faculty,ours only: undecided (appointment type unknown),p000036
+asu,Leslie Paik,full,primary,TRUE,"Associate Director and Professor, The Sanford School",Faculty,faculty,ours only: included full professor not in hand file,p000036
 asu,Stephen Kulis,full,primary,TRUE,"Professor, The Sanford School",Faculty,faculty,ours only: included full professor not in hand file,p000058
 asu,Stephen Russell,full,primary,TRUE,"Director and Professor, The Sanford School",Faculty,faculty,ours only: included full professor not in hand file,p000059
 brown,John Eason,full,primary,TRUE,Professor,Faculty,faculty,ours only: included full professor not in hand file,p000082

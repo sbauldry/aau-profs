@@ -25,3 +25,6 @@ data/raw_html/
 # Scratch / OS
 .DS_Store
 *.log
+
+# Hand-built comparison database (local only; used by R/21_compare_head.R)
+data/Head - AAU Database.xlsx

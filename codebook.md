@@ -1,6 +1,6 @@
 # AAU Sociology Full Professors: Schema and Codebook
 
-Version 0.1.15 (draft), October 2026
+Version 0.1.16 (draft), October 2026
 
 ## 1. Purpose and scope
 
@@ -289,6 +289,7 @@ This table is the single log of adopted changes that affect comparability across
 | 2026-10 | 0.1.13 | Validation scoring specified for area codes: per-section presence/absence Krippendorff's alpha plus percent agreement on first-listed and any-overlap. Pre-collection; effective with the first collection year (2026). |
 | 2026-10 | 0.1.14 | Added `listing_section`, `rank_evidence`, `appointment_evidence` to `snapshots`; `included` is derived by code, not by the model. Pre-collection; effective with the first collection year (2026). |
 | 2026-10 | 0.1.15 | Added `url_status` to `institutions` and `name_suffix` to `people`; documented empty-string-to-`NA` convention for extraction output. Pre-collection; effective with the first collection year (2026). |
+| 2026-10 | 0.1.16 | §10 Blocks clarified: a JavaScript or proof-of-work challenge page counts as a block and is not solved, including by loading the page in a headless browser. Toronto profile pages (challenge page, 2026-10-20) and Tulane profile pages (blocked) are handled by hand: rank and research areas for those institutions come from the roster alone, and records with undetermined rank or appointment type go to hand review. Pre-collection; effective with the first collection year (2026). |
 
 ## 9. Prompt versioning and pinned models
 
@@ -307,3 +308,4 @@ This table is the single log of adopted changes that affect comparability across
 - **Rate:** at least 2 seconds between requests to the same host; one pass per page; no retry storms.
 - **Failures:** log fetch failures (403s, dead links, JavaScript-only pages) in `logs/` with the URL and date. A page that cannot be fetched is flagged for hand review; an institution is never dropped silently.
 - **Blocks:** if a site blocks automated access, do not work around the block. Flag it and handle that institution by hand.
+- **Challenge pages:** an interstitial that runs a script to prove the client is a browser (a JavaScript or proof-of-work challenge, or a human-verification screen) is a block. Detect it, skip the page without sending it to the model, flag it, and collect that institution's affected pages by hand. Do not switch to a headless browser to get past it. A roster that loads in a headless browser (the `chromote` institutions) does not make that institution's profile pages fair game when they return a challenge to plain requests.

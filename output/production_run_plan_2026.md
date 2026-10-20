@@ -1,6 +1,6 @@
 # Production run plan, 2026 (first collection year)
 
-Drafted 2026-10-21. Collection window: Oct 15 – Nov 15, 2026. Status: plan only; nothing in it has been run for production.
+Drafted 2026-10-21; decisions recorded 2026-10-21. Collection window: Oct 15 – Nov 15, 2026. Status: plan approved; Phase 0 not yet started; nothing has been run for production.
 
 ## Goal
 
@@ -14,13 +14,13 @@ Produce the first real `people`, `snapshots` and `areas` tables in `data/final/`
 - Time: rosters about 15 min and sibling lists about 10 min of polite fetching (2 s between requests); profiles about 20 min of fetching; extraction and coding calls add roughly 1–2 hours. The whole machine run fits in one working day.
 - The hand-built database comparison (59 institutions) found no unexplained gaps except one name (NYU's DiMaggio); recall looks good.
 
-## Decisions needed from you first
+## Decisions (recorded 2026-10-21)
 
-1. **Freeze the prompts as they are?** `extract_v1.md` and `code_v1.md` are drafts. After the first production call any change means a new version and a §8 entry that may break comparability with later years. Known small defects: extraction sometimes leaves name parts empty for multi-part or "Last, First" names (now handled in code, not the prompt); bare "Professor" gives unknown rank at some sites (Miami, Pitt) by design. **Recommendation: freeze both as v1 now** and handle the rest in code and hand review. If you want any prompt wording changed, say so before the freeze; I would re-test on the 30-person coding sample and a few rosters.
-2. **Budget cap:** $25 for the run (about 1.6 times the expectation). Recommended.
-3. **When to start the machine run:** proposed Oct 25–26, after the preparation below, leaving the rest of the window for hand collection, review and validation.
-4. **Hand collection of the seven blocked sites:** you deferred it to this run. Proposed timing: right after the machine run, so the roster texts go through the same extraction in one batch.
-5. **Production registry:** a fresh registry in `data/final/` starting at `p000001`. Trial IDs also start there, so the same number can appear in both places; the trial files are labeled and live under `data/interim`. Alternative: start production at a higher number (a codebook change). Recommendation: keep `p000001`.
+1. **Freeze `extract_v1.md` and `code_v1.md` as they are: yes.** They are frozen at the first production API call (Phase 2, step 1), not before: the headers change to `status: FROZEN` with the date and SHA-256 recorded in `logs/prompt_freeze_2026.md`, and a codebook §8 entry (v0.1.24) is logged then. Known small defects (empty name parts for multi-part or "Last, First" names; unknown rank where a roster does not distinguish "Professor") stay with code and hand review, not prompt edits.
+2. **Budget cap: $25** for the production run (expected $13–16).
+3. **Machine run start date: Oct 27, 2026.**
+4. **The seven blocked sites (UC Davis, Michigan, Brandeis, Columbia, Harvard, Johns Hopkins, Princeton) are hand-collected right after the machine run**, by the project owner, so the roster texts go through extraction in one batch.
+5. **Production registry:** a fresh `data/final/person_id_registry.csv` starting at `p000001`; trial files stay under `data/interim` and are labeled.
 
 ## Phase 0: preparation (about one day, no API calls)
 
@@ -77,12 +77,12 @@ Update CLAUDE.md and codebook status; commit `data/final/`; tag the release (`v2
 - **Mid-window membership or faculty changes:** the run date is recorded as the collection date; the next year's `changes` table handles the rest.
 - **Cost surprise:** hard cap; per-call token log; Batch API would halve cost but is not worth the complexity at this size.
 
-## Proposed schedule
+## Schedule (updated for the Oct 27 start)
 
 | Dates | Work |
 |---|---|
-| Oct 22–24 | Phase 0 (code, tests), your decisions |
-| Oct 25–26 | Phase 1 and 2 (stage 1 refresh, machine run) |
-| Oct 27–Nov 3 | Phase 3 (hand collection and review) |
-| Nov 4–9 | Phase 4 (validation) |
-| Nov 10–15 | Buffer, Phase 5 close-out |
+| Oct 22–26 | Phase 0 (code, tests, dry runs on trial data) |
+| Oct 27–28 | Phase 1 and 2 (stage 1 refresh, prompt freeze, machine run, acceptance checks) |
+| Oct 29–Nov 5 | Phase 3 (hand collection of the seven sites, hand review) |
+| Nov 6–10 | Phase 4 (redraw and hand-code the validation sample, score) |
+| Nov 11–15 | Buffer, Phase 5 close-out |

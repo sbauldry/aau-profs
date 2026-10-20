@@ -1,0 +1,78 @@
+inst_id,list_type,page_url,label
+asu,affiliated,https://thesanfordschool.asu.edu/people/affiliated-faculty,Affiliated Faculty
+asu,emeriti,https://thesanfordschool.asu.edu/people/retired-faculty,Retired Faculty
+gatech,affiliated,https://hsoc.gatech.edu/people/courtesy,Courtesy Appointments
+indiana,affiliated,https://sociology.indiana.edu/about/affiliates/index.html,Affiliate Faculty
+indiana,emeriti,https://sociology.indiana.edu/about/emeriti/index.html,Emeriti Faculty
+msu,affiliated,https://sociology.msu.edu/people/affiliated-faculty.html,Affiliated Faculty
+msu,emeriti,https://sociology.msu.edu/people/emeriti-faculty.html,Emeriti and Retired Faculty
+rutgers,adjunct,https://sociology.rutgers.edu/people/faculty/adjunct-faculty,Adjunct Faculty
+rutgers,emeriti,https://sociology.rutgers.edu/people/faculty/emeritus-faculty,Emeritus Faculty
+tamu,affiliated,https://artsci.tamu.edu/sociology/people/affiliated-faculty.html,Affiliated Faculty
+tamu,emeriti,https://artsci.tamu.edu/sociology/people/retired-faculty.html,Retired Faculty
+uarizona,adjunct,https://sociology.arizona.edu/faculty/adjunct-faculty,Adjunct Faculty
+uarizona,affiliated,https://sociology.arizona.edu/affiliate-faculty,Affiliate Faculty
+uarizona,emeriti,https://sociology.arizona.edu/faculty/emeritus,Emeritus Faculty
+buffalo,emeriti,https://arts-sciences.buffalo.edu/sociology-criminology/faculty/emeritus-faculty.html,Emeritus Faculty
+ucberkeley,affiliated,https://sociology.berkeley.edu/people/affiliated-faculty,Affiliated Faculty
+ucberkeley,emeriti,https://sociology.berkeley.edu/people/emeritus-faculty,Emeritus Faculty
+ucberkeley,visiting,https://sociology.berkeley.edu/people/visiting-faculty,Lecturers
+ucirvine,nontenure,https://www.sociology.uci.edu/people/lecturers.php,Lecturers
+ucirvine,affiliated,https://www.sociology.uci.edu/people/affiliated.php,Affiliated Faculty
+ucirvine,emeriti,https://www.sociology.uci.edu/people/emeritus.php,Emeritus Faculty
+ucla,nontenure,https://soc.ucla.edu/people/faculty/academic-administrator-lecturers/,Academic Administrator & Lecturers
+ucla,joint,https://soc.ucla.edu/people/faculty/joint-faculty/,Joint Faculty
+ucla,emeriti,https://soc.ucla.edu/people/faculty/emeriti/,Emeriti
+ucsd,affiliated,https://sociology.ucsd.edu/people/faculty/affiliated-faculty/isaac-martin.html,Isaac W. Martin
+ucsd,affiliated,https://sociology.ucsd.edu/people/faculty/affiliated-faculty/index.html,Affiliated Faculty
+cuboulder,affiliated,https://www.colorado.edu/sociology/our-people/faculty/faculty-affiliates,Faculty Affiliates
+cuboulder,emeriti,https://www.colorado.edu/sociology/our-people/faculty/emeritus-or-retired-faculty,Emeritus or Retired Faculty
+ufl,emeriti,https://soccrim.clas.ufl.edu/directory/emeritus/,Emeritus Directory
+uiuc,affiliated,https://sociology.illinois.edu/directory/affiliate,Affiliate Faculty
+uiowa,visiting,https://sociology.uiowa.edu/people/visiting-faculty,Visiting Faculty
+uiowa,adjunct,https://sociology.uiowa.edu/adjunct-faculty,Adjunct Faculty
+uiowa,affiliated,https://sociology.uiowa.edu/affiliated-faculty,Affiliated Faculty
+uiowa,emeriti,https://sociology.uiowa.edu/emeritus-faculty,Emeritus Faculty
+ku,affiliated,https://sociology.ku.edu/affiliated-faculty,Affiliated Faculty
+ku,emeriti,https://sociology.ku.edu/emeritus,Emeritus
+ku,nontenure,https://sociology.ku.edu/lecturers,Lecturers
+mizzou,affiliated,https://sociology.missouri.edu/people/affiliate,Affiliates
+mizzou,emeriti,https://sociology.missouri.edu/people/emeritus,Emeriti
+unc,adjunct,https://sociology.unc.edu/people/adjunct-professors/,Adjunct Professors
+unc,emeriti,https://sociology.unc.edu/people/emeritus-professors/,Emeritus Professors
+uoregon,affiliated,https://cas.uoregon.edu/directory/sociology-aff-faculty,Affiliated Faculty
+uoregon,emeriti,https://cas.uoregon.edu/directory/sociology-emeritus,Emeritus
+usf,affiliated,https://www.usf.edu/arts-sciences/departments/sociology/people/affiliated-faculty.aspx,Affiliated Faculty
+uva,affiliated,https://sociology.as.virginia.edu/affiliated-faculty,Affiliated Faculty
+uva,emeriti,https://sociology.as.virginia.edu/emeritus-faculty,Emeritus Faculty
+uw,emeriti,https://soc.washington.edu/people/emeriti,Emeritus Faculty
+uw,affiliated,https://soc.washington.edu/people/adjuncts-affiliates,Adjuncts & Affiliates
+wisc,affiliated,https://sociology.wisc.edu/faculty/sociology-affiliated-faculty/,"Affiliated Faculty, Department of Sociology"
+wisc,emeriti,https://sociology.wisc.edu/faculty/sociology-emeritus-faculty/,Emeritus Faculty – Both Sociology and C&E
+bu,emeriti,https://www.bu.edu/sociology/people/faculty-emeriti/,Faculty Emeriti
+bu,nontenure,https://www.bu.edu/sociology/people/part-time-lecturers/,Lecturers
+bu,affiliated,https://www.bu.edu/sociology/people/affiliate-faculty/,Affiliate Faculty
+dartmouth,visiting,https://sociology.dartmouth.edu/people?profile_type%5B0%5D=1036,Visiting Faculty
+dartmouth,emeriti,https://sociology.dartmouth.edu/people?profile_type%5B0%5D=1166,Emeriti
+dartmouth,affiliated,https://sociology.dartmouth.edu/people?profile_type%5B0%5D=1041,Affiliated Faculty
+duke,emeriti,https://sociology.duke.edu/people/other-faculty/emeriti,Emeriti Faculty
+emory,emeriti,https://sociology.emory.edu/people/associated-adjunct-emeritus.html,"Associated, Adjunct, and Emeritus Faculty"
+gwu,affiliated,https://sociology.columbian.gwu.edu/affiliated-faculty,Full-Time Affiliated Faculty
+gwu,visiting,https://sociology.columbian.gwu.edu/part-time-visiting-faculty,Part-Time & Visiting Faculty
+gwu,emeriti,https://sociology.columbian.gwu.edu/emeritus-faculty,Emeriti Faculty
+northwestern,affiliated,https://sociology.northwestern.edu/people/faculty/affiliated/index.html,Affiliated
+northwestern,emeriti,https://sociology.northwestern.edu/people/faculty/emeriti/index.html,Emeriti
+stanford,affiliated,https://sociology.stanford.edu/people/faculty/affiliated-faculty,Affiliated faculty
+stanford,emeriti,https://sociology.stanford.edu/people/faculty/emeritus-faculty,Emeritus faculty
+uchicago,affiliated,https://sociology.uchicago.edu/people/affiliated-academic-appointees,Affiliated Academic Appointees
+uchicago,emeriti,https://sociology.uchicago.edu/people/emeritus-faculty,Emeritus Faculty
+notredame,emeriti,https://sociology.nd.edu/people/emeriti/,Emeriti
+upenn,affiliated,https://sociology.sas.upenn.edu/people/secondary-appointments,Secondary Appointments
+upenn,emeriti,https://sociology.sas.upenn.edu/people/emeritus,Emeritus
+upenn,adjunct,https://sociology.sas.upenn.edu/people/adjunct,Adjunct
+upenn,nontenure,https://sociology.sas.upenn.edu/people/lecturers,Fellows / Lecturers
+vanderbilt,affiliated,https://as.vanderbilt.edu/sociology/people/?group=affiliated-faculty,Affiliated Faculty
+vanderbilt,emeriti,https://as.vanderbilt.edu/sociology/people/?group=emeriti,Emeriti Faculty
+yale,emeriti,https://sociology.yale.edu/faculty/affiliated-emeritus-faculty,Affiliated Faculty
+yale,affiliated,https://sociology.yale.edu/faculty/academic-affiliates,Academic Affiliates
+utoronto,emeriti,https://www.sociology.utoronto.ca/people/directories/all-faculty?sort_by=ppl_last_name_value&items_per_page=10&fy_uoft_roles_tid%5B%5D=72,Emeriti Faculty

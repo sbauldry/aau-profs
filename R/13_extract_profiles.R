@@ -38,9 +38,13 @@ ids <- intersect(ids, cfg$inst_id)   # hand-profile sites keep their roster reco
 
 for (id in ids) {
   row <- filter(cfg, inst_id == id)
-  roster <- read_csv(file.path(roster_dir, paste0(id, ".csv")), show_col_types = FALSE)
+  # main faculty list plus the sibling lists (emeriti, affiliated, ...), all read as text then typed together
+  rd <- \(f) read_csv(f, show_col_types = FALSE, col_types = cols(.default = "c"))
+  sib_files <- list.files("data/interim/extract_trial_siblings", pattern = paste0("^", id, "__.*[.]csv$"), full.names = TRUE)
+  roster <- bind_rows(rd(file.path(roster_dir, paste0(id, ".csv"))) |> mutate(list_type = "faculty"), map(sib_files, rd)) |>
+    type_convert(col_types = cols(.default = col_guess())) |> mutate(across(c(named_chair, distinguished, review_flag, text_defect), as.logical))
   targets <- roster |>
-    filter(rank %in% c("full", "unknown"), !is.na(profile_url), !row$profile_method %in% c("hand", "none")) |>
+    filter(list_type == "faculty", rank %in% c("full", "unknown"), !is.na(profile_url), !row$profile_method %in% c("hand", "none")) |>
     distinct(profile_url, .keep_all = TRUE) |> slice_head(n = max_n)
   message(sprintf("%s: %d roster records, %d profile targets", id, nrow(roster), nrow(targets)))
 

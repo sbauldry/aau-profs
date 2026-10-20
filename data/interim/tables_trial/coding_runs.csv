@@ -130,8 +130,21 @@ p000407,2026,ku,07037939d48af838998b9a9a8d8d1a2a,3,TRUE,FALSE,NA,model,claude-op
 p000411,2026,ku,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
 p000412,2026,ku,728e24a64090bbbcfc97c943d4250263,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1707,3973
 p000420,2026,ku,383644b6806bae53f528477edc6fd389,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1707,3973
+p001841,2026,miami,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001844,2026,miami,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001849,2026,miami,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001855,2026,miami,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001857,2026,miami,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
 p000430,2026,mizzou,fa1d83e6818383363e7035c3ea11893d,3,TRUE,TRUE,'settler culture' coded culture; may instead indicate indigenous (settler colonialism),model,claude-opus-5-5,v1,1707,3973
 p000432,2026,mizzou,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001858,2026,msu,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001861,2026,msu,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001862,2026,msu,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001863,2026,msu,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001864,2026,msu,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001876,2026,msu,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001878,2026,msu,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001879,2026,msu,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
 p000433,2026,northwestern,dbd7b974eb89bdd32a6ace8af404eb60,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1707,3973
 p000435,2026,northwestern,c729590f5408ef21d322bafdcdd13485,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1707,3973
 p000438,2026,northwestern,5836600ee3d3e8acd35db13203c78e05,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1707,3973
@@ -241,6 +254,12 @@ p000845,2026,tamu,9f8cf2708e63f5fd17e1de8164da7f29,3,FALSE,FALSE,NA,model,claude
 p000857,2026,tufts,5b351b13d3cc4e845eb9d5292b496b95,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1596,4173
 p000860,2026,tufts,1fa40a39c49fe5438a5e99a99fbfa14a,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1596,4173
 p000864,2026,tufts,4ea8883e09cb1186e953ac023ef71e14,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1596,4173
+p001889,2026,tulane,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001893,2026,tulane,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001894,2026,tulane,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001900,2026,tulane,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001901,2026,tulane,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001904,2026,tulane,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
 p000870,2026,uarizona,bc1478c9c0c0fe27f8de2f54ffb13dd2,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1596,4173
 p000873,2026,uarizona,fbe230f15a261aeec64c48cf789e4b4f,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1596,4173
 p000877,2026,uarizona,f2e88b5c4181b3fed0e6c1898f7605c6,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1596,4173
@@ -329,6 +348,11 @@ p001021,2026,ucla,1d4952cb12e1768c7db033e85a1d6cde,2,FALSE,FALSE,NA,model,claude
 p001022,2026,ucla,fa0429296416bc77fcdbc2f6bc0d032a,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1410,3246
 p001023,2026,ucla,01ec6eb647dbc6eb54b3c602765bafda,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1410,3246
 p001024,2026,ucla,19fc9f5dbab65fa5118f79d22ea21ca1,3,TRUE,TRUE,'Social Change' too vague to code,model,claude-opus-5-5,v1,1410,3246
+p001906,2026,ucriverside,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001909,2026,ucriverside,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001910,2026,ucriverside,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001911,2026,ucriverside,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001913,2026,ucriverside,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
 p001025,2026,ucsb,c82fc4a612a81236952cd3dbb72eebc8,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1410,3246
 p001027,2026,ucsb,3e05e2169969c86c35afafe05bc048cc,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1789,4103
 p001028,2026,ucsb,295c489b83c6ac85b7c5beef5b71dc99,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1789,4103
@@ -482,6 +506,28 @@ p001670,2026,utaustin,8cb4308ac8c03ca2971e715eadda3310,1,FALSE,FALSE,NA,model,cl
 p001673,2026,utaustin,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
 p001676,2026,utaustin,4639a3d030ebdedf8c7858bb78115f8e,3,TRUE,TRUE,"'Human Development' ambiguous (possibly children), not coded",model,claude-opus-5-5,v1,1805,4372
 p001682,2026,utaustin,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001923,2026,utoronto,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001926,2026,utoronto,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001949,2026,utoronto,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001956,2026,utoronto,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001959,2026,utoronto,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001963,2026,utoronto,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001967,2026,utoronto,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001968,2026,utoronto,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001981,2026,utoronto,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001983,2026,utoronto,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001984,2026,utoronto,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001988,2026,utoronto,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001992,2026,utoronto,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001993,2026,utoronto,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001994,2026,utoronto,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p002000,2026,utoronto,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p002001,2026,utoronto,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p002003,2026,utoronto,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p002005,2026,utoronto,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p002007,2026,utoronto,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p002018,2026,utoronto,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p002021,2026,utoronto,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
 p001698,2026,uva,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
 p001707,2026,uva,a5a1cc83773af7d1e3596c2a986390ac,3,FALSE,TRUE,"'Social Change' too vague, not coded",model,claude-opus-5-5,v1,1805,4372
 p001709,2026,uva,b0567d5e9f3bd6a51eb0d3803775bb22,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1805,4372

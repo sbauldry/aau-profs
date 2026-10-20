@@ -1,6 +1,6 @@
 # AAU Sociology Full Professors: Schema and Codebook
 
-Version 0.1.20 (draft), October 2026
+Version 0.1.21 (draft), October 2026
 
 ## 1. Purpose and scope
 
@@ -57,6 +57,10 @@ One row per institution per year.
 | `url_status` | chr | How the URL was checked: `reachable`, `reachable_js_rendered` (needs `chromote`), `reachable_names_only`, `reachable_embedded`, `url_confirmed_by_hand_blocked` (site refuses automated access; collect by hand), `no_soc_dept` |
 | `notes` | chr | Free text |
 
+### 3.1a Sibling lists (seed table)
+
+`data/seeds/institution_pages.csv` (`inst_id`, `list_type`, `page_url`, `label`) lists, for each institution, further faculty lists linked from the main faculty page. Candidates are found automatically from the page's links (`R/22_discover_sibling_lists.R`, written to `institution_pages_candidates.csv`) and curated by hand: individual people's pages, centers, fellowships, postdoc and visiting-scholar pages are removed. Institutions where no sibling list was found, or whose lists sit on the main page under headings, have no rows. Review this table each year with the member list.
+
 ### 3.2 `people`
 
 One row per person, stable across years.
@@ -100,6 +104,7 @@ One row per person × year × institution. This is the analytic core.
 | `admin_role` | chr | Current administrative role, e.g., Department Head |
 | `areas_raw` | chr | Research areas exactly as listed on the profile |
 | `listing_section` | chr | Heading the person was listed under on the page (e.g., "Emeriti") |
+| `source_list` | chr | Which list the record came from: `faculty` (the main faculty list) or a sibling list: `emeriti`, `affiliated`, `joint`, `adjunct`, `visiting`, `nontenure` (§8, v0.1.21) |
 | `rank_evidence` | chr | Exact page text supporting `rank`; kept because raw HTML is not archived |
 | `appointment_evidence` | chr | Exact page text supporting `appointment_type` and `joint_units` |
 | `included` | lgl | Meets the inclusion rules in §2; derived by code from the extracted fields, never set by the extraction model |
@@ -307,6 +312,7 @@ This table is the single log of adopted changes that affect comparability across
 | 2026-10 | 0.1.18 | §6 rule 2 made precise: the normalized name is the first token of the first name plus the last token of the last name (letters only, lowercased, diacritics stripped; falls back to `name_raw` when a part is missing), so multi-part surnames key the same whether or not the extractor split them. A key matching more than one prior `person_id` at an institution is ambiguous: no link, flagged. Records with no usable name get no ID and go to hand review. Pre-collection; effective with the first collection year (2026). |
 | 2026-10 | 0.1.19 | §3.5 `changes`: added `detail` (what the code saw, to guide hand review) and defined each `change_type`. Records with an undecided appointment type (`included = NA`) generate no changes; they are listed in a separate unresolved file. `moved` is generated only for one `person_id` at two institutions (ORCID match or hand-confirmed link); a candidate move appears as an `exit` plus a `new_full` with different IDs. Pre-collection; effective with the first collection year (2026). |
 | 2026-10 | 0.1.20 | §3.4 `areas`: added `matched_text` (the exact fragment of `areas_raw` supporting each code, kept as audit evidence like `rank_evidence`). Areas are coded for `included = TRUE` snapshots only; records with no `areas_raw` are left uncoded by rule and flagged without an API call; a record is re-coded only when `areas_raw`, the model, or the prompt version changes, and hand-coded rows are never overwritten. Pre-collection; effective with the first collection year (2026). |
+| 2026-10 | 0.1.21 | Sibling faculty lists (emeriti, affiliated, joint, adjunct, visiting, non-tenure-line) linked from each department's faculty page are now scraped and extracted, so excluded people are kept and auditable as §2 already required. Seed table `data/seeds/institution_pages.csv` lists them per institution (reviewed by hand from automatic discovery). `snapshots.source_list` records which list a record came from. The list decides what a bare title cannot: emeriti, visiting and non-tenure lists set the rank accordingly; affiliated and adjunct lists set `courtesy`; a joint list sets the appointment type to `unknown` (no budgeted share is stated), so those people are undecided. All of these except a settled joint appointment are `included = FALSE`. Scope limit: sibling lists are not paginated and profile pages are not fetched for them. Pre-collection; effective with the first collection year (2026). |
 
 ## 9. Prompt versioning and pinned models
 

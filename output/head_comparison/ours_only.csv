@@ -1,104 +1,104 @@
-inst_id,our_name,our_rank,appointment_type,included,title_raw,listing_section,outcome,person_id
-asu,Becky Ladd,full,primary,TRUE,"Professor, The Sanford School",Faculty,ours only: included full professor not in hand file,p000007
-asu,Carol Martin,full,primary,TRUE,"Director of Research and Professor, The Sanford School",Faculty,ours only: included full professor not in hand file,p000010
-asu,Gary Ladd,full,primary,TRUE,"Associate Director and Professor, The Sanford School",Faculty,ours only: included full professor not in hand file,p000018
-asu,Laura Hanish,full,primary,TRUE,"Executive Director, Sanford Harmony Institute",Faculty,ours only: included full professor not in hand file,p000035
-asu,Leslie Paik,full,primary,TRUE,"Associate Director and Professor, The Sanford School",Faculty,ours only: included full professor not in hand file,p000036
-asu,Rebecca White,full,primary,TRUE,"Professor, The Sanford School",Faculty,ours only: included full professor not in hand file,p000050
-asu,Richard Fabes,full,primary,TRUE,"Director of Innovation and Professor, The Sanford School",Faculty,ours only: included full professor not in hand file,p000051
-asu,Sarah Lindstrom Johnson,full,primary,TRUE,"Professor, The Sanford School",Faculty,ours only: included full professor not in hand file,p000055
-asu,Stephen Kulis,full,primary,TRUE,"Professor, The Sanford School",Faculty,ours only: included full professor not in hand file,p000058
-asu,Stephen Russell,full,primary,TRUE,"Director and Professor, The Sanford School",Faculty,ours only: included full professor not in hand file,p000059
-asu,Steve Elliott,full,primary,TRUE,"Professor, The Sanford School",Faculty,ours only: included full professor not in hand file,p000060
-asu,Tracy Spinrad,full,primary,TRUE,"Professor, The Sanford School",Faculty,ours only: included full professor not in hand file,p000061
-brown,John Eason,full,primary,TRUE,Professor,Faculty,ours only: included full professor not in hand file,p000082
-buffalo,Ashley Barr,full,primary,TRUE,Director of Graduate Studies Professor,Faculty Directory,ours only: included full professor not in hand file,p000130
-buffalo,Hanna Grol-Prokopczyk,full,primary,TRUE,Professor,NA,ours only: included full professor not in hand file,p000136
-buffalo,Mary Nell Trautner,full,primary,TRUE,Professor,NA,ours only: included full professor not in hand file,p000142
-cornell,Bryan Sykes,full,unknown,NA,Professor of Public Policy and Sociology,Department Faculty,ours only: undecided (appointment type unknown),p000160
-cornell,Cristobal Young,full,primary,TRUE,Professor,Department Faculty,ours only: included full professor not in hand file,p000162
-cuboulder,Jillian Turanovic,full,primary,TRUE,Professor,Faculty,ours only: included full professor not in hand file,p000199
-cuboulder,Lori Hunter,full,primary,TRUE,Professor,Faculty,ours only: included full professor not in hand file,p000203
-cwru,Eva Kahana,full,primary,TRUE,Distinguished University Professor and Pierce T. and Elizabeth D. Robson Professor of the Humanities,Faculty,ours only: included full professor not in hand file,p000221
-dartmouth,Emily Walton,full,primary,TRUE,Professor of Sociology,Faculty,ours only: included full professor not in hand file,p000234
-dartmouth,Janice McCabe,full,primary,TRUE,Professor of Sociology,Faculty,ours only: included full professor not in hand file,p000237
-duke,Ashleigh Rosette,full,unknown,NA,James L. Vincent Distinguished Professor of Leadership,Faculty,ours only: undecided (appointment type unknown),p000255
-duke,Christopher Johnston,full,unknown,NA,Professor of Political Science,Faculty,ours only: undecided (appointment type unknown),p000260
-duke,Emily Ryo,full,unknown,NA,Charles L. B. Lowndes Distinguished Professor of Law,Faculty,ours only: undecided (appointment type unknown),p000268
-duke,Jessi Streib,full,primary,TRUE,Professor of Sociology,Faculty,ours only: included full professor not in hand file,p000274
-duke,Jonathon Cummings,full,unknown,NA,Professor of Business Administration,Faculty,ours only: undecided (appointment type unknown),p000276
-duke,Lee Baker,full,unknown,NA,Professor of Cultural Anthropology,Faculty,ours only: undecided (appointment type unknown),p000279
-duke,M. Merli,full,unknown,NA,Professor in the Sanford School of Public Policy,Faculty,ours only: undecided (appointment type unknown),p000282
-duke,Matthew Dupre,full,unknown,NA,Professor in Population Health Sciences,Faculty,ours only: undecided (appointment type unknown),p000287
-duke,Michaeline Crichlow,full,unknown,NA,Professor in the Department of African and African American Studies,Faculty,ours only: undecided (appointment type unknown),p000288
-duke,Nicholas Carnes,full,unknown,NA,Z. Smith Reynolds Distinguished Professor of Public Policy Studies,Faculty,ours only: undecided (appointment type unknown),p000289
-emory,Chikako Ozawa-de Silva,full,unknown,NA,Professor (REALC) and Graduate Faculty in Emory Sociology,Faculty,ours only: undecided (appointment type unknown),p000302
-gatech,Bill Winders,full,primary,TRUE,"Associate Dean for Faculty Development, Professor",Faculty,ours only: included full professor not in hand file,p000329
-gatech,Eric Schatzberg,full,primary,TRUE,Professor,Faculty,ours only: included full professor not in hand file,p000339
-gatech,Hanchao Lu,full,primary,TRUE,Professor,Faculty,ours only: included full professor not in hand file,p000343
-gatech,John Tone,full,primary,TRUE,"Professor of History, School of History and Sociology",Faculty,ours only: included full professor not in hand file,p000347
-gatech,Johnny Smith,full,primary,TRUE,"Julius C. ""Bud"" Shaw Professor of Sports History",Faculty,ours only: included full professor not in hand file,p000348
-gatech,Willie Pearson,full,primary,TRUE,Retired Regents Professor,Faculty,ours only: included full professor not in hand file,p000368
-indiana,Youngjoo Cha,full,primary,TRUE,"Professor, Sociology",Faculty,ours only: included full professor not in hand file,p000404
-ku,Tracey LaPierre,full,primary,TRUE,Professor,Sociology Faculty,ours only: included full professor not in hand file,p000420
-msu,Stephanie Nawyn,full,primary,TRUE,Professor | Associate Chair,Tenure-System Faculty,ours only: included full professor not in hand file,p001876
-notredame,Atalia Omer,full,unknown,NA,Professor Keough School of Global Affairs,Concurrent,ours only: undecided (appointment type unknown),p000469
-notredame,Claire Yang,full,primary,TRUE,Duda Family Professor,Faculty,ours only: included full professor not in hand file,p000471
-notredame,Jason Springs,full,unknown,NA,Professor Kroc Institute for International Peace Studies,Concurrent,ours only: undecided (appointment type unknown),p000482
-osu,Donna Bobbitt-Zeher,full,primary,TRUE,Professor - Marion,Regional Faculty,ours only: included full professor not in hand file,p000528
-osu,Eric Schoon,full,primary,TRUE,Professor,Faculty,ours only: included full professor not in hand file,p000534
-osu,Hollie Nzitatira,full,primary,TRUE,Professor and Director of Undergraduate Studies,Faculty,ours only: included full professor not in hand file,p000537
-psu,Holly Nguyen,full,primary,TRUE,Director of Graduate Studies (DGS) in Criminology; Professor of Sociology and Criminology,Tenure Track Faculty,ours only: included full professor not in hand file,p000621
-psu,Jonathan Daw,full,unknown,NA,Professor of Sociology and Demography,Tenure Track Faculty,ours only: undecided (appointment type unknown),p000627
-rice,Corey Abramson,full,primary,TRUE,"Professor, Sociology",Faculty,ours only: included full professor not in hand file,p000701
-rutgers,Joanna Kempner,full,primary,TRUE,Professor,Faculty,ours only: included full professor not in hand file,p000742
-rutgers,Rina Bliss,full,primary,TRUE,Professor,Faculty,ours only: included full professor not in hand file,p000755
-stanford,David Rehkopf,full,unknown,NA,"Professor of Sociology, of Epidemiology and Population Health, of Medicine (Primary Care and Population Health)",Faculty,ours only: undecided (appointment type unknown),p000765
-stonybrook,Angela Jones,full,unknown,NA,Professor,NA,ours only: undecided (appointment type unknown),p000781
-stonybrook,Carrie Shandra,full,primary,TRUE,Professor,Faculty,ours only: included full professor not in hand file,p000783
-tamu,Robert Durán,full,primary,TRUE,Director of Graduate Recruitment; Professor,Faculty,ours only: included full professor not in hand file,p000842
-uarizona,Daniel Martínez,full,primary,TRUE,Professor Distinguished Scholar,NA,ours only: included full professor not in hand file,p000873
-uarizona,Ronald Breiger,full,primary,TRUE,Regents Professor,Directory,ours only: included full professor not in hand file,p000897
-ucberkeley,Laura Enriquez,full,primary,TRUE,Professor of the Graduate School,Faculty,ours only: included full professor not in hand file,p000926
-ucberkeley,Reuben Miller,full,primary,TRUE,Chancellor's Professor,Faculty,ours only: included full professor not in hand file,p000935
-ucirvine,Rocío Rosales,full,primary,TRUE,Inclusive Excellence Professor of Sociology; Associate Dean of Faculty Development and Diversity,NA,ours only: included full professor not in hand file,p000987
-ucla,Naomi Sugie,full,primary,TRUE,Professor,NA,ours only: included full professor not in hand file,p001013
-ucsb,Alicia Cast,full,primary,TRUE,Professor,In Memoriam,ours only: included full professor not in hand file,p001025
-ucsb,G. Daniel,full,primary,TRUE,Professor,In Memoriam,ours only: included full professor not in hand file,p001048
-ucsb,John Baldwin,full,primary,TRUE,Professor,NA,ours only: included full professor not in hand file,p001060
-ucsb,John Mohr,full,primary,TRUE,Professor,In Memoriam,ours only: included full professor not in hand file,p001062
-ucsb,Kevin Whitehead,full,primary,TRUE,Professor,Faculty,ours only: included full professor not in hand file,p001068
-ucsb,Victor Rios,full,primary,TRUE,"Professor, MacArthur Chair",Faculty,ours only: included full professor not in hand file,p001101
-ucsc,Jessica Taft,full,unknown,NA,Professor Faculty Director of the Dolores Huerta Research Center for the Americas,NA,ours only: undecided (appointment type unknown),p001128
-ufl,Abigail Fagan,full,primary,TRUE,"Professor of Criminology, Law & Society",Faculty,ours only: included full professor not in hand file,p001211
-ufl,Jodi Lane,full,primary,TRUE,Professor and Associate Chair,Faculty,ours only: included full professor not in hand file,p001229
-uiowa,Stephanie DiPietro,full,primary,TRUE,Professor,Faculty,ours only: included full professor not in hand file,p001273
-umd,korzeniewicz Korzeniewicz,full,primary,TRUE,Professor in the Department of Sociology and the Associate Dean for Faculty Affairs in the College of Behavioral and Social Sciences (BSOS),Current Faculty,ours only: included full professor not in hand file,p001317
-umd,Long Doan,full,primary,TRUE,Professor and Director of Graduate Studies,Current Faculty,ours only: included full professor not in hand file,p001320
-umn,Elizabeth Wrigley-Field,full,primary,TRUE,"Professor, Sociology",Regular Faculty,ours only: included full professor not in hand file,p001353
-umn,Michael Goldman,full,primary,TRUE,"Professor, Sociology; Global Studies; Affiliate Faculty, Geography, Environment & Society; Race, Indigeneity, Disability, Gender & Sexuality Studies",Regular Faculty,ours only: included full professor not in hand file,p001370
-uoregon,Aaron Gullickson,full,primary,TRUE,Professor,NA,ours only: included full professor not in hand file,p001419
-usc,Pedro Noguera,full,unknown,NA,Emery Stoops and Joyce King Stoops Dean of the Rossier School of Education and a Distinguished Professor of Education,NA,ours only: undecided (appointment type unknown),p001525
-usc,Peer Fiss,full,unknown,NA,Jill and Frank Fertitta Chair in Business Administration and Professor of Management and Organization and Sociology,NA,ours only: undecided (appointment type unknown),p001526
-usf,Beatriz Padilla,full,primary,TRUE,Professor,Directory,ours only: included full professor not in hand file,p001534
-utaustin,David Schaefer,full,primary,TRUE,"Professor, Department of Sociology",NA,ours only: included full professor not in hand file,p001633
-utaustin,S. Watkins,full,unknown,NA,"Ernest A. Sharpe Centennial Professor, Department of Radio-Television-Film, School of Journalism and Media, Moody College of Communication; Director, Institute for Digital Media Innovation; Director, IC2 (Affiliate)",NA,ours only: undecided (appointment type unknown),p001679
-utoronto,Anna Korteweg,full,primary,TRUE,Professor,NA,ours only: included full professor not in hand file,p001923
-utoronto,Arjumand Siddiqi,full,unknown,NA,"Professor, Dalla Lana School of Public Health",Faculty Directory,ours only: undecided (appointment type unknown),p001924
-utoronto,Jessica Fields,full,primary,TRUE,"Professor; Vice-Dean, Faculty Affairs, Equity, and Success, UTSC",Faculty Directory,ours only: included full professor not in hand file,p001956
-utoronto,John Hannigan,full,primary,TRUE,"Professor; Associate Chair, Faculty and Research, UTSC",Faculty Directory,ours only: included full professor not in hand file,p001959
-utoronto,Josée Johnston,full,primary,TRUE,"Professor; Chair, Tri-Campus Graduate Department",NA,ours only: included full professor not in hand file,p001967
-utoronto,Kelly Hannah-Moffat,full,unknown,NA,"Professor, Centre for Criminology and Sociolegal Studies",Faculty Directory,ours only: undecided (appointment type unknown),p001974
-utoronto,Mahua Sarkar,full,primary,TRUE,Professor,Faculty Directory,ours only: included full professor not in hand file,p001981
-utoronto,Melissa Milkie,full,primary,TRUE,Professor,Faculty Directory,ours only: included full professor not in hand file,p001983
-utoronto,Michelle Silver,full,primary,TRUE,Professor,Faculty Directory,ours only: included full professor not in hand file,p001984
-utoronto,Monica Boyd,full,primary,TRUE,"Professor; Canada Research Chair in Immigration, Inequality, and Public Policy",Faculty Directory,ours only: included full professor not in hand file,p001988
-utoronto,Patricia Landolt,full,primary,TRUE,Professor of Sociology,NA,ours only: included full professor not in hand file,p001992
-utoronto,Paula Maurutto,full,primary,TRUE,Professor,NA,ours only: included full professor not in hand file,p001993
-utoronto,Philip Goodman,full,primary,TRUE,"Professor; Department Chair, UTM",Faculty Directory,ours only: included full professor not in hand file,p001994
-utoronto,Samuel Lucas,full,unknown,NA,"Professor, OISE - Department of Leadership, Higher and Adult Education",NA,ours only: undecided (appointment type unknown),p002002
-utoronto,Sandy Welsh,full,primary,TRUE,"Professor; Vice-Provost, Students",Faculty Directory,ours only: included full professor not in hand file,p002003
-utoronto,Scott Davies,full,unknown,NA,"Professor, OISE",Faculty Directory,ours only: undecided (appointment type unknown),p002004
-utoronto,Sida Liu,full,unknown,NA,Professor (Status Only),NA,ours only: undecided (appointment type unknown),p002008
-utoronto,Zaheer Baber,full,primary,TRUE,Professor,Faculty Directory,ours only: included full professor not in hand file,p002021
-uw,Zack Almquist,full,primary,TRUE,Professor,Core Faculty,ours only: included full professor not in hand file,p001738
+inst_id,our_name,our_rank,appointment_type,included,title_raw,listing_section,source_list,outcome,person_id
+asu,Becky Ladd,full,primary,TRUE,"Professor, The Sanford School",Faculty,faculty,ours only: included full professor not in hand file,p000007
+asu,Carol Martin,full,primary,TRUE,"Director of Research and Professor, The Sanford School",Faculty,faculty,ours only: included full professor not in hand file,p000010
+asu,Gary Ladd,full,primary,TRUE,"Associate Director and Professor, The Sanford School",Faculty,faculty,ours only: included full professor not in hand file,p000018
+asu,Laura Hanish,full,primary,TRUE,"Executive Director, Sanford Harmony Institute",Faculty,faculty,ours only: included full professor not in hand file,p000035
+asu,Leslie Paik,full,primary,TRUE,"Associate Director and Professor, The Sanford School",Faculty,faculty,ours only: included full professor not in hand file,p000036
+asu,Rebecca White,full,primary,TRUE,"Professor, The Sanford School",Faculty,faculty,ours only: included full professor not in hand file,p000050
+asu,Richard Fabes,full,primary,TRUE,"Director of Innovation and Professor, The Sanford School",Faculty,faculty,ours only: included full professor not in hand file,p000051
+asu,Sarah Lindstrom Johnson,full,primary,TRUE,"Professor, The Sanford School",Faculty,faculty,ours only: included full professor not in hand file,p000055
+asu,Stephen Kulis,full,primary,TRUE,"Professor, The Sanford School",Faculty,faculty,ours only: included full professor not in hand file,p000058
+asu,Stephen Russell,full,primary,TRUE,"Director and Professor, The Sanford School",Faculty,faculty,ours only: included full professor not in hand file,p000059
+asu,Steve Elliott,full,primary,TRUE,"Professor, The Sanford School",Faculty,faculty,ours only: included full professor not in hand file,p000060
+asu,Tracy Spinrad,full,primary,TRUE,"Professor, The Sanford School",Faculty,faculty,ours only: included full professor not in hand file,p000061
+brown,John Eason,full,primary,TRUE,Professor,Faculty,faculty,ours only: included full professor not in hand file,p000082
+buffalo,Ashley Barr,full,primary,TRUE,Director of Graduate Studies Professor,Faculty Directory,faculty,ours only: included full professor not in hand file,p000130
+buffalo,Hanna Grol-Prokopczyk,full,primary,TRUE,Professor,NA,faculty,ours only: included full professor not in hand file,p000136
+buffalo,Mary Nell Trautner,full,primary,TRUE,Professor,NA,faculty,ours only: included full professor not in hand file,p000142
+cornell,Bryan Sykes,full,unknown,NA,Professor of Public Policy and Sociology,Department Faculty,faculty,ours only: undecided (appointment type unknown),p000160
+cornell,Cristobal Young,full,primary,TRUE,Professor,Department Faculty,faculty,ours only: included full professor not in hand file,p000162
+cuboulder,Jillian Turanovic,full,primary,TRUE,Professor,Faculty,faculty,ours only: included full professor not in hand file,p000199
+cuboulder,Lori Hunter,full,primary,TRUE,Professor,Faculty,faculty,ours only: included full professor not in hand file,p000203
+cwru,Eva Kahana,full,primary,TRUE,Distinguished University Professor and Pierce T. and Elizabeth D. Robson Professor of the Humanities,Faculty,faculty,ours only: included full professor not in hand file,p000221
+dartmouth,Emily Walton,full,primary,TRUE,Professor of Sociology,Faculty,faculty,ours only: included full professor not in hand file,p000234
+dartmouth,Janice McCabe,full,primary,TRUE,Professor of Sociology,Faculty,faculty,ours only: included full professor not in hand file,p000237
+duke,Ashleigh Rosette,full,unknown,NA,James L. Vincent Distinguished Professor of Leadership,Faculty,faculty,ours only: undecided (appointment type unknown),p000255
+duke,Christopher Johnston,full,unknown,NA,Professor of Political Science,Faculty,faculty,ours only: undecided (appointment type unknown),p000260
+duke,Emily Ryo,full,unknown,NA,Charles L. B. Lowndes Distinguished Professor of Law,Faculty,faculty,ours only: undecided (appointment type unknown),p000268
+duke,Jessi Streib,full,primary,TRUE,Professor of Sociology,Faculty,faculty,ours only: included full professor not in hand file,p000274
+duke,Jonathon Cummings,full,unknown,NA,Professor of Business Administration,Faculty,faculty,ours only: undecided (appointment type unknown),p000276
+duke,Lee Baker,full,unknown,NA,Professor of Cultural Anthropology,Faculty,faculty,ours only: undecided (appointment type unknown),p000279
+duke,M. Merli,full,unknown,NA,Professor in the Sanford School of Public Policy,Faculty,faculty,ours only: undecided (appointment type unknown),p000282
+duke,Matthew Dupre,full,unknown,NA,Professor in Population Health Sciences,Faculty,faculty,ours only: undecided (appointment type unknown),p000287
+duke,Michaeline Crichlow,full,unknown,NA,Professor in the Department of African and African American Studies,Faculty,faculty,ours only: undecided (appointment type unknown),p000288
+duke,Nicholas Carnes,full,unknown,NA,Z. Smith Reynolds Distinguished Professor of Public Policy Studies,Faculty,faculty,ours only: undecided (appointment type unknown),p000289
+emory,Chikako Ozawa-de Silva,full,unknown,NA,Professor (REALC) and Graduate Faculty in Emory Sociology,Faculty,faculty,ours only: undecided (appointment type unknown),p000302
+gatech,Bill Winders,full,primary,TRUE,"Associate Dean for Faculty Development, Professor",Faculty,faculty,ours only: included full professor not in hand file,p000329
+gatech,Eric Schatzberg,full,primary,TRUE,Professor,Faculty,faculty,ours only: included full professor not in hand file,p000339
+gatech,Hanchao Lu,full,primary,TRUE,Professor,Faculty,faculty,ours only: included full professor not in hand file,p000343
+gatech,John Tone,full,primary,TRUE,"Professor of History, School of History and Sociology",Faculty,faculty,ours only: included full professor not in hand file,p000347
+gatech,Johnny Smith,full,primary,TRUE,"Julius C. ""Bud"" Shaw Professor of Sports History",Faculty,faculty,ours only: included full professor not in hand file,p000348
+gatech,Willie Pearson,full,primary,TRUE,Retired Regents Professor,Faculty,faculty,ours only: included full professor not in hand file,p000368
+indiana,Youngjoo Cha,full,primary,TRUE,"Professor, Sociology",Faculty,faculty,ours only: included full professor not in hand file,p000404
+ku,Tracey LaPierre,full,primary,TRUE,Professor,Sociology Faculty,faculty,ours only: included full professor not in hand file,p000420
+msu,Stephanie Nawyn,full,primary,TRUE,Professor | Associate Chair,Tenure-System Faculty,faculty,ours only: included full professor not in hand file,p001876
+notredame,Atalia Omer,full,unknown,NA,Professor Keough School of Global Affairs,Concurrent,faculty,ours only: undecided (appointment type unknown),p000469
+notredame,Claire Yang,full,primary,TRUE,Duda Family Professor,Faculty,faculty,ours only: included full professor not in hand file,p000471
+notredame,Jason Springs,full,unknown,NA,Professor Kroc Institute for International Peace Studies,Concurrent,faculty,ours only: undecided (appointment type unknown),p000482
+osu,Donna Bobbitt-Zeher,full,primary,TRUE,Professor - Marion,Regional Faculty,faculty,ours only: included full professor not in hand file,p000528
+osu,Eric Schoon,full,primary,TRUE,Professor,Faculty,faculty,ours only: included full professor not in hand file,p000534
+osu,Hollie Nzitatira,full,primary,TRUE,Professor and Director of Undergraduate Studies,Faculty,faculty,ours only: included full professor not in hand file,p000537
+psu,Holly Nguyen,full,primary,TRUE,Director of Graduate Studies (DGS) in Criminology; Professor of Sociology and Criminology,Tenure Track Faculty,faculty,ours only: included full professor not in hand file,p000621
+psu,Jonathan Daw,full,unknown,NA,Professor of Sociology and Demography,Tenure Track Faculty,faculty,ours only: undecided (appointment type unknown),p000627
+rice,Corey Abramson,full,primary,TRUE,"Professor, Sociology",Faculty,faculty,ours only: included full professor not in hand file,p000701
+rutgers,Joanna Kempner,full,primary,TRUE,Professor,Faculty,faculty,ours only: included full professor not in hand file,p000742
+rutgers,Rina Bliss,full,primary,TRUE,Professor,Faculty,faculty,ours only: included full professor not in hand file,p000755
+stanford,David Rehkopf,full,unknown,NA,"Professor of Sociology, of Epidemiology and Population Health, of Medicine (Primary Care and Population Health)",Faculty,faculty,ours only: undecided (appointment type unknown),p000765
+stonybrook,Angela Jones,full,unknown,NA,Professor,NA,faculty,ours only: undecided (appointment type unknown),p000781
+stonybrook,Carrie Shandra,full,primary,TRUE,Professor,Faculty,faculty,ours only: included full professor not in hand file,p000783
+tamu,Robert Durán,full,primary,TRUE,Director of Graduate Recruitment; Professor,Faculty,faculty,ours only: included full professor not in hand file,p000842
+uarizona,Daniel Martínez,full,primary,TRUE,Professor Distinguished Scholar,NA,faculty,ours only: included full professor not in hand file,p000873
+uarizona,Ronald Breiger,full,primary,TRUE,Regents Professor,Directory,faculty,ours only: included full professor not in hand file,p000897
+ucberkeley,Laura Enriquez,full,primary,TRUE,Professor of the Graduate School,Faculty,faculty,ours only: included full professor not in hand file,p000926
+ucberkeley,Reuben Miller,full,primary,TRUE,Chancellor's Professor,Faculty,faculty,ours only: included full professor not in hand file,p000935
+ucirvine,Rocío Rosales,full,primary,TRUE,Inclusive Excellence Professor of Sociology; Associate Dean of Faculty Development and Diversity,NA,faculty,ours only: included full professor not in hand file,p000987
+ucla,Naomi Sugie,full,primary,TRUE,Professor,NA,faculty,ours only: included full professor not in hand file,p001013
+ucsb,Alicia Cast,full,primary,TRUE,Professor,In Memoriam,faculty,ours only: included full professor not in hand file,p001025
+ucsb,G. Daniel,full,primary,TRUE,Professor,In Memoriam,faculty,ours only: included full professor not in hand file,p001048
+ucsb,John Baldwin,full,primary,TRUE,Professor,NA,faculty,ours only: included full professor not in hand file,p001060
+ucsb,John Mohr,full,primary,TRUE,Professor,In Memoriam,faculty,ours only: included full professor not in hand file,p001062
+ucsb,Kevin Whitehead,full,primary,TRUE,Professor,Faculty,faculty,ours only: included full professor not in hand file,p001068
+ucsb,Victor Rios,full,primary,TRUE,"Professor, MacArthur Chair",Faculty,faculty,ours only: included full professor not in hand file,p001101
+ucsc,Jessica Taft,full,unknown,NA,Professor Faculty Director of the Dolores Huerta Research Center for the Americas,NA,faculty,ours only: undecided (appointment type unknown),p001128
+ufl,Abigail Fagan,full,primary,TRUE,"Professor of Criminology, Law & Society",Faculty,faculty,ours only: included full professor not in hand file,p001211
+ufl,Jodi Lane,full,primary,TRUE,Professor and Associate Chair,Faculty,faculty,ours only: included full professor not in hand file,p001229
+uiowa,Stephanie DiPietro,full,primary,TRUE,Professor,Faculty,faculty,ours only: included full professor not in hand file,p001273
+umd,korzeniewicz Korzeniewicz,full,primary,TRUE,Professor in the Department of Sociology and the Associate Dean for Faculty Affairs in the College of Behavioral and Social Sciences (BSOS),Current Faculty,faculty,ours only: included full professor not in hand file,p001317
+umd,Long Doan,full,primary,TRUE,Professor and Director of Graduate Studies,Current Faculty,faculty,ours only: included full professor not in hand file,p001320
+umn,Elizabeth Wrigley-Field,full,primary,TRUE,"Professor, Sociology",Regular Faculty,faculty,ours only: included full professor not in hand file,p001353
+umn,Michael Goldman,full,primary,TRUE,"Professor, Sociology; Global Studies; Affiliate Faculty, Geography, Environment & Society; Race, Indigeneity, Disability, Gender & Sexuality Studies",Regular Faculty,faculty,ours only: included full professor not in hand file,p001370
+uoregon,Aaron Gullickson,full,primary,TRUE,Professor,NA,faculty,ours only: included full professor not in hand file,p001419
+usc,Pedro Noguera,full,unknown,NA,Emery Stoops and Joyce King Stoops Dean of the Rossier School of Education and a Distinguished Professor of Education,NA,faculty,ours only: undecided (appointment type unknown),p001525
+usc,Peer Fiss,full,unknown,NA,Jill and Frank Fertitta Chair in Business Administration and Professor of Management and Organization and Sociology,NA,faculty,ours only: undecided (appointment type unknown),p001526
+usf,Beatriz Padilla,full,primary,TRUE,Professor,Directory,faculty,ours only: included full professor not in hand file,p001534
+utaustin,David Schaefer,full,primary,TRUE,"Professor, Department of Sociology",NA,faculty,ours only: included full professor not in hand file,p001633
+utaustin,S. Watkins,full,unknown,NA,"Ernest A. Sharpe Centennial Professor, Department of Radio-Television-Film, School of Journalism and Media, Moody College of Communication; Director, Institute for Digital Media Innovation; Director, IC2 (Affiliate)",NA,faculty,ours only: undecided (appointment type unknown),p001679
+utoronto,Anna Korteweg,full,primary,TRUE,Professor,NA,faculty,ours only: included full professor not in hand file,p001923
+utoronto,Arjumand Siddiqi,full,unknown,NA,"Professor, Dalla Lana School of Public Health",Faculty Directory,faculty,ours only: undecided (appointment type unknown),p001924
+utoronto,Jessica Fields,full,primary,TRUE,"Professor; Vice-Dean, Faculty Affairs, Equity, and Success, UTSC",Faculty Directory,faculty,ours only: included full professor not in hand file,p001956
+utoronto,John Hannigan,full,primary,TRUE,"Professor; Associate Chair, Faculty and Research, UTSC",Faculty Directory,faculty,ours only: included full professor not in hand file,p001959
+utoronto,Josée Johnston,full,primary,TRUE,"Professor; Chair, Tri-Campus Graduate Department",NA,faculty,ours only: included full professor not in hand file,p001967
+utoronto,Kelly Hannah-Moffat,full,unknown,NA,"Professor, Centre for Criminology and Sociolegal Studies",Faculty Directory,faculty,ours only: undecided (appointment type unknown),p001974
+utoronto,Mahua Sarkar,full,primary,TRUE,Professor,Faculty Directory,faculty,ours only: included full professor not in hand file,p001981
+utoronto,Melissa Milkie,full,primary,TRUE,Professor,Faculty Directory,faculty,ours only: included full professor not in hand file,p001983
+utoronto,Michelle Silver,full,primary,TRUE,Professor,Faculty Directory,faculty,ours only: included full professor not in hand file,p001984
+utoronto,Monica Boyd,full,primary,TRUE,"Professor; Canada Research Chair in Immigration, Inequality, and Public Policy",Faculty Directory,faculty,ours only: included full professor not in hand file,p001988
+utoronto,Patricia Landolt,full,primary,TRUE,Professor of Sociology,NA,faculty,ours only: included full professor not in hand file,p001992
+utoronto,Paula Maurutto,full,primary,TRUE,Professor,NA,faculty,ours only: included full professor not in hand file,p001993
+utoronto,Philip Goodman,full,primary,TRUE,"Professor; Department Chair, UTM",Faculty Directory,faculty,ours only: included full professor not in hand file,p001994
+utoronto,Samuel Lucas,full,unknown,NA,"Professor, OISE - Department of Leadership, Higher and Adult Education",NA,faculty,ours only: undecided (appointment type unknown),p002002
+utoronto,Sandy Welsh,full,primary,TRUE,"Professor; Vice-Provost, Students",Faculty Directory,faculty,ours only: included full professor not in hand file,p002003
+utoronto,Scott Davies,full,unknown,NA,"Professor, OISE",Faculty Directory,faculty,ours only: undecided (appointment type unknown),p002004
+utoronto,Sida Liu,full,unknown,NA,Professor (Status Only),NA,faculty,ours only: undecided (appointment type unknown),p002008
+utoronto,Zaheer Baber,full,primary,TRUE,Professor,Faculty Directory,faculty,ours only: included full professor not in hand file,p002021
+uw,Zack Almquist,full,primary,TRUE,Professor,Core Faculty,faculty,ours only: included full professor not in hand file,p001738

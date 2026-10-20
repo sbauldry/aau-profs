@@ -50,3 +50,20 @@ What this means:
 - The pipeline's Indiana, Iowa and UCLA records are complete for the *current faculty* list, so the "hand only" differences are emeriti, as the user's file includes some emeritus faculty. They are not extraction misses.
 - Emeriti and affiliated people are not in our tables at all, although CLAUDE.md and codebook §2 say exclusions are kept with `included = FALSE` so they are auditable. This is a gap between the design and the scraper.
 - Joint faculty lists (UCLA) matter for inclusion: codebook §2 includes a formal joint appointment with a budgeted share in sociology, which the page title alone does not establish.
+
+## After scraping the sibling lists (2026-10-20)
+
+Sibling lists (emeriti, affiliated, joint, adjunct, visiting, non-tenure) are now scraped (`R/22_*`, `R/23_*`, `data/seeds/institution_pages.csv`) and kept as excluded records. Rerunning the comparison (611 hand rows, 57 institutions):
+
+| Outcome | n |
+|---|---|
+| Agree (ours = included full professor) | 483 |
+| In both; ours undecided (appointment type unknown) | 57 |
+| In both; ours excludes, found on an emeriti list | 17 |
+| In both; ours excludes, emeritus by title or heading on the main list | 15 |
+| In both; ours excludes, courtesy or affiliated | 9 |
+| In both; ours excludes, unknown rank | 11 |
+| In both; ours excludes, joint list / other | 3 |
+| Hand only | 16 |
+
+Hand-only names fell from 39 to 16. The 16: Guthrie, Powers, Wallace (ASU); Livingston (GWU, not soc); Marquart-Pyatt (MSU, not soc); Fleming (Stony Brook); Schaefer (UC Irvine); Brint, Nieri (UC Riverside, partial roster); Ghaziani (UCSB); Korzeniewicz (Maryland, extracted with surname only); Harris, Yang (UNC); Lakoff (USC); Camacho (Utah); Farrell (Yale, not soc). Still to be checked against the live pages.

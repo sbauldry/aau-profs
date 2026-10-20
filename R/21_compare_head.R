@@ -44,7 +44,7 @@ ppl <- read_csv(file.path(out_dir, "people.csv"), show_col_types = FALSE, col_ty
 ours <- snap |> inner_join(select(ppl, person_id, name_first, name_middle, name_last), by = "person_id") |>
   mutate(our_name = paste(name_first, name_last), first_tok = tok1(name_first), last_tok = tokn(name_last),
          given_toks = map2_chr(name_first, name_middle, \(a, b) paste(norm_text(paste(a, b)), collapse = " "))) |>
-  select(person_id, inst_id, our_name, given_toks, first_tok, last_tok, our_rank = rank, appointment_type, included, title_raw, listing_section, review_flag)
+  select(person_id, inst_id, our_name, given_toks, first_tok, last_tok, our_rank = rank, appointment_type, included, title_raw, listing_section, source_list, review_flag)
 
 # ---- institution coverage ----
 cfg <- read_csv("data/seeds/institutions_seed.csv", show_col_types = FALSE) |> select(inst_id, url_status)
@@ -108,16 +108,16 @@ h_all <- h_all |> mutate(
     is.na(tier) ~ "hand only: not in our data for this institution",
     included %in% TRUE ~ "agree: in both, ours = included full professor",
     is.na(included) ~ "in both, ours undecided (appointment type unknown)",
-    TRUE ~ paste0("in both, ours excludes: rank=", our_rank, ", appointment=", appointment_type)),
+    TRUE ~ paste0("in both, ours excludes: rank=", our_rank, ", appointment=", appointment_type, ", list=", source_list)),
   expected = case_when(!is.na(hand_note) & str_detect(hand_note, "emerit") ~ "hand note: emeritus",
                        !is.na(hand_note) & hand_note == "not soc" ~ "hand note: not sociology", TRUE ~ NA_character_))
 
-o_un <- o_un |> filter(included %in% TRUE | is.na(included)) |>
+o_un <- o_un |> filter(source_list == "faculty", included %in% TRUE | is.na(included)) |>
   mutate(outcome = if_else(included %in% TRUE, "ours only: included full professor not in hand file", "ours only: undecided (appointment type unknown)"))
 
 write_csv(h_all |> select(inst_id, hand_name, university, hand_note, outcome, expected, tier, our_name, our_rank, appointment_type, included, title_raw,
-                          listing_section, also_in_ours_at, person_id, hand_row), file.path(res_dir, "hand_vs_ours.csv"))
-write_csv(o_un |> select(inst_id, our_name, our_rank, appointment_type, included, title_raw, listing_section, outcome, person_id), file.path(res_dir, "ours_only.csv"))
+                          listing_section, source_list, also_in_ours_at, person_id, hand_row), file.path(res_dir, "hand_vs_ours.csv"))
+write_csv(o_un |> select(inst_id, our_name, our_rank, appointment_type, included, title_raw, listing_section, source_list, outcome, person_id), file.path(res_dir, "ours_only.csv"))
 write_csv(coverage, file.path(res_dir, "institutions.csv"))
 
 summ <- full_join(

@@ -19,6 +19,8 @@ build_tables <- function(in_dir, run_year, out_dir) {
     mutate(across(c(named_chair, distinguished, review_flag, text_defect, included, has_profile), as.logical),
            phd_year = as.integer(phd_year))
 
+  if (!"list_type" %in% names(merged)) merged$list_type <- NA_character_   # merged files from before sibling lists
+
   # Name parts: fill what the extractor left empty from name_raw (before the first comma).
   raw1 <- str_remove(coalesce(merged$name_raw, ""), ",.*$")
   cur <- merged |>
@@ -34,7 +36,7 @@ build_tables <- function(in_dir, run_year, out_dir) {
 
   # One record per person per institution: keep the fuller one, flag that duplicates were merged.
   cur <- cur |> mutate(.filled = rowSums(!is.na(pick(everything())))) |>
-    group_by(inst_id, name_key) |> arrange(desc(has_profile), desc(.filled), .by_group = TRUE) |>
+    group_by(inst_id, name_key) |> arrange(desc(coalesce(list_type, "faculty") == "faculty"), desc(has_profile), desc(.filled), .by_group = TRUE) |>
     mutate(dup_n = n()) |> slice_head(n = 1) |> ungroup() |> select(-.filled)
 
   # Same name at more than one institution in one year: possible second AAU appointment, or two people.
@@ -77,7 +79,7 @@ build_tables <- function(in_dir, run_year, out_dir) {
            review_flag = coalesce(review_flag, FALSE) | !is.na(cand_note) | !is.na(cross_note) | dup_n > 1,
            html_file = NA_character_) |>   # raw HTML is a local working copy; no path is recorded in the trial
     transmute(person_id, year, inst_id, rank, title_raw, named_chair, distinguished, appointment_type,
-              joint_units, admin_role, areas_raw, listing_section, rank_evidence, appointment_evidence,
+              joint_units, admin_role, areas_raw, listing_section, source_list = coalesce(list_type, "faculty"), rank_evidence, appointment_evidence,
               included, review_flag, review_note = review_note_all, profile_url, retrieved = as.Date(retrieved),
               html_file, extract_model, extract_prompt_ver)
 

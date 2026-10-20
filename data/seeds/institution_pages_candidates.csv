@@ -1,0 +1,134 @@
+inst_id,list_type,label,page_url,note
+asu,affiliated,Affiliated Faculty,https://thesanfordschool.asu.edu/people/affiliated-faculty,NA
+asu,visiting,Visiting Scholars,https://thesanfordschool.asu.edu/people/visiting-scholars,NA
+asu,emeriti,Retired Faculty,https://thesanfordschool.asu.edu/people/retired-faculty,NA
+gatech,affiliated,Courtesy Appointments,https://hsoc.gatech.edu/people/courtesy,NA
+indiana,affiliated,Affiliate Faculty,https://sociology.indiana.edu/about/affiliates/index.html,NA
+indiana,emeriti,Emeriti Faculty,https://sociology.indiana.edu/about/emeriti/index.html,NA
+indiana,affiliated,Financial Support & Fellowships,https://sociology.indiana.edu/graduate/financial-support-fellowships/index.html,NA
+msu,affiliated,Affiliated Faculty,https://sociology.msu.edu/people/affiliated-faculty.html,NA
+msu,emeriti,Emeriti and Retired Faculty,https://sociology.msu.edu/people/emeriti-faculty.html,NA
+osu,affiliated,Affiliated Centers and Projects,https://sociology.osu.edu/about-us/affiliated-centers-and-projects,NA
+rutgers,adjunct,Adjunct Faculty,https://sociology.rutgers.edu/people/faculty/adjunct-faculty,NA
+rutgers,emeriti,Emeritus Faculty,https://sociology.rutgers.edu/people/faculty/emeritus-faculty,NA
+rutgers,nontenure,Eleanor LaPointe,https://sociology.rutgers.edu/people/faculty/core-department-faculty/core-department-faculty-member/602-lapointe-eleanor-instructor,NA
+stonybrook,emeriti,"Paul Gootenberg, Ph.D.",https://www.stonybrook.edu/commcms/history/people/_emeriti/gootenberg.php,NA
+tamu,affiliated,Affiliated Faculty,https://artsci.tamu.edu/sociology/people/affiliated-faculty.html,NA
+tamu,emeriti,Retired Faculty,https://artsci.tamu.edu/sociology/people/retired-faculty.html,NA
+uarizona,adjunct,Adjunct Faculty,https://sociology.arizona.edu/faculty/adjunct-faculty,NA
+uarizona,affiliated,Affiliate Faculty,https://sociology.arizona.edu/affiliate-faculty,NA
+uarizona,emeriti,Emeritus Faculty,https://sociology.arizona.edu/faculty/emeritus,NA
+uarizona,affiliated,Fellowships & Grants,https://sociology.arizona.edu/graduate/grants,NA
+buffalo,emeriti,Emeritus Faculty,https://arts-sciences.buffalo.edu/sociology-criminology/faculty/emeritus-faculty.html,NA
+ucberkeley,affiliated,Affiliated Faculty,https://sociology.berkeley.edu/people/affiliated-faculty,NA
+ucberkeley,emeriti,Emeritus Faculty,https://sociology.berkeley.edu/people/emeritus-faculty,NA
+ucberkeley,visiting,Lecturers,https://sociology.berkeley.edu/people/visiting-faculty,NA
+ucberkeley,nontenure,Instructor's Guide to Writing for Sociology,https://sociology.berkeley.edu/instructors-guide-writing-sociology,NA
+ucirvine,nontenure,Lecturers,https://www.sociology.uci.edu/people/lecturers.php,NA
+ucirvine,affiliated,Affiliated Faculty,https://www.sociology.uci.edu/people/affiliated.php,NA
+ucirvine,emeriti,Emeritus Faculty,https://www.sociology.uci.edu/people/emeritus.php,NA
+ucla,nontenure,Academic Administrator & Lecturers,https://soc.ucla.edu/people/faculty/academic-administrator-lecturers/,NA
+ucla,joint,Joint Faculty,https://soc.ucla.edu/people/faculty/joint-faculty/,NA
+ucla,emeriti,Emeriti,https://soc.ucla.edu/people/faculty/emeriti/,NA
+ucla,affiliated,Meler Fellowship Fund,https://soc.ucla.edu/alumni/meier-fellowship-fund/,NA
+ucriverside,NA,NA,NA,"error: ℹ In argument: `list_type = { ... }`.
+Caused by error in `map_lgl()`:
+ℹ In index: 1.
+Caused by error"
+ucsd,affiliated,Affiliated Centers,https://sociology.ucsd.edu/research/affiliated-centers.html,NA
+ucsd,visiting,Visiting Scholars,https://sociology.ucsd.edu/admin/vis-scholars/index.html,NA
+ucsd,emeriti,Richard Biernacki,https://sociology.ucsd.edu/people/faculty/emeritus/richard-biernacki.html,NA
+ucsd,emeriti,Amy Binder,https://sociology.ucsd.edu/people/faculty/emeritus/amy-binder.html,NA
+ucsd,emeriti,Rae Lesser Blumberg,https://sociology.ucsd.edu/people/faculty/emeritus/rae-blumberg.html,NA
+ucsd,emeriti,Harvey S. Goldman,https://sociology.ucsd.edu/people/faculty/emeritus/harvey-goldman.html,NA
+ucsd,emeriti,Jeffrey M. Haydu,https://sociology.ucsd.edu/people/faculty/emeritus/jeffre-haydu.html,NA
+ucsd,emeriti,Rebecca Klatch,https://sociology.ucsd.edu/people/faculty/emeritus/rebecca-klatch.html,NA
+ucsd,emeriti,Martha Lampland,https://sociology.ucsd.edu/people/faculty/emeritus/martha-lampland.html,NA
+ucsd,emeriti,Richard Madsen,https://sociology.ucsd.edu/people/faculty/emeritus/richard-madsen.html,NA
+ucsd,emeriti,"Hugh ""Bud"" Mehan",https://sociology.ucsd.edu/people/faculty/emeritus/hugh-mehan.html,NA
+ucsd,emeriti,David Phillips,https://sociology.ucsd.edu/people/faculty/emeritus/david-phillips.html,NA
+ucsd,emeriti,Andrew Scull,https://sociology.ucsd.edu/people/faculty/emeritus/andrew-scull.html,NA
+ucsd,emeriti,Gershon Shafir,https://sociology.ucsd.edu/people/faculty/emeritus/gershon-shafir.html,NA
+ucsd,emeriti,Carlos Waisman,https://sociology.ucsd.edu/people/faculty/emeritus/carlos-waisman.html,NA
+ucsd,emeriti,Jacqueline Wiseman,https://sociology.ucsd.edu/people/faculty/emeritus/jacqueline-wiseman.html,NA
+ucsd,emeriti,Leon Zamosc,https://sociology.ucsd.edu/people/faculty/emeritus/leon-zamosc.html,NA
+ucsd,affiliated,Isaac W. Martin,https://sociology.ucsd.edu/people/faculty/affiliated-faculty/isaac-martin.html,NA
+ucsd,affiliated,Affiliated Faculty,https://sociology.ucsd.edu/people/faculty/affiliated-faculty/index.html,NA
+ucsd,emeriti,Emeritus Faculty,https://sociology.ucsd.edu/people/faculty/emeritus/index.html,NA
+ucsc,affiliated,Affiliated Centers & Initiatives,https://sociology.ucsc.edu/research/affiliated-centers-initiatives/,NA
+cuboulder,affiliated,Faculty Affiliates,https://www.colorado.edu/sociology/our-people/faculty/faculty-affiliates,NA
+cuboulder,emeriti,Emeritus or Retired Faculty,https://www.colorado.edu/sociology/our-people/faculty/emeritus-or-retired-faculty,NA
+ufl,emeriti,Emeritus Directory,https://soccrim.clas.ufl.edu/directory/emeritus/,NA
+ufl,emeriti,Charles F. Frazier,http://soccrim.clas.ufl.edu/directory/emeritus/frazier/,NA
+ufl,emeriti,Paul Magnarella,http://soccrim.clas.ufl.edu/directory/emeritus/magnarella/,NA
+ufl,emeriti,Frederick Shenkman,http://soccrim.clas.ufl.edu/directory/emeritus/shenkman/,NA
+ufl,emeriti,Leonard Beeghley,https://soccrim.clas.ufl.edu/directory/emeritus/beeghle/,NA
+ufl,emeriti,John C. Henretta,http://soccrim.clas.ufl.edu/directory/emeritus/henretta/,NA
+ufl,emeriti,Anthony LaGreca,http://soccrim.clas.ufl.edu/directory/emeritus/lagreca/,NA
+ufl,emeriti,John H. Scanzoni,http://soccrim.clas.ufl.edu/directory/emeritus/scanzoni/,NA
+uiuc,affiliated,Affiliate Faculty,https://sociology.illinois.edu/directory/affiliate,NA
+uiowa,visiting,Visiting Faculty,https://sociology.uiowa.edu/people/visiting-faculty,NA
+uiowa,adjunct,Adjunct Faculty,https://sociology.uiowa.edu/adjunct-faculty,NA
+uiowa,affiliated,Affiliated Faculty,https://sociology.uiowa.edu/affiliated-faculty,NA
+uiowa,emeriti,Emeritus Faculty,https://sociology.uiowa.edu/emeritus-faculty,NA
+ku,affiliated,Affiliated Faculty,https://sociology.ku.edu/affiliated-faculty,NA
+ku,emeriti,Emeritus,https://sociology.ku.edu/emeritus,NA
+ku,nontenure,Lecturers,https://sociology.ku.edu/lecturers,NA
+mizzou,affiliated,Affiliates,https://sociology.missouri.edu/people/affiliate,NA
+mizzou,emeriti,Emeriti,https://sociology.missouri.edu/people/emeritus,NA
+unc,adjunct,Adjunct Professors,https://sociology.unc.edu/people/adjunct-professors/,NA
+unc,emeriti,Emeritus Professors,https://sociology.unc.edu/people/emeritus-professors/,NA
+unc,affiliated,Post Doctoral Fellows,https://sociology.unc.edu/people/post-doctoral-fellows/,NA
+unc,visiting,Visiting Scholars,https://sociology.unc.edu/people/visiting-scholars/,NA
+uoregon,affiliated,Affiliated Centers & Institutes,https://cas.uoregon.edu/affiliated-centers-institutes,NA
+uoregon,affiliated,CAS Scholarships & Fellowships,https://cas.uoregon.edu/cas-scholarships-fellowships,NA
+uoregon,affiliated,Affiliated Faculty,https://cas.uoregon.edu/directory/sociology-aff-faculty,NA
+uoregon,emeriti,Emeritus,https://cas.uoregon.edu/directory/sociology-emeritus,NA
+usf,affiliated,Affiliated Faculty,https://www.usf.edu/arts-sciences/departments/sociology/people/affiliated-faculty.aspx,NA
+uva,affiliated,Affiliated Faculty,https://sociology.as.virginia.edu/affiliated-faculty,NA
+uva,emeriti,Emeritus Faculty,https://sociology.as.virginia.edu/emeritus-faculty,NA
+uw,emeriti,Emeritus Faculty,https://soc.washington.edu/people/emeriti,NA
+uw,affiliated,Adjuncts & Affiliates,https://soc.washington.edu/people/adjuncts-affiliates,NA
+uw,affiliated,Affiliated Centers,https://soc.washington.edu/affiliated-centers,NA
+wisc,affiliated,"Affiliated Faculty, Department of Sociology",https://sociology.wisc.edu/faculty/sociology-affiliated-faculty/,NA
+wisc,emeriti,Emeritus Faculty – Both Sociology and C&E,https://sociology.wisc.edu/faculty/sociology-emeritus-faculty/,NA
+bu,emeriti,Faculty Emeriti,https://www.bu.edu/sociology/people/faculty-emeriti/,NA
+bu,nontenure,Lecturers,https://www.bu.edu/sociology/people/part-time-lecturers/,NA
+bu,affiliated,Affiliate Faculty,https://www.bu.edu/sociology/people/affiliate-faculty/,NA
+bu,affiliated,Affiliate Institutions,https://www.bu.edu/sociology/research/affiliate-institutions/,NA
+cwru,emeriti,Gary Deimling,https://sociology.case.edu/emeriti/gary-deimling,NA
+cwru,emeriti,Mary Patrice Erdmans,https://sociology.case.edu/emeriti/mary-patrice-erdmans,NA
+cornell,emeriti,Emeritus and Retired Faculty,https://sociology.cornell.edu/soc-faculty,NA
+dartmouth,visiting,Visiting Faculty,https://sociology.dartmouth.edu/people?profile_type%5B0%5D=1036,NA
+dartmouth,affiliated,Fellows,https://sociology.dartmouth.edu/people?profile_type%5B0%5D=1031,NA
+dartmouth,emeriti,Emeriti,https://sociology.dartmouth.edu/people?profile_type%5B0%5D=1166,NA
+dartmouth,affiliated,Affiliated Faculty,https://sociology.dartmouth.edu/people?profile_type%5B0%5D=1041,NA
+duke,emeriti,Emeriti Faculty,https://sociology.duke.edu/people/other-faculty/emeriti,NA
+duke,nontenure,MMS Instructors,https://sociology.duke.edu/people/other-faculty/mms-instructors,NA
+emory,emeriti,"Associated, Adjunct, and Emeritus Faculty",https://sociology.emory.edu/people/associated-adjunct-emeritus.html,NA
+gwu,affiliated,Full-Time Affiliated Faculty,https://sociology.columbian.gwu.edu/affiliated-faculty,NA
+gwu,visiting,Part-Time & Visiting Faculty,https://sociology.columbian.gwu.edu/part-time-visiting-faculty,NA
+gwu,emeriti,Emeriti Faculty,https://sociology.columbian.gwu.edu/emeritus-faculty,NA
+northwestern,affiliated,Affiliated,https://sociology.northwestern.edu/people/faculty/affiliated/index.html,NA
+northwestern,emeriti,Emeriti,https://sociology.northwestern.edu/people/faculty/emeriti/index.html,NA
+northwestern,visiting,Mark Griffith,https://sociology.northwestern.edu/people/faculty/visiting/mark-griffith.html,NA
+northwestern,visiting,Pariroo Rattan,https://sociology.northwestern.edu/people/faculty/visiting/pariroo-rattan.html,NA
+stanford,affiliated,Affiliated faculty,https://sociology.stanford.edu/people/faculty/affiliated-faculty,NA
+stanford,emeriti,Emeritus faculty,https://sociology.stanford.edu/people/faculty/emeritus-faculty,NA
+tufts,nontenure,Abbie Cohen Lecturer,https://as.tufts.edu/sociology/node/1761,NA
+tufts,nontenure,Caitlin Slodden Lecturer,https://as.tufts.edu/sociology/node/1626,NA
+tulane,NA,NA,NA,blocked
+uchicago,affiliated,Affiliated Academic Appointees,https://sociology.uchicago.edu/people/affiliated-academic-appointees,NA
+uchicago,emeriti,Emeritus Faculty,https://sociology.uchicago.edu/people/emeritus-faculty,NA
+uchicago,affiliated,Fellowships and Resources,https://sociology.uchicago.edu/graduate-study/fellowships-and-resources,NA
+notredame,emeriti,Emeriti,https://sociology.nd.edu/people/emeriti/,NA
+upenn,affiliated,Secondary Appointments,https://sociology.sas.upenn.edu/people/secondary-appointments,NA
+upenn,emeriti,Emeritus,https://sociology.sas.upenn.edu/people/emeritus,NA
+upenn,adjunct,Adjunct,https://sociology.sas.upenn.edu/people/adjunct,NA
+upenn,affiliated,Fellows / Lecturers,https://sociology.sas.upenn.edu/people/lecturers,NA
+vanderbilt,affiliated,Affiliated Faculty,https://as.vanderbilt.edu/sociology/people/?group=affiliated-faculty,NA
+vanderbilt,emeriti,Emeriti Faculty,https://as.vanderbilt.edu/sociology/people/?group=emeriti,NA
+wustl,nontenure,Rick Moore Lecturer of Sociology,https://sociology.washu.edu/people/rick-moore,NA
+yale,emeriti,Affiliated Faculty,https://sociology.yale.edu/faculty/affiliated-emeritus-faculty,NA
+yale,affiliated,Academic Affiliates,https://sociology.yale.edu/faculty/academic-affiliates,NA
+utoronto,emeriti,Emeriti Faculty,https://www.sociology.utoronto.ca/people/directories/all-faculty?sort_by=ppl_last_name_value&items_per_page=10&fy_uoft_roles_tid%5B%5D=72,NA

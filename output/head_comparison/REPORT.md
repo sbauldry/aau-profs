@@ -78,7 +78,7 @@ After the name-parsing fix for "Last, First" lists (Maryland's Korzeniewicz now 
 | ASU | Powers | Mary Lou Fulton Teachers College (Professor) | outside the department |
 | ASU | Wallace | School of Criminology and Criminal Justice (full professor from 2025) | outside the department |
 | Stony Brook | Fleming | Now Professor of Africana Studies at Smith College | left |
-| UC Irvine | Schaefer | A UCI profile lists him as full professor of sociology (undated), but he is on none of UCI's Core, Affiliated or Emeritus lists | unresolved: check UCI's directory by hand |
+| UC Irvine | Schaefer | Moved to UT Austin this year (confirmed by the user). Our tables already have him there as an included full professor in Sociology, so ours is right and the hand file's UC Irvine entry is out of date. He appears as "ours only" at UT Austin. | hand file out of date; no change to ours |
 | UC Riverside | Brint | Distinguished Professor of Sociology and Public Policy at UCR | **our miss**: the UCR roster is lazy-loaded and only about 9 people are captured |
 | UC Riverside | Nieri | Professor of Sociology at UCR from July 2025 (CV) | **our miss**: same cause |
 | UCSB | Ghaziani | UBC professor; his CV lists a 2025-26 UCSB appointment; not on UCSB's lists | likely temporary |
@@ -88,4 +88,4 @@ After the name-parsing fix for "Last, First" lists (Maryland's Korzeniewicz now 
 | Utah | Camacho | Dean of the College of Social and Behavioral Science, tenured in the college; discipline not stated; not on the sociology list | administrator: excluded unless she holds a sociology appointment |
 | GWU, MSU, Yale | Livingston, Marquart-Pyatt, Farrell | Marked "not soc" in the hand file | not checked further |
 
-So of the 15: 6 are people outside the department or who have left or retired (including Harris and Yang, per the user), 3 are admin or unclear, 2 are real gaps in our data (Brint and Nieri, from the UC Riverside roster), 1 is unresolved (Schaefer), and 3 are marked "not soc".
+So of the 15: 7 are people outside the department or who have left, retired or moved (including Harris, Yang and Schaefer, per the user), 3 are admin or unclear, 2 are real gaps in our data (Brint and Nieri, from the UC Riverside roster), and 3 are marked "not soc".

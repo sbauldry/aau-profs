@@ -70,12 +70,12 @@ Institutional frame: all AAU members, including the Canadian members (Toronto, M
    - `ANTHROPIC_API_KEY=<your key>`
    - `SCRAPER_CONTACT=sgbauldry@gmail.com` (goes in the scraper user-agent; codebook §10)
 3. Chrome or Chromium must be installed for `chromote`.
-4. `data/raw_html/` is git-ignored and will be empty. Scripts `04`, `05` and `06` read cached pages from it; rerun `R/04_check_js_pages.R` (and `06`, which fetches its own profiles) to regenerate what they need.
+4. `data/raw_html/` is git-ignored and will be empty. Scripts `04`, `05` and `06` read cached pages from it, and `11_rebuild_roster_text.R` rebuilds roster text from the saved HTML of the trial scrape; the scraped text and extraction results themselves are tracked in `data/interim/` (`scrape_trial/roster_chunks.rds`, `extract_trial_all.csv`), so most later steps do not need the HTML. To regenerate pages, rerun `R/04_check_js_pages.R`, `R/06_test_profiles.R` (fetches its own profiles) or `R/10_scrape_all_rosters.R` (about 15 minutes for all rosters).
 5. Check that `Sys.getenv("SCRAPER_CONTACT")` and `nzchar(Sys.getenv("ANTHROPIC_API_KEY"))` look right before any scraping or API call.
 
 ## Status (as of 2026-10-09)
 
-Codebook is at v0.1.15 (draft); the change log in codebook.md §8 records every decision so far. Nothing has been collected for real yet: the collection window is Oct 15 – Nov 15, 2026. Everything so far is pre-collection setup and trial runs (retrieved dates are Oct 3–9 and are not the production wave).
+Codebook is at v0.1.15 (draft); the change log in codebook.md §8 records every decision so far. Nothing has been collected for real yet: the collection window is Oct 15 – Nov 15, 2026 (open as of Oct 15). Everything so far is pre-collection setup and trial runs (retrieved dates are Oct 3–9 and are not the production wave).
 
 **Done**
 - Project scaffolding, renv, folder structure, GitHub remote.

@@ -3,7 +3,7 @@ prompt: code
 version: v1
 created: 2026-10-20
 status: DRAFT (not yet used in any run; edit freely until first use, then freeze per codebook.md §9)
-changes: Initial version. Encodes codebook §5.1 rules 1-8. Input is stored `areas_raw` and `title_raw` (raw HTML is not archived, so no other profile text is available). One call codes a batch of people.
+changes: Initial version. Encodes codebook §5.1 rules 1-8. Rule 12 revised after the first 30-person development trial (2026-10-20), which flagged 19 of 30 people, mostly for the three-code limit alone. Input is stored `areas_raw` and `title_raw` (raw HTML is not archived, so no other profile text is available). One call codes a batch of people.
 model: claude-opus-5-5 (pinned, codebook §9)
 schema: R/code_schema.R (to be written; shape given under Output)
 codebook: v0.1.19
@@ -101,7 +101,7 @@ Use only these codes. The second column gives the section name; the third gives 
 9. **Biography prose.** When `areas_raw` is sentences rather than a list, code only the research topics the person states they study. Ignore awards, positions, career history, and where they work. If you had to read topics out of prose, set `review_flag` and write "areas from prose".
 10. **Geography and populations.** There is no section for a country or world region in general. Code the topic being studied. Assign `asia`, `mena`, `latinx`, or `indigenous` only when the text makes that region or population itself the subject of study (for example, "Asian American communities", "the Arab uprisings"). "Latin America" alone is not `latinx` (which concerns Latinos and Latinas in the United States); code the topic, often `development`, `global`, `comphist`, or `political`. A region named only as the place a topic was studied does not earn a regional code.
 11. **Specific terms.** Match on meaning, not on words. Examples: "inequality" and "stratification" are `inequality`; "social demography" is `population`; "health disparities" is `medical`; "criminology" is `crime`; "social theory" and a named theorist's body of work as a theoretical resource are `theory`; the same theorist as an object of historical study is `history`. If a term is too vague to place ("social change", "contemporary issues"), do not force a code; code the other areas and mention it in `review_note`.
-12. **Flag uncertainty, do not hide it.** Set `review_flag` to true, with a short `review_note`, whenever you are unsure which section applies, when you dropped an area because of the three-code limit and the dropped area was not clearly minor (the flag `more_available` alone does not require a review flag), or when any rule above says to flag. Otherwise `review_flag` is false and `review_note` is an empty string.
+12. **Flag uncertainty, do not hide it.** Set `review_flag` to true, with a short `review_note`, when you are unsure which section applies, or when any rule above says to flag. Do not flag a person only because they had more than three codable areas or because you dropped areas under the three-code limit; `more_available` already records that. Otherwise `review_flag` is false and `review_note` is an empty string.
 13. **Support every code.** For each code, copy into `matched_text` the shortest exact fragment of `areas_raw` that supports it. If a code rests on two fragments, give the more specific one. Do not paraphrase.
 14. **Do not decide anything else.** Do not output rank, inclusion, appointment, or any judgment about the person.
 

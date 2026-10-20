@@ -821,3 +821,8 @@ timestamp,step,model,prompt_ver,source_url,input,output,cached_input
 2026-10-20 16:00:59,extract,claude-sonnet-5-5,v1,https://cas.uoregon.edu/directory/sociology/all/mhong,428,664,4050
 2026-10-20 16:01:05,extract,claude-sonnet-5-5,v1,https://cas.uoregon.edu/directory/sociology/all/junej,395,486,4050
 2026-10-20 16:01:09,extract,claude-sonnet-5-5,v1,https://cas.uoregon.edu/directory/sociology/all/jstanciu,405,228,4050
+2026-10-20 16:16:46,code,claude-opus-5-5,v1,coding_trial_batch_1,7237,3342,0
+2026-10-20 16:17:24,code,claude-opus-5-5,v1,coding_trial_batch_1,4,3231,7233
+2026-10-20 16:17:45,code,claude-opus-5-5,v1,coding_trial_batch_2,1800,2662,5454
+2026-10-20 16:18:43,code,claude-opus-5-5,v1,coding_trial_batch_1,7231,2972,0
+2026-10-20 16:19:04,code,claude-opus-5-5,v1,coding_trial_batch_2,1800,2536,5448

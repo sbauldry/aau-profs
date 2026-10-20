@@ -1,0 +1,31 @@
+person_id,n_codes,more_available,review_flag,review_note,code_model,code_prompt_ver,tokens_input,tokens_output
+p001311,0,FALSE,TRUE,no research areas listed,claude-opus-5-5,v1,7231,2972
+p001641,0,FALSE,TRUE,no research areas listed,claude-opus-5-5,v1,7231,2972
+p000058,3,TRUE,TRUE,areas from prose,claude-opus-5-5,v1,7231,2972
+p001474,3,TRUE,TRUE,areas from prose,claude-opus-5-5,v1,7231,2972
+p000050,3,FALSE,TRUE,areas from prose; methods code uncertain,claude-opus-5-5,v1,7231,2972
+p000572,3,FALSE,FALSE,NA,claude-opus-5-5,v1,7231,2972
+p001000,3,TRUE,FALSE,NA,claude-opus-5-5,v1,7231,2972
+p001655,3,TRUE,FALSE,NA,claude-opus-5-5,v1,7231,2972
+p001182,3,TRUE,FALSE,NA,claude-opus-5-5,v1,7231,2972
+p000051,3,TRUE,FALSE,NA,claude-opus-5-5,v1,7231,2972
+p000659,1,FALSE,FALSE,NA,claude-opus-5-5,v1,7231,2972
+p000970,3,TRUE,FALSE,NA,claude-opus-5-5,v1,7231,2972
+p001790,3,TRUE,TRUE,Class Analysis could alternatively be marxist,claude-opus-5-5,v1,7231,2972
+p000941,3,TRUE,FALSE,NA,claude-opus-5-5,v1,7231,2972
+p001007,3,TRUE,FALSE,NA,claude-opus-5-5,v1,7231,2972
+p000757,0,FALSE,TRUE,no research areas listed,claude-opus-5-5,v1,1800,2536
+p000368,3,TRUE,FALSE,NA,claude-opus-5-5,v1,1800,2536
+p001491,3,TRUE,TRUE,areas from prose,claude-opus-5-5,v1,1800,2536
+p001471,3,TRUE,TRUE,areas from prose,claude-opus-5-5,v1,1800,2536
+p000701,3,TRUE,FALSE,NA,claude-opus-5-5,v1,1800,2536
+p000528,1,FALSE,FALSE,NA,claude-opus-5-5,v1,1800,2536
+p001397,2,FALSE,FALSE,NA,claude-opus-5-5,v1,1800,2536
+p001571,3,FALSE,FALSE,NA,claude-opus-5-5,v1,1800,2536
+p001670,1,FALSE,FALSE,NA,claude-opus-5-5,v1,1800,2536
+p000159,2,FALSE,FALSE,NA,claude-opus-5-5,v1,1800,2536
+p000651,3,TRUE,FALSE,NA,claude-opus-5-5,v1,1800,2536
+p000079,2,FALSE,FALSE,NA,claude-opus-5-5,v1,1800,2536
+p000036,3,FALSE,FALSE,NA,claude-opus-5-5,v1,1800,2536
+p001424,3,TRUE,FALSE,NA,claude-opus-5-5,v1,1800,2536
+p000405,3,FALSE,FALSE,NA,claude-opus-5-5,v1,1800,2536

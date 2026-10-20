@@ -1,0 +1,73 @@
+person_id,area_order,area_code,matched_text,code_model,code_prompt_ver,hand_coded
+p000058,1,drugs,youth drug use,claude-opus-5-5,v1,FALSE
+p000058,2,medical,health disparities,claude-opus-5-5,v1,FALSE
+p000058,3,rem,ethnicity,claude-opus-5-5,v1,FALSE
+p001474,1,migration,International migration,claude-opus-5-5,v1,FALSE
+p001474,2,population,demographic and social processes,claude-opus-5-5,v1,FALSE
+p001474,3,latinx,The Hispanic population of the United States,claude-opus-5-5,v1,FALSE
+p000050,1,children,youth development,claude-opus-5-5,v1,FALSE
+p000050,2,methods,methodological advances,claude-opus-5-5,v1,FALSE
+p000050,3,mentalhealth,mental health,claude-opus-5-5,v1,FALSE
+p000572,1,population,Formal Demography,claude-opus-5-5,v1,FALSE
+p000572,2,medical,Epidemiology & Health Metrics,claude-opus-5-5,v1,FALSE
+p000572,3,methods,Methods & Data,claude-opus-5-5,v1,FALSE
+p001000,1,political,Political Sociology,claude-opus-5-5,v1,FALSE
+p001000,2,movements,Social Movements,claude-opus-5-5,v1,FALSE
+p001000,3,oow,Organizations,claude-opus-5-5,v1,FALSE
+p001655,1,inequality,Inequality,claude-opus-5-5,v1,FALSE
+p001655,2,economic,Economic Sociology,claude-opus-5-5,v1,FALSE
+p001655,3,oow,Work and Organizations,claude-opus-5-5,v1,FALSE
+p001182,1,religion,Sociology of Religion,claude-opus-5-5,v1,FALSE
+p001182,2,science,Sociology of Science,claude-opus-5-5,v1,FALSE
+p001182,3,political,Politics,claude-opus-5-5,v1,FALSE
+p000051,1,children,developmental outcomes,claude-opus-5-5,v1,FALSE
+p000051,2,education,school-based discipline,claude-opus-5-5,v1,FALSE
+p000051,3,gender,gender,claude-opus-5-5,v1,FALSE
+p000659,1,biology,Sociogenomics,claude-opus-5-5,v1,FALSE
+p000970,1,pews,world systems analysis,claude-opus-5-5,v1,FALSE
+p000970,2,urban,urbanization,claude-opus-5-5,v1,FALSE
+p000970,3,development,development,claude-opus-5-5,v1,FALSE
+p001790,1,inequality,Class Analysis,claude-opus-5-5,v1,FALSE
+p001790,2,comphist,Comparative-Historical Sociology,claude-opus-5-5,v1,FALSE
+p001790,3,culture,Culture,claude-opus-5-5,v1,FALSE
+p000941,1,culture,Cultural change,claude-opus-5-5,v1,FALSE
+p000941,2,science,ways of knowing and understanding,claude-opus-5-5,v1,FALSE
+p000941,3,socpsych,identity,claude-opus-5-5,v1,FALSE
+p001007,1,inequality,Stratification/Mobility,claude-opus-5-5,v1,FALSE
+p001007,2,population,Social Demography,claude-opus-5-5,v1,FALSE
+p001007,3,education,Education,claude-opus-5-5,v1,FALSE
+p000368,1,gender,Gender Inequality,claude-opus-5-5,v1,FALSE
+p000368,2,development,International Development,claude-opus-5-5,v1,FALSE
+p000368,3,rem,Race/Ethnicity,claude-opus-5-5,v1,FALSE
+p001491,1,rem,racial and ethnic boundaries,claude-opus-5-5,v1,FALSE
+p001491,2,migration,immigration,claude-opus-5-5,v1,FALSE
+p001491,3,biology,genetic ancestry testing,claude-opus-5-5,v1,FALSE
+p001471,1,rem,racial and ethnic inequality,claude-opus-5-5,v1,FALSE
+p001471,2,aging,life-course and aging,claude-opus-5-5,v1,FALSE
+p001471,3,migration,Hispanic immigrant adaptation,claude-opus-5-5,v1,FALSE
+p000701,1,inequality,Social Stratification,claude-opus-5-5,v1,FALSE
+p000701,2,medical,Health and Medicine,claude-opus-5-5,v1,FALSE
+p000701,3,culture,Culture and Cognition,claude-opus-5-5,v1,FALSE
+p000528,1,rgc,"Gender, Race, & Class",claude-opus-5-5,v1,FALSE
+p001397,1,methods,Statistical methods,claude-opus-5-5,v1,FALSE
+p001397,2,biology,the intersection between the social sciences and genomics,claude-opus-5-5,v1,FALSE
+p001571,1,education,Education,claude-opus-5-5,v1,FALSE
+p001571,2,rgc,"Race, Class, and Gender",claude-opus-5-5,v1,FALSE
+p001571,3,inequality,Stratification/ Mobility,claude-opus-5-5,v1,FALSE
+p001670,1,migration,International migration,claude-opus-5-5,v1,FALSE
+p000159,1,economic,Economy and Society,claude-opus-5-5,v1,FALSE
+p000159,2,networks,Social Networks,claude-opus-5-5,v1,FALSE
+p000651,1,medical,Sexual and Reproductive Health,claude-opus-5-5,v1,FALSE
+p000651,2,family,Fertility and Family Formation,claude-opus-5-5,v1,FALSE
+p000651,3,gender,Gender,claude-opus-5-5,v1,FALSE
+p000079,1,environment,Sociology of Climate Change,claude-opus-5-5,v1,FALSE
+p000079,2,development,International Development,claude-opus-5-5,v1,FALSE
+p000036,1,children,youth,claude-opus-5-5,v1,FALSE
+p000036,2,family,families,claude-opus-5-5,v1,FALSE
+p000036,3,law,law and society,claude-opus-5-5,v1,FALSE
+p001424,1,sexualities,Sexuality,claude-opus-5-5,v1,FALSE
+p001424,2,inequality,Inequality,claude-opus-5-5,v1,FALSE
+p001424,3,children,Youth,claude-opus-5-5,v1,FALSE
+p000405,1,education,Sociology of education,claude-opus-5-5,v1,FALSE
+p000405,2,oow,"sociology of organizations, occupations, and work",claude-opus-5-5,v1,FALSE
+p000405,3,science,"science, technology, and society",claude-opus-5-5,v1,FALSE

@@ -27,7 +27,11 @@ merge_profile <- function(roster, profile) {
 # Unknown appointment type on a full professor is not decided here: it is flagged for review.
 derive_included <- function(df) {
   df |> mutate(
+    # A person listed under an emeriti heading is emeritus whatever the bare title says ("Professor").
+    emeriti_section = str_detect(coalesce(listing_section, ""), regex("emerit", ignore_case = TRUE)),
+    rank = if_else(emeriti_section & rank == "full", "emeritus", rank),
     included = rank == "full" & appointment_type %in% c("primary", "joint"),
     review_flag = review_flag | (rank == "full" & appointment_type == "unknown") | coalesce(text_defect, FALSE),
-    included = if_else(rank == "full" & appointment_type == "unknown", NA, included))
+    included = if_else(rank == "full" & appointment_type == "unknown", NA, included)) |>
+    select(-emeriti_section)
 }

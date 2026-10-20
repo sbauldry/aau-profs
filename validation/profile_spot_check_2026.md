@@ -17,7 +17,7 @@ Method: 20 profiles with a profile extraction (Toronto excluded), seed 20261020,
 | 10 | ucsb | Paul Amar | Correct: "Affiliated Faculty", Global Studies home, `courtesy`, excluded |
 | 11 | uarizona | Regina Deil-Amen | Correct: Dean, College of Education, `courtesy`, excluded |
 | 12 | osu | Janet Box-Steffensmeier | Correct: "Professor of Political Science, Courtesy", excluded |
-| 13 | umn | Ryan Allen | **Questionable**: set to `courtesy`, excluded, with no review note, but the page lists a Sociology affiliation alongside the Humphrey School title; should be `unknown` and flagged |
+| 13 | umn | Ryan Allen | Likely correct on re-check: the page lists a Sociology affiliation, but the roster lists him under "Affiliate Faculty", which supports `courtesy` |
 | 14 | indiana | Brea Perry | Correct: Professor of Sociology; areas match the extraction |
 | 15 | osu | Townsand Price-Spratlen | Correct: Professor, primary, area matches |
 | 16 | umn | Penny Edgell | Correct: Professor, Sociology; specialties match |
@@ -28,8 +28,14 @@ Method: 20 profiles with a profile extraction (Toronto excluded), seed 20261020,
 
 ## Summary
 
-- 19 of 20 were correct or appropriately flagged on rank, appointment type and `included`: 15 correct, and 4 undecided (6, 7, 8, 9) that were conservative flags for hand review, not errors.
+- 19 of 20 were correct or appropriately flagged (the one questionable call, Allen, was later judged probably correct) on rank, appointment type and `included`: 15 correct, and 4 undecided (6, 7, 8, 9) that were conservative flags for hand review, not errors.
 - 1 questionable call (13, Allen): a unit named in the title was read as the home department and the person was set to `courtesy` with no flag.
 - 1 gap: `areas_raw` sometimes comes from biography prose when no research-areas field exists (17); area coding should treat these as weaker evidence.
 - Rank taken from a profile when the roster had none worked (3, 5, 6).
 - Not tested here: recall of rosters (people missing from a roster page), the 76 undecided records overall, and Toronto, Tulane, MSU and the hand-collect sites.
+
+## Follow-up check (2026-10-20, all institutions)
+
+- Unflagged `courtesy` full professors: 14. The 6 whose text mentions sociology all carry "courtesy", "affiliate" or an Affiliate/Courtesy listing section (Burton, Gleeson, Allen, Ho, Brady, Castells), so no error found; Allen is probably correct.
+- Included records whose listing section or title carries an exclusion word: 18 of 537 checked. **5 were wrong**: people listed under "Emeriti" with a bare "Professor" title (Brown: Henry; Dartmouth: Parsa; UCSC: Gray, Takagi, West). `derive_included()` now treats an emeriti listing section as emeritus (codebook v0.1.17); included count 542 to 537.
+- The other 13 were fine (primary sociology with a courtesy or affiliate role elsewhere) except USC's Eliasoph, listed under "Core Faculty (Teaching)", which needs a hand check of whether she is tenure-line.

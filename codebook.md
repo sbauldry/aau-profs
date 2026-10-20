@@ -1,6 +1,6 @@
 # AAU Sociology Full Professors: Schema and Codebook
 
-Version 0.1.16 (draft), October 2026
+Version 0.1.17 (draft), October 2026
 
 ## 1. Purpose and scope
 
@@ -290,6 +290,7 @@ This table is the single log of adopted changes that affect comparability across
 | 2026-10 | 0.1.14 | Added `listing_section`, `rank_evidence`, `appointment_evidence` to `snapshots`; `included` is derived by code, not by the model. Pre-collection; effective with the first collection year (2026). |
 | 2026-10 | 0.1.15 | Added `url_status` to `institutions` and `name_suffix` to `people`; documented empty-string-to-`NA` convention for extraction output. Pre-collection; effective with the first collection year (2026). |
 | 2026-10 | 0.1.16 | §10 Blocks clarified: a JavaScript or proof-of-work challenge page counts as a block and is not solved, including by loading the page in a headless browser. Toronto profile pages (challenge page, 2026-10-20) and Tulane profile pages (blocked) are handled by hand: rank and research areas for those institutions come from the roster alone, and records with undetermined rank or appointment type go to hand review. Pre-collection; effective with the first collection year (2026). |
+| 2026-10 | 0.1.17 | `included` derivation: a person listed under an emeriti heading is treated as emeritus (rank set to `emeritus`, excluded) even when the title reads only "Professor". Found in the 2026-10-20 trial (5 records at Brown, Dartmouth, UCSC). Pre-collection; effective with the first collection year (2026). |
 
 ## 9. Prompt versioning and pinned models
 

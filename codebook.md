@@ -1,6 +1,6 @@
 # AAU Sociology Full Professors: Schema and Codebook
 
-Version 0.1.19 (draft), October 2026
+Version 0.1.20 (draft), October 2026
 
 ## 1. Purpose and scope
 
@@ -122,6 +122,7 @@ Long format, with one row per person × year × institution × coded area.
 | `inst_id` | chr | FK to `institutions` |
 | `area_code` | chr | See §5 |
 | `area_order` | int | 1 = most prominent as listed; maximum 3 |
+| `matched_text` | chr | Exact fragment of `areas_raw` supporting the code (audit evidence) |
 | `code_model` | chr | Model string used for coding |
 | `code_prompt_ver` | chr | Coding prompt version |
 | `hand_coded` | lgl | Coded or corrected by hand |
@@ -305,6 +306,7 @@ This table is the single log of adopted changes that affect comparability across
 | 2026-10 | 0.1.17 | `included` derivation: a person listed under an emeriti heading is treated as emeritus (rank set to `emeritus`, excluded) even when the title reads only "Professor". Found in the 2026-10-20 trial (5 records at Brown, Dartmouth, UCSC). Pre-collection; effective with the first collection year (2026). |
 | 2026-10 | 0.1.18 | §6 rule 2 made precise: the normalized name is the first token of the first name plus the last token of the last name (letters only, lowercased, diacritics stripped; falls back to `name_raw` when a part is missing), so multi-part surnames key the same whether or not the extractor split them. A key matching more than one prior `person_id` at an institution is ambiguous: no link, flagged. Records with no usable name get no ID and go to hand review. Pre-collection; effective with the first collection year (2026). |
 | 2026-10 | 0.1.19 | §3.5 `changes`: added `detail` (what the code saw, to guide hand review) and defined each `change_type`. Records with an undecided appointment type (`included = NA`) generate no changes; they are listed in a separate unresolved file. `moved` is generated only for one `person_id` at two institutions (ORCID match or hand-confirmed link); a candidate move appears as an `exit` plus a `new_full` with different IDs. Pre-collection; effective with the first collection year (2026). |
+| 2026-10 | 0.1.20 | §3.4 `areas`: added `matched_text` (the exact fragment of `areas_raw` supporting each code, kept as audit evidence like `rank_evidence`). Areas are coded for `included = TRUE` snapshots only; records with no `areas_raw` are left uncoded by rule and flagged without an API call; a record is re-coded only when `areas_raw`, the model, or the prompt version changes, and hand-coded rows are never overwritten. Pre-collection; effective with the first collection year (2026). |
 
 ## 9. Prompt versioning and pinned models
 

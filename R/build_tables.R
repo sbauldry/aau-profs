@@ -3,7 +3,7 @@
 # Idempotent: existing snapshots in `out_dir` (any year, including this one) are the matching
 # frame, so a rerun reuses IDs instead of minting new ones.
 library(tidyverse)
-source("R/registry.R")
+source("R/registry.R"); source("R/areas.R")
 
 first_tok <- \(x) str_extract(norm_text(coalesce(x, "")), "^[a-z]+")
 last_tok  <- \(x) str_extract(norm_text(coalesce(x, "")), "[a-z]+$")
@@ -80,6 +80,9 @@ build_tables <- function(in_dir, run_year, out_dir) {
               joint_units, admin_role, areas_raw, listing_section, rank_evidence, appointment_evidence,
               included, review_flag, review_note = review_note_all, profile_url, retrieved = as.Date(retrieved),
               html_file, extract_model, extract_prompt_ver)
+
+  runs_f <- file.path(out_dir, "coding_runs.csv")
+  if (file.exists(runs_f)) snapshots <- apply_coding_flags(snapshots, read_chr(runs_f))
 
   # people: one row per person, name from this year's record; keep earlier people not seen this year.
   first_or_na <- \(x) if (length(na.omit(x))) first(na.omit(x)) else x[NA_integer_][1]

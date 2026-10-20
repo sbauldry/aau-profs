@@ -1,0 +1,529 @@
+person_id,year,inst_id,areas_hash,n_codes,more_available,review_flag,review_note,coded_by,code_model,code_prompt_ver,batch_tokens_input,batch_tokens_output
+p000007,2026,asu,9483555425e8c763f8269581662e8b0c,3,FALSE,TRUE,unsure whether peer relationships/bullying fit socpsych/crime or children,model,claude-opus-5-5,v1,7623,3799
+p000010,2026,asu,e93229c3ccb8c691957454b12c36d835,3,TRUE,TRUE,areas from prose,model,claude-opus-5-5,v1,7623,3799
+p000018,2026,asu,007551579651dbaa03b57127e8941b63,2,FALSE,FALSE,NA,model,claude-opus-5-5,v1,7623,3799
+p000022,2026,asu,d66e2e13a02169f86ef1a3607523104f,3,FALSE,TRUE,Guns in Society coded crime; uncertain,model,claude-opus-5-5,v1,7623,3799
+p000035,2026,asu,08bfef824d6e4d24ddbd43ce531cfe5a,1,FALSE,TRUE,areas from prose; 'well-being' too vague to code,model,claude-opus-5-5,v1,7623,3799
+p000036,2026,asu,12ee903d3d749b83c9bcce507ab985c9,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,7623,3799
+p000048,2026,asu,2b3d6b508c7ee7d414438d3980f382b9,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,7623,3799
+p000049,2026,asu,3601315beaf52e4d81921aea26ccc0b2,2,FALSE,FALSE,NA,model,claude-opus-5-5,v1,7623,3799
+p000050,2026,asu,fb374c19de5cb4314a427688dcf58850,3,FALSE,TRUE,areas from prose; unsure methods is a research area in its own right,model,claude-opus-5-5,v1,7623,3799
+p000051,2026,asu,147a8fb934b39b88007c3bb9d535cbfc,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,7623,3799
+p000055,2026,asu,28ffac0264da38a12e49bb14d39081c3,2,FALSE,TRUE,Human Development and Prevention and Intervention Science too vague to code; Violence could be crime or peace,model,claude-opus-5-5,v1,7623,3799
+p000058,2026,asu,896b474e0fa9d3ad14b393f3ca9a421e,3,TRUE,TRUE,areas from prose,model,claude-opus-5-5,v1,7623,3799
+p000059,2026,asu,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000060,2026,asu,6f2be747fb4ce4c265e77929af8695e0,3,TRUE,TRUE,areas from prose,model,claude-opus-5-5,v1,7623,3799
+p000061,2026,asu,093e535efd8422cffad414ead7bcfa6e,3,TRUE,TRUE,areas from prose,model,claude-opus-5-5,v1,7623,3799
+p000063,2026,brown,efee64eab8115298092f3fdbc4329b65,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,7623,3799
+p000068,2026,brown,14aa9d6cdf93158db3e74f76aef8f728,2,FALSE,FALSE,NA,model,claude-opus-5-5,v1,7623,3799
+p000074,2026,brown,42dee8c3725e0e3d95705942f4cc2a73,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,7623,3799
+p000079,2026,brown,f07deb92ff07dec4dbada6cbcd11aa7b,2,FALSE,FALSE,NA,model,claude-opus-5-5,v1,7623,3799
+p000081,2026,brown,281b428081a9fe3b56b44dbdd2a023f3,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,7623,3799
+p000082,2026,brown,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000083,2026,brown,7eb24dd1ced073d5e6ad5548e3b790d1,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,7623,3799
+p000084,2026,brown,3d164c709ccc9fc1dd7f75e6786d0297,3,TRUE,TRUE,Du Boisian Sociology could be theory or history; Racial and Colonial Capitalism could also be marxist,model,claude-opus-5-5,v1,1541,4585
+p000090,2026,brown,2df444ddd816c16b2537041527cbed19,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1541,4585
+p000091,2026,brown,6142aab2c66e5603bb383c6a13b98d4b,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1541,4585
+p000093,2026,brown,e45e15230d585c1c8abe8957fbea42da,3,TRUE,TRUE,'Knowledge Cultural Sociology' may be one phrase or two areas; Contemplative Studies unplaced,model,claude-opus-5-5,v1,1541,4585
+p000097,2026,brown,79fb86e49a00f41348636db258695b03,3,TRUE,TRUE,Global Political Economy coded pews; could be political or economic,model,claude-opus-5-5,v1,1541,4585
+p000099,2026,brown,41dbc6f840a94ee3a6db083b74537a20,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1541,4585
+p000102,2026,brown,ec5d64f163c61b77ab91b05fb3e57b50,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1541,4585
+p000105,2026,brown,78eaf5da768c4b015bc368f601fec4be,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1541,4585
+p000106,2026,brown,54a867d5f7dd501af52b0fa14781ad58,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1541,4585
+p000107,2026,brown,1e94473a4e6f056205bd45685570bd11,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1541,4585
+p000108,2026,brown,ca08ee9ebd8e38668fddcb59f53cdb43,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1541,4585
+p000111,2026,bu,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000113,2026,bu,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000116,2026,bu,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000120,2026,bu,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000121,2026,bu,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000122,2026,bu,252793a9cce7aee450d80bb50dd4a08a,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1541,4585
+p000130,2026,buffalo,e7426fb487651fc135a230c6c8b113cc,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1541,4585
+p000133,2026,buffalo,973f0e6427b7f714390e053409b25755,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1541,4585
+p000134,2026,buffalo,1cd54c633d72b8ec64254439b0b5b14b,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1541,4585
+p000135,2026,buffalo,53f411103a85492228b9fe5f7c80bc27,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1541,4585
+p000136,2026,buffalo,1a2390e768067ebfe7cf99c8312ae7cd,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1541,4585
+p000140,2026,buffalo,26fcdc1f4ff61229e8720a21db2e1220,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1541,4585
+p000142,2026,buffalo,a8498a7be8c58731f41f9e0a53b5b20c,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1541,4585
+p000145,2026,buffalo,2a9158754416c8b04dd4eade1f68be41,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1541,4585
+p000159,2026,cornell,451bf13fc999c19c9e456237c01665ca,2,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1846,4033
+p000162,2026,cornell,788dc6bd9dc1de07f4e8fd16cd977385,3,FALSE,TRUE,computational social science treated as methods; policy analysis too vague to code,model,claude-opus-5-5,v1,1846,4033
+p000165,2026,cornell,b27aed63ab2493bd641c4cf95de13e95,3,FALSE,TRUE,policy analysis too vague to code,model,claude-opus-5-5,v1,1846,4033
+p000177,2026,cornell,2bd90180ff826ff6c13eadde0bb9a790,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1846,4033
+p000180,2026,cornell,66b7bdba6a0237af4e73ad8c4c23e20d,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1846,4033
+p000183,2026,cornell,451bf13fc999c19c9e456237c01665ca,2,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1846,4033
+p000188,2026,cornell,6df84f92dc9e2ef746b41937cdb23526,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1846,4033
+p000193,2026,cuboulder,56b29b01a5d2683a906f71259c648952,1,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1846,4033
+p000194,2026,cuboulder,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000197,2026,cuboulder,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000199,2026,cuboulder,7c206e50a2161889fc7a7a7dff8f0838,2,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1846,4033
+p000202,2026,cuboulder,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000203,2026,cuboulder,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000204,2026,cuboulder,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000205,2026,cuboulder,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000216,2026,cwru,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000219,2026,cwru,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000221,2026,cwru,63bf0be77df8818cacc1269aca21d9aa,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1846,4033
+p000224,2026,cwru,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000229,2026,cwru,dd2ec44eb9d4f199741e69b24caa0517,2,FALSE,TRUE,areas from prose,model,claude-opus-5-5,v1,1846,4033
+p000230,2026,dartmouth,b8b054241676899962dc302609468dee,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1846,4033
+p000234,2026,dartmouth,f191953bb909902a3bbe3f1e6e1fe546,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1846,4033
+p000237,2026,dartmouth,d35941fac63441feaafbeb042c04c483,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1846,4033
+p000238,2026,dartmouth,811e43eecc7663c07c6b8f40671d9c34,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1846,4033
+p000240,2026,dartmouth,b2b2002af526170462a1653566d67f07,2,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1846,4033
+p000244,2026,dartmouth,c0ca422cbc3413e42602041c14436393,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1846,4033
+p000253,2026,duke,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000257,2026,duke,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000259,2026,duke,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000261,2026,duke,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000266,2026,duke,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000270,2026,duke,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000271,2026,duke,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000272,2026,duke,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000274,2026,duke,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000278,2026,duke,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000280,2026,duke,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000285,2026,duke,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000291,2026,duke,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000293,2026,duke,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000295,2026,duke,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000299,2026,emory,242b620e552f9b43621578be3c9d9966,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1846,4033
+p000301,2026,emory,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000303,2026,emory,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000304,2026,emory,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000307,2026,emory,4efeaafb43777a54f6b1dc86327615ce,3,TRUE,TRUE,areas from prose,model,claude-opus-5-5,v1,1846,4033
+p000312,2026,emory,a399da9045f3c0e1290b77c504c577af,2,FALSE,TRUE,areas from prose,model,claude-opus-5-5,v1,1846,4033
+p000313,2026,emory,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000319,2026,emory,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000321,2026,emory,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000323,2026,emory,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000326,2026,gatech,ffc8a5b418cd32533714a38122f6b7b7,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1660,3991
+p000329,2026,gatech,b8db56a608c91b5ecdf3f5b414c9cd25,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1660,3991
+p000334,2026,gatech,78f510496cde443e34d23970d7ab1a20,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1660,3991
+p000339,2026,gatech,53e62051d13e4680fbcbf858f11d8a90,2,FALSE,TRUE,technofascism coded political; section uncertain,model,claude-opus-5-5,v1,1660,3991
+p000343,2026,gatech,d9c31fb44b8ff29da82e0f584d4b4d28,2,FALSE,TRUE,historical field; comphist vs inequality uncertain for socioeconomic history,model,claude-opus-5-5,v1,1660,3991
+p000344,2026,gatech,c640a962c743a6a05b30692484afcb13,3,FALSE,TRUE,industrial agriculture and food systems: environment vs consumption uncertain,model,claude-opus-5-5,v1,1660,3991
+p000347,2026,gatech,9ab2a764a6e29e45cde3f2b36d481324,2,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1660,3991
+p000348,2026,gatech,02d868f7c796ca2a08b5e0e5db5f30e8,2,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1660,3991
+p000357,2026,gatech,3b6e07eb2a6dd6ede0ebac2962d92548,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1660,3991
+p000367,2026,gatech,0cdc4495fff195bcaa8578a03486dc36,2,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1660,3991
+p000368,2026,gatech,f8610db2a354fd3fe71f9deb933e4a09,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1660,3991
+p000370,2026,gwu,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000381,2026,gwu,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000383,2026,indiana,9908f80d5ed237ba63d51982f5f170d7,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1660,3991
+p000384,2026,indiana,7b86af29ded559dc2faae801dcc31f50,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1660,3991
+p000385,2026,indiana,29a0492d524768ecd9d7ef7c4269b444,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1660,3991
+p000386,2026,indiana,01cd9b44576c87036f42d732818af38f,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1660,3991
+p000387,2026,indiana,a32060e034f08f70ee1ecfa10f010bda,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1660,3991
+p000388,2026,indiana,dec9b444e9a95dc3f9a970519b6ce99c,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1660,3991
+p000389,2026,indiana,7a4556ca818faae68aefdb91a8b1d380,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1660,3991
+p000392,2026,indiana,5d14ab69d170e4c41157b425faba0fc5,3,TRUE,TRUE,China listed alone as an area; coded asia,model,claude-opus-5-5,v1,1660,3991
+p000393,2026,indiana,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000396,2026,indiana,945319143435339147692387a23adf76,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1660,3991
+p000397,2026,indiana,a25dc534b8b3d8a55921fd090495a7f8,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1707,3973
+p000398,2026,indiana,bfedc3c66ac376296de5056c40501bca,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1707,3973
+p000400,2026,indiana,fefcebf0b72255c6c4beae59f914d9ca,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1707,3973
+p000404,2026,indiana,3da64da3b2ad129e1618716405f1c9e3,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1707,3973
+p000405,2026,ku,37dbb91091106e09289ae097891e5712,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1707,3973
+p000406,2026,ku,c633b77d26b47fd97dc648059ddf0157,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1707,3973
+p000407,2026,ku,07037939d48af838998b9a9a8d8d1a2a,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1707,3973
+p000411,2026,ku,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000412,2026,ku,728e24a64090bbbcfc97c943d4250263,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1707,3973
+p000420,2026,ku,383644b6806bae53f528477edc6fd389,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1707,3973
+p000430,2026,mizzou,fa1d83e6818383363e7035c3ea11893d,3,TRUE,TRUE,'settler culture' coded culture; may instead indicate indigenous (settler colonialism),model,claude-opus-5-5,v1,1707,3973
+p000432,2026,mizzou,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000433,2026,northwestern,dbd7b974eb89bdd32a6ace8af404eb60,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1707,3973
+p000435,2026,northwestern,c729590f5408ef21d322bafdcdd13485,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1707,3973
+p000438,2026,northwestern,5836600ee3d3e8acd35db13203c78e05,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1707,3973
+p000443,2026,northwestern,c1747456616a10c5c53876612fd0493d,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1707,3973
+p000450,2026,northwestern,548306e9159525934040b263ab590a21,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1707,3973
+p000451,2026,northwestern,9371c0fe7b1aa5d39b36a8ac0f01483f,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1707,3973
+p000456,2026,northwestern,a5d9c6c72c0a42a7897d050bd54155cb,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1707,3973
+p000458,2026,northwestern,df32b787e3a8d31187b694d907c31952,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1707,3973
+p000461,2026,northwestern,9b57d6cc816fbee7b9fbaaa291b2b254,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1707,3973
+p000462,2026,northwestern,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000470,2026,notredame,8af73ee542c4e7d28837fc266629d67a,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1707,3973
+p000471,2026,notredame,7efda4437d6947316faa0e0ab1216559,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1444,3761
+p000481,2026,notredame,96b422ae3acee1e837b1a1dcb38c0b01,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1444,3761
+p000487,2026,notredame,4612e7b0f0b1f0abd4e3d9b51efa330e,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1444,3761
+p000493,2026,notredame,3e86459428c2c08e48727aa4b14332c0,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1444,3761
+p000494,2026,notredame,823625bc7e45f4753d6d36fdefeec1c5,3,FALSE,TRUE,Developmental Science left uncoded (unclear whether children or life course); Statistics treated as method,model,claude-opus-5-5,v1,1444,3761
+p000497,2026,notredame,eb6ee2680f596e20484b29fcb904ceab,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1444,3761
+p000498,2026,notredame,fe8d31f91681817b4b1438c2933b8b75,1,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1444,3761
+p000499,2026,notredame,ac5f95651463c1c2aeb42fbb8291e98d,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1444,3761
+p000503,2026,osu,93c8097f1bd286e7bc707119b32c2f7a,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1444,3761
+p000515,2026,osu,2255a699f37e39b0404c68cbaf8138cf,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1444,3761
+p000517,2026,osu,43945f298d52d30bcb8418098c34481c,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1444,3761
+p000520,2026,osu,059a57245a55f9d0b82f00cfec3dc020,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1444,3761
+p000521,2026,osu,467ea5e6e94bfe794256751157d053ed,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1444,3761
+p000525,2026,osu,dc9619ccf8d2b67ca2082da8d6909ce2,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1444,3761
+p000528,2026,osu,d7451a9e9dbf981a0e7858cd59266cc9,1,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1444,3761
+p000529,2026,osu,66ca2f7175b4a49e6176fc8b670d98cf,2,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1444,3761
+p000534,2026,osu,e4b90cc55ef902f7030e71268e672f68,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1444,3761
+p000537,2026,osu,9fdc29d2c3fbdea333e5690922375bff,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1444,3761
+p000545,2026,osu,eb717a1d601411fd6edb82865dcad46d,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1444,3761
+p000551,2026,osu,dec3748edd84eb659e3c961675574df4,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1444,3761
+p000552,2026,osu,07b90fc4d242f2629065aebe260d7aa8,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1735,4286
+p000553,2026,osu,b2ade24a18cb94800a97ffbc9f1ef53d,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1735,4286
+p000559,2026,osu,7560836525572405fb78b1646b70da5e,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1735,4286
+p000561,2026,osu,0be7b7c16f60ac62d1ec05ea1870cc67,3,TRUE,TRUE,Employment could be labor or oow,model,claude-opus-5-5,v1,1735,4286
+p000563,2026,osu,792e2081a8775607214116b92f4d15fa,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1735,4286
+p000566,2026,osu,8c37598aa8b6e776a863bf87d37a0131,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1735,4286
+p000567,2026,osu,8f527571895518a4bf98d95b68323068,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1735,4286
+p000571,2026,osu,8c3c2713ff767d0750c080a1c62c3182,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1735,4286
+p000572,2026,osu,c0c4271943cf6c3e948bc3822971f979,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1735,4286
+p000573,2026,osu,0e14b6f157bc9a10575356027d89d973,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1735,4286
+p000575,2026,osu,cf1d574f8905b7b1434e29400adda766,3,FALSE,TRUE,unclear whether Qualitative Methodology is a research area in its own right,model,claude-opus-5-5,v1,1735,4286
+p000582,2026,osu,0b4319d2a14863212e97ae74cf819a27,1,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1735,4286
+p000585,2026,osu,aca042af92c3ff84989338fcfd7cee9d,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1735,4286
+p000606,2026,pitt,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000608,2026,psu,b1ff637de5e0a3703cf590056c0c5ad8,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1735,4286
+p000613,2026,psu,52e0be184cc726e8f6599fbf7bd27567,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1735,4286
+p000617,2026,psu,6db513454afea50788ead5cdbbacf9ab,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1735,4286
+p000621,2026,psu,1ffdc4ef850c88fd7bcb1568fd19ab5b,2,FALSE,TRUE,headers 'Family and Relationships' and 'Social Institutions and Culture' list only crime topics; not coded,model,claude-opus-5-5,v1,1735,4286
+p000636,2026,psu,a5ecb38c41c0ab457565f2d05f245892,3,TRUE,TRUE,areas from prose,model,claude-opus-5-5,v1,1735,4286
+p000651,2026,purdue,d19629ccc27e00fbfed44a01d5c3b8cd,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1735,4286
+p000658,2026,purdue,57959e5cb1846058c28ccaa9e6a84f79,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1735,4286
+p000659,2026,purdue,1e3dc6e39fb6a68af793316e0284a1c2,1,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1697,3534
+p000661,2026,purdue,e5fb022d6b742a84cddc0fb0065cb191,2,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1697,3534
+p000663,2026,purdue,1dade7b14e2457e4db8fe0dde73c0e11,0,FALSE,TRUE,unclear area term: CALC; not coded,model,claude-opus-5-5,v1,1697,3534
+p000664,2026,purdue,e815443a5d83b17579c0235fd7252b18,3,FALSE,TRUE,unsure whether 'interpersonal relations & well-being' fits socpsych/mentalhealth; 'sibling relations in adulthood' could also be aging,model,claude-opus-5-5,v1,1697,3534
+p000668,2026,purdue,80fb9cac7decb2b384c6cc90cd581359,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1697,3534
+p000673,2026,purdue,c40a8ce7032b51655c3f4a5748933747,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1697,3534
+p000680,2026,purdue,b2d85b92a538ee4bf3870af047d136b5,1,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1697,3534
+p000683,2026,purdue,01b16cce8088a226cb60af43be7be076,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1697,3534
+p000687,2026,purdue,b2d85b92a538ee4bf3870af047d136b5,1,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1697,3534
+p000688,2026,purdue,b9ff082e01138d53010f811cc6558cb2,2,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1697,3534
+p000693,2026,purdue,b572371af43e2f84db9321a4f046a8e9,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1697,3534
+p000698,2026,rice,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000701,2026,rice,207adf696b1aae231159529a74f38856,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1697,3534
+p000703,2026,rice,af41c597c585cd8b3b9282b8d51d54a3,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1697,3534
+p000709,2026,rice,64cb72e6c9e1f10bc2518ffd2f3687cc,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1697,3534
+p000710,2026,rice,a381dd33e8e60a354d9e213b51fa70c5,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1697,3534
+p000717,2026,rice,940e28874835174b5f2ad32614557594,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1697,3534
+p000721,2026,rice,bcd8ea15ef9de457de88b51083422635,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1697,3534
+p000723,2026,rice,5504fb9b7157f3244698e5dd24255f44,2,FALSE,TRUE,'Research-Practice Partnerships' unclear (possibly public sociology); not coded,model,claude-opus-5-5,v1,1697,3534
+p000728,2026,rice,c48ab219100ccdd7f27b2e6da046dacc,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1697,3534
+p000730,2026,rutgers,727359a4e6aa3ac4da67195656440b57,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1697,3534
+p000737,2026,rutgers,33a75680282f7b7261bee9b0746eae90,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,2037,3543
+p000739,2026,rutgers,0dce52a8ef45b2f0e92ea3b75bbe2830,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,2037,3543
+p000742,2026,rutgers,a96a88c05a2e9650d2be9844eb0283b3,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,2037,3543
+p000743,2026,rutgers,9a8c27f14cebb65a9c8020d133b2927f,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,2037,3543
+p000752,2026,rutgers,a8a1553045b846c0d61ae13af09d38e9,3,TRUE,TRUE,areas from prose; 'idea of chance in the Renaissance' left uncoded (unclear section),model,claude-opus-5-5,v1,2037,3543
+p000755,2026,rutgers,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000757,2026,rutgers,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000760,2026,stanford,9080256f2f28965570109ea63b153be6,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,2037,3543
+p000761,2026,stanford,88e65b7c9a9f4f0e3f1e59588e8daa10,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,2037,3543
+p000763,2026,stanford,62c364dad27f9d725c2246c4f9b798c4,1,FALSE,FALSE,NA,model,claude-opus-5-5,v1,2037,3543
+p000764,2026,stanford,c208d99bb47cfefd5a9ed395b9c8fdf0,1,FALSE,FALSE,NA,model,claude-opus-5-5,v1,2037,3543
+p000766,2026,stanford,5071a7d47434465f06ae9be623884934,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,2037,3543
+p000767,2026,stanford,43a47c8b24b07bdd5bc46d42d48e9496,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,2037,3543
+p000769,2026,stanford,90cd6f30ddd741d41319a6d3ecee768a,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,2037,3543
+p000770,2026,stanford,87929aab6e74db3127dbfc01b5730b77,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,2037,3543
+p000772,2026,stanford,071a9c01f19d76395ec3ec5fb9301a32,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,2037,3543
+p000774,2026,stanford,368cc091b22ab4746428d21fa7087ed7,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,2037,3543
+p000776,2026,stanford,d7385e957c60463ce52150d5937d7dd0,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,2037,3543
+p000777,2026,stanford,0223abc9032f2c8a723472f90b112b37,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,2037,3543
+p000778,2026,stanford,e6625d2096c08d473f955faf29cb5cf9,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,2037,3543
+p000783,2026,stonybrook,85e475acff903147bd6d044827a0bb39,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,2037,3543
+p000787,2026,stonybrook,1a638f2a5323e3b679a40d947fc64e5f,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,2037,3543
+p000795,2026,stonybrook,be0c2441d7caa27d113c6222fe148e07,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1596,4173
+p000797,2026,stonybrook,d87fe05aa03bf75820e38f9d2f79cde6,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1596,4173
+p000800,2026,stonybrook,c6e5e3c679ce08eb3a164040d8d7112a,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1596,4173
+p000824,2026,tamu,0fdd2d675eba4a62fbc18d5768233c38,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1596,4173
+p000825,2026,tamu,7ae83b7da2d0b8b572bb7482f35a9bb5,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1596,4173
+p000833,2026,tamu,4996d2da6936976be334275c9576824b,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1596,4173
+p000834,2026,tamu,312e1d52a9299a4fe0629649d30486b1,2,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1596,4173
+p000837,2026,tamu,9e46381c880321255871f85580c15f9f,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1596,4173
+p000842,2026,tamu,d4ee1767cc99f5acf00cd4232ab2c817,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1596,4173
+p000844,2026,tamu,1acd82b359336b54362dee009b77fb3a,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1596,4173
+p000845,2026,tamu,9f8cf2708e63f5fd17e1de8164da7f29,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1596,4173
+p000857,2026,tufts,5b351b13d3cc4e845eb9d5292b496b95,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1596,4173
+p000860,2026,tufts,1fa40a39c49fe5438a5e99a99fbfa14a,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1596,4173
+p000864,2026,tufts,4ea8883e09cb1186e953ac023ef71e14,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1596,4173
+p000870,2026,uarizona,bc1478c9c0c0fe27f8de2f54ffb13dd2,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1596,4173
+p000873,2026,uarizona,fbe230f15a261aeec64c48cf789e4b4f,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1596,4173
+p000877,2026,uarizona,f2e88b5c4181b3fed0e6c1898f7605c6,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1596,4173
+p000881,2026,uarizona,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000882,2026,uarizona,7eacba577e1f8264f9030760110ed597,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1596,4173
+p000888,2026,uarizona,13aa19edcad2a6d273f8075537d5d2d4,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1596,4173
+p000897,2026,uarizona,a5e57499897419ab44a425e3a889d44d,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1596,4173
+p000905,2026,ucberkeley,55656b7985fe32357bf67d2101b6911c,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1512,3433
+p000909,2026,ucberkeley,f96227a2edb704bdd2049936ee0114b2,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1512,3433
+p000910,2026,ucberkeley,fc595fdb34cc9311d58e34730c77404f,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1512,3433
+p000911,2026,ucberkeley,d54fb623c6e9ecd670de575ed16addde,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1512,3433
+p000914,2026,ucberkeley,851336a779ebe653522c707cc555047c,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1512,3433
+p000915,2026,ucberkeley,fd26e2b21fe2185d7a1b82111d9e8232,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1512,3433
+p000918,2026,ucberkeley,5da1f5be6a627e101c9ac32c788a89a4,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1512,3433
+p000919,2026,ucberkeley,509fe4cec05b124e2c317ca5acacff7d,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1512,3433
+p000921,2026,ucberkeley,0c802287d4670e8677d527e575ce2df9,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1512,3433
+p000922,2026,ucberkeley,04fbaf1cb5ac8bbadc826fff38c1af8c,1,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1512,3433
+p000923,2026,ucberkeley,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p000924,2026,ucberkeley,84777da3e186dddd1d6cd659c589e14c,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1512,3433
+p000925,2026,ucberkeley,6ddf41df43456f443757eecabf7c7b08,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1512,3433
+p000926,2026,ucberkeley,c818875c57ddcf80bce745ae589dcd2f,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1512,3433
+p000927,2026,ucberkeley,0cf6a9f432f21b2f970cd3eaa31af8d5,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1512,3433
+p000929,2026,ucberkeley,8f33ae81cf4475e634e7954f6ff3d7d9,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1512,3433
+p000930,2026,ucberkeley,0f5f50da41d3432cd98b67faa78238b5,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1512,3433
+p000931,2026,ucberkeley,e6d831f126d96834a7ffd46800867a72,3,TRUE,TRUE,social violence could be peace or crime,model,claude-opus-5-5,v1,1512,3433
+p000933,2026,ucberkeley,5235d378c6094243ca697ea100a90eda,2,FALSE,TRUE,"political economy not coded: unclear whether economic, marxist, or political",model,claude-opus-5-5,v1,1512,3433
+p000934,2026,ucberkeley,9ab0c07012a7886e603e0c4f3b9ff65a,3,TRUE,TRUE,postcolonial sociology not coded (unclear section); South Asia may be only study site,model,claude-opus-5-5,v1,1512,3433
+p000935,2026,ucberkeley,c31246707f50033c0856809e899569ae,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1512,3433
+p000939,2026,ucberkeley,62f219efcb1686b961c6815f582c7d93,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1812,3797
+p000941,2026,uchicago,bcb3cca6c6d1625f594d6ac2995a1c41,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1812,3797
+p000942,2026,uchicago,1f7ae84fdcba1fa3e8488b2e332ea7df,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1812,3797
+p000944,2026,uchicago,ee8cd743203b59ebecde0c1f964b9334,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1812,3797
+p000945,2026,uchicago,c8f3799b021d29a2402f9c3a9b41a6d2,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1812,3797
+p000946,2026,uchicago,17c2d181866db9a49a7aa80df7186599,3,TRUE,TRUE,computational social science coded as methods; several computational/AI topics hard to place,model,claude-opus-5-5,v1,1812,3797
+p000947,2026,uchicago,ba27185e096641d7c82f96ef6d604543,2,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1812,3797
+p000948,2026,uchicago,04d3d95b9e2e85474fa8383535363010,2,FALSE,TRUE,'social structures' too vague to code; 'quantitative study of qualities' coded methods tentatively,model,claude-opus-5-5,v1,1812,3797
+p000949,2026,uchicago,6eb48f2ce92283b67a20bdf74d163f0c,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1812,3797
+p000950,2026,uchicago,8485733afb3fd086f2f2c47fc382899e,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1812,3797
+p000951,2026,uchicago,a4e626e0699f9443208c44bd230f4b65,3,TRUE,TRUE,'rational choice' not coded; placement between theory and mathematical unclear,model,claude-opus-5-5,v1,1812,3797
+p000952,2026,uchicago,ce3ed4bf6ff66284a52eb2e2a6420a0e,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1812,3797
+p000954,2026,uchicago,2feab55ec59a81502882635445d35a91,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1812,3797
+p000957,2026,uchicago,5941efcdf09c4d919e16b930e2c7da90,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1812,3797
+p000960,2026,uchicago,46ac01e8e2665d0c70cc391f4d3201f2,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1812,3797
+p000962,2026,uchicago,f5fc3af2e101abe9757d60b5ee5db797,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1812,3797
+p000964,2026,ucirvine,8f06b35ae9563a56df82c18011c30d4f,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1812,3797
+p000965,2026,ucirvine,78ff39f13689272b541febb5f6b28cce,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1812,3797
+p000967,2026,ucirvine,8986e277940e5945cd598834ece0dcdd,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1812,3797
+p000968,2026,ucirvine,dbfa02131f84fe9d5f82f27b1f8c6870,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1812,3797
+p000969,2026,ucirvine,818475fee4738bb05b1a536ee527379f,3,FALSE,TRUE,"'social justice' too vague to code; 'public policy' coded political, uncertain",model,claude-opus-5-5,v1,1530,3617
+p000970,2026,ucirvine,5c821d2b0243c40e117aabd458367557,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1530,3617
+p000971,2026,ucirvine,1d16dc2fc1da3b0230d36bfd1a5efff9,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1530,3617
+p000972,2026,ucirvine,2c8b8b0cde485a4931f10d728082f8d2,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1530,3617
+p000974,2026,ucirvine,328791ebe0dced19f3af1851b132eaaa,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1530,3617
+p000975,2026,ucirvine,79a59d7a490db97a96ad980bb67edaf9,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1530,3617
+p000976,2026,ucirvine,f00cb5d86884ffde6c7f653bdb0ad515,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1530,3617
+p000980,2026,ucirvine,1048090a518fb670f1f7a544b8c304a5,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1530,3617
+p000981,2026,ucirvine,8da9c89a6b105a274ce36eec6307a975,3,TRUE,TRUE,areas from prose,model,claude-opus-5-5,v1,1530,3617
+p000983,2026,ucirvine,9e90297dcbb3ff03175105e4a590f641,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1530,3617
+p000986,2026,ucirvine,bbb9389a84627e829d16175650d0f647,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1530,3617
+p000987,2026,ucirvine,be950532b805146569676a1645d14d31,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1530,3617
+p000989,2026,ucirvine,e956a0cde19d8ef45ea581fda3098c0c,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1530,3617
+p000990,2026,ucirvine,552f88650428613149ea2a0e2060d2a5,2,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1530,3617
+p000991,2026,ucla,bf110633c3e938a48d68fff298b569c4,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1530,3617
+p000993,2026,ucla,ba6a517cc26456785a18dcf3e3bc3107,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1530,3617
+p000994,2026,ucla,fb96d2487139d7fe7d54c3fcbef4b266,3,TRUE,TRUE,'Social Policy' left uncoded; unclear section,model,claude-opus-5-5,v1,1530,3617
+p000995,2026,ucla,65ca12c3e65b8c691d7347142b655bf0,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1530,3617
+p000996,2026,ucla,d1d0b714f7b64a191dc2f10d70565fde,2,FALSE,TRUE,areas from prose; Puerto Rico not coded latinx,model,claude-opus-5-5,v1,1530,3617
+p000997,2026,ucla,b514099df22983b9a4c905e5eb720585,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1530,3617
+p000999,2026,ucla,210c7b25728a56dc290fc04c78f84f8e,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1410,3246
+p001000,2026,ucla,60c8ba98362f6d156d0aa2f6b7a8c86d,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1410,3246
+p001002,2026,ucla,634450e764b176e803c970eab026b941,1,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1410,3246
+p001004,2026,ucla,35c41b49f9310e379cd01e6299cae9bb,1,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1410,3246
+p001007,2026,ucla,0706cb5adddb138c42eeacd358ab46ff,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1410,3246
+p001008,2026,ucla,99b4723aeb37021d2cb35d2c83582943,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1410,3246
+p001010,2026,ucla,88fa8487674bd1999abc52f45860cf2b,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1410,3246
+p001011,2026,ucla,117b28e88e7a18714096fe5862127db2,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1410,3246
+p001012,2026,ucla,10143c2d2b1cda8280923c175675e685,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1410,3246
+p001013,2026,ucla,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001015,2026,ucla,844817e5c27a3e6d33a6d1f7f491c01b,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1410,3246
+p001016,2026,ucla,c62dc149cd2c98627531257230586fa1,3,FALSE,TRUE,areas from prose,model,claude-opus-5-5,v1,1410,3246
+p001017,2026,ucla,11dc05e64aff1044e6f28a7beb16cf5a,3,TRUE,TRUE,'Social Change' too vague to code,model,claude-opus-5-5,v1,1410,3246
+p001018,2026,ucla,3daaedc96c78ab3806f6bc324f3e5dfc,2,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1410,3246
+p001019,2026,ucla,6ff6de06785cc546b6db4b9ca1e857fa,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1410,3246
+p001020,2026,ucla,6d28133ca6d3cb608e3b0b815d0042bb,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1410,3246
+p001021,2026,ucla,1d4952cb12e1768c7db033e85a1d6cde,2,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1410,3246
+p001022,2026,ucla,fa0429296416bc77fcdbc2f6bc0d032a,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1410,3246
+p001023,2026,ucla,01ec6eb647dbc6eb54b3c602765bafda,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1410,3246
+p001024,2026,ucla,19fc9f5dbab65fa5118f79d22ea21ca1,3,TRUE,TRUE,'Social Change' too vague to code,model,claude-opus-5-5,v1,1410,3246
+p001025,2026,ucsb,c82fc4a612a81236952cd3dbb72eebc8,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1410,3246
+p001027,2026,ucsb,3e05e2169969c86c35afafe05bc048cc,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1789,4103
+p001028,2026,ucsb,295c489b83c6ac85b7c5beef5b71dc99,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1789,4103
+p001047,2026,ucsb,c54f268376e16fb049c57c336e1e2fd5,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1789,4103
+p001048,2026,ucsb,a6911e8046bcdd3318f0c2b6905b551a,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1789,4103
+p001051,2026,ucsb,08f5d3571f20d7ad426ff2e1c165b986,2,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1789,4103
+p001056,2026,ucsb,9c01affada08d7f3105378b8bf8e6742,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1789,4103
+p001060,2026,ucsb,7fd413bcab50deaf0f9c62da4aea7855,3,TRUE,TRUE,G. H. Mead could be theory or history of social thought; coded theory,model,claude-opus-5-5,v1,1789,4103
+p001062,2026,ucsb,6e8df4f50e4024291e6bfa9607cbfd1b,3,TRUE,TRUE,"computational sociology and content analysis coded as methods areas in their own right; substantive areas (networks, culture, science, theory) fall outside three-code limit",model,claude-opus-5-5,v1,1789,4103
+p001067,2026,ucsb,c7cabb4c9b762ff04285971d860945f0,3,TRUE,TRUE,"Africa and the Middle East listed as an area; coded mena, uncertain whether region is subject of study",model,claude-opus-5-5,v1,1789,4103
+p001068,2026,ucsb,4c06462806987b4a2dccd7be458bc1cf,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1789,4103
+p001070,2026,ucsb,ad0f0d9ac660ab79bf0b5f46ab00a2e5,3,TRUE,TRUE,Violence too vague to place; skipped,model,claude-opus-5-5,v1,1789,4103
+p001073,2026,ucsb,7c468663de127e4e7b0541ebd2a6ce4f,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1789,4103
+p001075,2026,ucsb,22501cac01ea5a344ec2a7601c84779b,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1789,4103
+p001091,2026,ucsb,d435f2a515687697d30111fa5cc00a6e,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1789,4103
+p001093,2026,ucsb,4c9d6e4a14c68464c97abac27c848a50,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1789,4103
+p001099,2026,ucsb,b63abb3648b1894c19a6520daf69763f,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1789,4103
+p001101,2026,ucsb,5a276b103e97120d311072bdb6de86e5,3,FALSE,TRUE,Justice too vague to place; skipped,model,claude-opus-5-5,v1,1789,4103
+p001102,2026,ucsb,a1c742853d89f21db95016ce7c640a8c,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1789,4103
+p001104,2026,ucsb,01bf8d7fd0e55339d451a0efbaf352da,3,TRUE,TRUE,Global Political Economy could be pews or global; treated as global,model,claude-opus-5-5,v1,1789,4103
+p001113,2026,ucsc,8472d81527d26602ca09c2fdcaf0e63d,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1789,4103
+p001116,2026,ucsc,214891434fd1d21d691771dc1b2c13d1,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1759,4114
+p001127,2026,ucsc,1d8cb58bcc7c96f08617debe0f668ed0,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1759,4114
+p001134,2026,ucsc,c808fbc43e6f13948e558af07de59d42,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1759,4114
+p001141,2026,ucsc,cb7aa0e4351d404e9df3cc1ce17d4ed0,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1759,4114
+p001144,2026,ucsc,d4c854b034ca70a257da125f576f9656,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1759,4114
+p001149,2026,ucsc,77dfb92d78d484edce097fc743b33bb4,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1759,4114
+p001155,2026,ucsd,8ba6051243850f325dc8222e0adb4ae5,3,TRUE,TRUE,rational choice theory coded theory; could be networks (decision-making); 'uncertainty and risk' not coded,model,claude-opus-5-5,v1,1759,4114
+p001162,2026,ucsd,54332ec727043449d1d9bea515088ae3,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1759,4114
+p001168,2026,ucsd,82df21dab152e419fd215e424d0106c9,2,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1759,4114
+p001176,2026,ucsd,a2307b3b2a6f4d07e33df568bb411626,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1759,4114
+p001182,2026,ucsd,303e2c988305186b532cae010c1bbd3d,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1759,4114
+p001183,2026,ucsd,11285ac755da5703d4a4e3bc1fe6cf56,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1759,4114
+p001185,2026,ucsd,8640a7886236efe6596a0d2397c1e4fc,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1759,4114
+p001187,2026,ucsd,d6d5a35d5c1d444e25b90943c7e2d614,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1759,4114
+p001190,2026,ucsd,42ccb257c05ee8ed8121420da1459ba9,3,FALSE,TRUE,sociology of language not coded; possibly ethnometh or culture,model,claude-opus-5-5,v1,1759,4114
+p001191,2026,ucsd,fff6e1fd6c4a475f8a5cc31bc0e67e5d,2,FALSE,TRUE,comparative political economy coded political; could be economic or comphist,model,claude-opus-5-5,v1,1759,4114
+p001195,2026,ucsd,817fe713b1867cc5b20d893911bc1c52,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1759,4114
+p001207,2026,ucsd,b12ebb083edd351acd48e5f399126162,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1759,4114
+p001211,2026,ufl,7330cc7a981891272cdec54795bce62e,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1759,4114
+p001229,2026,ufl,0e2794996aed2bad9be0e6fc9154f7e4,1,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1759,4114
+p001244,2026,ufl,fd4b3ac88726103d3f1c2330e87ffc10,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1573,3486
+p001252,2026,ufl,017e3c1b83a83f9c83a7a3b767e2a862,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1573,3486
+p001255,2026,ufl,f15e2f6f0b2002e0d3f63357ee90981c,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1573,3486
+p001259,2026,uiowa,880d53e03a2e3286865e9439c1941dfe,3,FALSE,TRUE,'Status' ambiguous: coded socpsych (status processes); could be inequality,model,claude-opus-5-5,v1,1573,3486
+p001267,2026,uiowa,03ac26290ef81d65966ee07e9e478c3b,1,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1573,3486
+p001269,2026,uiowa,307476f357909418f7b20887269c26bb,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1573,3486
+p001270,2026,uiowa,5b69ba4a28ab4c7d443a724e4e72d4be,2,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1573,3486
+p001273,2026,uiowa,03ac26290ef81d65966ee07e9e478c3b,1,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1573,3486
+p001274,2026,uiowa,f1927570ac7d136a47ad24aea2427a2d,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1573,3486
+p001295,2026,uiuc,151d9c72006ba432dcf6dc8d9d1e51b2,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1573,3486
+p001296,2026,uiuc,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001298,2026,uiuc,88a18579e74dea32f196c48b0e77e51e,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1573,3486
+p001311,2026,umd,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001317,2026,umd,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001318,2026,umd,4e6e85869dcb1ad5617bece6d6d89e0f,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1573,3486
+p001319,2026,umd,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001320,2026,umd,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001321,2026,umd,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001322,2026,umd,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001324,2026,umd,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001329,2026,umd,dc14543d170d45b830c8d0d3b46f6dcb,3,TRUE,TRUE,areas from prose,model,claude-opus-5-5,v1,1573,3486
+p001330,2026,umd,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001331,2026,umd,d0527de520e4f67f3cea8fb92ef0d0d9,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1573,3486
+p001333,2026,umd,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001339,2026,umn,b6847f29835d75a3ea8c5ccd800e545d,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1573,3486
+p001341,2026,umn,44950298b6b37c84a210fe0d641e7e15,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1573,3486
+p001346,2026,umn,c19e030fc1c1ca28f40581cdaa17fc91,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1573,3486
+p001347,2026,umn,cc69cb80ee66b3052cd37f3071a7a9ca,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1573,3486
+p001348,2026,umn,e6a7a197ad186312b5f0b6fd87708678,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1573,3486
+p001350,2026,umn,0b591fcde26445fa167fceba5a0fa5fb,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1573,3486
+p001352,2026,umn,ecec3dd22489065c83bc62572e63b1df,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1643,3664
+p001353,2026,umn,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001364,2026,umn,e3f58da19d18aa707edd48fb78cb22c1,3,TRUE,TRUE,'Diversity' too vague to place,model,claude-opus-5-5,v1,1643,3664
+p001365,2026,umn,b9dd6917163c49b777f71cfd427053a7,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1643,3664
+p001367,2026,umn,d0505b21a7cf32a03c0230ac921c2000,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1643,3664
+p001370,2026,umn,0a14ea8efffbd10f07d1c0274281a970,3,TRUE,TRUE,"'Political Economic' ambiguous between economic, political, and marxist",model,claude-opus-5-5,v1,1643,3664
+p001372,2026,umn,bd9a696ffab00261b312beb0a4274f3c,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1643,3664
+p001375,2026,umn,5c144546d0352d4ce719e03eaa4cd4b5,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1643,3664
+p001377,2026,umn,6b65c749f6205c700b15d28ab7ce6e9e,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1643,3664
+p001384,2026,umn,c9c692786458e62de8a95449ad02295a,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1643,3664
+p001390,2026,unc,37c9271ecdd7e2746608ad09b283be18,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1643,3664
+p001392,2026,unc,caef59cec30e3fd84c067509fc6d122c,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1643,3664
+p001393,2026,unc,ee705387f84546acb01c7a1f5ab20800,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1643,3664
+p001394,2026,unc,74c2d65ecc005af5e6f1005d870375c1,2,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1643,3664
+p001397,2026,unc,a5ccfdc92f580d6964e818fb6d1d9e07,2,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1643,3664
+p001400,2026,unc,b87518bd13e3243aac693caa2df11a7a,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1643,3664
+p001402,2026,unc,173d8df8acdc04d3c77541e3100e5be6,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1643,3664
+p001406,2026,unc,115f86ec39ee55d24cd6fc70256582d8,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1643,3664
+p001408,2026,unc,17ab840fd281be8dea089e1392b5913a,2,FALSE,TRUE,'Computational Social Science' coded methods; could be mathematical,model,claude-opus-5-5,v1,1643,3664
+p001410,2026,unc,04f97a1f00cf9437ae2f9d2d0be6c5d3,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1643,3664
+p001416,2026,unc,58c51d36d195565bf1d028438818c102,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1643,3664
+p001419,2026,uoregon,a824b8e275ea26187bc247955b4dfabc,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,3371,4229
+p001424,2026,uoregon,9b12d225afefcb82e3bc50fae56a3236,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,3371,4229
+p001435,2026,uoregon,1d6338d6a14706926330d77260a721f5,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,3371,4229
+p001436,2026,uoregon,fbfda709d3a57609ce8f1a73871a098c,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,3371,4229
+p001439,2026,uoregon,534f92fd9b67f6d0795485047bd9e7cb,2,FALSE,FALSE,NA,model,claude-opus-5-5,v1,3371,4229
+p001454,2026,uoregon,a1a248ad59738fb8fdcbeca7d77b196d,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,3371,4229
+p001456,2026,uoregon,08b2d0bdb3b66e73bfd7f606e43bf974,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,3371,4229
+p001463,2026,uoregon,255449835a90770624060f1f6cae3dc0,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,3371,4229
+p001471,2026,upenn,e1c26ac5e9bb04c4e758080fe6601c72,3,TRUE,TRUE,areas from prose,model,claude-opus-5-5,v1,3371,4229
+p001473,2026,upenn,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001474,2026,upenn,7b6e1a1102ae032f16aa4693e34efea8,3,TRUE,TRUE,areas from prose,model,claude-opus-5-5,v1,3371,4229
+p001478,2026,upenn,bd8f72f6f65d9f3f48fb6f4e9f530937,3,TRUE,TRUE,areas from prose,model,claude-opus-5-5,v1,3371,4229
+p001479,2026,upenn,b60dc7f37b2feb5896b1ab9e6b3fb6c0,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,3371,4229
+p001480,2026,upenn,a6b33b76206db2f6a39da1be49567633,2,FALSE,TRUE,areas from prose,model,claude-opus-5-5,v1,3371,4229
+p001483,2026,upenn,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001484,2026,upenn,68b9681385654d4a1cfb9ae235191449,2,FALSE,TRUE,areas from prose,model,claude-opus-5-5,v1,3371,4229
+p001485,2026,upenn,53e919d9eddb5d872f0ffec29ef926ee,2,FALSE,TRUE,areas from prose,model,claude-opus-5-5,v1,3371,4229
+p001486,2026,upenn,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001488,2026,upenn,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001491,2026,upenn,1476fa0df61cf9b754991e3fef30ab6d,3,TRUE,TRUE,areas from prose,model,claude-opus-5-5,v1,3371,4229
+p001504,2026,usc,5fea39832b65adea46b105dc3834ea2e,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,3371,4229
+p001508,2026,usc,644d32d21418125cb75dcfb0c0d31925,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,3371,4229
+p001516,2026,usc,7b6efedbe7f055f99492543362846334,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,3371,4229
+p001521,2026,usc,60a59206f2a81a367c6db37a70516cb6,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,3371,4229
+p001534,2026,usf,a55c22db703831055f3d5d4e79e0e605,3,TRUE,TRUE,'diversity' too vague to place; not coded,model,claude-opus-5-5,v1,1714,4555
+p001540,2026,usf,216f926b7a01ddaea809903b64425457,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1714,4555
+p001543,2026,usf,63b302800e2ea1ce1cdbbdcbc41e0de5,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1714,4555
+p001547,2026,usf,2e464a7ba1b662b0cfe6d57da066a75b,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1714,4555
+p001554,2026,usf,b9720f7de4639e786c4fbe28e3cdd138,3,TRUE,TRUE,'theoretical methods' could be theory or methods/mathematical,model,claude-opus-5-5,v1,1714,4555
+p001557,2026,usf,4b8cc492fc44e8eba5cdd383ad457f9d,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1714,4555
+p001558,2026,usf,ae1e1090362e8fe099e1736e76532e43,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1714,4555
+p001564,2026,usf,2b5f1518b7c22019a3f21b37028f2001,3,TRUE,TRUE,rgc inferred from intersectional framing 'gender/sexualities/race/class',model,claude-opus-5-5,v1,1714,4555
+p001565,2026,usf,d53d3e2b7481f8b56ee15fe28dd6b9c1,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1714,4555
+p001571,2026,usf,5abf8723cc5a526e04c13204133a3737,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1714,4555
+p001572,2026,utah,3fd666e9482acc86320bae7eee349eb2,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1714,4555
+p001575,2026,utah,defaf352f7ba22b8eea9270665017e24,3,TRUE,TRUE,areas are broad discipline categories; mapping uncertain,model,claude-opus-5-5,v1,1714,4555
+p001577,2026,utah,7a9b30364905ff9e8ebf0844e388fb61,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1714,4555
+p001580,2026,utah,f3dfe7cf7bd4a6fad1eadc0558078005,3,TRUE,TRUE,mostly psychology/clinical discipline categories; mapping uncertain,model,claude-opus-5-5,v1,1714,4555
+p001592,2026,utah,5fdde0285cbb47c55c4ab8115b28cc69,3,FALSE,TRUE,'Human geography' too vague to place; not coded,model,claude-opus-5-5,v1,1714,4555
+p001605,2026,utah,67b3a3af1afd482fd1ecd21966026e8c,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1714,4555
+p001606,2026,utah,28f877bfa21c14e703f242ee6c39b007,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1714,4555
+p001611,2026,utah,e7da13acced73a45ab1d272363a2c725,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1714,4555
+p001616,2026,utaustin,b426d615d9c98fa6fdccccb24cdcf285,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1714,4555
+p001619,2026,utaustin,89e6fa29014244da33458d847ee0be1d,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1714,4555
+p001624,2026,utaustin,9cd0f0a4cd6ed8fc17347fa0363958c7,3,TRUE,TRUE,areas from prose; intersectional framing inferred from listed disparities,model,claude-opus-5-5,v1,1805,4372
+p001632,2026,utaustin,0b7e22e13f7d3add5d00ef3e4fd3c8b6,1,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1805,4372
+p001633,2026,utaustin,3888a6bab26b5a75cbb11541ba8a2991,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1805,4372
+p001634,2026,utaustin,c03e9048f6ca62a57532f29de015eca4,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1805,4372
+p001641,2026,utaustin,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001643,2026,utaustin,6b0e2f96805118ae57fa7457f8575f5e,3,TRUE,TRUE,"'Ambulatory Research' unclear, not coded",model,claude-opus-5-5,v1,1805,4372
+p001645,2026,utaustin,fb52a01efa45f86ad9de7be658910d2b,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1805,4372
+p001655,2026,utaustin,47048481811c82265239ed3303b0251e,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1805,4372
+p001659,2026,utaustin,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001660,2026,utaustin,d8151b1f05bf04c5744b93ef9b65757b,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1805,4372
+p001661,2026,utaustin,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001662,2026,utaustin,3cab1c349a43a495032fdf0c14c3f5fd,2,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1805,4372
+p001668,2026,utaustin,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001670,2026,utaustin,8cb4308ac8c03ca2971e715eadda3310,1,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1805,4372
+p001673,2026,utaustin,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001676,2026,utaustin,4639a3d030ebdedf8c7858bb78115f8e,3,TRUE,TRUE,"'Human Development' ambiguous (possibly children), not coded",model,claude-opus-5-5,v1,1805,4372
+p001682,2026,utaustin,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001698,2026,uva,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001707,2026,uva,a5a1cc83773af7d1e3596c2a986390ac,3,FALSE,TRUE,"'Social Change' too vague, not coded",model,claude-opus-5-5,v1,1805,4372
+p001709,2026,uva,b0567d5e9f3bd6a51eb0d3803775bb22,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1805,4372
+p001711,2026,uva,a4c02d8bac388807edd661a17afb908a,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1805,4372
+p001716,2026,uva,9d9db40532fd85fe206c0dc0475ee02f,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1805,4372
+p001719,2026,uw,471571f277fbbde67251f379df47ebd6,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1805,4372
+p001726,2026,uw,ec7039c25f6116504b664ba3c061100b,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1805,4372
+p001727,2026,uw,9960c709399f28bb61453c13e40c148c,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1805,4372
+p001728,2026,uw,86d250fa347fed83a9206569aab95be5,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1805,4372
+p001733,2026,uw,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001737,2026,uw,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001738,2026,uw,97e7c6aba693274cb107274785fde650,3,TRUE,TRUE,unclear whether 'Big Data Computational Methods' is a methods research area in its own right,model,claude-opus-5-5,v1,1805,4372
+p001742,2026,vanderbilt,a65885a0da3acdd8818b4a5581ff5e53,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1819,3682
+p001743,2026,vanderbilt,552d3ef9264e08bab74aa3fa865766a1,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1819,3682
+p001744,2026,vanderbilt,40ff962833400a31aa4e9cd164585c1e,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1819,3682
+p001745,2026,vanderbilt,01765b439f10dd7262ebca30c8744ab2,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1819,3682
+p001746,2026,vanderbilt,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001763,2026,wisc,ca730464b50fb89aa6dc2d4289beb19f,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1819,3682
+p001765,2026,wisc,b19b11c366040895d56cdec6cf92cf8c,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1819,3682
+p001767,2026,wisc,e36c1549f240bbe6911eefc1403b0e64,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1819,3682
+p001770,2026,wisc,d2b707eca1780f61816b9a11559d071a,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1819,3682
+p001771,2026,wisc,1d19ed9ef47e5456593a65a89f0ad9d9,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1819,3682
+p001772,2026,wisc,a9ba1208bec9939ed17f82fe74f29347,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1819,3682
+p001774,2026,wisc,c003c81e0f8894906740a6b08fead1ee,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1819,3682
+p001775,2026,wisc,548a8b33aca5ea186e0ef58e350cad19,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1819,3682
+p001780,2026,wisc,c494cbd52b7c283d1b83ce48309d46ef,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1819,3682
+p001785,2026,wisc,a61b5623b62ac2d573ed14e719947662,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1819,3682
+p001787,2026,wisc,0d18fd7dd04d29b1c7bda621022257c2,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1819,3682
+p001788,2026,wisc,7c3c9f6d13ea7ab9259744010c3f9d73,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1819,3682
+p001790,2026,wisc,c5b5b5a25acc26be2fba62153dd8de1e,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1819,3682
+p001797,2026,wisc,2d0c36d688eabb34d3f4ee229e906714,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,1819,3682
+p001798,2026,wustl,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA
+p001801,2026,wustl,3ecf3d37587d7e1f71c72c6e5b746e9d,3,TRUE,TRUE,unsure whether Civic Engagement is altruism or political,model,claude-opus-5-5,v1,1819,3682
+p001802,2026,wustl,2e564c00f2fda6a58b51f2d5b397800e,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,1819,3682
+p001804,2026,wustl,b82a809dac1f22d2900a37f6b013cf91,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,917,1989
+p001805,2026,wustl,4e8b1f598ef1f0ce144dd5d522f2924f,2,FALSE,FALSE,NA,model,claude-opus-5-5,v1,917,1989
+p001806,2026,wustl,ca7000c26a5d47ef384a2031bde5757f,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,917,1989
+p001822,2026,yale,4067e0618e83b9f8f41d8fb6ddd71d43,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,917,1989
+p001824,2026,yale,c9177e8538ff8231377ac1df4f9fcb90,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,917,1989
+p001827,2026,yale,7eed2bada53b5fb62ac2f3db611518f5,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,917,1989
+p001828,2026,yale,70ec44412b47a4d2e520f4e5a393c140,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,917,1989
+p001829,2026,yale,c94ae12bcffcaafa6a941b3d651d016a,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,917,1989
+p001830,2026,yale,f525e21a406a1eabf6d4f556adc1a9d0,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,917,1989
+p001832,2026,yale,9d5f6f810479e3b262f7663164e369b7,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,917,1989
+p001834,2026,yale,d41d8cd98f00b204e9800998ecf8427e,0,FALSE,TRUE,no research areas listed,rule,NA,NA,NA,NA

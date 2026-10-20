@@ -244,15 +244,28 @@ p002229,ku,nontenure,courtesy,FALSE,Title does not mention sociology or an affil
 p002234,ku,emeritus,courtesy,FALSE,Title combines 'Adjunct' and 'Emerita'; rank could be emeritus or other. Home unit appears to be Health Policy & Management at KU Medical Center.,https://sociology.ku.edu/people/mary-zimmerman
 p001837,miami,nontenure,primary,FALSE,Rank coded nontenure from 'Research Professor'; tenure status not stated and a distinguished title could be tenure line.,NA
 p001838,miami,unknown,primary,FALSE,"Bare 'Professor'; page lists no Associate or Assistant ranks to distinguish it, so rank is unknown. Bio mentions 'Arts & Sciences Distinguished Scholar', which is not clearly a university-level distinguished title.",NA
+p001841,miami,full,primary,TRUE,coding: no research areas listed,NA
 p001843,miami,other,primary,FALSE,Title includes 'Distinguished' on a lecturer title; unclear whether it is a university-level distinguished title.,NA
+p001844,miami,full,primary,TRUE,coding: no research areas listed,NA
 p001845,miami,unknown,primary,FALSE,"Bare 'Professor'; page lists no Associate or Assistant ranks to distinguish it, so rank is unknown.",NA
+p001849,miami,full,primary,TRUE,coding: no research areas listed,NA
 p001851,miami,other,primary,FALSE,"Bio says 'Lecturer, Associated Faculty'; appointment type unclear.",NA
 p001853,miami,unknown,primary,FALSE,Listed title is only an administrative role; current rank not stated (bio says she joined as a Professor).,NA
 p001854,miami,unknown,primary,FALSE,"Bare 'Professor'; page lists no Associate or Assistant ranks to distinguish it, so rank is unknown. The research-interest text is truncated on the page.",NA
+p001855,miami,full,primary,TRUE,coding: no research areas listed,NA
+p001857,miami,full,primary,TRUE,coding: no research areas listed,NA
 p000430,mizzou,full,primary,TRUE,coding: 'settler culture' coded culture; may instead indicate indigenous (settler colonialism),https://sociology.missouri.edu/people/scott
 p000432,mizzou,full,primary,TRUE,coding: no research areas listed,https://sociology.missouri.edu/people/brekhus
 p002243,mizzou,unknown,courtesy,FALSE,No faculty rank stated; only an administrative title is listed.,https://sociology.missouri.edu/people/schatz
 p002248,mizzou,associate,courtesy,FALSE,Unclear whether 'Passanante' is a middle name or part of a compound last name.,https://sociology.missouri.edu/people/elman
+p001858,msu,full,primary,TRUE,coding: no research areas listed,https://sociology.msu.edu/people/directory/mccright-aaron.html
+p001861,msu,full,primary,TRUE,coding: no research areas listed,https://sociology.msu.edu/people/directory/kennedy-angie-c.html
+p001862,msu,full,primary,TRUE,coding: no research areas listed,https://sociology.msu.edu/people/directory/schneider-barbara.html
+p001863,msu,full,primary,TRUE,coding: no research areas listed,https://sociology.msu.edu/people/directory/pfeffer-carla.html
+p001864,msu,full,primary,TRUE,coding: no research areas listed,https://sociology.msu.edu/people/directory/broman-clifford.html
+p001876,msu,full,primary,TRUE,coding: no research areas listed,https://sociology.msu.edu/people/directory/nawyn-stephanie.html
+p001878,msu,full,primary,TRUE,coding: no research areas listed,https://sociology.msu.edu/people/directory/ren-xuefei.html
+p001879,msu,full,primary,TRUE,coding: no research areas listed,https://sociology.msu.edu/people/directory/zhang-zhenmei.html
 p002267,msu,unknown,courtesy,FALSE,Bare 'Professor'; page lists Assistant and Associate Professors elsewhere in this section but does not clearly separate ranks. Rank flagged for review.,https://sociology.msu.edu/people/directory/hampton-keith.html
 p002268,msu,full,courtesy,FALSE,Title does not state a tenure rank explicitly; rank inferred as full from named/foundation professorship. Home unit not stated.,https://sociology.msu.edu/people/directory/frank-ken.html
 p002272,msu,emeritus,primary,FALSE,Name split uncertain: 'Baca Zinn' may be a compound last name (assumed) versus middle name 'Baca' and last name 'Zinn'.,NA
@@ -432,15 +445,16 @@ p001885,tulane,associate,primary,FALSE,Page conflict: first unsectioned list giv
 p001886,tulane,emeritus,primary,FALSE,Page conflict: first unsectioned list gives 'Professor'; Professors Emeriti section gives 'Professor Emeritus of Sociology'. Used the latter.,https://liberalarts.tulane.edu/sociology/people/carl-l-bankston-iii
 p001887,tulane,nontenure,unknown,FALSE,Title names Sociology and Environmental Studies without stating home department or joint appointment. First list gives 'Professor of Practice' rather than 'Senior Professor of Practice'.,https://liberalarts.tulane.edu/sociology/people/christopher-oliver
 p001888,tulane,assistant,unknown,FALSE,Title names Sociology and Africana Studies but does not state home department or a joint appointment.,https://liberalarts.tulane.edu/sociology/people/corey-miles
-p001889,tulane,full,primary,TRUE,First unsectioned list names Mimi Schippers as Department Chair; this entry names Smilde as Department Chair.,https://liberalarts.tulane.edu/sociology/people/david-smilde
+p001889,tulane,full,primary,TRUE,First unsectioned list names Mimi Schippers as Department Chair; this entry names Smilde as Department Chair. | coding: no research areas listed,https://liberalarts.tulane.edu/sociology/people/david-smilde
 p001890,tulane,emeritus,primary,FALSE,Listed under 'In Memoriam' (deceased); not current faculty.,https://liberalarts.tulane.edu/sociology/people/edward-v-morse
 p001891,tulane,emeritus,primary,FALSE,Listed under 'In Memoriam' (deceased); not current faculty. Name spelling as listed.,https://liberalarts.tulane.edu/sociology/people/fred-koeing
-p001893,tulane,full,primary,TRUE,Page conflict: first unsectioned list gives 'Associate Professor'; Regular Faculty gives 'Professor'. Used the latter.,https://liberalarts.tulane.edu/sociology/people/katherine-johnson
+p001893,tulane,full,primary,TRUE,Page conflict: first unsectioned list gives 'Associate Professor'; Regular Faculty gives 'Professor'. Used the latter. | coding: no research areas listed,https://liberalarts.tulane.edu/sociology/people/katherine-johnson
+p001894,tulane,full,primary,TRUE,coding: no research areas listed,https://liberalarts.tulane.edu/sociology/people/kevin-fox-gotham
 p001897,tulane,associate,primary,FALSE,Page conflict: first unsectioned list gives 'Assistant Professor'; Regular Faculty gives 'Associate Professor'. Used the latter.,https://liberalarts.tulane.edu/sociology/people/mariana-craciun
-p001900,tulane,full,primary,TRUE,"Page conflict: first unsectioned list gives 'Professor & Department Chair', but Regular Faculty lists only 'Professor' and names David A. Smilde as Department Chair. Admin role left blank.",https://liberalarts.tulane.edu/sociology/people/mimi-schippers
-p001901,tulane,full,primary,TRUE,Page conflict: first unsectioned list gives 'Associate Professor'; Regular Faculty gives 'Professor'. Used the latter.,https://liberalarts.tulane.edu/sociology/people/patrick-rafail
+p001900,tulane,full,primary,TRUE,"Page conflict: first unsectioned list gives 'Professor & Department Chair', but Regular Faculty lists only 'Professor' and names David A. Smilde as Department Chair. Admin role left blank. | coding: no research areas listed",https://liberalarts.tulane.edu/sociology/people/mimi-schippers
+p001901,tulane,full,primary,TRUE,Page conflict: first unsectioned list gives 'Associate Professor'; Regular Faculty gives 'Professor'. Used the latter. | coding: no research areas listed,https://liberalarts.tulane.edu/sociology/people/patrick-rafail
 p001902,tulane,assistant,primary,FALSE,"Appears only in the first unsectioned list, not in the detailed sectioned listing; that list's ranks disagree with the detailed listing for several people, so it may be out of date.",NA
-p001904,tulane,full,primary,TRUE,Page conflict: first unsectioned list gives 'Associate Professor'; Regular Faculty gives 'Professor'. Used the latter.,https://liberalarts.tulane.edu/sociology/people/xiaojin-chen
+p001904,tulane,full,primary,TRUE,Page conflict: first unsectioned list gives 'Associate Professor'; Regular Faculty gives 'Professor'. Used the latter. | coding: no research areas listed,https://liberalarts.tulane.edu/sociology/people/xiaojin-chen
 p001905,tulane,associate,primary,FALSE,Page conflict: first unsectioned list gives 'Assistant Professor'; Regular Faculty gives 'Associate Professor'. Used the latter.,https://liberalarts.tulane.edu/sociology/people/xin-jiang
 p000867,uarizona,emeritus,primary,FALSE,2 records for this name merged,https://sociology.arizona.edu/person/albert-bergesen
 p000869,uarizona,assistant,unknown,FALSE,"Listed with another unit; page does not say whether the sociology appointment is joint, courtesy, or primary. | 2 records for this name merged",https://sociology.arizona.edu/person/bradley-bartos
@@ -500,7 +514,7 @@ p002436,ucberkeley,other,primary,FALSE,Lecturer Emeritus: coded as other (lectur
 p002437,ucberkeley,emeritus,primary,FALSE,Title is bare 'Professor' but listed under Emeritus Faculty; rank taken from heading.,https://sociology.berkeley.edu/alumni-manager/michael-burawoy
 p002438,ucberkeley,emeritus,primary,FALSE,Title does not say Emeritus but is listed under Emeritus Faculty; rank taken from heading.,https://sociology.berkeley.edu/professor-emeritus/michael-hout
 p002439,ucberkeley,unknown,courtesy,FALSE,No rank or title stated on page.,https://sociology.berkeley.edu/affiliated-faculty/michael-mascarenhas
-p002440,ucberkeley,emeritus,unknown,FALSE,"Title names Ethnic Studies; page does not say whether the home department is sociology or the appointment is joint. | fuzzy name candidate p000932 (michael muniz, similarity 0.94)",https://sociology.berkeley.edu/professor-emeritus/michael-omi
+p002440,ucberkeley,emeritus,unknown,FALSE,Title names Ethnic Studies; page does not say whether the home department is sociology or the appointment is joint.,https://sociology.berkeley.edu/professor-emeritus/michael-omi
 p002446,ucberkeley,emeritus,primary,FALSE,Title is bare 'Professor' but listed under Emeritus Faculty; rank taken from heading. | same name also at: utoronto (second AAU appointment or a different person),https://sociology.berkeley.edu/professor-emeritus/samuel-r-lucas
 p002447,ucberkeley,emeritus,unknown,FALSE,Title names Public Health; page does not say whether the home department is sociology or the appointment is joint.,https://sociology.berkeley.edu/professor-emeritus/stephen-shortell
 p002448,ucberkeley,other,primary,FALSE,No individual title listed; rank taken from the 'Lecturers' heading only.,https://sociology.berkeley.edu/visiting-faculty/szonja-ivester
@@ -563,6 +577,11 @@ p002565,ucla,nontenure,unknown,FALSE,Professor-in-Residence is not clearly tenur
 p002572,ucla,full,unknown,NA,"Entry appears truncated at end of page; no subfield or contact information shown. | Name parts not split confidently: unclear whether 'Ballis' is a middle name or part of the surname. | Professor-in-Residence is not clearly tenure-line; rank coded nontenure by judgment; 'Distinguished' may not be university-level. | Joint status is inferred only from the page URL (joint-faculty); the page text has no heading or statement of a joint appointment, and the sociology share and other unit are not stated. | Joint status is inferred only from the page URL (joint-faculty); the page text has no heading or statement of a joint appointment, and the sociology share and other unit are not stated. The page text begins with a truncated entry (contact info only, no name) that was not included. | Listed office address is the UCLA Institute of the Environment and Sustainability; home department not stated beyond appearing on the sociology listing. | on a joint-faculty list: budgeted share in sociology not stated",https://soc.ucla.edu/person/scott-l-cummings/
 p002573,ucla,full,unknown,NA,"Entry appears truncated at end of page; no subfield or contact information shown. | Name parts not split confidently: unclear whether 'Ballis' is a middle name or part of the surname. | Professor-in-Residence is not clearly tenure-line; rank coded nontenure by judgment; 'Distinguished' may not be university-level. | Joint status is inferred only from the page URL (joint-faculty); the page text has no heading or statement of a joint appointment, and the sociology share and other unit are not stated. | Joint status is inferred only from the page URL (joint-faculty); the page text has no heading or statement of a joint appointment, and the sociology share and other unit are not stated. The page text begins with a truncated entry (contact info only, no name) that was not included. | Listed office address is the UCLA Institute of the Environment and Sustainability; home department not stated beyond appearing on the sociology listing. | on a joint-faculty list: budgeted share in sociology not stated",https://soc.ucla.edu/person/sherod-thaxton/
 p002576,ucla,full,unknown,NA,"Entry appears truncated at end of page; no subfield or contact information shown. | Name parts not split confidently: unclear whether 'Ballis' is a middle name or part of the surname. | Professor-in-Residence is not clearly tenure-line; rank coded nontenure by judgment; 'Distinguished' may not be university-level. | Joint status is inferred only from the page URL (joint-faculty); the page text has no heading or statement of a joint appointment, and the sociology share and other unit are not stated. | Joint status is inferred only from the page URL (joint-faculty); the page text has no heading or statement of a joint appointment, and the sociology share and other unit are not stated. The page text begins with a truncated entry (contact info only, no name) that was not included. | Listed office address is the UCLA Institute of the Environment and Sustainability; home department not stated beyond appearing on the sociology listing. | on a joint-faculty list: budgeted share in sociology not stated",https://soc.ucla.edu/person/walter-allen/
+p001906,ucriverside,full,primary,TRUE,coding: no research areas listed,NA
+p001909,ucriverside,full,primary,TRUE,coding: no research areas listed,NA
+p001910,ucriverside,full,primary,TRUE,coding: no research areas listed,NA
+p001911,ucriverside,full,primary,TRUE,coding: no research areas listed,NA
+p001913,ucriverside,full,primary,TRUE,coding: no research areas listed,NA
 p001025,ucsb,full,primary,TRUE,"Listed under In Memoriam; person is likely deceased and not current faculty. | Person is deceased (passed away February 22, 2024) and listed under In Memoriam; rank taken from listing context and profile title 'Professor'. Past role as Director of Undergraduate Studies not treated as current.",https://soc.ucsb.edu/people/alicia-cast
 p001028,ucsb,full,primary,TRUE,"Bio names Sociology together with American Indian and Indigenous Studies but does not state a joint appointment or home department; primary taken from listing context. Affiliated-faculty status in other departments is only 'under review', so joint_units left empty.",https://soc.ucsb.edu/people/andrew-jolivette
 p001030,ucsb,unknown,courtesy,FALSE,No academic rank stated; name parts not split because middle/last name boundary is unclear. | No academic rank stated on the page; only 'Affiliated Faculty' heading. Home department appears to be Anthropology (offices and courses listed there).,https://soc.ucsb.edu/people/barbara-herr-harthorn
@@ -797,8 +816,10 @@ p001918,utoronto,unknown,primary,FALSE,No title or rank listed on the page.,http
 p001919,utoronto,assistant,unknown,FALSE,Title names the Centre for Criminology and Sociolegal Studies; page does not state whether the home or joint appointment is in sociology.,https://www.sociology.utoronto.ca/people/directories/all-faculty/%C3%A1ngela-zorro-medina
 p001920,utoronto,unknown,primary,FALSE,No rank or title stated on the listing.,https://www.sociology.utoronto.ca/people/directories/all-faculty/angelina-grigoryeva
 p001922,utoronto,associate,unknown,FALSE,Title names another unit (OISE); page does not state home department or whether the appointment is joint with sociology.,https://www.sociology.utoronto.ca/people/directories/all-faculty/anna-katyn-chmielewski
+p001923,utoronto,full,primary,TRUE,coding: no research areas listed,https://www.sociology.utoronto.ca/people/directories/all-faculty/anna-korteweg
 p001924,utoronto,full,unknown,NA,"Title names only the School of Public Health; the page does not state whether the sociology appointment is primary, joint, or courtesy.",https://www.sociology.utoronto.ca/people/directories/all-faculty/arjumand-siddiqi
 p001925,utoronto,emeritus,primary,FALSE,2 records for this name merged,https://www.sociology.utoronto.ca/people/directories/all-faculty/bernd-baldus
+p001926,utoronto,full,primary,TRUE,coding: no research areas listed,https://www.sociology.utoronto.ca/people/directories/all-faculty/blair-wheaton
 p001927,utoronto,unknown,primary,FALSE,No rank or title stated on the listing.,https://www.sociology.utoronto.ca/people/directories/all-faculty/bonnie-erickson
 p001928,utoronto,emeritus,primary,FALSE,2 records for this name merged,https://www.sociology.utoronto.ca/people/directories/all-faculty/bonnie-fox
 p001929,utoronto,associate,unknown,FALSE,Home unit appears to be ICCIT; the page gives only a graduate faculty membership in Sociology and does not state the appointment type.,https://www.sociology.utoronto.ca/people/directories/all-faculty/bree-mcewan
@@ -815,15 +836,21 @@ p001945,utoronto,unknown,primary,FALSE,No rank or title stated on the listing.,h
 p001946,utoronto,unknown,primary,FALSE,No title or rank listed on the page.,https://www.sociology.utoronto.ca/people/directories/all-faculty/gail-super
 p001947,utoronto,unknown,primary,FALSE,No rank or title stated on listing.,https://www.sociology.utoronto.ca/people/directories/all-faculty/hae-yeon-choo
 p001948,utoronto,unknown,primary,FALSE,No rank or title stated on the listing. | 2 records for this name merged,https://www.sociology.utoronto.ca/people/directories/all-faculty/harriet-friedmann
+p001949,utoronto,full,primary,TRUE,coding: no research areas listed,https://www.sociology.utoronto.ca/people/directories/all-faculty/hui-zheng
 p001950,utoronto,full,unknown,NA,Title names Sociology and Public Policy but the page does not say which is the home department or that the appointment is joint.,https://www.sociology.utoronto.ca/people/directories/all-faculty/ito-peng
 p001951,utoronto,assistant,primary,FALSE,2 records for this name merged,https://www.sociology.utoronto.ca/people/directories/all-faculty/jan-doering
 p001953,utoronto,associate,unknown,FALSE,Title names another unit; page does not state home department or whether the appointment is joint with sociology.,https://www.sociology.utoronto.ca/people/directories/all-faculty/jeffrey-boase
 p001955,utoronto,unknown,primary,FALSE,No rank or title stated on the listing.,https://www.sociology.utoronto.ca/people/directories/all-faculty/jerry-flores
+p001956,utoronto,full,primary,TRUE,coding: no research areas listed,https://www.sociology.utoronto.ca/people/directories/all-faculty/jessica-fields
 p001957,utoronto,unknown,primary,FALSE,No title or rank listed on the page.,https://www.sociology.utoronto.ca/people/directories/all-faculty/joanna-pepin
 p001958,utoronto,unknown,primary,FALSE,No rank or title stated on the listing.,https://www.sociology.utoronto.ca/people/directories/all-faculty/joe-hermer
+p001959,utoronto,full,primary,TRUE,coding: no research areas listed,https://www.sociology.utoronto.ca/people/directories/all-faculty/john-hannigan
 p001960,utoronto,unknown,primary,FALSE,No rank or title stated on the page. | 2 records for this name merged,https://www.sociology.utoronto.ca/people/directories/all-faculty/john-kervin
+p001963,utoronto,full,primary,TRUE,coding: no research areas listed,https://www.sociology.utoronto.ca/people/directories/all-faculty/john-veugelers
 p001964,utoronto,unknown,primary,FALSE,No rank or title stated on the listing.,https://www.sociology.utoronto.ca/people/directories/all-faculty/jonathan-horowitz
 p001965,utoronto,unknown,primary,FALSE,No rank or title stated on the page.,https://www.sociology.utoronto.ca/people/directories/all-faculty/jooyoung-lee
+p001967,utoronto,full,primary,TRUE,coding: no research areas listed,https://www.sociology.utoronto.ca/people/directories/all-faculty/jos%C3%A9e-johnston
+p001968,utoronto,full,primary,TRUE,coding: no research areas listed,https://www.sociology.utoronto.ca/people/directories/all-faculty/joseph-bryant
 p001969,utoronto,unknown,primary,FALSE,No title or rank listed on the page.,https://www.sociology.utoronto.ca/people/directories/all-faculty/judith-taylor
 p001970,utoronto,unknown,primary,FALSE,No title or rank listed on the page.,https://www.sociology.utoronto.ca/people/directories/all-faculty/julian-tanner
 p001974,utoronto,full,unknown,NA,Title names the Centre for Criminology and Sociolegal Studies; page does not state whether sociology is the home department or the appointment is joint.,https://www.sociology.utoronto.ca/people/directories/all-faculty/kelly-hannah-moffat
@@ -832,23 +859,36 @@ p001976,utoronto,associate,unknown,FALSE,Title names another unit (Rotman School
 p001977,utoronto,unknown,primary,FALSE,No title or rank listed on the page.,https://www.sociology.utoronto.ca/people/directories/all-faculty/lauren-richter
 p001979,utoronto,unknown,primary,FALSE,No title or rank listed on the page.,https://www.sociology.utoronto.ca/people/directories/all-faculty/lorne-tepperman
 p001980,utoronto,unknown,primary,FALSE,No rank or title stated on the listing.,https://www.sociology.utoronto.ca/people/directories/all-faculty/luisa-farah-schwartzman
+p001981,utoronto,full,primary,TRUE,coding: no research areas listed,https://www.sociology.utoronto.ca/people/directories/all-faculty/mahua-sarkar
 p001982,utoronto,emeritus,primary,FALSE,2 records for this name merged,https://www.sociology.utoronto.ca/people/directories/all-faculty/marion-blute
+p001983,utoronto,full,primary,TRUE,coding: no research areas listed,https://www.sociology.utoronto.ca/people/directories/all-faculty/melissa-milkie
+p001984,utoronto,full,primary,TRUE,coding: no research areas listed,https://www.sociology.utoronto.ca/people/directories/all-faculty/michelle-silver
 p001987,utoronto,unknown,primary,FALSE,No rank or title stated on listing.,https://www.sociology.utoronto.ca/people/directories/all-faculty/monica-alexander
-p001988,utoronto,full,primary,TRUE,2 records for this name merged,https://www.sociology.utoronto.ca/people/directories/all-faculty/monica-boyd
+p001988,utoronto,full,primary,TRUE,2 records for this name merged | coding: no research areas listed,https://www.sociology.utoronto.ca/people/directories/all-faculty/monica-boyd
 p001991,utoronto,emeritus,primary,FALSE,2 records for this name merged,https://www.sociology.utoronto.ca/people/directories/all-faculty/patricia-erickson
+p001992,utoronto,full,primary,TRUE,coding: no research areas listed,https://www.sociology.utoronto.ca/people/directories/all-faculty/patricia-landolt
+p001993,utoronto,full,primary,TRUE,coding: no research areas listed,https://www.sociology.utoronto.ca/people/directories/all-faculty/paula-maurutto
+p001994,utoronto,full,primary,TRUE,coding: no research areas listed,https://www.sociology.utoronto.ca/people/directories/all-faculty/philip-goodman
 p001995,utoronto,unknown,primary,FALSE,No rank or title stated on listing.,https://www.sociology.utoronto.ca/people/directories/all-faculty/prentiss-dantzler
 p001996,utoronto,unknown,primary,FALSE,No title or rank listed on the page.,https://www.sociology.utoronto.ca/people/directories/all-faculty/rania-salem
 p001997,utoronto,emeritus,primary,FALSE,2 records for this name merged,https://www.sociology.utoronto.ca/people/directories/all-faculty/robert-brym
+p002000,utoronto,full,primary,TRUE,coding: no research areas listed,https://www.sociology.utoronto.ca/people/directories/all-faculty/ron-levi
+p002001,utoronto,full,primary,TRUE,coding: no research areas listed,https://www.sociology.utoronto.ca/people/directories/all-faculty/ronit-dinovitzer
 p002002,utoronto,full,unknown,NA,Title names OISE department only; the page does not state the nature of any appointment in sociology. | same name also at: ucberkeley (second AAU appointment or a different person),https://www.sociology.utoronto.ca/people/directories/all-faculty/samuel-lucas
+p002003,utoronto,full,primary,TRUE,coding: no research areas listed,https://www.sociology.utoronto.ca/people/directories/all-faculty/sandy-welsh
 p002004,utoronto,full,unknown,NA,Title names another unit (OISE); page does not state home department or whether the appointment is joint with sociology.,https://www.sociology.utoronto.ca/people/directories/all-faculty/scott-davies
+p002005,utoronto,full,primary,TRUE,coding: no research areas listed,https://www.sociology.utoronto.ca/people/directories/all-faculty/scott-schieman
 p002006,utoronto,unknown,primary,FALSE,No rank or title stated on listing.,https://www.sociology.utoronto.ca/people/directories/all-faculty/sharla-alegria
+p002007,utoronto,full,primary,TRUE,coding: no research areas listed,https://www.sociology.utoronto.ca/people/directories/all-faculty/shyon-baumann
 p002008,utoronto,full,unknown,NA,"Title says 'Status Only'; the page does not explain what this means, so the appointment type and rank are uncertain.",https://www.sociology.utoronto.ca/people/directories/all-faculty/sida-liu
 p002011,utoronto,unknown,primary,FALSE,No rank or title stated on the listing.,https://www.sociology.utoronto.ca/people/directories/all-faculty/sonia-giebel
 p002012,utoronto,unknown,primary,FALSE,No rank or title stated on the listing.,https://www.sociology.utoronto.ca/people/directories/all-faculty/steve-hoffman
 p002013,utoronto,unknown,primary,FALSE,No rank or title stated on listing.,https://www.sociology.utoronto.ca/people/directories/all-faculty/tim-bryan
 p002014,utoronto,unknown,primary,FALSE,No rank or title stated on the page.,https://www.sociology.utoronto.ca/people/directories/all-faculty/vanina-leschziner
 p002015,utoronto,unknown,primary,FALSE,No title or rank listed for this person on the page.,https://www.sociology.utoronto.ca/people/directories/all-faculty/weiguo-zhang
+p002018,utoronto,full,primary,TRUE,coding: no research areas listed,https://www.sociology.utoronto.ca/people/directories/all-faculty/yoonkyung-lee
 p002019,utoronto,unknown,primary,FALSE,No title or rank listed on the page.,https://www.sociology.utoronto.ca/people/directories/all-faculty/yvonne-sherwood
+p002021,utoronto,full,primary,TRUE,coding: no research areas listed,https://www.sociology.utoronto.ca/people/directories/all-faculty/zaheer-baber
 p001694,uva,full,unknown,NA,Title names Sociology and Media Studies but does not say which is the home department or that the appointment is joint. | Title names Sociology and Media Studies but the page does not say which is the home department or that the appointment is joint; appointment type kept as unknown from listing context.,https://sociology.as.virginia.edu/people/andrea-press
 p001695,uva,associate,primary,FALSE,Name parts uncertain: 'Adams' could be a middle name or part of the last name.,https://sociology.as.virginia.edu/people/angel-adams-parham
 p001697,uva,assistant,primary,FALSE,Title includes 'General Faculty'; the page does not say whether this is tenure-track or non-tenure.,https://sociology.as.virginia.edu/people/baris-unlu

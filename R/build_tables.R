@@ -22,10 +22,14 @@ build_tables <- function(in_dir, run_year, out_dir) {
   if (!"list_type" %in% names(merged)) merged$list_type <- NA_character_   # merged files from before sibling lists
 
   # Name parts: fill what the extractor left empty from name_raw (before the first comma).
-  raw1 <- str_remove(coalesce(merged$name_raw, ""), ",.*$")
+  # "Last, First (Nick) Middle" lists (e.g., Maryland) give the surname before the comma.
+  nr <- coalesce(merged$name_raw, "")
+  has_comma <- str_detect(nr, ",")
+  raw_last <- if_else(has_comma, str_remove(nr, ",.*$"), nr)
+  raw_first <- if_else(has_comma, str_remove(str_remove(nr, "^[^,]*,"), "\\([^)]*\\)"), nr)   # drop "(Roberto)"-style nicknames
   cur <- merged |>
-    mutate(name_first = coalesce(name_first, first_tok(raw1)),
-           name_last = coalesce(name_last, last_tok(raw1)),
+    mutate(name_first = coalesce(name_first, if_else(has_comma, first_tok(raw_first), first_tok(nr))),
+           name_last = coalesce(name_last, last_tok(raw_last)),
            name_key = name_key(name_first, name_last, name_raw),
            year = run_year)
 

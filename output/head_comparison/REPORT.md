@@ -67,3 +67,25 @@ Sibling lists (emeriti, affiliated, joint, adjunct, visiting, non-tenure) are no
 | Hand only | 16 |
 
 Hand-only names fell from 39 to 16. The 16: Guthrie, Powers, Wallace (ASU); Livingston (GWU, not soc); Marquart-Pyatt (MSU, not soc); Fleming (Stony Brook); Schaefer (UC Irvine); Brint, Nieri (UC Riverside, partial roster); Ghaziani (UCSB); Korzeniewicz (Maryland, extracted with surname only); Harris, Yang (UNC); Lakoff (USC); Camacho (Utah); Farrell (Yale, not soc). Still to be checked against the live pages.
+
+## The remaining hand-only names, checked against live pages (2026-10-20)
+
+After the name-parsing fix for "Last, First" lists (Maryland's Korzeniewicz now matches), 15 hand-only names remain. Each was checked on the department's live pages and with a web search.
+
+| Institution | Name | Finding | Kind |
+|---|---|---|---|
+| ASU | Guthrie | Thunderbird School of Global Management (Professor of Global Leadership); not on any Sanford School list | outside the department |
+| ASU | Powers | Mary Lou Fulton Teachers College (Professor) | outside the department |
+| ASU | Wallace | School of Criminology and Criminal Justice (full professor from 2025) | outside the department |
+| Stony Brook | Fleming | Now Professor of Africana Studies at Smith College | left |
+| UC Irvine | Schaefer | A UCI profile lists him as full professor of sociology (undated), but he is on none of UCI's Core, Affiliated or Emeritus lists | unresolved: check UCI's directory by hand |
+| UC Riverside | Brint | Distinguished Professor of Sociology and Public Policy at UCR | **our miss**: the UCR roster is lazy-loaded and only about 9 people are captured |
+| UC Riverside | Nieri | Professor of Sociology at UCR from July 2025 (CV) | **our miss**: same cause |
+| UCSB | Ghaziani | UBC professor; his CV lists a 2025-26 UCSB appointment; not on UCSB's lists | likely temporary |
+| UNC | Harris | Has a department profile page ("James E. Haar Distinguished Professor of Sociology") but is not on the department's Faculty list | **our miss**: the department's list omits her; add by hand |
+| UNC | Yang | The emeriti list has an entry the extraction read as "Yang Claire Yang" with no name parts | extraction name defect: recheck |
+| USC | Lakoff | Not on the sociology faculty list; a USC Today item dated 2026-09-22 looks like an in-memoriam notice (headline only, not verified) | verify |
+| Utah | Camacho | Dean of the College of Social and Behavioral Science, tenured in the college; discipline not stated; not on the sociology list | administrator: excluded unless she holds a sociology appointment |
+| GWU, MSU, Yale | Livingston, Marquart-Pyatt, Farrell | Marked "not soc" in the hand file | not checked further |
+
+So of the 15: 4 are people outside the department or who have left, 3 are admin or unclear, and 3 are real gaps in our data (Brint, Nieri, Harris), plus Yang (a name defect) and Schaefer (unresolved).

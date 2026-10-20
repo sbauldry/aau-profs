@@ -1,5 +1,7 @@
 # Hand-coding the validation sample, 2026
 
+**Status: on hold.** The sample in this folder was drawn from the trial tables. The formal first-year validation will be redrawn from the production run (inside the Oct 15 – Nov 15 window), so do not code `handcode_sheet_2026.csv` yet; the files will be regenerated with `R/25_validation_sample.R` and these instructions will then apply unchanged.
+
 Fill in `handcode_sheet_2026.csv` (50 rows, open it in Excel). Do **not** open `sample_key_2026.csv` until you have finished: it holds the pipeline's answers, and seeing them would bias your coding. Save your finished sheet as `validation/handcode_done_2026.csv` (same columns).
 
 ## For each row

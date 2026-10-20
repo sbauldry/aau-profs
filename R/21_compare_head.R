@@ -103,6 +103,10 @@ elsewhere <- ours |> mutate(k = paste(first_tok, last_tok)) |> group_by(k) |> su
 h_all <- h_all |> mutate(k = paste(first_tok, last_tok)) |> left_join(elsewhere, by = "k") |> select(-k) |>
   mutate(also_in_ours_at = if_else(is.na(tier) & !is.na(also_in_ours_at) & also_in_ours_at != inst_id, also_in_ours_at, NA_character_))
 
+# Hand-only differences that have been checked and explained (data/seeds/head_comparison_resolutions.csv).
+resol <- read_csv("data/seeds/head_comparison_resolutions.csv", show_col_types = FALSE)
+h_all <- h_all |> left_join(select(resol, inst_id, hand_name, resolution), by = c("inst_id", "hand_name"))
+
 h_all <- h_all |> mutate(
   outcome = case_when(
     is.na(tier) ~ "hand only: not in our data for this institution",
@@ -116,7 +120,7 @@ o_un <- o_un |> filter(source_list == "faculty", included %in% TRUE | is.na(incl
   mutate(outcome = if_else(included %in% TRUE, "ours only: included full professor not in hand file", "ours only: undecided (appointment type unknown)"))
 
 write_csv(h_all |> select(inst_id, hand_name, university, hand_note, outcome, expected, tier, our_name, our_rank, appointment_type, included, title_raw,
-                          listing_section, source_list, also_in_ours_at, person_id, hand_row), file.path(res_dir, "hand_vs_ours.csv"))
+                          listing_section, source_list, also_in_ours_at, resolution, person_id, hand_row), file.path(res_dir, "hand_vs_ours.csv"))
 write_csv(o_un |> select(inst_id, our_name, our_rank, appointment_type, included, title_raw, listing_section, source_list, outcome, person_id), file.path(res_dir, "ours_only.csv"))
 write_csv(coverage, file.path(res_dir, "institutions.csv"))
 
@@ -130,6 +134,7 @@ write_csv(summ, file.path(res_dir, "summary_by_inst.csv"))
 cat("Institutions: hand file", n_distinct(hand$inst_id), "| compared", length(compared), "\n")
 print(count(coverage, status))
 cat("\nHand rows in compared institutions:", nrow(h_all), "\n"); print(count(h_all, outcome, sort = TRUE), width = 140)
+cat("\nHand only:", sum(str_starts(h_all$outcome, "hand only")), "| explained in resolutions file:", sum(str_starts(h_all$outcome, "hand only") & !is.na(h_all$resolution)), "| unexplained:", sum(str_starts(h_all$outcome, "hand only") & is.na(h_all$resolution)), "\n")
 cat("\nOurs only:", sum(o_un$included %in% TRUE), "included,", sum(is.na(o_un$included)), "undecided\n")
 cat("\nName-match tiers:\n"); print(count(h_all, tier))
 print(summ, n = 60)

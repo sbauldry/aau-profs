@@ -1,6 +1,6 @@
 # AAU Sociology Full Professors: Schema and Codebook
 
-Version 0.1.18 (draft), October 2026
+Version 0.1.19 (draft), October 2026
 
 ## 1. Purpose and scope
 
@@ -139,6 +139,18 @@ Generated each year by comparing it with the prior year. This table drives the h
 | `current_inst` | chr | Institution in the current year |
 | `resolution` | chr | e.g., retired, died, moved to non-AAU, left academia, data error, unknown |
 | `verified_by` | chr | Initials |
+| `detail` | chr | What the code observed (e.g., "listed this year as emeritus, not in scope"); guides hand review |
+
+Definitions, with "in scope" meaning `included = TRUE` in some snapshot for the person that year:
+- `new_full`: in scope this year, not in scope last year, and not an associate or assistant last year.
+- `promoted`: in scope this year and an associate or assistant professor last year.
+- `exit`: in scope last year, not in scope this year (not listed, or listed as emeritus or otherwise excluded). `resolution` is entered by hand.
+- `moved`: in scope both years, same `person_id`, different institution (see §6; candidate moves are not labeled `moved`).
+- `rank_change`: a change of rank among full, associate and assistant that is not a promotion to full or an exit (e.g., assistant to associate).
+- `title_change`: in scope both years at the same institution with a different title, administrative role, or named/distinguished status.
+- `name_change`: the same `person_id` (ORCID match) under a different name.
+
+People whose appointment type is undecided (`included = NA`) in either year generate no changes; they are written to `changes_unresolved_<year>.csv` for hand review. `resolution` and `verified_by` entered by hand are kept when the table is rebuilt.
 
 ## 4. Value labels
 
@@ -292,6 +304,7 @@ This table is the single log of adopted changes that affect comparability across
 | 2026-10 | 0.1.16 | §10 Blocks clarified: a JavaScript or proof-of-work challenge page counts as a block and is not solved, including by loading the page in a headless browser. Toronto profile pages (challenge page, 2026-10-20) and Tulane profile pages (blocked) are handled by hand: rank and research areas for those institutions come from the roster alone, and records with undetermined rank or appointment type go to hand review. Pre-collection; effective with the first collection year (2026). |
 | 2026-10 | 0.1.17 | `included` derivation: a person listed under an emeriti heading is treated as emeritus (rank set to `emeritus`, excluded) even when the title reads only "Professor". Found in the 2026-10-20 trial (5 records at Brown, Dartmouth, UCSC). Pre-collection; effective with the first collection year (2026). |
 | 2026-10 | 0.1.18 | §6 rule 2 made precise: the normalized name is the first token of the first name plus the last token of the last name (letters only, lowercased, diacritics stripped; falls back to `name_raw` when a part is missing), so multi-part surnames key the same whether or not the extractor split them. A key matching more than one prior `person_id` at an institution is ambiguous: no link, flagged. Records with no usable name get no ID and go to hand review. Pre-collection; effective with the first collection year (2026). |
+| 2026-10 | 0.1.19 | §3.5 `changes`: added `detail` (what the code saw, to guide hand review) and defined each `change_type`. Records with an undecided appointment type (`included = NA`) generate no changes; they are listed in a separate unresolved file. `moved` is generated only for one `person_id` at two institutions (ORCID match or hand-confirmed link); a candidate move appears as an `exit` plus a `new_full` with different IDs. Pre-collection; effective with the first collection year (2026). |
 
 ## 9. Prompt versioning and pinned models
 

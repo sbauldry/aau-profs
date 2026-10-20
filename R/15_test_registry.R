@@ -59,4 +59,13 @@ t26b <- build_tables(in26, 2026, out)
 stopifnot(nrow(registry_read(file.path(out, "person_id_registry.csv"))) == nrow(reg2), all(t26b$assigned$match_rule != "new"))
 # first_year: people seen in year 1 keep first_year 2025
 stopifnot(all(t26b$people$first_year[t26b$people$person_id %in% t25$people$person_id] == 2025))
+source("R/changes.R")
+# Integration with changes: candidate matches never produce `moved`; a candidate move is an exit plus a new_full.
+nc_t <- read_csv(file.path(out, "name_changes_2026.csv"), show_col_types = FALSE, col_types = cols(.default = "c", year = "i"))
+stopifnot(nrow(nc_t) == 1, nc_t$person_id == c3$person_id, nc_t$prior_name == paste(c3$name_first, c3$name_last))
+chg <- build_changes(t26b$snapshots, 2026L, 2025L, nc_t)$changes
+stopifnot(!"moved" %in% chg$change_type,
+          a$person_id %in% filter(chg, change_type == "exit")$person_id, ra$person_id %in% filter(chg, change_type == "new_full")$person_id,
+          b$person_id %in% filter(chg, change_type == "exit")$person_id, rb$person_id %in% filter(chg, change_type == "new_full")$person_id,
+          c3$person_id %in% filter(chg, change_type == "name_change")$person_id)
 cat("all registry and matching tests passed\n")

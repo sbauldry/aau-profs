@@ -75,7 +75,7 @@ Institutional frame: all AAU members, including the Canadian members (Toronto, M
 
 ## Status (as of 2026-10-20)
 
-Codebook is at v0.1.18 (draft); the change log in codebook.md §8 records every decision so far. Nothing has been collected for real yet: the collection window is Oct 15 – Nov 15, 2026 (open as of Oct 15). Everything so far is pre-collection setup and trial runs (retrieved dates are Oct 3–20 and are not the production wave).
+Codebook is at v0.1.19 (draft); the change log in codebook.md §8 records every decision so far. Nothing has been collected for real yet: the collection window is Oct 15 – Nov 15, 2026 (open as of Oct 15). Everything so far is pre-collection setup and trial runs (retrieved dates are Oct 3–20 and are not the production wave).
 
 **Done**
 - Project scaffolding, renv, folder structure, GitHub remote.
@@ -105,7 +105,7 @@ Codebook is at v0.1.18 (draft); the change log in codebook.md §8 records every 
 **Next steps**
 1. Spot-check about 20 profile merges against the live pages (untested at scale: "profile contradicts listing" rule, roster recall); hand-review the 76 undecided and 42 unknown-rank records; hand-collect Tulane, Toronto and the other blocked profiles.
 2. Check the small rosters (UIUC, Missouri, Tufts, GWU) against the live pages; add UC Riverside scrolling; decide the ASU question.
-3. Done in trial: `person_id` registry and `people`/`snapshots` assembly (`R/registry.R`, `R/build_tables.R`; 1,836 trial IDs under `data/interim/tables_trial/`). Remaining: `areas` and `changes` tables; hand review of `review_queue_2026.csv` and `unnamed_review.csv`; production run into `data/final` (never reuse trial IDs).
+3. Done in trial: `person_id` registry and `people`/`snapshots` assembly (`R/registry.R`, `R/build_tables.R`; 1,836 trial IDs under `data/interim/tables_trial/`). `changes` builder done and tested (codebook §3.5; the first year has no prior year, so it is empty until 2027). Remaining: `areas` table (after the coding step); hand review of `review_queue_2026.csv` and `unnamed_review.csv`; production run into `data/final` (never reuse trial IDs).
 4. Draft the ASA coding prompt `prompts/coding/code_v1.md` (stage 4; Opus 5.5; separate from extraction; log tokens with `log_usage()`).
 5. Re-run stage 1 inside the collection window (Oct 15 – Nov 15; open now): save the dated AAU member list as `data/seeds/aau_members_<date>.csv` (drop `_TRIAL`), recheck URLs and the NYU block, re-scrape, then run the production extraction and profile step. Freeze `extract_v1.md` at that first production run; any later change is a new version plus a §8 entry. The profile script currently reads rosters from `data/interim/extract_trial/` and writes to `profiles_trial/`; point it at production directories first.
 6. Hand-collect the 9 blocked institutions (and MSU profiles); first-year validation sample (~50 people) per codebook §7.

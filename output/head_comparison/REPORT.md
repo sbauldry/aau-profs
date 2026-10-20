@@ -90,4 +90,4 @@ After the name-parsing fix for "Last, First" lists (Maryland's Korzeniewicz now 
 
 All 15 hand-only names are now explained: 7 outside the department or left, retired, moved or deceased by web check or the user's knowledge, 2 no longer in the UCR sociology department (Brint, Nieri), 1 deceased (Lakoff), 1 excluded dean (Camacho), 1 moved to UT Austin where ours already has him (Schaefer), and 3 marked "not soc" in the hand file. None is a gap in our data. They are recorded in `data/seeds/head_comparison_resolutions.csv`, which `R/21_compare_head.R` reads, so later runs label them as explained.
 
-The UC Riverside roster is still lazy-loaded (about 9 of the department captured), so its recall is unverified even though Brint and Nieri turned out not to be misses.
+The UC Riverside roster (an embed from profiles.ucr.edu) is complete at 9 people: its A-Z filter enables exactly the letters C, G, K, L, M, O, S and Z, the surname initials of the 9 people captured. It is not lazy-loaded, so no scrolling is needed (checked 2026-10-20).

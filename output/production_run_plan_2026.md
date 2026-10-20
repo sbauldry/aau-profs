@@ -50,7 +50,7 @@ Dry run in a scratch root (`AAU_RUN_ROOT`): production table build gave a fresh 
 
 Environment: `export RUN=production` (everything below reads and writes production folders and logs). One copy of a script at a time.
 
-1. Phase 1 (stage 1 refresh): save `data/seeds/aau_members_<date>.csv`; re-run `R/01_verify_seed_urls.R` (and passes as needed) and update `institutions_seed.csv`; retry the seven blocked sites once; `Rscript R/22_discover_sibling_lists.R`, review only the differences from `institution_pages.csv`.
+1. Phase 1 (stage 1 refresh): save AAU's members page by hand (it blocks the scraper) as `data/hand_collected/aau_members__<date>.html` and run `Rscript R/00_build_aau_member_list.R` to write `data/seeds/aau_members_<date>.csv` and the diff log; re-run `R/01_verify_seed_urls.R` (and passes as needed) and update `institutions_seed.csv`; retry the seven blocked sites once; `Rscript R/22_discover_sibling_lists.R`, review only the differences from `institution_pages.csv`.
 2. Freeze the prompts (once, before any production API call):
    `Rscript -e 'source("R/freeze.R"); freeze_prompt("prompts/extraction/extract_v1.md","claude-sonnet-5-5","0.1.25"); freeze_prompt("prompts/coding/code_v1.md","claude-opus-5-5","0.1.25")'`
    then add the codebook §8 entry (v0.1.25) and commit.
@@ -62,7 +62,7 @@ Environment: `export RUN=production` (everything below reads and writes producti
 
 ## Phase 1: stage 1 refresh (about half a day)
 
-1. Save the dated AAU member list `data/seeds/aau_members_<date>.csv` (drop `_TRIAL`); compare with the trial list and log any change in membership.
+1. Save AAU's members page by hand (its page blocks automated access) and build the dated list with `R/00_build_aau_member_list.R` (drops `_TRIAL`; diffs against the trial list and logs any change in membership).
 2. Re-verify all 71 URLs (`R/01`), retry the seven blocked sites once each (polite; blocks are not worked around), and update `institutions_seed.csv`.
 3. Rediscover sibling lists (`R/22`) for all institutions including NYU and McGill; review only the differences from `institution_pages.csv`.
 4. Re-confirm the person-level scope list for ASU (`person_scope.csv`).

@@ -4,7 +4,8 @@
 # Polite and robots-aware (scrape_page); one fetch per institution. Blocked pages are not worked around.
 # Usage: Rscript R/22_discover_sibling_lists.R
 library(tidyverse)
-source("R/scrape.R"); source("R/site_config.R")
+source("R/scrape.R"); source("R/site_config.R"); source("R/run_config.R")
+p <- run_paths()
 
 types <- tribble(
   ~list_type,    ~pattern,
@@ -18,7 +19,7 @@ reject <- "news|event|course|program|degree|seminar|award|job|opening|search|pos
 
 cfg <- site_config() |> filter(method %in% c("http", "chromote"))
 find_lists <- function(row) {
-  pg <- scrape_page(row$inst_id, row$roster_url, row$method, "discover", file.path("data/raw_html/trial", row$inst_id), tag = "faculty_page")
+  pg <- scrape_page(row$inst_id, row$roster_url, row$method, "discover", file.path(p$raw_html, p$raw_year, row$inst_id), tag = "faculty_page")
   if (is.na(pg$text)) return(tibble(inst_id = row$inst_id, note = pg$manifest$status[[1]]))
   doc <- read_html(pg$html); base <- pg$manifest$final_url[[1]]
   a <- html_elements(doc, "a")

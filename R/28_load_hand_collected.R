@@ -1,0 +1,10 @@
+# Extract the hand-collected faculty pages in data/hand_collected/ (for sites that block automated access).
+# Usage: RUN=production Rscript R/28_load_hand_collected.R        (add FORCE=1 to redo files whose output exists)
+source("R/hand_collected.R"); source("R/assemble.R")
+p <- run_paths(); cfg <- site_config(); sp <- load_system_prompt()
+files <- list.files(p$hand_dir, pattern = "__.*\\.txt$", full.names = TRUE)
+if (!length(files)) stop("no hand-collected files in ", p$hand_dir)
+res <- map(files, \(f) { r <- tryCatch(extract_hand_file(f, cfg, sp, p, force = nzchar(Sys.getenv("FORCE"))), error = \(e) tibble(file = basename(f), inst_id = NA, list_type = NA, records = NA_integer_, status = paste("ERROR:", conditionMessage(e))))
+  message(r$file, ": ", r$status, if (!is.na(r$records)) paste0(" (", r$records, " records)") else ""); r }) |> list_rbind()
+run_log("hand_collected", list(files = nrow(res), extracted = sum(res$status == "extracted"), errors = sum(str_starts(res$status, "ERROR"))), p = p)
+print(res)

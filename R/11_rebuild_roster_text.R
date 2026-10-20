@@ -1,9 +1,9 @@
 # Rebuild roster text from the saved HTML of a scrape (no requests). Use after improving
 # page_to_text() / chunk_text().
 library(tidyverse)
-source("R/scrape.R")
+source("R/scrape.R"); source("R/run_config.R")
 
-year <- "trial"; out_dir <- "data/interim/scrape_trial"
+p <- run_paths(); year <- p$raw_year; out_dir <- p$scrape_dir
 man <- read_csv(file.path(out_dir, "manifest_roster.csv"), col_types = cols(.default = "c")) |>
   filter(status == "200", !is.na(html_file))
 old <- readRDS(file.path(out_dir, "roster_chunks.rds"))

@@ -2,13 +2,15 @@
 # Records the exact model ID and prompt version with every result (codebook.md §9).
 library(tidyverse)
 library(ellmer)
-source("R/extract_schema.R")
+source("R/extract_schema.R"); source("R/run_config.R"); source("R/freeze.R")
 
 extract_model <- "claude-sonnet-5-5"
 extract_prompt_file <- "prompts/extraction/extract_v1.md"
 extract_prompt_ver <- "v1"
 
 load_system_prompt <- function(file = extract_prompt_file) {
+  # Production runs only use a frozen prompt whose hash and pinned model match the freeze record.
+  if (run_mode() == "production") assert_prompt_frozen(file, model = if (str_detect(file, "coding")) "claude-opus-5-5" else extract_model)   # keep "claude-opus-5-5" in step with code_model in R/code.R
   read_file(file) |> str_extract("(?s)# System prompt\\s*(.*)$", group = 1) |> str_trim()
 }
 
@@ -33,7 +35,7 @@ extract_page <- function(inst_name, page_url, text, retrieved = Sys.Date(), list
 # Append one row per API call to logs/api_usage.csv (tokens as reported by the API through ellmer).
 # Thinking tokens are included in output. Dollar cost is computed in summarize_usage() from the
 # price table below, not taken from ellmer, which may not know newer models.
-usage_log_file <- "logs/api_usage.csv"
+usage_log_file <- run_paths()$usage_log   # trial: logs/api_usage.csv; production: logs/api_usage_<year>.csv
 price_per_mtok <- tribble(          # first-party API rates, USD per million tokens, checked 2026-10-09
   ~model,              ~price_in, ~price_out, ~price_cache_read,
   "claude-sonnet-5-5",      2.00,      10.00,             0.20,

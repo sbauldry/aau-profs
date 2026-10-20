@@ -13,7 +13,7 @@ library(tidyverse)
 source("R/registry.R")   # asa_codes() lives in code_schema.R
 source("R/code_schema.R")
 
-out_dir <- Sys.getenv("TABLES_OUT", "data/interim/tables_trial"); yr <- as.integer(Sys.getenv("TABLES_YEAR", "2026"))
+source("R/run_config.R"); p <- run_paths(); out_dir <- p$tables_dir; yr <- p$year
 seed <- as.integer(Sys.getenv("SAMPLE_SEED", "20261021")); n_a <- 40L; n_b <- 10L
 set.seed(seed)
 

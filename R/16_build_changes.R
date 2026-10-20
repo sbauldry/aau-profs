@@ -3,10 +3,9 @@
 # Env: TABLES_OUT (default data/interim/tables_trial; production: data/final), TABLES_YEAR (default 2026).
 # With no prior year in `snapshots` it writes an empty table (the first collection year has no changes).
 # Hand-entered `resolution` and `verified_by` are kept across reruns.
-source("R/changes.R")
+source("R/changes.R"); source("R/run_config.R")
 
-out_dir <- Sys.getenv("TABLES_OUT", "data/interim/tables_trial")
-yr <- as.integer(Sys.getenv("TABLES_YEAR", "2026"))
+p <- run_paths(); out_dir <- p$tables_dir; yr <- p$year
 snap <- read_csv(file.path(out_dir, "snapshots.csv"), show_col_types = FALSE,
                  col_types = cols(.default = "c", year = "i", named_chair = "l", distinguished = "l", included = "l", review_flag = "l"))
 prior_year <- snap |> filter(year < yr) |> pull(year) |> max(-Inf)

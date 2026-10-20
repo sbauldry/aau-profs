@@ -127,5 +127,6 @@ build_tables <- function(in_dir, run_year, out_dir) {
   snapshots |> filter(review_flag, year == run_year) |>
     select(person_id, inst_id, rank, appointment_type, included, review_note, profile_url) |>
     write_csv(file.path(out_dir, sprintf("review_queue_%s.csv", run_year)))
+  check_tables_integrity(out_dir)   # registry sequential and unique; every ID in the tables is in the registry (R/run_config.R)
   invisible(list(people = people, snapshots = snapshots, unnamed = unnamed, assigned = cur))
 }

@@ -9,8 +9,8 @@ library(readxl)
 library(stringdist)
 source("R/registry.R")   # norm_text()
 
-out_dir <- Sys.getenv("TABLES_OUT", "data/interim/tables_trial")
-yr <- as.integer(Sys.getenv("TABLES_YEAR", "2026"))
+source("R/run_config.R")
+p <- run_paths(); out_dir <- p$tables_dir; yr <- p$year
 hand_file <- Sys.getenv("HAND_FILE", "data/Head - AAU Database.xlsx")
 res_dir <- "output/head_comparison"; dir.create(res_dir, recursive = TRUE, showWarnings = FALSE)
 

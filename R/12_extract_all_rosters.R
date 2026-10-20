@@ -4,15 +4,16 @@
 library(tidyverse)
 source("R/scrape.R"); source("R/site_config.R"); source("R/extract.R"); source("R/assemble.R")
 
-out_dir <- "data/interim/extract_trial"; dir.create(out_dir, recursive = TRUE, showWarnings = FALSE)
-budget_usd <- 20
+p <- run_paths()   # production uses R/30_run_rosters.R (scrape + extract per institution)
+out_dir <- p$roster_dir; dir.create(out_dir, recursive = TRUE, showWarnings = FALSE)
+budget_usd <- p$budget
 chunk_chars <- as.numeric(Sys.getenv("CHUNK_CHARS", "9000"))   # lower it to retry rosters that hit max_tokens
 cfg <- site_config()
-chunks <- readRDS("data/interim/scrape_trial/roster_chunks.rds")
+chunks <- readRDS(file.path(p$scrape_dir, "roster_chunks.rds"))
 ids <- names(chunks)[map_int(chunks, length) > 0]
 sp <- load_system_prompt()
 
-spent <- \() if (file.exists(usage_log_file)) sum(summarize_usage()$usd) else 0
+spent <- \() run_spent(p)
 for (id in ids) {
   f <- file.path(out_dir, paste0(id, ".csv"))
   if (file.exists(f)) next

@@ -4,10 +4,10 @@
 #      CODING_BUDGET_USD (default 5; counts all "code" spend in logs/api_usage.csv)
 source("R/areas.R")
 
-out_dir <- Sys.getenv("TABLES_OUT", "data/interim/tables_trial")
-yr <- as.integer(Sys.getenv("TABLES_YEAR", "2026"))
+p <- run_paths(); out_dir <- p$tables_dir; yr <- p$year
 res <- build_areas(out_dir, yr, budget_usd = as.numeric(Sys.getenv("CODING_BUDGET_USD", "5")))
 cat("areas rows:", nrow(res$areas), " people with a coding run:", nrow(res$runs), "\n")
 print(count(res$runs, coded_by, review_flag))
 print(count(res$areas, area_code, sort = TRUE), n = 15)
 print(summarize_usage() |> filter(step == "code"))
+run_log("areas", list(area_rows = nrow(res$areas), coded_people = nrow(res$runs), flagged = sum(res$runs$review_flag)), p = p)

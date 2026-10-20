@@ -1,6 +1,6 @@
 # Production run plan, 2026 (first collection year)
 
-Drafted 2026-10-21; decisions recorded 2026-10-21. Collection window: Oct 15 – Nov 15, 2026. Status: plan approved; Phase 0 not yet started; nothing has been run for production.
+Drafted 2026-10-21; decisions recorded 2026-10-21. Collection window: Oct 15 – Nov 15, 2026. Status: plan approved; Phase 0 (preparation) built and tested 2026-10-21; nothing has been run for production.
 
 ## Goal
 
@@ -16,7 +16,7 @@ Produce the first real `people`, `snapshots` and `areas` tables in `data/final/`
 
 ## Decisions (recorded 2026-10-21)
 
-1. **Freeze `extract_v1.md` and `code_v1.md` as they are: yes.** They are frozen at the first production API call (Phase 2, step 1), not before: the headers change to `status: FROZEN` with the date and SHA-256 recorded in `logs/prompt_freeze_2026.md`, and a codebook §8 entry (v0.1.24) is logged then. Known small defects (empty name parts for multi-part or "Last, First" names; unknown rank where a roster does not distinguish "Professor") stay with code and hand review, not prompt edits.
+1. **Freeze `extract_v1.md` and `code_v1.md` as they are: yes.** They are frozen at the first production API call (Phase 2, step 1), not before: the headers change to `status: FROZEN` with the date and SHA-256 recorded in `logs/prompt_freeze_2026.md`, and a codebook §8 entry (v0.1.25) is logged then. Known small defects (empty name parts for multi-part or "Last, First" names; unknown rank where a roster does not distinguish "Professor") stay with code and hand review, not prompt edits.
 2. **Budget cap: $25** for the production run (expected $13–16).
 3. **Machine run start date: Oct 27, 2026.**
 4. **The seven blocked sites (UC Davis, Michigan, Brandeis, Columbia, Harvard, Johns Hopkins, Princeton) are hand-collected right after the machine run**, by the project owner, so the roster texts go through extraction in one batch.
@@ -33,6 +33,33 @@ Code changes, each with a test where there is logic:
 5. **Roster-to-extraction in one script:** merge the scrape and extract steps of 10–12 so a rerun resumes per institution (the profile and sibling steps already do).
 6. **Checks that fail loudly:** production refuses to write if `data/final/` contains an ID that is not in its registry, if `RUN=trial` outputs are being read, or if the budget cap is passed.
 
+### Phase 0 status (built and tested 2026-10-21)
+
+| Item | Where | Test |
+|---|---|---|
+| Run setting `RUN=trial|production`, folders, year, budget cap, separate production usage log | `R/run_config.R`; wired into scripts 10–14, 16, 19, 21–23, 25, 28, 30 | `R/29_test_run_infrastructure.R` |
+| Prompt freeze guard (`freeze_prompt()`, `assert_prompt_frozen()`, called by `load_system_prompt()` in production) | `R/freeze.R`, `R/extract.R` | same; the real prompts are still DRAFT (not frozen) |
+| Run record `logs/run_<year>.md` | `run_log()` in `R/run_config.R`, called by the stage scripts | same |
+| Hand-collected loader | `R/hand_collected.R`, `R/28_load_hand_collected.R` | same (fake extractor) |
+| Roster driver: scrape then extract per institution, resumable, budget-capped | `R/30_run_rosters.R` | dry run only (it needs the frozen prompt and the API) |
+| Fail-loudly checks: trial/production path separation, `data/final` never written by a trial, table integrity after every build (registry sequential, IDs in registry, snapshot key unique) | `assert_run_safe()`, `check_tables_integrity()` | same |
+
+Dry run in a scratch root (`AAU_RUN_ROOT`): production table build gave a fresh registry from `p000001`, passed the integrity check, and left all trial files byte-identical; the unfrozen prompt was refused by the prompt loader, the roster driver and the hand loader. Regression: the trial tables rebuilt byte-identical after the rewiring, and all earlier tests pass.
+
+## Run-day checklist (Oct 27)
+
+Environment: `export RUN=production` (everything below reads and writes production folders and logs). One copy of a script at a time.
+
+1. Phase 1 (stage 1 refresh): save `data/seeds/aau_members_<date>.csv`; re-run `R/01_verify_seed_urls.R` (and passes as needed) and update `institutions_seed.csv`; retry the seven blocked sites once; `Rscript R/22_discover_sibling_lists.R`, review only the differences from `institution_pages.csv`.
+2. Freeze the prompts (once, before any production API call):
+   `Rscript -e 'source("R/freeze.R"); freeze_prompt("prompts/extraction/extract_v1.md","claude-sonnet-5-5","0.1.25"); freeze_prompt("prompts/coding/code_v1.md","claude-opus-5-5","0.1.25")'`
+   then add the codebook §8 entry (v0.1.25) and commit.
+3. `Rscript R/30_run_rosters.R` (rosters), then `Rscript R/23_extract_sibling_lists.R`, then `INST=all Rscript R/13_extract_profiles.R`.
+4. `Rscript R/14_build_tables.R`, then `Rscript R/19_build_areas.R`.
+5. Acceptance checks (below); `git add -A && git commit`, push.
+6. After hand collection: place files in `data/hand_collected/`, `Rscript R/28_load_hand_collected.R`, then repeat steps 3 (profiles only) and 4.
+7. Redraw the validation sample: `Rscript R/25_validation_sample.R`.
+
 ## Phase 1: stage 1 refresh (about half a day)
 
 1. Save the dated AAU member list `data/seeds/aau_members_<date>.csv` (drop `_TRIAL`); compare with the trial list and log any change in membership.
@@ -42,7 +69,7 @@ Code changes, each with a test where there is logic:
 
 ## Phase 2: machine run (one day, in this order)
 
-1. Freeze both prompts (decision 1); the guard is now active. Log the freeze in codebook §8 (v0.1.24) and `logs/prompt_freeze_2026.md`.
+1. Freeze both prompts (decision 1); the guard is now active. Log the freeze in codebook §8 (v0.1.25) and `logs/prompt_freeze_2026.md`.
 2. Scrape and extract rosters (all reachable institutions), then sibling lists, then profile pages for full and unknown-rank people. One copy at a time (the earlier double run double-billed).
 3. Build tables into `data/final/` (`R/14`), code areas (`R/19`), build the review queue.
 4. Acceptance checks before moving on (below).

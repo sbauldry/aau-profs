@@ -7,9 +7,8 @@
 # set TABLES_OUT=data/final.
 source("R/build_tables.R")
 
-in_dir  <- Sys.getenv("TABLES_IN", "data/interim/profiles_trial")
-out_dir <- Sys.getenv("TABLES_OUT", "data/interim/tables_trial")
-yr      <- as.integer(Sys.getenv("TABLES_YEAR", "2026"))
+p <- run_paths()   # RUN=production reads data/interim/<year>/profiles and writes data/final
+in_dir <- p$profile_dir; out_dir <- p$tables_dir; yr <- p$year
 
 res <- build_tables(in_dir, yr, out_dir)
 reg <- registry_read(file.path(out_dir, "person_id_registry.csv"))
@@ -17,3 +16,4 @@ cat("registry ids:", nrow(reg), " people:", nrow(res$people), " snapshots:", nro
     " unnamed (no ID):", nrow(res$unnamed), "\n")
 print(count(res$assigned, match_rule))
 print(res$snapshots |> filter(year == yr) |> count(included, review_flag))
+run_log("tables", list(people = nrow(res$people), snapshots = nrow(res$snapshots), registry = nrow(reg), unnamed = nrow(res$unnamed)), p = p)

@@ -14,17 +14,18 @@
 library(tidyverse)
 source("R/scrape.R"); source("R/site_config.R"); source("R/extract.R"); source("R/assemble.R")
 
+p <- run_paths()
 inst_arg   <- Sys.getenv("INST", "utoronto")
 max_n      <- as.numeric(Sys.getenv("MAX_PROFILES", "Inf"))
-budget_usd <- as.numeric(Sys.getenv("BUDGET_USD", "20"))
-run_year   <- Sys.getenv("RUN_YEAR", "trial")         # folder name under data/raw_html/
-roster_dir <- "data/interim/extract_trial"            # roster extractions from script 12
-out_dir    <- "data/interim/profiles_trial"
+budget_usd <- p$budget
+run_year   <- p$raw_year                              # folder name under data/raw_html/
+roster_dir <- p$roster_dir                           # roster extractions (scripts 12/30, 28)
+out_dir    <- p$profile_dir
 dir.create(out_dir, recursive = TRUE, showWarnings = FALSE)
 
 cfg <- site_config()
 sp <- load_system_prompt()
-spent <- \() if (file.exists(usage_log_file)) sum(summarize_usage()$usd) else 0
+spent <- \() run_spent(p)
 
 # Cache file per profile URL: readable prefix plus a hash of the full URL (a truncated URL alone collides
 # when many profile URLs share a long prefix, as at Buffalo).
@@ -40,7 +41,7 @@ for (id in ids) {
   row <- filter(cfg, inst_id == id)
   # main faculty list plus the sibling lists (emeriti, affiliated, ...), all read as text then typed together
   rd <- \(f) read_csv(f, show_col_types = FALSE, col_types = cols(.default = "c"))
-  sib_files <- list.files("data/interim/extract_trial_siblings", pattern = paste0("^", id, "__.*[.]csv$"), full.names = TRUE)
+  sib_files <- list.files(p$sibling_dir, pattern = paste0("^", id, "__.*[.]csv$"), full.names = TRUE)
   roster <- bind_rows(rd(file.path(roster_dir, paste0(id, ".csv"))) |> mutate(list_type = "faculty"), map(sib_files, rd)) |>
     type_convert(col_types = cols(.default = col_guess())) |> mutate(across(c(named_chair, distinguished, review_flag, text_defect), as.logical))
   targets <- roster |>
@@ -54,7 +55,7 @@ for (id in ids) {
     f <- profile_cache_file(cache, r$profile_url)
     if (file.exists(f)) return(read_csv(f, show_col_types = FALSE, col_types = cols(.default = "c")))
     if (spent() > budget_usd) { message("budget reached: stopping"); return(NULL) }
-    pg <- scrape_profile(id, r$profile_url, row$profile_method, run_year)
+    pg <- scrape_profile(id, r$profile_url, row$profile_method, run_year, root = p$raw_html)
     if (is.na(pg$text)) { message("  no text (", pg$manifest$status, "): ", r$profile_url); return(NULL) }
     ctx <- listing_context_text(r$rank, r$appointment_type, r$listing_section, r$rank_evidence)
     res <- tryCatch(extract_page(row$inst_name, r$profile_url, pg$text, listing_context = ctx, system_prompt = sp),
@@ -88,4 +89,5 @@ for (id in ids) {
   message(sprintf("%-12s cumulative usd=%.2f", id, spent()))
 }
 close_browser()
+run_log("profiles", list(institutions = length(ids), profile_files = length(list.files(out_dir, pattern = "_merged[.]csv$"))), p = p)
 message("done")

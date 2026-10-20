@@ -12,6 +12,6 @@ For institutions whose sites block automated access (codebook §10), the faculty
 
 ## What the pipeline does with it
 
-The files go through the same extraction prompt and the same `derive_included()` rules as scraped pages (`text <url>` form is optional). A small loader that reads these files in place of `scrape_roster()` is still to be written at the production run; the extraction step needs no change. Hand-collected text is not archived as raw HTML, like everything else (codebook §8, v0.1.5).
+The files go through the same extraction prompt and the same `derive_included()` rules as scraped pages (`text <url>` form is optional). The loader is `R/28_load_hand_collected.R` (`RUN=production Rscript R/28_load_hand_collected.R`): the main list goes to the roster folder and the sibling lists to the sibling folder, so script 13 and the rest of the pipeline pick them up unchanged. Hand-collected text is not archived as raw HTML, like everything else (codebook §8, v0.1.5).
 
 Your hand-built database (`data/Head - AAU Database.xlsx`, local only) already has names for these seven institutions but no ranks.

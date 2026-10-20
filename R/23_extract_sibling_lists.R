@@ -6,11 +6,11 @@
 library(tidyverse)
 source("R/scrape.R"); source("R/site_config.R"); source("R/extract.R"); source("R/assemble.R")
 
-run_year <- Sys.getenv("RUN_YEAR", "trial"); budget_usd <- as.numeric(Sys.getenv("BUDGET_USD", "20"))
-out_dir <- "data/interim/extract_trial_siblings"; dir.create(out_dir, recursive = TRUE, showWarnings = FALSE)
+rp <- run_paths(); run_year <- rp$raw_year; budget_usd <- rp$budget
+out_dir <- rp$sibling_dir; dir.create(out_dir, recursive = TRUE, showWarnings = FALSE)
 pages <- read_csv("data/seeds/institution_pages.csv", show_col_types = FALSE)
 cfg <- site_config(); sp <- load_system_prompt()
-spent <- \() if (file.exists(usage_log_file)) sum(summarize_usage()$usd) else 0
+spent <- \() run_spent(rp)
 page_file <- \(id, type, url) file.path(out_dir, paste0(id, "__", type, "__", str_sub(digest::digest(url, algo = "md5", serialize = FALSE), 1, 8), ".csv"))
 manifest <- list()
 
@@ -20,7 +20,7 @@ for (i in seq_len(nrow(pages))) {
   f <- page_file(p$inst_id, p$list_type, p$page_url)
   if (file.exists(f)) next
   if (spent() > budget_usd) { message("budget reached: stopping"); break }
-  pg <- scrape_page(p$inst_id, p$page_url, row$method, paste0("list_", p$list_type), file.path("data/raw_html", run_year, p$inst_id), tag = paste0(p$list_type, "_", i))
+  pg <- scrape_page(p$inst_id, p$page_url, row$method, paste0("list_", p$list_type), file.path(rp$raw_html, run_year, p$inst_id), tag = paste0(p$list_type, "_", i))
   manifest[[length(manifest) + 1]] <- pg$manifest
   if (is.na(pg$text)) { message("  no text (", pg$manifest$status, "): ", p$page_url); next }
   # The page heading is the link text that led here; it stands in for a section heading when the page has none.
@@ -37,4 +37,5 @@ if (length(manifest)) {
   m <- list_rbind(manifest); mf <- sprintf("logs/sibling_lists_manifest_%s.csv", Sys.Date())
   write_csv(if (file.exists(mf)) bind_rows(read_csv(mf, show_col_types = FALSE, col_types = cols(.default = "c")), mutate(m, across(everything(), as.character))) else m, mf)
 }
+run_log("sibling_lists", list(pages = nrow(pages), manifest_rows = length(manifest)), p = rp)
 message("done")

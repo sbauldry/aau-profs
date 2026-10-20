@@ -1,10 +1,11 @@
 # Trial scrape of every roster page (no API calls). One request per page; conduct rules in
 # R/scrape.R / codebook.md §10. Writes a manifest and the roster text for later extraction.
 library(tidyverse)
-source("R/scrape.R"); source("R/site_config.R")
+source("R/scrape.R"); source("R/site_config.R"); source("R/run_config.R")
 
-year <- "trial"
-out_dir <- "data/interim/scrape_trial"
+p <- run_paths()   # RUN=production switches the folders (R/run_config.R); R/30_run_rosters.R is the resumable production driver
+year <- p$raw_year
+out_dir <- p$scrape_dir
 dir.create(out_dir, recursive = TRUE, showWarnings = FALSE)
 cfg <- site_config()
 only <- commandArgs(trailingOnly = TRUE)        # optional inst_ids to (re)scrape; merged into existing output
@@ -18,7 +19,7 @@ if (length(only)) {
 }
 for (i in seq_len(nrow(cfg))) {
   id <- cfg$inst_id[i]
-  r <- tryCatch(scrape_roster(as.list(cfg[i, ]), year),
+  r <- tryCatch(scrape_roster(as.list(cfg[i, ]), year, root = p$raw_html),
                 error = \(e) list(chunks = character(),
                                   manifest = manifest_row(id, "roster", cfg$roster_url[i], cfg$method[i], "error",
                                                           note = str_sub(conditionMessage(e), 1, 160))))

@@ -1,6 +1,6 @@
 # AAU Sociology Full Professors: Schema and Codebook
 
-Version 0.1.17 (draft), October 2026
+Version 0.1.18 (draft), October 2026
 
 ## 1. Purpose and scope
 
@@ -255,7 +255,7 @@ Apply these in order:
 4. Different AAU institution plus exact normalized name plus matching PhD institution and year. This is a candidate move only: do not apply the `moved` label until a reviewer confirms it by hand.
 5. Otherwise, a new `person_id`.
 
-Only rules 1 and 2 link records automatically. Rules 3 and 4 produce candidates, which are queued for hand review with `review_flag = TRUE` and a `review_note` naming the candidate `person_id`. Until a reviewer confirms, the record keeps its own `person_id` (no link, no `moved` row in `changes`). On confirmation, the link or `moved` change is recorded by hand with the reviewer's initials and a note. On rejection, the note records the decision so the pair is not re-queued.
+The normalized name used in rules 2 to 4 is the first token of the first name plus the last token of the last name (see §8, v0.1.18). Only rules 1 and 2 link records automatically. Rules 3 and 4 produce candidates, which are queued for hand review with `review_flag = TRUE` and a `review_note` naming the candidate `person_id`. Until a reviewer confirms, the record keeps its own `person_id` (no link, no `moved` row in `changes`). On confirmation, the link or `moved` change is recorded by hand with the reviewer's initials and a note. On rejection, the note records the decision so the pair is not re-queued.
 
 Never merge two IDs automatically. Merges are recorded by hand with a note, and a retired ID is never reused.
 
@@ -291,6 +291,7 @@ This table is the single log of adopted changes that affect comparability across
 | 2026-10 | 0.1.15 | Added `url_status` to `institutions` and `name_suffix` to `people`; documented empty-string-to-`NA` convention for extraction output. Pre-collection; effective with the first collection year (2026). |
 | 2026-10 | 0.1.16 | §10 Blocks clarified: a JavaScript or proof-of-work challenge page counts as a block and is not solved, including by loading the page in a headless browser. Toronto profile pages (challenge page, 2026-10-20) and Tulane profile pages (blocked) are handled by hand: rank and research areas for those institutions come from the roster alone, and records with undetermined rank or appointment type go to hand review. Pre-collection; effective with the first collection year (2026). |
 | 2026-10 | 0.1.17 | `included` derivation: a person listed under an emeriti heading is treated as emeritus (rank set to `emeritus`, excluded) even when the title reads only "Professor". Found in the 2026-10-20 trial (5 records at Brown, Dartmouth, UCSC). Pre-collection; effective with the first collection year (2026). |
+| 2026-10 | 0.1.18 | §6 rule 2 made precise: the normalized name is the first token of the first name plus the last token of the last name (letters only, lowercased, diacritics stripped; falls back to `name_raw` when a part is missing), so multi-part surnames key the same whether or not the extractor split them. A key matching more than one prior `person_id` at an institution is ambiguous: no link, flagged. Records with no usable name get no ID and go to hand review. Pre-collection; effective with the first collection year (2026). |
 
 ## 9. Prompt versioning and pinned models
 

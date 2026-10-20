@@ -13,8 +13,10 @@ merge_profile <- function(roster, profile) {
   fields <- c("title_raw", "named_chair", "distinguished", "appointment_type", "rank", "joint_units",
               "admin_role", "areas_raw", "orcid", "phd_inst", "phd_year", "rank_evidence",
               "appointment_evidence", "listing_section")
-  p <- profile |> select(profile_url = source_url, all_of(fields), profile_flag = review_flag,
-                         profile_note = review_note, profile_text_defect = text_defect)
+  # One profile row per URL: a duplicated key would multiply the roster rows in the join.
+  p <- profile |> distinct(source_url, .keep_all = TRUE) |>
+    select(profile_url = source_url, all_of(fields), profile_flag = review_flag,
+           profile_note = review_note, profile_text_defect = text_defect)
   d <- left_join(roster, p, by = "profile_url", suffix = c("", ".p"))
   for (f in fields) d[[f]] <- coalesce(d[[paste0(f, ".p")]], d[[f]])
   d |> select(-ends_with(".p")) |>

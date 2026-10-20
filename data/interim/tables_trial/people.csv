@@ -1,0 +1,1837 @@
+person_id,name_last,name_first,name_middle,name_suffix,name_variants,orcid,phd_inst,phd_year,first_year
+p000001,martinez,abraham,NA,NA,NA,NA,NA,NA,2026
+p000002,Olson,Amanda,NA,NA,NA,NA,NA,NA,2026
+p000003,Reesing,Amy,NA,NA,NA,NA,NA,NA,2026
+p000004,Le,Andrew,NA,NA,NA,NA,NA,NA,2026
+p000005,Peguero,Anthony,NA,NA,NA,NA,NA,NA,2026
+p000006,Snider,Ashley,NA,NA,NA,NA,NA,NA,2026
+p000007,Ladd,Becky,NA,NA,NA,NA,"University of Illinois, Urbana-Champaign",1998,2026
+p000008,Van Vleet,Bethany,Bustamante,NA,NA,NA,NA,NA,2026
+p000009,Seeley,Bridget,Granville,NA,NA,NA,NA,NA,2026
+p000010,Martin,Carol,NA,NA,NA,NA,University of Georgia,NA,2026
+p000011,Salgado,Casandra,NA,NA,NA,NA,NA,NA,2026
+p000012,Cotton,Cassandra,NA,NA,NA,NA,NA,NA,2026
+p000013,Sheehan,Connor,NA,NA,NA,NA,NA,NA,2026
+p000014,McKiernan,Darrian,NA,NA,NA,NA,NA,NA,2026
+p000015,DeLay,Dawn,NA,NA,NA,NA,NA,NA,2026
+p000016,Brooks,Donald,NA,NA,NA,NA,NA,NA,2026
+p000017,Ozturk,Emine,NA,NA,NA,NA,NA,NA,2026
+p000018,Ladd,Gary,NA,NA,NA,NA,University of Rochester,1979,2026
+p000019,Kaur,Harleen,NA,NA,NA,NA,NA,NA,2026
+p000020,Yoo,Hyung Chol,NA,NA,NA,NA,NA,NA,2026
+p000021,Collins,Jena,NA,NA,NA,NA,NA,NA,2026
+p000022,Carlson,Jennifer,NA,NA,NA,NA,UC Berkeley,2013,2026
+p000023,Harrison,Jennifer,NA,NA,NA,NA,NA,NA,2026
+p000024,Swanson,Jodi,NA,NA,NA,NA,NA,NA,2026
+p000025,McQueen,Jon,NA,NA,NA,NA,NA,NA,2026
+p000026,Rosenblum,Jonathan,NA,NA,NA,NA,NA,NA,2026
+p000027,Gasperone,Kara,NA,NA,NA,NA,NA,NA,2026
+p000028,Visconti,Kari,NA,NA,NA,NA,NA,NA,2026
+p000029,Santellano,Karina,NA,NA,NA,NA,NA,NA,2026
+p000030,Baehr,Kathryn,NA,NA,NA,NA,NA,NA,2026
+p000031,Burke,Kimberly,NA,NA,NA,NA,NA,NA,2026
+p000032,Puruhito,Krista,NA,NA,NA,NA,NA,NA,2026
+p000033,Gresenz,Kyle,NA,NA,NA,NA,NA,NA,2026
+p000034,Nunn,Kylie,NA,NA,NA,NA,NA,NA,2026
+p000035,Hanish,Laura,NA,NA,NA,NA,University of Illinois-Chicago,1997,2026
+p000036,Paik,Leslie,NA,NA,NA,NA,"University of California, Los Angeles",NA,2026
+p000037,Welch,Levin,NA,NA,NA,NA,NA,NA,2026
+p000038,Brougham,M,NA,NA,NA,NA,NA,NA,2026
+p000039,Gemelli,Marcella,NA,NA,NA,NA,NA,NA,2026
+p000040,Iida,Masumi,NA,NA,NA,NA,NA,NA,2026
+p000041,Xia,Mengya,NA,NA,NA,NA,NA,NA,2026
+p000042,Cadigan,Michele,NA,NA,NA,NA,NA,NA,2026
+p000043,reyes,mirtha,NA,NA,NA,NA,Arizona State University,NA,2026
+p000044,Tsethlikai,Monica,NA,NA,NA,NA,NA,NA,2026
+p000045,Richardson,Monte-Angel,NA,NA,NA,NA,NA,NA,2026
+p000046,Martin,Nathan,NA,NA,NA,NA,NA,NA,2026
+p000047,Flowers,Nia,NA,NA,NA,NA,NA,NA,2026
+p000048,Flores-Gonzalez,Nilda,NA,NA,NA,NA,University of Chicago,NA,2026
+p000049,Sandefur,Rebecca,NA,NA,NA,NA,University of Chicago,NA,2026
+p000050,White,Rebecca,NA,NA,NA,NA,Arizona State University,2008,2026
+p000051,Fabes,Richard,NA,NA,NA,NA,Oklahoma State University,NA,2026
+p000052,Fey,Richard,NA,NA,NA,NA,NA,NA,2026
+p000053,Garcia,Rocio,NA,NA,NA,NA,NA,NA,2026
+p000054,Low,Sabina,NA,NA,NA,NA,NA,NA,2026
+p000055,Lindstrom Johnson,Sarah,NA,NA,NA,NA,Johns Hopkins Bloomberg School of Public Health,NA,2026
+p000056,Brooks,Scott,NA,NA,NA,NA,NA,NA,2026
+p000057,Foster,Stacie,NA,NA,NA,NA,NA,NA,2026
+p000058,Kulis,Stephen,NA,NA,NA,0000-0002-9890-0706,Columbia University,NA,2026
+p000059,Russell,Stephen,NA,NA,NA,NA,Duke University,NA,2026
+p000060,Elliott,Steve,NA,NA,NA,NA,NA,NA,2026
+p000061,Spinrad,Tracy,NA,NA,NA,NA,Pennsylvania State University,NA,2026
+p000062,Martin-Caughey,Ananda,NA,NA,NA,NA,NA,NA,2026
+p000063,Schrank,Andrew,NA,NA,NA,NA,University of Wisconsin,2000,2026
+p000064,Dill,Ann,NA,NA,NA,NA,NA,NA,2026
+p000065,Spearin,Carrie,NA,NA,NA,NA,NA,NA,2026
+p000066,Rea,Christopher,NA,NA,NA,NA,NA,NA,2026
+p000067,Boen,Courtney,NA,NA,NA,NA,NA,NA,2026
+p000068,Lindstrom,David,NA,NA,NA,NA,NA,NA,2026
+p000069,Meyer,David,NA,NA,NA,NA,NA,NA,2026
+p000070,Rangel,David,NA,NA,NA,NA,NA,NA,2026
+p000071,Hogan,Dennis,NA,NA,NA,NA,NA,NA,2026
+p000072,Shih,Elena,NA,NA,NA,NA,NA,NA,2026
+p000073,Fussell,Elizabeth,NA,NA,NA,NA,NA,NA,2026
+p000074,Rauscher,Emily,NA,NA,NA,NA,NA,NA,2026
+p000075,Goldscheider,Frances,NA,NA,NA,NA,NA,NA,2026
+p000076,Elliott,Gregory,NA,NA,NA,NA,NA,NA,2026
+p000077,Zhang,Han,NA,NA,NA,NA,NA,NA,2026
+p000078,Silver,Hilary,NA,NA,NA,NA,NA,NA,2026
+p000079,Roberts,J.,Timmons,NA,NA,NA,Johns Hopkins University,NA,2026
+p000080,Candipan,Jennifer,NA,NA,NA,NA,NA,NA,2026
+p000081,Diamond,John,B.,NA,NA,NA,Northwestern University,NA,2026
+p000082,Eason,John,NA,NA,NA,NA,NA,NA,2026
+p000083,Logan,John,NA,NA,NA,NA,"University of California, Berkeley",1974,2026
+p000084,Itzigsohn,José,NA,NA,NA,NA,Johns Hopkins University,NA,2026
+p000085,Pacewicz,Josh,NA,NA,NA,NA,NA,NA,2026
+p000086,Okura,Keitaro,NA,NA,NA,NA,NA,NA,2026
+p000087,Escudero,Kevin,NA,NA,NA,NA,NA,NA,2026
+p000088,Mwenda,Kevin,NA,NA,NA,NA,NA,NA,2026
+p000089,López-Sanders,Laura,NA,NA,NA,NA,NA,NA,2026
+p000090,VanWey,Leah,NA,NA,NA,NA,NA,NA,2026
+p000091,Jackson,Margot,NA,NA,NA,NA,NA,NA,2026
+p000092,Suchman,Mark,NA,NA,NA,NA,NA,NA,2026
+p000093,Kennedy,Michael,NA,NA,NA,NA,NA,NA,2026
+p000094,White,Michael,NA,NA,NA,NA,NA,NA,2026
+p000095,Musto,Michela,NA,NA,NA,NA,NA,NA,2026
+p000096,Gonzalez Van Cleve,Nicole,NA,NA,NA,NA,NA,NA,2026
+p000097,Chorev,Nitsan,NA,NA,NA,NA,NA,NA,2026
+p000098,Henry,Paget,NA,NA,NA,NA,NA,NA,2026
+p000099,Heller,Patrick,NA,NA,NA,NA,NA,NA,2026
+p000100,Roychowdhury,Poulami,NA,NA,NA,NA,NA,NA,2026
+p000101,Singh,Prerna,NA,NA,NA,NA,NA,NA,2026
+p000102,Carter,Prudence,NA,NA,NA,NA,Columbia University,NA,2026
+p000103,Wetts,Rachel,NA,NA,NA,NA,NA,NA,2026
+p000104,Baldoz,Richard,NA,NA,NA,NA,NA,NA,2026
+p000105,Barnes,Sandra,L.,NA,NA,NA,NA,NA,2026
+p000106,Frickel,Scott,NA,NA,NA,NA,University of Wisconsin-Madison,2000,2026
+p000107,Short,Susan,NA,NA,NA,NA,"University of North Carolina, Chapel Hill",NA,2026
+p000108,Qian,Zhenchao,NA,NA,NA,NA,University of Pennsylvania,NA,2026
+p000109,Guseva,Alya,NA,NA,NA,NA,NA,NA,2026
+p000110,Villarreal,Ana,NA,NA,NA,NA,NA,NA,2026
+p000111,Connell,Cati,NA,NA,NA,NA,UT Austin,2010,2026
+p000112,Curington,Celeste,NA,NA,NA,NA,NA,NA,2026
+p000113,Carr,Deborah,NA,NA,NA,NA,University of Wisconsin,1997,2026
+p000114,Schoenfeld,Heather,NA,NA,NA,NA,NA,NA,2026
+p000115,Pryma,Jane,NA,NA,NA,NA,NA,NA,2026
+p000116,Brown-Saracino,Japonica,NA,NA,NA,NA,Northwestern University,NA,2026
+p000117,Simes,Jessica,T.,NA,NA,NA,NA,NA,2026
+p000118,Mijs,Jonathan,NA,NA,NA,NA,NA,NA,2026
+p000119,Harris,Joseph,NA,NA,NA,NA,NA,NA,2026
+p000120,Puri,Jyoti,NA,NA,NA,NA,Northeastern University,NA,2026
+p000121,Lees,Loretta,NA,NA,NA,NA,NA,NA,2026
+p000122,Kibria,Nazli,NA,NA,NA,NA,University of Pennsylvania,1986,2026
+p000123,Gondal,Neha,NA,NA,NA,NA,NA,NA,2026
+p000124,Zabala Ortiz,Pamela,NA,NA,NA,NA,NA,NA,2026
+p000125,Sheehan,Patrick,NA,NA,NA,NA,NA,NA,2026
+p000126,Grundy,Saida,NA,NA,NA,NA,NA,NA,2026
+p000127,Miller,Sarah,NA,NA,NA,NA,NA,NA,2026
+p000128,Schmidt,Steven,NA,NA,NA,NA,NA,NA,2026
+p000129,Dwyer Emory,Allison,NA,NA,NA,NA,NA,NA,2026
+p000130,Barr,Ashley,NA,NA,NA,NA,University of Georgia,2014,2026
+p000131,Moore,Brenda,L.,NA,NA,NA,NA,NA,2026
+p000132,Dennison,Christopher,NA,NA,NA,NA,NA,NA,2026
+p000133,Mele,Christopher,NA,NA,NA,NA,New School for Social Research,1994,2026
+p000134,Street,Debra,NA,NA,NA,NA,Florida State University,1996,2026
+p000135,Hatton,Erin,NA,NA,NA,NA,University of Wisconsin-Madison,2007,2026
+p000136,Grol-Prokopczyk,Hanna,NA,NA,NA,NA,University of Wisconsin-Madison,2013,2026
+p000137,Anadon,Isabel,NA,NA,NA,NA,NA,NA,2026
+p000138,Strohl,Jared,NA,NA,NA,NA,NA,NA,2026
+p000139,Fox,Jordan,NA,NA,NA,NA,NA,NA,2026
+p000140,Lee,Kristen,Schultz,NA,NA,NA,Cornell University,2004,2026
+p000141,Vera,Lourdes,NA,NA,NA,NA,NA,NA,2026
+p000142,Trautner,Mary Nell,NA,NA,NA,NA,University of Arizona,2006,2026
+p000143,Harris,Misty,NA,NA,NA,NA,NA,NA,2026
+p000144,Gorman,Quintin,NA,NA,NA,NA,Rice University,2024,2026
+p000145,Adelman,Robert,NA,NA,NA,NA,"University at Albany, SUNY",2001,2026
+p000146,Blair,Sampson,Lee,NA,NA,NA,NA,NA,2026
+p000147,carter,Sara,NA,NA,NA,NA,NA,NA,2026
+p000148,Ford,Sarah,NA,NA,NA,NA,NA,NA,2026
+p000149,Kimelberg,Shelley,NA,NA,NA,NA,NA,NA,2026
+p000150,Lim,Sojung,NA,NA,NA,NA,NA,NA,2026
+p000151,Horowitz,Veronica,NA,NA,NA,NA,NA,NA,2026
+p000152,Piehowski,Victoria,NA,NA,NA,NA,NA,NA,2026
+p000153,Dong,Yige,NA,NA,NA,NA,NA,NA,2026
+p000154,Lu,Yunmei,NA,NA,NA,NA,NA,NA,2026
+p000155,Reyes,Adriana,NA,NA,NA,NA,NA,NA,2026
+p000156,Alvero,AJ,NA,NA,NA,NA,NA,NA,2026
+p000157,Basu,Alaka,NA,NA,NA,NA,NA,NA,2026
+p000158,Park,Barum,NA,NA,NA,NA,NA,NA,2026
+p000159,Cornwell,Benjamin,NA,NA,NA,NA,NA,NA,2026
+p000160,Sykes,Bryan,L.,NA,NA,NA,University of California-Berkeley,NA,2026
+p000161,Daviss,Claire,NA,NA,NA,NA,NA,NA,2026
+p000162,Young,Cristobal,NA,NA,NA,NA,NA,NA,2026
+p000163,Hirschman,Dan,NA,NA,NA,NA,NA,NA,2026
+p000164,Lichter,Daniel,T.,NA,NA,NA,NA,NA,2026
+p000165,Strang,David,NA,NA,NA,NA,NA,NA,2026
+p000166,Burton,Diane,NA,NA,NA,NA,Stanford University,1996,2026
+p000167,Heckathorn,Douglas,NA,NA,NA,NA,NA,NA,2026
+p000168,Lawler,Edward,J.,NA,NA,NA,NA,NA,2026
+p000169,Wethington,Elaine,NA,NA,NA,NA,NA,NA,2026
+p000170,cornwell,Erin,NA,NA,NA,NA,NA,NA,2026
+p000171,Cumberworth,Erin,NA,NA,NA,NA,NA,NA,2026
+p000172,Budnick,Jamie,NA,NA,NA,NA,NA,NA,2026
+p000173,Voelkel,Jan,G.,NA,NA,NA,NA,NA,2026
+p000174,Sullivan,Joseph,F.,NA,NA,NA,NA,NA,2026
+p000175,Musick,Kelly,NA,NA,NA,NA,University of Wisconsin-Madison,NA,2026
+p000176,Bischoff,Kendra,NA,NA,NA,NA,NA,NA,2026
+p000177,Weeden,Kim,NA,NA,NA,NA,Stanford University,1999,2026
+p000178,Schnabel,Landon,NA,NA,NA,NA,NA,NA,2026
+p000179,Tach,Laura,NA,NA,NA,NA,Harvard University,2010,2026
+p000180,Berezin,Mabel,NA,NA,NA,NA,Harvard University,1987,2026
+p000181,Hall,Matt,NA,NA,NA,NA,Pennsylvania State University,NA,2026
+p000182,Waller,Maureen,NA,NA,NA,NA,NA,NA,2026
+p000183,Macy,Michael,NA,NA,NA,NA,NA,NA,2026
+p000184,Swedberg,Richard,NA,NA,NA,NA,NA,NA,2026
+p000185,Lindsay,Sadé,NA,NA,NA,NA,NA,NA,2026
+p000186,Gleeson,Shannon,NA,NA,NA,NA,UC Berkeley,NA,2026
+p000187,Sassler,Sharon,NA,NA,NA,NA,Brown University,1995,2026
+p000188,Nee,Victor,NA,NA,NA,NA,Harvard,NA,2026
+p000189,Maralani,Vida,NA,NA,NA,NA,NA,NA,2026
+p000190,Stevenson,Amanda,NA,NA,NA,NA,NA,NA,2026
+p000191,Stewart,Amanda,NA,NA,NA,NA,NA,NA,2026
+p000192,McZeal,Corey,NA,NA,NA,NA,NA,NA,2026
+p000193,Pyrooz,David,NA,NA,NA,NA,Arizona State University,2012,2026
+p000194,Grant,Don,NA,NA,NA,NA,NA,NA,2026
+p000195,Touma,Fatima,NA,NA,NA,NA,NA,NA,2026
+p000196,Walden,Glenda,NA,NA,NA,NA,NA,NA,2026
+p000197,Boardman,Jason,NA,NA,NA,NA,NA,NA,2026
+p000198,Triplett,Jen,NA,NA,NA,NA,NA,NA,2026
+p000199,Turanovic,Jillian,NA,NA,NA,NA,Arizona State University,2015,2026
+p000200,Patterson,Laura,NA,NA,NA,NA,NA,NA,2026
+p000201,Cilia,Laurent,NA,NA,NA,NA,NA,NA,2026
+p000202,Downey,Liam,NA,NA,NA,NA,University of Arizona,2000,2026
+p000203,Hunter,Lori,NA,NA,NA,NA,NA,NA,2026
+p000204,Peek,Lori,NA,NA,NA,NA,University of Colorado Boulder,NA,2026
+p000205,Bayard de Volo,Lorraine,NA,NA,NA,NA,NA,NA,2026
+p000206,Desan,Mathieu,NA,NA,NA,NA,NA,NA,2026
+p000207,Neely,Megan,NA,NA,NA,NA,NA,NA,2026
+p000208,Todd,Molly,NA,NA,NA,NA,NA,NA,2026
+p000209,Hathi,Payal,NA,NA,NA,NA,NA,NA,2026
+p000210,Rinaldo,Rachel,NA,NA,NA,NA,NA,NA,2026
+p000211,Wyrod,Robert,NA,NA,NA,NA,NA,NA,2026
+p000212,Masters,Ryan,NA,NA,NA,NA,NA,NA,2026
+p000213,Khuu,Thoa,NA,NA,NA,NA,NA,NA,2026
+p000214,Perzynski,Adam,NA,NA,NA,NA,NA,NA,2026
+p000215,Townsend,Aloen,NA,NA,NA,NA,NA,NA,2026
+p000216,Gran,Brian,NA,NA,NA,NA,Northwestern University,1997,2026
+p000217,Schroeder,Casey,NA,NA,NA,NA,NA,NA,2026
+p000218,Pittman Claytor,Cassi,NA,NA,NA,NA,NA,NA,2026
+p000219,Dannefer,Dale,NA,NA,NA,NA,Rutgers University,1977,2026
+p000220,Thompson,Edward,NA,NA,NA,NA,NA,NA,2026
+p000221,Kahana,Eva,NA,NA,NA,NA,University of Chicago,1967,2026
+p000222,Deimling,Gary,NA,NA,NA,NA,NA,NA,2026
+p000223,Song,Haoming,NA,NA,NA,NA,NA,NA,2026
+p000224,Kelley,Jessica,A.,NA,NA,NA,Purdue University,2002,2026
+p000225,Stange,Kurt,NA,NA,NA,NA,NA,NA,2026
+p000226,Erdmans,Mary,Patrice,NA,NA,NA,NA,NA,2026
+p000227,Slone,Michael,R.,NA,NA,NA,NA,NA,2026
+p000228,Hinze,Susan,NA,NA,NA,NA,NA,NA,2026
+p000229,Black,Timothy,NA,NA,NA,NA,University of Massachussetts-Amherst,1994,2026
+p000230,Harrington,Brooke,NA,NA,NA,NA,Harvard University,NA,2026
+p000231,Stockstill,Casey,NA,NA,NA,NA,NA,NA,2026
+p000232,Chambers,Christopher,S.,NA,NA,NA,Texas A&M University,2011,2026
+p000233,King,Deborah,Karyn,NA,NA,NA,NA,NA,2026
+p000234,Walton,Emily,NA,NA,NA,NA,University of Washington,NA,2026
+p000235,Sharp,Gregory,NA,NA,NA,NA,NA,NA,2026
+p000236,Clark,Henry,C.,NA,NA,NA,NA,NA,2026
+p000237,McCabe,Janice,M.,NA,NA,NA,Indiana University,NA,2026
+p000238,Houle,Jason,NA,NA,NA,NA,The Pennsylvania State University,2011,2026
+p000239,Campbell,John,L.,NA,NA,NA,NA,NA,2026
+p000240,Lively,Kathryn,J.,NA,NA,NA,Vanderbilt University,NA,2026
+p000241,Rogers,Kimberly,B.,NA,NA,NA,NA,NA,2026
+p000242,Smith,Kristin,E.,NA,NA,NA,NA,NA,2026
+p000243,Grinberg,Lev,NA,NA,NA,NA,NA,NA,2026
+p000244,Dixon,Marc,NA,NA,NA,NA,Ohio State University,NA,2026
+p000245,Griffith,Mark,NA,NA,NA,NA,NA,NA,2026
+p000246,Tine,Michele,NA,NA,NA,NA,NA,NA,2026
+p000247,Parsa,Misagh,NA,NA,NA,NA,University of Michigan,NA,2026
+p000248,Allen,Shaonta',NA,NA,NA,NA,NA,NA,2026
+p000249,Upadhyay,Smriti,NA,NA,NA,NA,NA,NA,2026
+p000250,Eom,Sujin,NA,NA,NA,NA,NA,NA,2026
+p000251,Kim,Sunmin,NA,NA,NA,NA,NA,NA,2026
+p000252,Keaton,Trica,NA,NA,NA,NA,"University of California, Berkeley",2001,2026
+p000253,Harris,Angel,Luis,NA,NA,NA,"University of Michigan, Ann Arbor",2005,2026
+p000254,Sun,Anna,NA,NA,NA,NA,NA,NA,2026
+p000255,Rosette,Ashleigh,Shelby,NA,NA,NA,Northwestern University,2003,2026
+p000256,Harrell King,Ashley,Lauren,NA,NA,NA,NA,NA,2026
+p000257,Gao,Bai,NA,NA,NA,NA,Princeton University,1994,2026
+p000258,Gibson-Davis,Christina,M.,NA,NA,NA,Northwestern University,2001,2026
+p000259,Bail,Christopher,Andrew,NA,NA,NA,Harvard University,2011,2026
+p000260,Johnston,Christopher,NA,NA,NA,NA,Stony Brook University,2011,2026
+p000261,Wildeman,Christopher,NA,NA,NA,NA,Princeton University,2008,2026
+p000262,Rawlings,Craig,Michael,NA,NA,NA,NA,NA,2026
+p000263,Pasquale,Dana,Kristine,NA,NA,NA,NA,NA,2026
+p000264,Smith,Daniel,Scott,NA,NA,NA,NA,NA,2026
+p000265,Eagle,David,E,NA,NA,NA,NA,NA,2026
+p000266,Bonilla-Silva,Eduardo,NA,NA,NA,NA,"University of Wisconsin, Madison",1993,2026
+p000267,Tiryakian,Edwyn,Ashod,NA,NA,NA,NA,NA,2026
+p000268,Ryo,Emily,NA,NA,NA,NA,Stanford University,2011,2026
+p000269,Hasso,Frances,S.,NA,NA,NA,"University of Michigan, Ann Arbor",1997,2026
+p000270,Lee,Hedwig,Eugenie,NA,NA,NA,"University of North Carolina, Chapel Hill",2009,2026
+p000271,Moody,James,NA,NA,NA,NA,"University of North Carolina, Chapel Hill",1999,2026
+p000272,Read,Jen'nan,NA,NA,NA,NA,"University of Texas, Austin",2001,2026
+p000273,Hamil Luker,Jenifer,NA,NA,NA,NA,NA,NA,2026
+p000274,Streib,Jessi,NA,NA,NA,NA,"University of Michigan, Ann Arbor",2013,2026
+p000275,West,Jessica,Sayles,NA,NA,NA,NA,NA,2026
+p000276,Cummings,Jonathon,NA,NA,NA,0009-0009-1562-6712,Carnegie Mellon University,2001,2026
+p000277,Wilder,Julius,Middleton,NA,NA,NA,NA,NA,2026
+p000278,Healy,Kieran,NA,NA,NA,0000-0001-9114-981X,Princeton University,2001,2026
+p000279,Baker,Lee,D.,NA,NA,NA,Temple University,1994,2026
+p000280,Keister,Lisa,A.,NA,NA,NA,Cornell University,1997,2026
+p000281,Smith-Lovin,Lynn,NA,NA,NA,NA,NA,NA,2026
+p000282,Merli,M.,Giovanna,NA,NA,NA,University of Pennsylvania,1996,2026
+p000283,Febbo,Maria,NA,NA,NA,NA,NA,NA,2026
+p000284,Chaves,Mark,NA,NA,NA,NA,NA,NA,2026
+p000285,Ruef,Martin,NA,NA,NA,NA,Stanford University,1999,2026
+p000286,Hovsepian,Mary,NA,NA,NA,NA,NA,NA,2026
+p000287,Dupre,Matthew,E.,NA,NA,NA,Duke University,2005,2026
+p000288,Crichlow,Michaeline,A.,NA,NA,NA,NA,NA,2026
+p000289,Carnes,Nicholas,W.,NA,NA,NA,Princeton University,2011,2026
+p000290,Veraldi,Samuel,A,NA,NA,NA,NA,NA,2026
+p000291,Lynch,Scott,Michael,NA,NA,NA,Duke University,2001,2026
+p000292,Hasan,Sharique,NA,NA,NA,NA,Carnegie Mellon University,2010,2026
+p000293,Vaisey,Stephen,NA,NA,NA,NA,"University of North Carolina, Chapel Hill",2008,2026
+p000294,Cheng,Tony,NA,NA,NA,NA,NA,NA,2026
+p000295,Brown,Tyson,NA,NA,NA,NA,"University of North Carolina, Chapel Hill",2008,2026
+p000296,Jiang,Wenhao,NA,NA,NA,NA,NA,NA,2026
+p000297,Sewell,Alyasah,A.,NA,NA,NA,NA,NA,2026
+p000298,Gillespie,Andra,NA,NA,NA,NA,NA,NA,2026
+p000299,Xu,Bin,NA,NA,NA,NA,Northwestern University,2011,2026
+p000300,Puckett,Cassidy,NA,NA,NA,NA,NA,NA,2026
+p000301,Johnson,Cathryn,NA,NA,NA,NA,University of Iowa,1990,2026
+p000302,Ozawa-de Silva,Chikako,NA,NA,NA,NA,NA,NA,2026
+p000303,Idler,Ellen,L.,NA,NA,NA,NA,NA,2026
+p000304,Lechner,Frank,J.,NA,NA,NA,NA,NA,2026
+p000305,Negro,Giacomo,NA,NA,NA,NA,Bocconi University,NA,2026
+p000306,Sohn,Heeju,NA,NA,NA,NA,NA,NA,2026
+p000307,Browne,Irene,NA,NA,NA,NA,University of Arizona,1991,2026
+p000308,Easley,Janeria,NA,NA,NA,NA,NA,NA,2026
+p000309,Mullis,Jeff,NA,NA,NA,NA,NA,NA,2026
+p000310,Stewart,Jessica,NA,NA,NA,NA,NA,NA,2026
+p000311,Park,Ju Hyun,NA,NA,NA,NA,NA,NA,2026
+p000312,Hegtvedt,Karen,NA,NA,NA,NA,University of Washington,1984,2026
+p000313,Brown,Karida,L.,NA,NA,NA,NA,NA,2026
+p000314,Yount,Kathryn,NA,NA,NA,NA,Johns Hopkins University,1999,2026
+p000315,Reed,Megan,NA,NA,NA,NA,NA,NA,2026
+p000316,Perkins,Molly,NA,NA,NA,NA,Georgia State University,2002,2026
+p000317,Hoffmann,Nathan,NA,NA,NA,NA,NA,NA,2026
+p000318,Koçak,Özgecan,NA,NA,NA,NA,Stanford University,NA,2026
+p000319,Franzosi,Roberto,NA,NA,NA,NA,Johns Hopkins University,1981,2026
+p000320,Nalkur,Sonal,NA,NA,NA,NA,NA,NA,2026
+p000321,Dowd,Timothy,J.,NA,NA,NA,NA,NA,2026
+p000322,Scott,Tracy,L.,NA,NA,NA,NA,NA,2026
+p000323,An,Weihua,NA,NA,NA,NA,Harvard University,2011,2026
+p000324,Hyde,Allen,NA,NA,NA,NA,NA,NA,2026
+p000325,Mickel,Allison,NA,NA,NA,NA,Stanford University,2016,2026
+p000326,Prasad,Amit,NA,NA,NA,NA,"University of Illinois, Urbana-Champaign",NA,2026
+p000327,Buskell,Andrew,NA,NA,NA,NA,NA,NA,2026
+p000328,Chauhan,Bhumika,NA,NA,NA,NA,NA,NA,2026
+p000329,Winders,Bill,NA,NA,NA,NA,Emory University,2001,2026
+p000330,Cervantes,Bobby,NA,NA,NA,NA,NA,NA,2026
+p000331,Zimmermann,Calvin,NA,NA,NA,NA,NA,NA,2026
+p000332,Gerona,Carla,NA,NA,NA,NA,NA,NA,2026
+p000333,Lawton,Christopher,NA,NA,NA,NA,NA,NA,2026
+p000334,Spirou,Costas,NA,NA,NA,NA,Loyola University Chicago,NA,2026
+p000335,Amsterdam,Daniel,NA,NA,NA,NA,NA,NA,2026
+p000336,Abernethy,Declan,NA,NA,NA,NA,NA,NA,2026
+p000337,Flamming,Douglas,NA,NA,NA,NA,NA,NA,2026
+p000338,ryan,elena,NA,NA,NA,NA,NA,NA,2026
+p000339,Schatzberg,Eric,NA,NA,NA,NA,University of Pennsylvania,NA,2026
+p000340,Vergara,Germán,NA,NA,NA,NA,NA,NA,2026
+p000341,Nobles,Gregory,NA,NA,NA,NA,NA,NA,2026
+p000342,Giebelhaus,Gus,NA,NA,NA,NA,NA,NA,2026
+p000343,Lu,Hanchao,NA,NA,NA,NA,University of California Los Angeles,NA,2026
+p000344,Curry,Helen,Anne,NA,NA,NA,Yale University,NA,2026
+p000345,Singh,Jennifer,NA,NA,NA,NA,NA,NA,2026
+p000346,Krige,John,NA,NA,NA,NA,NA,NA,2026
+p000347,Tone,John,NA,NA,NA,NA,Columbia University,1989,2026
+p000348,Smith,Johnny,NA,NA,NA,NA,Purdue University,2011,2026
+p000349,Schneer,Jonathan,NA,NA,NA,NA,NA,NA,2026
+p000350,Viezure,Juliana,NA,NA,NA,NA,NA,NA,2026
+p000351,brown,kate,NA,NA,NA,NA,NA,NA,2026
+p000352,Budak,Kemal,NA,NA,NA,NA,NA,NA,2026
+p000353,Knoespel,Kenneth,NA,NA,NA,NA,NA,NA,2026
+p000354,Loder,Kimya,NA,NA,NA,NA,NA,NA,2026
+p000355,Bier,Laura,NA,NA,NA,NA,NA,NA,2026
+p000356,Foster,Lawrence,NA,NA,NA,NA,NA,NA,2026
+p000357,McDonald,Mary,G.,NA,NA,NA,University of Iowa,NA,2026
+p000358,Hild,Matthew,NA,NA,NA,NA,NA,NA,2026
+p000359,Koposov,Nikolay,NA,NA,NA,NA,NA,NA,2026
+p000360,Bayor,Ronald,NA,NA,NA,NA,NA,NA,2026
+p000361,Mulira,Sanyu,NA,NA,NA,NA,NA,NA,2026
+p000362,Randolph,Sherie,NA,NA,NA,NA,NA,NA,2026
+p000363,Usselman,Steven,NA,NA,NA,NA,NA,NA,2026
+p000364,Dysart,Taylor,Elizabeth,NA,NA,NA,NA,NA,2026
+p000365,Stoneman,Timothy,NA,NA,NA,NA,NA,NA,2026
+p000366,Michney,Todd,NA,NA,NA,NA,NA,NA,2026
+p000367,Thompson,Victoria,E,NA,NA,NA,University of Pennsylvania,NA,2026
+p000368,Pearson,Willie,NA,NA,NA,NA,NA,NA,2026
+p000369,Yuan,Yaqi,NA,NA,NA,NA,NA,NA,2026
+p000370,Jones,Antwan,NA,NA,NA,NA,Bowling Green State University,2010,2026
+p000371,Bustamante,Carlos,NA,NA,NA,NA,NA,NA,2026
+p000372,Eglitis,Daina,NA,NA,NA,NA,NA,NA,2026
+p000373,Goss,Desmond,NA,NA,NA,NA,NA,NA,2026
+p000374,Vaquera,Elizabeth,NA,NA,NA,NA,NA,NA,2026
+p000375,Buntman,Fran,NA,NA,NA,NA,NA,NA,2026
+p000376,Silver,Hilary,NA,NA,NA,NA,Columbia University,NA,2026
+p000377,Ishizawa,Hiromi,NA,NA,NA,NA,NA,NA,2026
+p000378,Ken,Ivy,NA,NA,NA,NA,University of Georgia,1999,2026
+p000379,Kafafian,Matthew,NA,NA,NA,NA,NA,NA,2026
+p000380,Kelso,Michelle,NA,NA,NA,NA,NA,NA,2026
+p000381,Mangcu,Xolela,NA,NA,NA,NA,NA,NA,2026
+p000382,Johnson,Amy,NA,NA,NA,NA,NA,NA,2026
+p000383,Halpern-Manners,Andrew,NA,NA,NA,NA,University of Minnesota,2013,2026
+p000384,Mueller,Anna,NA,NA,NA,NA,University of Texas at Austin,2011,2026
+p000385,Alderson,Art,NA,NA,NA,NA,University of North Carolina at Chapel Hill,1997,2026
+p000386,Perry,Brea,L.,NA,NA,NA,Indiana University Bloomington,2008,2026
+p000387,Kelly,Brian,C.,NA,NA,NA,Columbia University,2006,2026
+p000388,Powell,Brian,NA,NA,NA,NA,Emory University,1984,2026
+p000389,Okamoto,Dina,NA,NA,NA,NA,University of Arizona,2001,2026
+p000390,Hernandez,Elaine,M.,NA,NA,NA,NA,NA,2026
+p000391,Meanwell,Emily,NA,NA,NA,NA,NA,NA,2026
+p000392,Michelson,Ethan,NA,NA,NA,NA,University of Chicago,NA,2026
+p000393,Rojas,Fabio,NA,NA,NA,NA,University of Chicago,2003,2026
+p000394,Kwon,Hyeyoung,NA,NA,NA,NA,NA,NA,2026
+p000395,Miller,Jacob,NA,NA,NA,NA,NA,NA,2026
+p000396,Barber,Jennifer,NA,NA,NA,NA,Pennsylvania State University,1997,2026
+p000397,Lee,Jennifer,NA,NA,NA,NA,University of Minnesota,2007,2026
+p000398,Allendorf,Keera,NA,NA,NA,NA,University of Wisconsin,NA,2026
+p000399,Chavez,Koji,NA,NA,NA,NA,NA,NA,2026
+p000400,Jackson,Pamela,Braboy,NA,NA,NA,Indiana University Bloomington,1993,2026
+p000401,Harvey,Peter,Francis,NA,NA,NA,NA,NA,2026
+p000402,Headworth,Spencer,NA,NA,NA,NA,NA,NA,2026
+p000403,Benard,Stephen,NA,NA,NA,NA,NA,NA,2026
+p000404,Cha,Youngjoo,NA,NA,NA,NA,Cornell University,2010,2026
+p000405,Saatcioglu,Argun,NA,NA,NA,NA,Case Western Reserve University,2007,2026
+p000406,Donovan,Brian,L.,NA,NA,NA,Northwestern University,2001,2026
+p000407,Kim,ChangHwan,NA,NA,NA,NA,University of Texas at Austin,2006,2026
+p000408,Anderson,Elizabeth,M.,NA,NA,NA,NA,NA,2026
+p000409,Hanley,Eric,Allen,NA,NA,NA,NA,NA,2026
+p000410,Tzeggai,Fithawee,G.,NA,NA,NA,NA,NA,2026
+p000411,Saint Onge,Jarron,M.,NA,NA,NA,University of Colorado at Boulder,2007,2026
+p000412,Chong,Kelly,H.,NA,NA,NA,University of Chicago,2002,2026
+p000413,McCannon,Kevin,NA,NA,NA,NA,NA,NA,2026
+p000414,Wright,Lisa-Marie,NA,NA,NA,NA,NA,NA,2026
+p000415,Felix,Liz,NA,NA,NA,NA,NA,NA,2026
+p000416,Najafizadeh,Mehrangiz,NA,NA,NA,NA,NA,NA,2026
+p000417,Rooks,Pam,NA,NA,NA,NA,NA,NA,2026
+p000418,Stock,Paul,NA,NA,NA,NA,NA,NA,2026
+p000419,Antonio,Robert,J.,NA,NA,NA,NA,NA,2026
+p000420,LaPierre,Tracey,Anne,NA,NA,NA,Duke University,2006,2026
+p000421,Myroniuk,Tyler,NA,NA,NA,NA,NA,NA,2026
+p000422,Ott,Brian,NA,NA,NA,NA,NA,NA,2026
+p000423,Brock,Caroline,NA,NA,NA,NA,NA,NA,2026
+p000424,Conner,Chris,NA,NA,NA,NA,NA,NA,2026
+p000425,Valentine,Douglas,NA,NA,NA,NA,NA,NA,2026
+p000426,Avery,Eileen,E.,NA,NA,NA,NA,NA,2026
+p000427,Brown,Eric,S.,NA,NA,NA,NA,NA,2026
+p000428,Hermsen,Joan,NA,NA,NA,NA,NA,NA,2026
+p000429,Rittenhour,Kathryn,NA,NA,NA,NA,NA,NA,2026
+p000430,Scott,Rebecca,NA,NA,NA,NA,University of California-Santa Cruz,2007,2026
+p000431,Christ,Stephen,NA,NA,NA,NA,NA,NA,2026
+p000432,Brekhus,Wayne,NA,NA,NA,NA,NA,NA,2026
+p000433,Papachristos,Andrew,V.,NA,NA,NA,University of Chicago,NA,2026
+p000434,Bhardwaj,Ankit,NA,NA,NA,NA,NA,NA,2026
+p000435,Orloff,Ann,Shola,NA,NA,NA,Princeton University,NA,2026
+p000436,Chen,Anthony,S.,NA,NA,NA,NA,NA,2026
+p000437,Redbird,Beth,NA,NA,NA,NA,NA,NA,2026
+p000438,Carruthers,Bruce,NA,NA,NA,NA,NA,NA,2026
+p000439,Percheski,Christine,NA,NA,NA,NA,NA,NA,2026
+p000440,Benzecry,Claudio,NA,NA,NA,NA,NA,NA,2026
+p000441,Schieber,David,NA,NA,NA,NA,NA,NA,2026
+p000442,Shiffer-Sebba,Doron,NA,NA,NA,NA,NA,NA,2026
+p000443,Carrillo,Héctor,NA,NA,NA,NA,NA,NA,2026
+p000444,Mahoney,James,NA,NA,NA,NA,NA,NA,2026
+p000445,Jones,Jennifer,NA,NA,NA,NA,NA,NA,2026
+p000446,Behrman,Julia,NA,NA,NA,NA,NA,NA,2026
+p000447,Snyder,Karrie,Ann,NA,NA,NA,NA,NA,2026
+p000448,Weisshaar,Kate,NA,NA,NA,NA,NA,NA,2026
+p000449,quisumbing king,katrina,NA,NA,NA,NA,NA,NA,2026
+p000450,Nielsen,Laura Beth,NA,NA,NA,NA,NA,NA,2026
+p000451,Quillian,Lincoln,NA,NA,NA,NA,Harvard,1997,2026
+p000452,Griffith,Mark,NA,NA,NA,NA,NA,NA,2026
+p000453,Pattillo,Mary,NA,NA,NA,NA,University of Chicago,1997,2026
+p000454,Stuhler,Oscar,NA,NA,NA,NA,NA,NA,2026
+p000455,Rattan,Pariroo,NA,NA,NA,NA,NA,NA,2026
+p000456,Stewart,Quincy,Thomas,NA,NA,NA,University of Pennsylvania,2001,2026
+p000457,Ewert,Rebecca,NA,NA,NA,NA,NA,NA,2026
+p000458,Nelson,Robert,NA,NA,NA,NA,NA,NA,2026
+p000459,Molina,Santiago,J.,NA,NA,NA,NA,NA,2026
+p000460,Ispa-Landa,Simone,NA,NA,NA,NA,NA,NA,2026
+p000461,Epstein,Steven,NA,NA,NA,NA,"University of California, Berkeley",1993,2026
+p000462,Bashi,Vilna,NA,NA,NA,NA,NA,NA,2026
+p000463,Ocobock,Abigail,NA,NA,NA,NA,NA,NA,2026
+p000464,Sharkey,Amanda,NA,NA,NA,NA,NA,NA,2026
+p000465,Langenkamp,Amy,NA,NA,NA,NA,NA,NA,2026
+p000466,Mische,Ann,NA,NA,NA,NA,NA,NA,2026
+p000467,Geltzer,Anna,NA,NA,NA,NA,NA,NA,2026
+p000468,Haskins,Anna,NA,NA,NA,NA,NA,NA,2026
+p000469,Omer,Atalia,NA,NA,NA,NA,Harvard University,2008,2026
+p000470,Riegle-Crumb,Catherine,NA,NA,NA,NA,University of Chicago,NA,2026
+p000471,Yang,Claire,NA,NA,NA,NA,NA,NA,2026
+p000472,Moss,Dana,NA,NA,NA,NA,NA,NA,2026
+p000473,Tadmon,Daniel,NA,NA,NA,NA,NA,NA,2026
+p000474,Gibson,David,NA,NA,NA,NA,NA,NA,2026
+p000475,Sikkink,David,NA,NA,NA,NA,NA,NA,2026
+p000476,McClintock,Elizabeth,NA,NA,NA,NA,NA,NA,2026
+p000477,Summers-Effler,Erika,NA,NA,NA,NA,NA,NA,2026
+p000478,McDonnell,Erin,NA,NA,NA,NA,NA,NA,2026
+p000479,Purifoye,Gwendolyn,NA,NA,NA,NA,NA,NA,2026
+p000480,Marahrens,Helge-Johannes,NA,NA,NA,NA,NA,NA,2026
+p000481,Valenzuela,J.,Samuel,NA,NA,NA,NA,NA,2026
+p000482,Springs,Jason,NA,NA,NA,NA,Harvard University,NA,2026
+p000483,Huynh,Jennifer,NA,NA,NA,NA,NA,NA,2026
+p000484,Christiano,Kevin,NA,NA,NA,NA,NA,NA,2026
+p000485,Beyerlein,Kraig,NA,NA,NA,NA,NA,NA,2026
+p000486,Traeger,Margaret,NA,NA,NA,NA,NA,NA,2026
+p000487,Berends,Mark,NA,NA,NA,NA,University of Wisconsin-Madison,NA,2026
+p000488,Agliardo,Michael,NA,NA,NA,NA,NA,NA,2026
+p000489,Thomas,Mim,NA,NA,NA,NA,NA,NA,2026
+p000490,Copeland,Molly,NA,NA,NA,NA,NA,NA,2026
+p000491,Adem,Muna,NA,NA,NA,NA,NA,NA,2026
+p000492,Stapleton,Orla,NA,NA,NA,NA,NA,NA,2026
+p000493,McVeigh,Rory,NA,NA,NA,NA,NA,NA,2026
+p000494,Mustillo,Sarah,NA,NA,NA,NA,NA,NA,2026
+p000495,Yoon,Sharon,NA,NA,NA,NA,NA,NA,2026
+p000496,Alvarado,Steven,NA,NA,NA,NA,NA,NA,2026
+p000497,McDonnell,Terence,NA,NA,NA,NA,NA,NA,2026
+p000498,Hallett,Timothy,NA,NA,NA,NA,NA,NA,2026
+p000499,Carbonaro,William,NA,NA,NA,NA,NA,NA,2026
+p000500,Combs,Aidan,NA,NA,NA,NA,NA,NA,2026
+p000501,Van Gundy,Alana,NA,NA,NA,NA,NA,NA,2026
+p000502,Ng,Amy,NA,NA,NA,NA,NA,NA,2026
+p000503,Martin,Andrew,NA,NA,NA,NA,Pennsylvania State University,2004,2026
+p000504,Bryant,Angela,NA,NA,NA,NA,NA,NA,2026
+p000505,Alonzo,Angelo,NA,NA,NA,NA,NA,NA,2026
+p000506,Johnson,Anthony,NA,NA,NA,NA,NA,NA,2026
+p000507,Mughan,Anthony,NA,NA,NA,NA,NA,NA,2026
+p000508,Ostroot,Ashley,NA,NA,NA,NA,NA,NA,2026
+p000509,Everett,Bethany,NA,NA,NA,NA,NA,NA,2026
+p000510,Montgomery,Bradley,NA,NA,NA,NA,NA,NA,2026
+p000511,Alston,Brandon,NA,NA,NA,NA,NA,NA,2026
+p000512,Kowalski,Brian,NA,NA,NA,NA,NA,NA,2026
+p000513,LoFaso,Charlie,NA,NA,NA,NA,NA,NA,2026
+p000514,Agbai,Chinyere,NA,NA,NA,NA,NA,NA,2026
+p000515,Knoester,Chris,NA,NA,NA,NA,Pennsylvania State University,2000,2026
+p000516,Edmunds,Chrisse,NA,NA,NA,NA,NA,NA,2026
+p000517,Browning,Christopher,NA,NA,NA,NA,University of Chicago,1997,2026
+p000518,Surek-Clark,Clarissa,NA,NA,NA,NA,NA,NA,2026
+p000519,Buchmann,Claudia,NA,NA,NA,NA,NA,NA,2026
+p000520,Colen,Cynthia,NA,NA,NA,NA,University of Michigan,NA,2026
+p000521,Haynie,Dana,NA,NA,NA,NA,Pennsylvania State University,NA,2026
+p000522,Schoon,Danielle,NA,NA,NA,NA,NA,NA,2026
+p000523,Adams,David,NA,NA,NA,NA,NA,NA,2026
+p000524,Jacobs,David,NA,NA,NA,NA,NA,NA,2026
+p000525,Melamed,David,NA,NA,NA,NA,NA,NA,2026
+p000526,Jones-Merritt,Deborah,NA,NA,NA,NA,NA,NA,2026
+p000527,Wilson,Deborah,NA,NA,NA,NA,NA,NA,2026
+p000528,Bobbitt-Zeher,Donna,NA,NA,NA,NA,The Ohio State University,2008,2026
+p000529,Downey,Douglas,NA,NA,NA,NA,Indiana University,1992,2026
+p000530,Costigan,Elen,NA,NA,NA,NA,NA,NA,2026
+p000531,Cooksey,Elizabeth,NA,NA,NA,NA,NA,NA,2026
+p000532,Menaghan,Elizabeth,NA,NA,NA,NA,NA,NA,2026
+p000533,Ekl,Emily,NA,NA,NA,NA,NA,NA,2026
+p000534,Schoon,Eric,NA,NA,NA,NA,University of Arizona,2015,2026
+p000535,Wen,Fangqi,NA,NA,NA,NA,NA,NA,2026
+p000536,Tien,H.,Yuan,NA,NA,NA,NA,NA,2026
+p000537,Nzitatira,Hollie,NA,NA,NA,NA,"University of Minnesota, Twin Cities",NA,2026
+p000538,Jenkins,J.,Craig,NA,NA,NA,NA,NA,2026
+p000539,Bowe,Jaci,NA,NA,NA,NA,NA,NA,2026
+p000540,Box-Steffensmeier,Janet,NA,NA,NA,NA,NA,NA,2026
+p000541,Stotik,Jeffrey,NA,NA,NA,NA,NA,NA,2026
+p000542,Baker,Jeremy,NA,NA,NA,NA,NA,NA,2026
+p000543,Casterline,John,NA,NA,NA,NA,NA,NA,2026
+p000544,Scott,Joseph,E.,NA,NA,NA,NA,NA,2026
+p000545,Schmeer,Kammi,NA,NA,NA,0000-0002-9015-9343,University of North Carolina at Chapel Hill,2007,2026
+p000546,Meyer,Katherine,NA,NA,NA,NA,NA,NA,2026
+p000547,Slomczynski,Kazimierz,NA,NA,NA,NA,NA,NA,2026
+p000548,Schwirian,Kent,NA,NA,NA,NA,NA,NA,2026
+p000549,Ard,Kerry,NA,NA,NA,NA,NA,NA,2026
+p000550,Lopez,Kim,NA,NA,NA,NA,NA,NA,2026
+p000551,Little,Korie,NA,NA,NA,NA,University of Illinois at Chicago,2004,2026
+p000552,Williams,Kristi,NA,NA,NA,NA,University of Texas at Austin,2000,2026
+p000553,Dugan,Laura,NA,NA,NA,NA,Carnegie Mellon University,1999,2026
+p000554,Richardson,Laurel,NA,NA,NA,NA,NA,NA,2026
+p000555,Lobao,Linda,NA,NA,NA,NA,NA,NA,2026
+p000556,Mulligan,Linda,NA,NA,NA,NA,NA,NA,2026
+p000557,Martin,Lynette,NA,NA,NA,NA,NA,NA,2026
+p000558,Klochko,Marianna,NA,NA,NA,NA,NA,NA,2026
+p000559,Vuolo,Michael,NA,NA,NA,NA,NA,NA,2026
+p000560,Dahir,Nima,NA,NA,NA,NA,NA,NA,2026
+p000561,Bellair,Paul,NA,NA,NA,NA,State University of New York-Albany,NA,2026
+p000562,Hennen,Peter,NA,NA,NA,NA,NA,NA,2026
+p000563,Dwyer,Rachel,NA,NA,NA,NA,University of Wisconsin-Madison,2003,2026
+p000564,Skaggs,Rachel,NA,NA,NA,NA,NA,NA,2026
+p000565,Roth,Randolph,NA,NA,NA,NA,NA,NA,2026
+p000566,Frank,Reanne,NA,NA,NA,NA,University of Texas at Austin,2002,2026
+p000567,Reczek,Rin,NA,NA,NA,NA,University of Texas at Austin,NA,2026
+p000568,Jiobu,Robert,NA,NA,NA,NA,NA,NA,2026
+p000569,Kaufman,Robert,NA,NA,NA,NA,NA,NA,2026
+p000570,Peterson,Ruth,NA,NA,NA,NA,NA,NA,2026
+p000571,King,Ryan,NA,NA,NA,NA,University of Minnesota,2005,2026
+p000572,Clark,Sam,NA,NA,NA,NA,University of Pennsylvania,NA,2026
+p000573,Hayford,Sarah,NA,NA,NA,NA,University of Pennsylvania,NA,2026
+p000574,Houseknecht,Sharon,NA,NA,NA,NA,NA,NA,2026
+p000575,Lopez,Steven,NA,NA,NA,NA,University of California at Berkeley,2000,2026
+p000576,Padamsee,Tasleem,NA,NA,NA,NA,NA,NA,2026
+p000577,Hinton,Terrance,NA,NA,NA,NA,NA,NA,2026
+p000578,Winnick,Terri,NA,NA,NA,NA,NA,NA,2026
+p000579,Foster,Thomas,NA,NA,NA,NA,NA,NA,2026
+p000580,Huang,Tiffany,NA,NA,NA,NA,NA,NA,2026
+p000581,Curry,Timothy,NA,NA,NA,NA,NA,NA,2026
+p000582,Price-Spratlen,Townsand,NA,NA,NA,NA,University of Washington,1993,2026
+p000583,Burke,Victor,Lee,NA,NA,NA,NA,NA,2026
+p000584,Espinosa,Victor,NA,NA,NA,NA,NA,NA,2026
+p000585,Roscigno,Vincent,NA,NA,NA,NA,North Carolina State University,1996,2026
+p000586,MacDonald,William,NA,NA,NA,NA,NA,NA,2026
+p000587,Sun,Yongmin,NA,NA,NA,NA,NA,NA,2026
+p000588,Eddins,Crystal,NA,NA,NA,NA,NA,NA,2026
+p000589,McClymonds,Daniel,NA,NA,NA,NA,University of Pittsburgh,2024,2026
+p000590,Tormos-Aponte,Fernando,NA,NA,NA,NA,Purdue University,2017,2026
+p000591,Lazar,Hillary,NA,NA,NA,NA,University of Pittsburgh,2021,2026
+p000592,Smith,Jackie,NA,NA,NA,NA,University of Notre Dame,1996,2026
+p000593,Kim,Jessica,NA,NA,NA,NA,Stony Brook University,2022,2026
+p000594,Bloom,Joshua,NA,NA,NA,NA,University of California Los Angeles,2014,2026
+p000595,Warren,Joshua,NA,NA,NA,NA,NA,NA,2026
+p000596,Blee,Kathleen,NA,NA,NA,NA,University of Wisconsin-Madison,1982,2026
+p000597,Brush,Lisa,NA,NA,NA,NA,University of Wisconsin- Madison,1993,2026
+p000598,Paterson,Mark,NA,NA,NA,NA,University of Bristol,NA,2026
+p000599,Hughes,Melanie,NA,NA,NA,NA,The Ohio State University,2008,2026
+p000600,Glass,Michael,R.,NA,NA,NA,Pennsylvania State University,NA,2026
+p000601,Epitropoulos,Mike-Frank,NA,NA,NA,NA,University of Pittsburgh,1999,2026
+p000602,Bamyeh,Mohammed,NA,NA,NA,NA,University of Wisconsin-Madison,1990,2026
+p000603,Rogers,Nick,NA,NA,NA,NA,Stony Brook University,2022,2026
+p000604,Slammon,Robert,NA,NA,NA,NA,State University of New York- Buffalo,2011,2026
+p000605,Staggenborg,Suzanne,NA,NA,NA,NA,Northwestern University,1985,2026
+p000606,Kay,Tamara,NA,NA,NA,NA,NA,NA,2026
+p000607,Singh,Vijai,NA,NA,NA,NA,University of Wisconsin-Madison,1970,2026
+p000608,Sica,Alan,NA,NA,NA,NA,University of Massachusetts Amherst,1978,2026
+p000609,Verdery,Ashton,M.,NA,NA,NA,University of North Carolina at Chapel Hill,2015,2026
+p000610,Moore,Caylin,Louis,NA,NA,NA,NA,NA,2026
+p000611,Seguin,Charles,NA,NA,NA,NA,NA,NA,2026
+p000612,Frazier,Cleothia,NA,NA,NA,NA,NA,NA,2026
+p000613,Graif,Corina,NA,NA,NA,NA,Harvard University,2011,2026
+p000614,DellaPosta,Daniel,NA,NA,NA,NA,NA,NA,2026
+p000615,Baker,David,NA,NA,NA,NA,NA,NA,2026
+p000616,Ramey,David,NA,NA,NA,NA,NA,NA,2026
+p000617,Kreager,Derek,NA,NA,NA,NA,University of Washington,NA,2026
+p000618,Felmlee,Diane,NA,NA,NA,NA,NA,NA,2026
+p000619,Silver,Eric,NA,NA,NA,NA,State University of New York at Albany,1999,2026
+p000620,Adler,Gary,NA,NA,NA,NA,NA,NA,2026
+p000621,Nguyen,Holly,NA,NA,NA,NA,University of Maryland,NA,2026
+p000622,Ulmer,Jeffery,NA,NA,NA,NA,Penn State,1993,2026
+p000623,Glick,Jennifer,NA,NA,NA,NA,the University of Texas at Austin,1997,2026
+p000624,Van Hook,Jennifer,NA,NA,NA,NA,University of Texas,1996,2026
+p000625,Staff,Jeremy,NA,NA,NA,NA,University of Minnesota,2004,2026
+p000626,Iceland,John,NA,NA,NA,NA,Brown University,1997,2026
+p000627,Daw,Jonathan,NA,NA,NA,NA,University of North Carolina at Chapel Hill,NA,2026
+p000628,Szabo,Julia,NA,NA,NA,NA,NA,NA,2026
+p000629,Ford,Karly,Sarita,NA,NA,NA,NA,NA,2026
+p000630,Luo,Liying,NA,NA,NA,NA,NA,NA,2026
+p000631,Frisco,Michelle,NA,NA,NA,NA,"The University of Texas, Austin, TX",NA,2026
+p000632,Galvin,Miranda,NA,NA,NA,NA,NA,NA,2026
+p000633,Martin,Molly,A.,NA,NA,NA,University of Wisconsin-Madison,2003,2026
+p000634,Kreisberg,Nicole,NA,NA,NA,NA,NA,NA,2026
+p000635,Wilcox,Pamela,NA,NA,NA,NA,NA,NA,2026
+p000636,Felson,Richard,NA,NA,NA,NA,Indiana University,1977,2026
+p000637,Tucker,Riley,NA,NA,NA,NA,NA,NA,2026
+p000638,Brothers,Sarah,NA,NA,NA,NA,NA,NA,2026
+p000639,Damaske,Sarah,NA,NA,NA,NA,New York University,NA,2026
+p000640,Yabiku,Scott,NA,NA,NA,NA,University of Michigan,2002,2026
+p000641,Gabbidon,Shaun,L.,NA,NA,NA,Indiana University of Pennsylvania,NA,2026
+p000642,Silver,Stacy,NA,NA,NA,NA,NA,NA,2026
+p000643,Haas,Steven,NA,NA,NA,NA,University of Wisconsin-Madison,2004,2026
+p000644,Pacho,Agata,NA,NA,NA,NA,NA,NA,2026
+p000645,Rhodes,Alec,NA,NA,NA,NA,NA,NA,2026
+p000646,Arseniev-Koehler,Alina,NA,NA,NA,NA,NA,NA,2026
+p000647,Useem,Bert,NA,NA,NA,NA,NA,NA,2026
+p000648,Ganser,Brittany,NA,NA,NA,NA,NA,NA,2026
+p000649,Perrucci,Carolyn,Cummings,NA,NA,NA,NA,NA,2026
+p000650,Ryan-Claytor,Cayley,NA,NA,NA,NA,NA,NA,2026
+p000651,Sennott,Christie,NA,NA,NA,NA,University of Colorado,2013,2026
+p000652,Seto,Christopher,NA,NA,NA,NA,NA,NA,2026
+p000653,Olson,Dan,NA,NA,NA,NA,NA,NA,2026
+p000654,Winchester,Daniel,NA,NA,NA,NA,NA,NA,2026
+p000655,Kane,Danielle,NA,NA,NA,NA,NA,NA,2026
+p000656,Peterson,David,NA,NA,NA,NA,NA,NA,2026
+p000657,Reingold,David,NA,NA,NA,NA,NA,NA,2026
+p000658,Hoffmann,Elizabeth,A.,NA,NA,NA,"University of Wisconsin, Madison",2001,2026
+p000659,Dunn,Erin,NA,NA,NA,NA,NA,NA,2026
+p000660,Akimova,Evelina,NA,NA,NA,NA,NA,NA,2026
+p000661,Yang,Fenggang,NA,NA,NA,NA,Catholic University of America,1997,2026
+p000662,Potter,Harry,NA,NA,NA,NA,NA,NA,2026
+p000663,Liu,Hui,NA,NA,NA,NA,University of Texas at Austin,NA,2026
+p000664,Suitor,J.,Jill,NA,NA,NA,State University of New York at Stony Brook,1985,2026
+p000665,Spencer,Jack,NA,NA,NA,NA,NA,NA,2026
+p000666,Frost,Jacqui,NA,NA,NA,NA,NA,NA,2026
+p000667,Anderson,James,G.,NA,NA,NA,NA,NA,2026
+p000668,Reynolds,Jeremy,NA,NA,NA,NA,University North Carolina--Chapel Hill,2001,2026
+p000669,Stahura,John,NA,NA,NA,NA,NA,NA,2026
+p000670,Doyle,Joshua,NA,NA,NA,NA,NA,NA,2026
+p000671,Tong,Joy,NA,NA,NA,NA,NA,NA,2026
+p000672,Ferraro,Kenneth,NA,NA,NA,NA,NA,NA,2026
+p000673,Stainback,Kevin,NA,NA,NA,NA,North Carolina State University,NA,2026
+p000674,Charters,Leslie,A,NA,NA,NA,NA,NA,2026
+p000675,Cao,Likun,NA,NA,NA,NA,NA,NA,2026
+p000676,Renzulli,Linda,NA,NA,NA,NA,University of North Carolina-- Chapel Hill,2001,2026
+p000677,Hamm,Lindsay,NA,NA,NA,NA,NA,NA,2026
+p000678,Mann,Marcus,NA,NA,NA,NA,NA,NA,2026
+p000679,Pawson,Mark,NA,NA,NA,NA,NA,NA,2026
+p000680,Suchman,Mark,NA,NA,NA,NA,Stanford University,1994,2026
+p000681,Steinhour,Michael,NA,NA,NA,NA,NA,NA,2026
+p000682,Thomas,Patricia,A.,NA,NA,NA,NA,NA,2026
+p000683,Einwohner,Rachel,L.,NA,NA,NA,University of Washington,1997,2026
+p000684,Hogan,Richard,NA,NA,NA,NA,NA,NA,2026
+p000685,Wedow,Robbee,NA,NA,NA,NA,NA,NA,2026
+p000686,Perrucci,Robert,NA,NA,NA,NA,NA,NA,2026
+p000687,Stryker,Robin,NA,NA,NA,NA,University of Wisconsin-Madison,NA,2026
+p000688,Feld,Scott,NA,NA,NA,NA,Johns Hopkins University,1976,2026
+p000689,Galloway,Scott,NA,NA,NA,NA,NA,NA,2026
+p000690,Bauldry,Shawn,NA,NA,NA,NA,University of North Carolina-Chapel Hill,2012,2026
+p000691,Furuya,Shiro,NA,NA,NA,NA,NA,NA,2026
+p000692,Upadhyay,Srushti,NA,NA,NA,NA,NA,NA,2026
+p000693,Mize,Trenton,D.,NA,NA,NA,Indiana University,NA,2026
+p000694,Gecas,Viktor,NA,NA,NA,NA,NA,NA,2026
+p000695,Coghill,William,M.,NA,NA,NA,NA,NA,2026
+p000696,Rhodes,Anna,NA,NA,NA,NA,NA,NA,2026
+p000697,Mabute-Louie,Bianca,NA,NA,NA,NA,NA,NA,2026
+p000698,Gorman,Bridget,K.,NA,NA,NA,Pennsylvania State University,2000,2026
+p000699,Bryan,Brielle,NA,NA,NA,NA,NA,NA,2026
+p000700,Diaz,Christina,J.,NA,NA,NA,NA,NA,2026
+p000701,Abramson,Corey,M.,NA,NA,NA,UC Berkeley,NA,2026
+p000702,Considine,Craig,NA,NA,NA,NA,NA,NA,2026
+p000703,Ecklund,Elaine,Howard,NA,NA,NA,Cornell University,2004,2026
+p000704,Hordge-Freeman,Elizabeth,NA,NA,NA,NA,NA,NA,2026
+p000705,Long,Elizabeth,NA,NA,NA,NA,NA,NA,2026
+p000706,Roberto,Elizabeth,NA,NA,NA,NA,NA,NA,2026
+p000707,Kypriotakis,George,NA,NA,NA,NA,NA,NA,2026
+p000708,Jalili,Jaleh,NA,NA,NA,NA,NA,NA,2026
+p000709,Elliott,James,R.,NA,NA,NA,University of Wisconsin - Madison,1997,2026
+p000710,Bratter,Jenifer,NA,NA,NA,NA,University of Texas at Austin,2001,2026
+p000711,Fiel,Jeremy,NA,NA,NA,NA,NA,NA,2026
+p000712,Li,Jing,NA,NA,NA,NA,NA,NA,2026
+p000713,Ewoodzie,Joseph,NA,NA,NA,NA,NA,NA,2026
+p000714,Padmanabhan,Kavya,NA,NA,NA,NA,NA,NA,2026
+p000715,Lopez,Keila,NA,NA,NA,NA,NA,NA,2026
+p000716,Goff,Kerby,NA,NA,NA,NA,NA,NA,2026
+p000717,Thomas,Kevin,J.A.,NA,NA,NA,University of Pennsylvania,2004,2026
+p000718,Emerson,Michael,NA,NA,NA,NA,NA,NA,2026
+p000719,Smirnova,Michelle,NA,NA,NA,NA,NA,NA,2026
+p000720,Waggoner,Miranda,R.,NA,NA,NA,NA,NA,2026
+p000721,Kimbro,Rachel,NA,NA,NA,NA,Princeton University,2005,2026
+p000722,Johnson,Richard,NA,NA,NA,NA,NA,NA,2026
+p000723,López Turley,Ruth,N.,NA,NA,NA,Harvard University,2001,2026
+p000724,Chávez,Sergio,NA,NA,NA,NA,NA,NA,2026
+p000725,Evans,Shani,NA,NA,NA,NA,NA,NA,2026
+p000726,Klineberg,Stephen,L.,NA,NA,NA,NA,NA,2026
+p000727,Ferguson,Todd,W.,NA,NA,NA,NA,NA,2026
+p000728,Brown,Tony,N.,NA,NA,NA,University of Michigan - Ann Arbor,1998,2026
+p000729,Martin,William,NA,NA,NA,NA,NA,NA,2026
+p000730,Stein,Arlene,NA,NA,NA,NA,"University of California, Berkeley",1993,2026
+p000731,Lee,Catherine,NA,NA,NA,NA,NA,NA,2026
+p000732,Falzon,Danielle,NA,NA,NA,NA,NA,NA,2026
+p000733,Mouzon,Dawne,M.,NA,NA,NA,NA,NA,2026
+p000734,Zhou,Di,NA,NA,NA,NA,NA,NA,2026
+p000735,LaPointe,Eleanor,NA,NA,NA,NA,NA,NA,2026
+p000736,Handsman,Emily,NA,NA,NA,NA,NA,NA,2026
+p000737,Brooks,Ethel,NA,NA,NA,NA,New York University,2000,2026
+p000738,Shepherd,Hana,NA,NA,NA,NA,NA,NA,2026
+p000739,Litt,Jacquelyn,NA,NA,NA,NA,University of Pennsylvania,1988,2026
+p000740,Covington,Jeanette,NA,NA,NA,NA,NA,NA,2026
+p000741,Dowd,Jeffrey,NA,NA,NA,NA,NA,NA,2026
+p000742,Kempner,Joanna,NA,NA,NA,NA,University of Pennsylvania,2004,2026
+p000743,Phillips,Julie,NA,NA,NA,NA,University of Pennsylvania,1998,2026
+p000744,Hwang,Karam,NA,NA,NA,NA,NA,NA,2026
+p000745,Dahaghi,Kevin,NA,NA,NA,NA,NA,NA,2026
+p000746,Springer,Kristen,W.,NA,NA,NA,NA,NA,2026
+p000747,Lei,Lei,NA,NA,NA,NA,NA,NA,2026
+p000748,Jones,Leslie,Kay,NA,NA,NA,NA,NA,2026
+p000749,Stitt,Mary Ellen,NA,NA,NA,NA,NA,NA,2026
+p000750,MacKendrick,Norah,NA,NA,NA,NA,NA,NA,2026
+p000751,Hirschfield,Paul,NA,NA,NA,NA,NA,NA,2026
+p000752,McLean,Paul,NA,NA,NA,NA,University of Chicago,1996,2026
+p000753,Mai,Quan,NA,NA,NA,NA,NA,NA,2026
+p000754,Martinez-Schuldt,Ricardo,NA,NA,NA,NA,NA,NA,2026
+p000755,Bliss,Rina,NA,NA,NA,NA,New School for Social Research,NA,2026
+p000756,Bzostek,Sharon,NA,NA,NA,NA,NA,NA,2026
+p000757,Brechin,Steven,NA,NA,NA,NA,"University of Michigan, Ann Arbor",NA,2026
+p000758,Dinzey-Flores,Zaire,NA,NA,NA,NA,NA,NA,2026
+p000759,Salime,Zakia,NA,NA,NA,NA,NA,NA,2026
+p000760,Saperstein,Aliya,NA,NA,NA,NA,"University of California, Berkeley",2008,2026
+p000761,Walder,Andrew,G.,NA,NA,NA,Michigan,1981,2026
+p000762,Asad,Asad,L.,NA,NA,NA,NA,NA,2026
+p000763,Snipp,C.,Matthew,NA,NA,NA,Wisconsin-Madison,1981,2026
+p000764,Grusky,David,NA,NA,NA,NA,NA,NA,2026
+p000765,Rehkopf,David,NA,NA,NA,NA,Harvard University,2006,2026
+p000766,Stuart,Forrest,NA,NA,NA,NA,UCLA,2012,2026
+p000767,Shin,Gi-Wook,NA,NA,NA,NA,University of Washington,1991,2026
+p000768,Hwang,Jackelyn,NA,NA,NA,NA,NA,NA,2026
+p000769,Freese,Jeremy,NA,NA,NA,NA,NA,NA,2026
+p000770,Tsutsui,Kiyoteru,NA,NA,NA,NA,Stanford University,2002,2026
+p000771,Clair,Matthew,NA,NA,NA,NA,NA,NA,2026
+p000772,Rosenfeld,Michael,NA,NA,NA,NA,University of Chicago,2000,2026
+p000773,Jackson,Michelle,NA,NA,NA,NA,NA,NA,2026
+p000774,Willer,Robb,NA,NA,NA,NA,Cornell University,2006,2026
+p000775,Brayne,Sarah,NA,NA,NA,NA,NA,NA,2026
+p000776,Correll,Shelley,NA,NA,NA,NA,Stanford University,2001,2026
+p000777,Jiménez,Tomás,R.,NA,NA,NA,Harvard University,2005,2026
+p000778,Zhou,Xueguang,NA,NA,NA,NA,Stanford University,1991,2026
+p000779,Diamond,Alex,NA,NA,NA,NA,NA,NA,2026
+p000780,Tyree,Andrea,NA,NA,NA,NA,NA,NA,2026
+p000781,Jones,Angela,NA,NA,NA,NA,NA,NA,2026
+p000782,Coburn,Carolyn,NA,NA,NA,NA,NA,NA,2026
+p000783,Shandra,Carrie,NA,NA,NA,NA,NA,NA,2026
+p000784,Marrone,Catherine,NA,NA,NA,NA,NA,NA,2026
+p000785,Khan,Cristina,NA,NA,NA,NA,NA,NA,2026
+p000786,Khan,Cristine,NA,NA,NA,NA,NA,NA,2026
+p000787,Levy,Daniel,NA,NA,NA,NA,NA,NA,2026
+p000788,Barthel-Bouchier,Diane,NA,NA,NA,NA,NA,NA,2026
+p000789,Goode,Erich,NA,NA,NA,NA,NA,NA,2026
+p000790,Huang,Haisu,NA,NA,NA,NA,NA,NA,2026
+p000791,Roxborough,Ian,NA,NA,NA,NA,NA,NA,2026
+p000792,Chase,Ivan,NA,NA,NA,NA,NA,NA,2026
+p000793,Jones,Jason,Jeffrey,NA,NA,NA,NA,NA,2026
+p000794,Heerwig,Jen,NA,NA,NA,NA,NA,NA,2026
+p000795,Shandra,John,NA,NA,NA,NA,NA,NA,2026
+p000796,Tanur,Judith,NA,NA,NA,NA,NA,NA,2026
+p000797,Fallon,Kathleen,NA,NA,NA,NA,NA,NA,2026
+p000798,Feldman,Kenneth,A.,NA,NA,NA,NA,NA,2026
+p000799,Shorette,Kristen,NA,NA,NA,NA,NA,NA,2026
+p000800,Desai,Manisha,NA,NA,NA,NA,NA,NA,2026
+p000801,Schwartz,Michael,NA,NA,NA,NA,NA,NA,2026
+p000802,al-Gharbi,Musa,NA,NA,NA,NA,NA,NA,2026
+p000803,Hiemstra,Nancy,NA,NA,NA,NA,NA,NA,2026
+p000804,Rosenthal,Naomi,NA,NA,NA,NA,NA,NA,2026
+p000805,Ghani,Navid,NA,NA,NA,NA,NA,NA,2026
+p000806,Bascuñan-Wiley,Nicholas,NA,NA,NA,NA,NA,NA,2026
+p000807,Eilbaum,Nicolás,NA,NA,NA,NA,NA,NA,2026
+p000808,Wilson,Nicolas,H.,NA,NA,NA,NA,NA,2026
+p000809,Collver,O.,Andrew,NA,NA,NA,NA,NA,2026
+p000810,Oyewumi,Oyeronke,NA,NA,NA,NA,NA,NA,2026
+p000811,Gootenberg,Paul,NA,NA,NA,NA,NA,NA,2026
+p000812,Burroway,Rebekah,NA,NA,NA,NA,NA,NA,2026
+p000813,Arjomand,Said,NA,NA,NA,NA,NA,NA,2026
+p000814,Moran,Timothy,P.,NA,NA,NA,NA,NA,2026
+p000815,Lu,Wan-Zi,NA,NA,NA,NA,NA,NA,2026
+p000816,Zhang,Yongjun,NA,NA,NA,NA,NA,NA,2026
+p000817,Hernandez,Alexander,A,NA,NA,NA,NA,NA,2026
+p000818,Graham,Carlyn,NA,NA,NA,NA,NA,NA,2026
+p000819,Lakkimsetti,Chaitanya,NA,NA,NA,NA,NA,NA,2026
+p000820,Over,Defne,NA,NA,NA,NA,NA,NA,2026
+p000821,Santana,Emilce,NA,NA,NA,NA,NA,NA,2026
+p000822,Amaral,Ernesto,NA,NA,NA,NA,NA,NA,2026
+p000823,Pals,Heili,NA,NA,NA,NA,NA,NA,2026
+p000824,Foster-Talbot,Holly,NA,NA,NA,NA,University of Toronto,NA,2026
+p000825,Glanville,Jennifer,NA,NA,NA,NA,University of North Carolina at Chapel Hill,NA,2026
+p000826,Wolf,Joan,NA,NA,NA,NA,NA,NA,2026
+p000827,Reid,Jonathan,NA,NA,NA,NA,NA,NA,2026
+p000828,Lariscy,Joseph,NA,NA,NA,NA,NA,NA,2026
+p000829,Maich,Katherine,NA,NA,NA,NA,NA,NA,2026
+p000830,Suzuki,Kazuko,NA,NA,NA,NA,NA,NA,2026
+p000831,Khan,Koyel,NA,NA,NA,NA,NA,NA,2026
+p000832,Ye,Liangfei,NA,NA,NA,NA,NA,NA,2026
+p000833,Campbell,Mary,NA,NA,NA,NA,University of Wisconsin-Madison,NA,2026
+p000834,Kim,Nadia,NA,NA,NA,NA,"University of Michigan, Ann Arbor",NA,2026
+p000835,Plankey-Videla,Nancy,NA,NA,NA,NA,NA,NA,2026
+p000836,Hakim,Omar,NA,NA,NA,NA,NA,NA,2026
+p000837,goldsmith,pat,NA,NA,NA,NA,University of Arizona,NA,2026
+p000838,Thornton,Patricia,H,NA,NA,NA,Stanford University,1993,2026
+p000839,Begum,Popy,NA,NA,NA,NA,NA,NA,2026
+p000840,Evans,Rhonda,NA,NA,NA,NA,NA,NA,2026
+p000841,Abel,Richard,D,NA,NA,NA,NA,NA,2026
+p000842,Durán,Robert,J,NA,NA,NA,University of Colorado,2006,2026
+p000843,Mackin,Robert,NA,NA,NA,NA,NA,NA,2026
+p000844,Meštrović,Stjepan,NA,NA,NA,NA,Syracuse University,NA,2026
+p000845,Morris,Theresa,NA,NA,NA,NA,Texas A&M University,NA,2026
+p000846,Marlow,Thomas,NA,NA,NA,NA,NA,NA,2026
+p000847,Woods,Timothy,NA,NA,NA,NA,NA,NA,2026
+p000848,Harden,Troy,D,NA,NA,NA,NA,NA,2026
+p000849,Waren,Warren,NA,NA,NA,NA,NA,NA,2026
+p000850,Cohen,Abbie,NA,NA,NA,NA,NA,NA,2026
+p000851,Fahlberg,Anjuli,NA,NA,NA,NA,NA,NA,2026
+p000852,Slodden,Caitlin,NA,NA,NA,NA,NA,NA,2026
+p000853,Scoville,Caleb,NA,NA,NA,NA,NA,NA,2026
+p000854,Gordon,Daanika,NA,NA,NA,NA,NA,NA,2026
+p000855,Dias,Felipe,NA,NA,NA,NA,NA,NA,2026
+p000856,Blume Oeur,Freeden,NA,NA,NA,NA,NA,NA,2026
+p000857,Marrow,Helen,NA,NA,NA,NA,Harvard University,2007,2026
+p000858,Weinberg,Jill,NA,NA,NA,NA,NA,NA,2026
+p000859,Conklin,John,NA,NA,NA,NA,NA,NA,2026
+p000860,Warikoo,Natasha,NA,NA,NA,NA,Harvard University,2005,2026
+p000861,Joseph,Paul,NA,NA,NA,NA,NA,NA,2026
+p000862,Aymer,Paula,NA,NA,NA,NA,NA,NA,2026
+p000863,Taylor,Rosemary,CR,NA,NA,NA,NA,NA,2026
+p000864,Sobieraj,Sarah,NA,NA,NA,NA,"University at Albany, State University of New York",2002,2026
+p000865,Sharma,Sonal,NA,NA,NA,NA,NA,NA,2026
+p000866,Ostrander,Susan,NA,NA,NA,NA,NA,NA,2026
+p000867,Bergesen,Albert,NA,NA,NA,NA,NA,NA,2026
+p000868,Ely-Black,April,NA,NA,NA,NA,NA,NA,2026
+p000869,Bartos,Bradley,NA,NA,NA,NA,NA,NA,2026
+p000870,Mayer,Brian,NA,NA,NA,NA,NA,NA,2026
+p000871,Fernandez,Celestino,NA,NA,NA,NA,NA,NA,2026
+p000872,Gomez,Charles,NA,NA,NA,NA,NA,NA,2026
+p000873,Martínez,Daniel,E.,NA,NA,NA,NA,NA,2026
+p000874,Menchik,Daniel,NA,NA,NA,NA,NA,NA,2026
+p000875,Leal,Diego,NA,NA,NA,NA,NA,NA,2026
+p000876,Heinz,Erin,NA,NA,NA,NA,NA,NA,2026
+p000877,Leahey,Erin,NA,NA,NA,NA,NA,NA,2026
+p000878,Frank,Franziska,NA,NA,NA,NA,NA,NA,2026
+p000879,Milward,H.,Brinton,NA,NA,NA,NA,NA,2026
+p000880,Walker,Henry,NA,NA,NA,NA,NA,NA,2026
+p000881,Zavisca,Jane,NA,NA,NA,NA,NA,NA,2026
+p000882,Sallaz,Jeff,NA,NA,NA,NA,NA,NA,2026
+p000883,Croissant,Jennifer,NA,NA,NA,NA,Rensselaer Polytechnic Institute,1994,2026
+p000884,Galaskiewicz,Joseph,NA,NA,NA,NA,NA,NA,2026
+p000885,Strong,Justin,NA,NA,NA,NA,NA,NA,2026
+p000886,Schwartzman,Kathleen,C.,NA,NA,NA,NA,NA,2026
+p000887,Molm,Linda,NA,NA,NA,NA,NA,NA,2026
+p000888,Roth,Louise,NA,NA,NA,NA,NA,NA,2026
+p000889,Mcpherson,Miller,J.,NA,NA,NA,NA,NA,2026
+p000890,Mukherjee,Mohana,NA,NA,NA,NA,NA,NA,2026
+p000891,Bishop,Nicholas,NA,NA,NA,NA,NA,NA,2026
+p000892,Schilke,Oliver,NA,NA,NA,NA,"University of California, Los Angeles (UCLA)",NA,2026
+p000893,MacCorquodale,Patricia,NA,NA,NA,NA,NA,NA,2026
+p000894,Sledge,Piper,NA,NA,NA,NA,NA,NA,2026
+p000895,Deil-Amen,Regina,J.,NA,NA,NA,Northwestern University,2002,2026
+p000896,Stryker,Robin,NA,NA,NA,NA,NA,NA,2026
+p000897,Breiger,Ronald,NA,NA,NA,NA,Harvard,1975,2026
+p000898,Simon,Samantha,NA,NA,NA,NA,NA,NA,2026
+p000899,Bloch,Stefano,NA,NA,NA,NA,NA,NA,2026
+p000900,Cornell,Stephen,NA,NA,NA,NA,NA,NA,2026
+p000901,Winfield,Taylor,NA,NA,NA,NA,NA,NA,2026
+p000902,Shi,Yongren,NA,NA,NA,NA,NA,NA,2026
+p000903,Shmargad,Yotam,NA,NA,NA,NA,NA,NA,2026
+p000904,Choi,Young,NA,NA,NA,NA,NA,NA,2026
+p000905,Swidler,Ann,NA,NA,NA,NA,UC Berkeley,NA,2026
+p000906,Sabbagh-Khoury,Areej,NA,NA,NA,NA,NA,NA,2026
+p000907,Lara-Millan,Armando,NA,NA,NA,NA,NA,NA,2026
+p000908,Cross,Christina,J.,NA,NA,NA,NA,NA,2026
+p000909,Tugal,Cihan,NA,NA,NA,NA,NA,NA,2026
+p000910,Fischer,Claude,S.,NA,NA,NA,Harvard University,1972,2026
+p000911,Fox,Cybelle,NA,NA,NA,NA,NA,NA,2026
+p000912,cohen,Daniel,NA,NA,NA,NA,NA,NA,2026
+p000913,Lagos,Danya,NA,NA,NA,NA,NA,NA,2026
+p000914,Harding,David,J.,NA,NA,NA,NA,NA,2026
+p000915,Riley,Dylan,John,NA,NA,NA,NA,NA,2026
+p000916,Mpondo-Dika,Ekédi,NA,NA,NA,NA,NA,NA,2026
+p000917,Brown,Eliza,NA,NA,NA,NA,NA,NA,2026
+p000918,Mora,g,NA,NA,NA,NA,NA,NA,2026
+p000919,Haveman,Heather,A.,NA,NA,NA,"University of California, Berkeley",1990,2026
+p000920,Lockhart,Jeffrey,W.,NA,NA,NA,NA,NA,2026
+p000921,Johnson-Hanks,Jennifer,NA,NA,NA,NA,Northwestern,NA,2026
+p000922,Lie,John,NA,NA,NA,NA,NA,NA,2026
+p000923,Newman,Katherine,NA,NA,NA,NA,NA,NA,2026
+p000924,Voss,Kim,NA,NA,NA,NA,Stanford,NA,2026
+p000925,Harknett,Kristen,NA,NA,NA,NA,NA,NA,2026
+p000926,Enriquez,Laura,J.,NA,NA,NA,NA,NA,2026
+p000927,Wacquant,Loïc,NA,NA,NA,NA,NA,NA,2026
+p000928,Flores,Luis,NA,NA,NA,NA,NA,NA,2026
+p000929,Loveman,Mara,NA,NA,NA,NA,UCLA,NA,2026
+p000930,Fourcade,Marion,NA,NA,NA,NA,NA,NA,2026
+p000931,Sánchez-Jankowski,Martín,NA,NA,NA,NA,Massachusetts Institute of Technology,NA,2026
+p000932,Rodríguez-Muñiz,Michael,NA,NA,NA,NA,NA,NA,2026
+p000933,Fligstein,Neil,NA,NA,NA,NA,NA,NA,2026
+p000934,Ray,Raka,NA,NA,NA,NA,NA,NA,2026
+p000935,Miller,Reuben,Jonathan,NA,NA,NA,NA,NA,2026
+p000936,Hammer,Ricarda,NA,NA,NA,NA,NA,NA,2026
+p000937,Braun,Robert,NA,NA,NA,NA,NA,NA,2026
+p000938,Canizales,Stephanie,L,NA,NA,NA,NA,NA,2026
+p000939,Petersen,Trond,NA,NA,NA,NA,University of Wisconsin,1987,2026
+p000940,Long,Yan,NA,NA,NA,NA,NA,NA,2026
+p000941,Glaeser,Andreas,NA,NA,NA,NA,Harvard University,1997,2026
+p000942,Abbott,Andrew,NA,NA,NA,NA,University of Chicago,1982,2026
+p000943,Koch,Bernard,NA,NA,NA,NA,NA,NA,2026
+p000944,Clemens,Elisabeth,S.,NA,NA,NA,University of Chicago,1990,2026
+p000945,Wodtke,Geoffrey,NA,NA,NA,NA,University of Michigan,2014,2026
+p000946,Evans,James,A.,NA,NA,NA,Stanford University,2004,2026
+p000947,Trinitapoli,Jenny,NA,NA,NA,NA,University of Texas at Austin,2007,2026
+p000948,Martin,John,Levi,NA,NA,NA,University of California-Berkeley,1997,2026
+p000949,Go,Julian,NA,NA,NA,NA,University of Chicago,2000,2026
+p000950,Knorr Cetina,Karin,NA,NA,NA,NA,University of Vienna,1971,2026
+p000951,Yamaguchi,Kazuo,NA,NA,NA,NA,University of Chicago,1981,2026
+p000952,Hoang,Kimberly,Kay,NA,NA,NA,University of California-Berkeley,2011,2026
+p000953,Schilt,Kristen,NA,NA,NA,NA,NA,NA,2026
+p000954,Waite,Linda,NA,NA,NA,NA,University of Michigan,1976,2026
+p000955,Zhao,Linda,NA,NA,NA,NA,NA,NA,2026
+p000956,Garrido,Marco,NA,NA,NA,NA,NA,NA,2026
+p000957,Brenner,Neil,NA,NA,NA,NA,University of Chicago,1999,2026
+p000958,McRoberts,Omar,NA,NA,NA,NA,NA,NA,2026
+p000959,Flores,René,D.,NA,NA,NA,NA,NA,2026
+p000960,Vargas,Robert,NA,NA,NA,NA,Northwestern University,2012,2026
+p000961,Raudenbush,Stephen,NA,NA,NA,NA,Harvard University,1984,2026
+p000962,Clark,Terry,N.,NA,NA,NA,Columbia University,1967,2026
+p000963,Zhang,Yueran,NA,NA,NA,NA,NA,NA,2026
+p000964,Penner,Andrew,NA,NA,NA,NA,"University of California, Berkeley",2008,2026
+p000965,Hironaka,Ann,NA,NA,NA,NA,Stanford University,1998,2026
+p000966,Bento,Asia,NA,NA,NA,NA,Rice University,2022,2026
+p000967,Butts,Carter,NA,NA,NA,NA,Carnegie Mellon University,2002,2026
+p000968,Frank,David,John,NA,NA,NA,Stanford University,1995,2026
+p000969,Meyer,David,S.,NA,NA,NA,Boston University,1988,2026
+p000970,Smith,David,A.,NA,NA,NA,University of North Carolina,1984,2026
+p000971,Telles,Edward,E.,NA,NA,NA,University of Texas at Austin,1988,2026
+p000972,Amenta,Edwin,NA,NA,NA,NA,University of Chicago,1989,2026
+p000973,Carian,Emily,NA,NA,NA,NA,Stanford University,2019,2026
+p000974,Schofer,Evan,NA,NA,NA,NA,Stanford University,1999,2026
+p000975,Wang,Feng,NA,NA,NA,NA,University of Michigan,1987,2026
+p000976,Polletta,Francesca,NA,NA,NA,NA,Yale University,1994,2026
+p000977,Vega,Irene,NA,NA,NA,NA,"University of California, Los Angeles",2017,2026
+p000978,Lerch,Julia,C.,NA,NA,NA,Stanford,2017,2026
+p000979,Fong,Kelley,NA,NA,NA,NA,Harvard University,2020,2026
+p000980,Turney,Kristin,NA,NA,NA,NA,University of Pennsylvania,2009,2026
+p000981,Huffman,Matt,NA,NA,NA,NA,"University of California, Santa Barbara",1997,2026
+p000982,Martinez-Aranda,Mirian,NA,NA,NA,NA,"University of California, Los Angeles",2021,2026
+p000983,Bandelj,Nina,NA,NA,NA,NA,Princeton University,2003,2026
+p000984,Hanselman,Paul,NA,NA,NA,NA,University of Wisconsin-Madison,2014,2026
+p000985,Goldberg,Rachel,NA,NA,NA,NA,Brown University,2012,2026
+p000986,Arum,Richard,NA,NA,NA,NA,"University of California, Berkeley",1996,2026
+p000987,Rosales,Rocío,NA,NA,NA,NA,"University of California, Los Angeles",2012,2026
+p000988,Ferguson,Sherelle,NA,NA,NA,NA,University of Pennsylvania,2021,2026
+p000989,Bailey,Stanley,R.,NA,NA,NA,"University of California, Los Angeles",2002,2026
+p000990,Su,Yang,NA,NA,NA,NA,Stanford University,2003,2026
+p000991,Saguy,Abigail,NA,NA,NA,NA,Princeton University,2000,2026
+p000992,Luft,Aliza,NA,NA,NA,NA,NA,NA,2026
+p000993,Villarreal,Andrés,NA,NA,NA,NA,NA,NA,2026
+p000994,Owens,Ann,NA,NA,NA,NA,Harvard University,2012,2026
+p000995,Menjívar,Cecilia,NA,NA,NA,NA,"University of California, Davis",NA,2026
+p000996,Ayala,César,J.,NA,NA,NA,State University of New York at Binghamton,NA,2026
+p000997,Lee,Ching Kwan,NA,NA,NA,NA,University of California at Berkeley,NA,2026
+p000998,Herring,Chris,NA,NA,NA,NA,NA,NA,2026
+p000999,Hunt,Darnell,NA,NA,NA,NA,"University of California, Los Angeles",NA,2026
+p001000,Walker,Edward,NA,NA,NA,NA,Pennsylvania State University,NA,2026
+p001001,Deckard,Faith,M.,NA,NA,NA,NA,NA,2026
+p001002,Rossman,Gabriel,NA,NA,NA,NA,Princeton University,NA,2026
+p001003,Rossi,Giovanni,NA,NA,NA,NA,NA,NA,2026
+p001004,Landecker,Hannah,NA,NA,NA,NA,Massachusetts Institute of Technology,2000,2026
+p001005,Lundberg,Ian,NA,NA,NA,NA,NA,NA,2026
+p001006,Guhin,Jeffrey,NA,NA,NA,NA,NA,NA,2026
+p001007,Brand,Jennie,E.,NA,NA,NA,University of Wisconsin – Madison,NA,2026
+p001008,Collett,Jessica,L.,NA,NA,NA,University of Arizona,NA,2026
+p001009,Harris,Kevan,NA,NA,NA,NA,NA,NA,2026
+p001010,Hunter,Marcus,Anthony,NA,NA,NA,NA,NA,2026
+p001011,Sweeney,Megan,NA,NA,NA,NA,University of Wisconsin – Madison,NA,2026
+p001012,Zhou,Min,NA,NA,NA,NA,State University of New York at Albany,NA,2026
+p001013,Sugie,Naomi,F.,NA,NA,NA,Princeton University,NA,2026
+p001014,Quadlin,Natasha,NA,NA,NA,NA,NA,NA,2026
+p001015,Lizardo,Omar,NA,NA,NA,NA,University of Arizona,2006,2026
+p001016,Heuveline,Patrick,NA,NA,NA,NA,University of Pennsylvania,NA,2026
+p001017,Emigh,Rebecca,Jean,NA,NA,NA,University of Chicago,1993,2026
+p001018,Waldinger,Roger,NA,NA,NA,NA,Harvard University,1983,2026
+p001019,Hernandez-Leon,Ruben,NA,NA,NA,NA,SUNY-Binghamton,NA,2026
+p001020,Timmermans,Stefan,NA,NA,NA,NA,NA,NA,2026
+p001021,Stivers,Tanya,NA,NA,NA,NA,University of California Los Angeles,NA,2026
+p001022,Agadjanian,Victor,NA,NA,NA,NA,NA,NA,2026
+p001023,Ortiz,Vilma,NA,NA,NA,NA,New York University,NA,2026
+p001024,Yu,Wei-hsin,NA,NA,NA,NA,NA,NA,2026
+p001025,Cast,Alicia,NA,NA,NA,NA,Washington State University,NA,2026
+p001026,Martinez,Amy,Andrea,NA,NA,NA,NA,NA,2026
+p001027,Deener,Andrew,NA,NA,NA,NA,"University of California, Los Angeles",NA,2026
+p001028,Jolivétte,Andrew,NA,NA,NA,NA,"University of California, Santa Cruz",NA,2026
+p001029,Gordon,Avery,NA,NA,NA,NA,NA,NA,2026
+p001030,harthorn,Barbara,NA,NA,NA,NA,UCLA,NA,2026
+p001031,Robnett,Belinda,NA,NA,NA,NA,NA,NA,2026
+p001032,Schneider,Beth,NA,NA,NA,NA,NA,NA,2026
+p001033,Straits,Bruce,NA,NA,NA,NA,NA,NA,2026
+p001034,Dawson,Caleb,NA,NA,NA,NA,NA,NA,2026
+p001035,Taylor,Catherine,NA,NA,NA,NA,NA,NA,2026
+p001036,Kornberg,Dana,NA,NA,NA,NA,NA,NA,2026
+p001037,Larimore-Hall,Daraka,NA,NA,NA,NA,NA,NA,2026
+p001038,Pellow,David,NA,NA,NA,NA,Northwestern University,NA,2026
+p001039,Bielby,Denise,NA,NA,NA,NA,NA,NA,2026
+p001040,Segura,Denise,NA,NA,NA,NA,NA,NA,2026
+p001041,Zimmerman,Don,NA,NA,NA,NA,NA,NA,2026
+p001042,Skapoulli-Raymond,Elena,NA,NA,NA,NA,NA,NA,2026
+p001043,Ackert,Elizabeth,NA,NA,NA,NA,University of Washington (Seattle),NA,2026
+p001044,Nielsen,Erik,NA,NA,NA,NA,NA,NA,2026
+p001045,Arenas,Erika,NA,NA,NA,NA,NA,NA,2026
+p001046,Lopez-Alves,Fernando,NA,NA,NA,NA,NA,NA,2026
+p001047,Twine,France,Winddance,NA,NA,NA,UC Berkeley,NA,2026
+p001048,Daniel,G.,Reginald,NA,NA,NA,"University of California, Los Angeles",1987,2026
+p001049,Schulman,Gary,NA,NA,NA,NA,NA,NA,2026
+p001050,Lerner,Gene,NA,NA,NA,NA,NA,NA,2026
+p001051,Raymond,Geoffrey,NA,NA,NA,NA,UC Los Angeles,NA,2026
+p001052,Lipsitz,George,NA,NA,NA,NA,NA,NA,2026
+p001053,Wohl,Hannah,NA,NA,NA,NA,NA,NA,2026
+p001054,Molotch,Harvey,NA,NA,NA,NA,NA,NA,2026
+p001055,Winant,Howard,NA,NA,NA,NA,NA,NA,2026
+p001056,Nederveen-Pieterse,Jan,NA,NA,NA,NA,Nijmegen University,NA,2026
+p001057,Baldwin,Janice,NA,NA,NA,NA,NA,NA,2026
+p001058,Turowetz,Jason,NA,NA,NA,NA,NA,NA,2026
+p001059,Lopez-Espino,Jessica,NA,NA,NA,NA,NA,NA,2026
+p001060,Baldwin,John,NA,NA,NA,NA,Johns Hopkins University,1967,2026
+p001061,Foran,John,NA,NA,NA,NA,NA,NA,2026
+p001062,Mohr,John,NA,NA,NA,NA,Yale University,NA,2026
+p001063,Park,John,S.W.,NA,NA,NA,"University of California, Berkeley",2000,2026
+p001064,Sutton,John,NA,NA,NA,NA,NA,NA,2026
+p001065,Cruz,Jon,NA,NA,NA,NA,NA,NA,2026
+p001066,Turner,Jonathan,NA,NA,NA,NA,NA,NA,2026
+p001067,Anderson,Kevin,NA,NA,NA,NA,City University of New York Graduate Center,1983,2026
+p001068,Whitehead,Kevin,NA,NA,NA,NA,UC Santa Barbara,NA,2026
+p001069,Bhavnani,Kum-Kum,NA,NA,NA,NA,NA,NA,2026
+p001070,Westbrook,Laurel,NA,NA,NA,NA,"University of California, Berkeley",NA,2026
+p001071,Oaks,Laury,NA,NA,NA,NA,Johns Hopkins University,1998,2026
+p001072,Rupp,Leila,J.,NA,NA,NA,Bryn Mawr College,1976,2026
+p001073,Hajjar,Lisa,NA,NA,NA,NA,The American University,NA,2026
+p001074,Park,Lisa,Sun-Hee,NA,NA,NA,Northwestern University,NA,2026
+p001075,Charles,Maria,NA,NA,NA,NA,Stanford University,NA,2026
+p001076,Juergensmeyer,Mark,NA,NA,NA,NA,NA,NA,2026
+p001077,Hancock,Mary,NA,NA,NA,NA,University of Pennsylvania,NA,2026
+p001078,Movahed,Masoud,NA,NA,NA,NA,NA,NA,2026
+p001079,Oliver,Melvin,NA,NA,NA,NA,NA,NA,2026
+p001080,Friedkin,Noah,NA,NA,NA,NA,NA,NA,2026
+p001081,Amar,Paul,NA,NA,NA,NA,NA,NA,2026
+p001082,Su,Phung,N.,NA,NA,NA,NA,NA,2026
+p001083,Zhang,Qiuting,NA,NA,NA,NA,NA,NA,2026
+p001084,Armbruster-Sandoval,Ralph,NA,NA,NA,NA,"University of California, Riverside",1998,2026
+p001085,Wong,Raymond,NA,NA,NA,NA,NA,NA,2026
+p001086,Jacobs,Ricado,NA,NA,NA,NA,Johns Hopkins University,NA,2026
+p001087,Appelbaum,Richard,NA,NA,NA,NA,NA,NA,2026
+p001088,Flacks,Richard,NA,NA,NA,NA,NA,NA,2026
+p001089,Friedland,Roger,NA,NA,NA,NA,NA,NA,2026
+p001090,Fenstermaker,Sarah,NA,NA,NA,NA,NA,NA,2026
+p001091,Thebaud,Sarah,NA,NA,NA,NA,Cornell University,NA,2026
+p001092,Pulver,Simone,NA,NA,NA,NA,"University of California, Berkeley",NA,2026
+p001093,Falasca-Zamponi,Simonetta,NA,NA,NA,NA,NA,NA,2026
+p001094,Sobotka,Tagart,Cain,NA,NA,NA,NA,NA,2026
+p001095,Tober,Tara,NA,NA,NA,NA,NA,NA,2026
+p001096,Winder,Terrell,NA,NA,NA,NA,NA,NA,2026
+p001097,Scheff,Thomas,NA,NA,NA,NA,NA,NA,2026
+p001098,Wilson,Thomas,NA,NA,NA,NA,NA,NA,2026
+p001099,Bridges,Tristan,NA,NA,NA,NA,University of Virginia,NA,2026
+p001100,Taylor,Verta,NA,NA,NA,NA,NA,NA,2026
+p001101,Rios,Victor,NA,NA,NA,NA,"University of California, Berkeley",NA,2026
+p001102,Duck,Waverly,NA,NA,NA,NA,Wayne State University,NA,2026
+p001103,Bielby,William,NA,NA,NA,NA,NA,NA,2026
+p001104,Robinson,William,I.,NA,NA,NA,University of New Mexico,NA,2026
+p001105,Lanuza,Yader,NA,NA,NA,NA,NA,NA,2026
+p001106,Riley,Alicia,Rose,NA,NA,NA,NA,NA,2026
+p001107,Alkon,Alison,NA,NA,NA,NA,NA,NA,2026
+p001108,Argenal,Amy,Marie,NA,NA,NA,NA,NA,2026
+p001109,Szasz,Andrew,NA,NA,NA,NA,University of Wisconsin-Madison,1982,2026
+p001110,Hawthorne,Camilla,A,NA,NA,NA,NA,NA,2026
+p001111,West,Candace,NA,NA,NA,NA,"University of California, Santa Barbara",NA,2026
+p001112,Mccullen,Christie,G,NA,NA,NA,NA,NA,2026
+p001113,Benner,Christopher,NA,NA,NA,NA,UC Berkeley,NA,2026
+p001114,Reinarman,Craig,NA,NA,NA,NA,NA,NA,2026
+p001115,Takagi,Dana,NA,NA,NA,NA,"University of California, Berkeley",1986,2026
+p001116,Gould,Deborah,NA,NA,NA,NA,University of Chicago,2000,2026
+p001117,Jones,Derrick,L,NA,NA,NA,NA,NA,2026
+p001118,Lane,Donald,S,NA,NA,NA,NA,NA,2026
+p001119,Du Puis,E,Melanie,NA,NA,NA,NA,NA,2026
+p001120,Domhoff,George,W,NA,NA,NA,NA,NA,2026
+p001121,Shapiro,Helen,NA,NA,NA,NA,NA,NA,2026
+p001122,Gray,Herman,S,NA,NA,NA,"University of California, Santa Cruz",1983,2026
+p001123,Angelo,Hillary,L,NA,NA,NA,NA,NA,2026
+p001124,Fukurai,Hiroshi,NA,NA,NA,NA,"University of California, Riverside",NA,2026
+p001125,Morse,Jaimie,NA,NA,NA,NA,NA,NA,2026
+p001126,Battle,James,NA,NA,NA,NA,NA,NA,2026
+p001127,Reardon,Jennifer,E,NA,NA,NA,Cornell University,2002,2026
+p001128,Taft,Jessica,K,NA,NA,NA,NA,NA,2026
+p001129,Childs,John,Brown,NA,NA,NA,NA,NA,2026
+p001130,Hall,John,R,NA,NA,NA,NA,NA,2026
+p001131,Pedroza,Juan,NA,NA,NA,NA,NA,NA,2026
+p001132,Bettie,Julie,NA,NA,NA,NA,NA,NA,2026
+p001133,Guthman,Julie,H,NA,NA,NA,NA,NA,2026
+p001134,Mitchell,Katharyne,W,NA,NA,NA,UC Berkeley,NA,2026
+p001135,Harrison,Laura,S,NA,NA,NA,NA,NA,2026
+p001136,Dillon,Lindsey,L,NA,NA,NA,NA,NA,2026
+p001137,Murty,Madhavi,Mohan,NA,NA,NA,NA,NA,2026
+p001138,Millman,Marcia,NA,NA,NA,NA,NA,NA,2026
+p001139,Traugott,Mark,NA,NA,NA,NA,NA,NA,2026
+p001140,McCarthy,Michael,A.,NA,NA,NA,NA,NA,2026
+p001141,Greenberg,Miriam,NA,NA,NA,NA,NA,NA,2026
+p001142,Roby,Pamela,Ann,NA,NA,NA,NA,NA,2026
+p001143,Lubeck,Paul,M,NA,NA,NA,NA,NA,2026
+p001144,London,Rebecca,A,NA,NA,NA,Northwestern University,1996,2026
+p001145,de Roock,Roberto,NA,NA,NA,NA,NA,NA,2026
+p001146,Weitzer,Ronald,NA,NA,NA,NA,NA,NA,2026
+p001147,Barbora,Sanjay,NA,NA,NA,NA,NA,NA,2026
+p001148,Mason,Sarah,NA,NA,NA,NA,NA,NA,2026
+p001149,McKay,Steven,NA,NA,NA,NA,University of Wisconsin - Madison,2001,2026
+p001150,Falcon,Sylvanna,NA,NA,NA,NA,NA,NA,2026
+p001151,Terriquez,Veronica,NA,NA,NA,NA,NA,NA,2026
+p001152,Martyna,Wendy,NA,NA,NA,NA,NA,NA,2026
+p001153,Zhao,Zoe,NA,NA,NA,NA,NA,NA,2026
+p001154,Andrews,Abigail,NA,NA,NA,NA,NA,NA,2026
+p001155,Rona-Tas,Akos,NA,NA,NA,NA,Michigan,1990,2026
+p001156,Binder,Amy,NA,NA,NA,NA,NA,NA,2026
+p001157,Scull,Andrew,NA,NA,NA,NA,Princeton,1974,2026
+p001158,Sutton,April,NA,NA,NA,NA,The University of Texas at Austin,2015,2026
+p001159,Weinreb,Brad,NA,NA,NA,NA,NA,NA,2026
+p001160,Alvarez,Camila,NA,NA,NA,NA,NA,NA,2026
+p001161,Waisman,Carlos,NA,NA,NA,NA,NA,NA,2026
+p001162,Thorpe,Charles,NA,NA,NA,NA,UC San Diego,2001,2026
+p001163,Turner,Christena,NA,NA,NA,NA,Stanford,1987,2026
+p001164,Crofts,Christine,NA,NA,NA,NA,NA,NA,2026
+p001165,Payne,Christine,NA,NA,NA,NA,NA,NA,2026
+p001166,Navon,Daniel,NA,NA,NA,NA,Columbia,2013,2026
+p001167,Raudenbush,Danielle,NA,NA,NA,NA,Chicago,NA,2026
+p001168,FitzGerald,David,NA,NA,NA,NA,UCLA,2005,2026
+p001169,Phillips,David,NA,NA,NA,NA,Princeton,1970,2026
+p001170,De Leo,Elena,NA,NA,NA,NA,NA,NA,2026
+p001171,Jackson,Frank,NA,NA,NA,NA,NA,NA,2026
+p001172,Shafir,Gershon,NA,NA,NA,NA,UC Berkeley,1980,2026
+p001173,Goldman,Harvey,S.,NA,NA,NA,UC Berkeley,1978,2026
+p001174,Mehan,Hugh,NA,NA,NA,NA,NA,NA,2026
+p001175,Martin,Isaac,W.,NA,NA,NA,UC Berkeley,2003,2026
+p001176,Evans,Ivan,NA,NA,NA,NA,Wisconsin,1986,2026
+p001177,Douglas,Jack,NA,NA,NA,NA,Princeton,1969,2026
+p001178,Wiseman,Jacqueline,NA,NA,NA,NA,NA,NA,2026
+p001179,Watson,Jake,NA,NA,NA,NA,NA,NA,2026
+p001180,Haydu,Jeffrey,M.,NA,NA,NA,UC Berkeley,1984,2026
+p001181,Tirshfield,Jeffrey,NA,NA,NA,NA,NA,NA,2026
+p001182,Evans,John,H.,NA,NA,NA,NA,NA,2026
+p001183,Skrentny,John,D.,NA,NA,NA,Harvard,NA,2026
+p001184,Ruiz,Jonathan,NA,NA,NA,NA,NA,NA,2026
+p001185,Pardo-Guerra,Juan Pablo,NA,NA,NA,NA,University of Edinburgh,2010,2026
+p001186,Rogers,Julia,NA,NA,NA,NA,NA,NA,2026
+p001187,Lewis,Kevin,NA,NA,NA,NA,Harvard,2012,2026
+p001188,Ostovany,Khasha,NA,NA,NA,NA,NA,NA,2026
+p001189,Kohler,Kristopher,NA,NA,NA,NA,NA,NA,2026
+p001190,Ng,Kwai,NA,NA,NA,NA,Chicago,2004,2026
+p001191,Kenworthy,Lane,NA,NA,NA,NA,Wisconsin,1993,2026
+p001192,Acosta,Laura,NA,NA,NA,NA,Northwestern University,NA,2026
+p001193,Zamosc,Leon,NA,NA,NA,NA,University of Manchester-England,1983,2026
+p001194,Lampland,Martha,NA,NA,NA,NA,Chicago,1987,2026
+p001195,Blair-Loy,Mary,NA,NA,NA,NA,Chicago,NA,2026
+p001196,Walshok,Mary,L.,NA,NA,NA,Indiana University,NA,2026
+p001197,Arnal,Maud,NA,NA,NA,NA,NA,NA,2026
+p001198,Calderon-Zaks,Michael,NA,NA,NA,NA,NA,NA,2026
+p001199,Estefan,Michel,NA,NA,NA,NA,UC Berkeley,NA,2026
+p001200,Gong,Neil,NA,NA,NA,NA,UCLA,NA,2026
+p001201,torres,pablo,NA,NA,NA,NA,NA,NA,2026
+p001202,Weiss,Piero,NA,NA,NA,NA,NA,NA,2026
+p001203,Blumberg,Rae,Lesser,NA,NA,NA,NA,NA,2026
+p001204,Klatch,Rebecca,NA,NA,NA,NA,Harvard,1984,2026
+p001205,Biernacki,Richard,NA,NA,NA,NA,UC Berkeley,1988,2026
+p001206,Madsen,Richard,NA,NA,NA,NA,Harvard,1977,2026
+p001207,Pitt,Richard,NA,NA,NA,NA,University of Arizona,NA,2026
+p001208,Medvetz,Thomas,NA,NA,NA,NA,UC Berkeley,2007,2026
+p001209,Ribas,Vanesa,NA,NA,NA,NA,North Carolina,2012,2026
+p001210,Espiritu,Yen,Le,NA,NA,NA,UC Los Angeles,1990,2026
+p001211,Fagan,Abigail,NA,NA,NA,NA,University of Colorado,2001,2026
+p001212,Ceobanu,Alin,M.,NA,NA,NA,University of Illinois at Urbana-Champaign,NA,2026
+p001213,LaGreca,Anthony,NA,NA,NA,NA,Ohio State University,NA,2026
+p001214,Zsembik,Barbara,A.,NA,NA,NA,University of Texas at Austin,NA,2026
+p001215,Frazier,Charles,F.,NA,NA,NA,Southern Illinois University,NA,2026
+p001216,Gattone,Charles,NA,NA,NA,NA,The New School for Social Research,NA,2026
+p001217,Peek,Charles,NA,NA,NA,NA,University of Michigan,NA,2026
+p001218,Thomas,Charles,NA,NA,NA,NA,NA,NA,2026
+p001219,Wood,Charles,H.,NA,NA,NA,University of Texas at Austin,NA,2026
+p001220,Gibson,Chris,NA,NA,NA,NA,University of Nebraska,NA,2026
+p001221,Overdevest,Christine,NA,NA,NA,NA,University of Wisconsin,NA,2026
+p001222,Shehan,Constance,L.,NA,NA,NA,Pennsylvania State University,NA,2026
+p001223,Brown,Drew,D.,NA,NA,NA,Temple University,NA,2026
+p001224,Navot,Edo,NA,NA,NA,NA,NA,NA,2026
+p001225,Brooke,Erika,NA,NA,NA,NA,University of Central Florida,NA,2026
+p001226,Lauteria,Evan,W.,NA,NA,NA,"University of California, Davis",NA,2026
+p001227,Shenkman,Frederick,NA,NA,NA,NA,NA,NA,2026
+p001228,Kahler,Jessica,NA,NA,NA,NA,NA,NA,2026
+p001229,Lane,Jodi,NA,NA,NA,NA,"University of California, Irvine",1998,2026
+p001230,Henretta,John,C.,NA,NA,NA,Harvard University,1974,2026
+p001231,Scanzoni,John,H.,NA,NA,NA,University of Oregon,1964,2026
+p001232,Rivera,Joseph,NA,NA,NA,NA,NA,NA,2026
+p001233,Burnworth,Justin,NA,NA,NA,NA,University of Massachusetts-Amherst,NA,2026
+p001234,Winstead,Kevin,C.,NA,NA,NA,University of Maryland,NA,2026
+p001235,Hewit,Kyle,NA,NA,NA,NA,University of Florida,NA,2026
+p001236,Beeghley,Leonard,NA,NA,NA,NA,"University of California, Riverside",NA,2026
+p001237,Lanza-Kaduce,Lonn,NA,NA,NA,NA,University of Iowa,NA,2026
+p001238,Levett,Lora,NA,NA,NA,NA,Florida International University,NA,2026
+p001239,Borg,Marian,J.,NA,NA,NA,University of Virginia,NA,2026
+p001240,Cano,Mario,NA,NA,NA,NA,Arizona State University,NA,2026
+p001241,Krohn,Marv,NA,NA,NA,NA,NA,NA,2026
+p001242,Cogburn,Megan,NA,NA,NA,NA,University of Florida,NA,2026
+p001243,Capece,Michael,NA,NA,NA,NA,University of Florida,NA,2026
+p001244,Ardelt,Monika,NA,NA,NA,NA,University of North Carolina at Chapel Hill,NA,2026
+p001245,You,Myunghee,NA,NA,NA,NA,Florida State University,NA,2026
+p001246,Li,Nan,NA,NA,NA,NA,Florida State University,NA,2026
+p001247,Magnarella,Paul,NA,NA,NA,NA,Harvard University,NA,2026
+p001248,Ghadge,Ravi,NA,NA,NA,NA,University of Illinois Urbana-Champaign,NA,2026
+p001249,Hanson,Rebecca,NA,NA,NA,NA,University of Georgia,NA,2026
+p001250,Hollinger,Richard,NA,NA,NA,NA,University of Minnesota,NA,2026
+p001251,Akers,Ronald,L.,NA,NA,NA,University of Kentucky,NA,2026
+p001252,Perz,Stephen,NA,NA,NA,NA,University of Texas at Austin,1997,2026
+p001253,Koropeckyj-Cox,Tanya,NA,NA,NA,NA,University of Pennsylvania,NA,2026
+p001254,Jenson,Tiffany,NA,NA,NA,NA,University of Oklahoma,NA,2026
+p001255,Marsiglio,William,NA,NA,NA,NA,Ohio State University,NA,2026
+p001256,Joo,Won-tak,NA,NA,NA,NA,University of Wisconsin-Madison,NA,2026
+p001257,Bianchi,Alison,NA,NA,NA,NA,NA,NA,2026
+p001258,Powell,Amber,NA,NA,NA,NA,NA,NA,2026
+p001259,Lynn,Freda,B.,NA,NA,NA,Harvard University,NA,2026
+p001260,Vasi,Ion,NA,NA,NA,NA,NA,NA,2026
+p001261,Wo,James,NA,NA,NA,NA,NA,NA,2026
+p001262,Robey,Jason,NA,NA,NA,NA,NA,NA,2026
+p001263,Haylett,Jennifer,NA,NA,NA,NA,NA,NA,2026
+p001264,Hofstra,Jorie,NA,NA,NA,NA,NA,NA,2026
+p001265,O'Neill,Kate,K.,NA,NA,NA,NA,NA,2026
+p001266,Seamster,Louise,NA,NA,NA,NA,NA,NA,2026
+p001267,Berg,Mark,NA,NA,NA,NA,"University of Missouri, St. Louis",NA,2026
+p001268,Rogers,Meghan,NA,NA,NA,NA,NA,NA,2026
+p001269,Lovaglia,Michael,NA,NA,NA,NA,Stanford University,NA,2026
+p001270,Sauder,Michael,NA,NA,NA,NA,Northwestern University,NA,2026
+p001271,Ruppert,Michaela,NA,NA,NA,NA,NA,NA,2026
+p001272,Harkness,Sarah,NA,NA,NA,NA,NA,NA,2026
+p001273,DiPietro,Stephanie,NA,NA,NA,NA,"University of Maryland, College Park",NA,2026
+p001274,Hitlin,Steve,NA,NA,NA,NA,"University of Wisconsin, Madison",NA,2026
+p001275,Ray,Victor,NA,NA,NA,NA,NA,NA,2026
+p001276,Marshall,Anna-Maria,NA,NA,NA,NA,NA,NA,2026
+p001277,Bayat,Asef,NA,NA,NA,NA,NA,NA,2026
+p001278,Zerai,Assata,NA,NA,NA,NA,NA,NA,2026
+p001279,Jackson,Brandon,A,NA,NA,NA,NA,NA,2026
+p001280,Dill,Brian,NA,NA,NA,NA,NA,NA,2026
+p001281,Hearne,Brittany,Nicole,NA,NA,NA,NA,NA,2026
+p001282,Miles,Brittney,NA,NA,NA,NA,NA,NA,2026
+p001283,Swicegood,Calvin,G,NA,NA,NA,NA,NA,2026
+p001284,Kamis,Christina,NA,NA,NA,NA,NA,NA,2026
+p001285,Steward,Daniel,John,NA,NA,NA,NA,NA,2026
+p001286,Bordua,David,Joseph,NA,NA,NA,NA,NA,2026
+p001287,Moussawi,Ghassan,NA,NA,NA,NA,NA,NA,2026
+p001288,Choldin,Harvey,M,NA,NA,NA,NA,NA,2026
+p001289,Redstone,Ilana,NA,NA,NA,NA,NA,NA,2026
+p001290,Lee,Jina,NA,NA,NA,NA,NA,NA,2026
+p001291,Atiles,Jose,NA,NA,NA,NA,NA,NA,2026
+p001292,Leicht,Kevin,NA,NA,NA,NA,NA,NA,2026
+p001293,Wilkins,Kiana,Kristine,NA,NA,NA,NA,NA,2026
+p001294,Soener,Matthew,NA,NA,NA,NA,NA,NA,2026
+p001295,may,reuben,NA,NA,NA,NA,University of Chicago,NA,2026
+p001296,Mendenhall,Ruby,NA,NA,NA,NA,Northwestern University,2004,2026
+p001297,Vogler,Stefan,NA,NA,NA,NA,NA,NA,2026
+p001298,Liao,Tim,NA,NA,NA,NA,University of North Carolina at Chapel Hill,NA,2026
+p001299,Gille,Zsuzsa,NA,NA,NA,NA,NA,NA,2026
+p001300,Branigan,Amelia,NA,NA,NA,NA,NA,NA,2026
+p001301,McLaughlin,Amy,NA,NA,NA,NA,NA,NA,2026
+p001302,Connor,Brian,NA,NA,NA,NA,NA,NA,2026
+p001303,Malackany,Chris,NA,NA,NA,NA,NA,NA,2026
+p001304,Bachrach,Christine,NA,NA,NA,NA,NA,NA,2026
+p001305,Tamborini,Christopher,NA,NA,NA,NA,NA,NA,2026
+p001306,Mueller,Collin,NA,NA,NA,NA,NA,NA,2026
+p001307,Dow,Dawn,M.,NA,NA,NA,NA,NA,2026
+p001308,Jennings,Elyse,NA,NA,NA,NA,NA,NA,2026
+p001309,Goldscheider,Fran,NA,NA,NA,NA,NA,NA,2026
+p001310,Snider,Jeanette,NA,NA,NA,NA,NA,NA,2026
+p001311,Lucas,Jeff,NA,NA,NA,NA,NA,NA,2026
+p001312,Parsells-Johnson,Jeffrey,L.,NA,NA,NA,NA,NA,2026
+p001313,Ashlock,Jennifer,NA,NA,NA,NA,NA,NA,2026
+p001314,Chuang,Julia,NA,NA,NA,NA,NA,NA,2026
+p001315,Park,Julie,NA,NA,NA,NA,NA,NA,2026
+p001316,Khanna,Katharine,NA,NA,NA,NA,NA,NA,2026
+p001317,Korzeniewicz,korzeniewicz,NA,NA,NA,NA,NA,NA,2026
+p001318,Marsh,Kris,NA,NA,NA,NA,University of Southern California,2005,2026
+p001319,Sayer,Liana,NA,NA,NA,NA,NA,NA,2026
+p001320,Doan,Long,NA,NA,NA,NA,Indiana University,NA,2026
+p001321,Moaddel,Mansoor,NA,NA,NA,NA,University of Wisconsin,NA,2026
+p001322,Kleykamp,Meredith,NA,NA,NA,NA,Princeton University,2007,2026
+p001323,Kestnbaum,Meyer,NA,NA,NA,NA,NA,NA,2026
+p001324,Rendall,Michael,NA,NA,NA,NA,NA,NA,2026
+p001325,Caudillo,Mónica,L.,NA,NA,NA,NA,NA,2026
+p001326,Das Gupta,Monica,NA,NA,NA,NA,NA,NA,2026
+p001327,Smith,Nicholas,NA,NA,NA,NA,NA,NA,2026
+p001328,De Loatch,Nicole,NA,NA,NA,NA,University of Maryland,2020,2026
+p001329,Cohen,Philip,N.,NA,NA,NA,University of Maryland,1999,2026
+p001330,Ray,Rashawn,NA,NA,NA,NA,Indiana University,2010,2026
+p001331,Madhavan,Sangeetha,NA,NA,NA,NA,University of Pennsylvania,NA,2026
+p001332,Sharma,Sharan,NA,NA,NA,NA,NA,NA,2026
+p001333,Presser,Stanley,NA,NA,NA,NA,NA,NA,2026
+p001334,Hargrove,Taylor,NA,NA,NA,NA,NA,NA,2026
+p001335,Santoro,Wayne,NA,NA,NA,NA,NA,NA,2026
+p001336,Hadden,Wilbur,NA,NA,NA,NA,NA,NA,2026
+p001337,Cockerham,William,NA,NA,NA,NA,NA,NA,2026
+p001338,Fenelon,Andrew,NA,NA,NA,NA,NA,NA,2026
+p001339,Meier,Ann,NA,NA,NA,NA,University of Wisconsin,2003,2026
+p001340,Luzbetak,Austin,NA,NA,NA,NA,NA,NA,2026
+p001341,Liebler,Carolyn,NA,NA,NA,NA,University of Wisconsin-Madison,2001,2026
+p001342,Oelberger,Carrie,NA,NA,NA,NA,NA,NA,2026
+p001343,Abdi,Cawo,NA,NA,NA,NA,NA,NA,2026
+p001344,Ewig,Christina,NA,NA,NA,NA,NA,NA,2026
+p001345,Roberts,Christopher,NA,NA,NA,NA,NA,NA,2026
+p001346,Uggen,Christopher,NA,NA,NA,NA,University of Wisconsin,1995,2026
+p001347,Kamp Dush,Claire,NA,NA,NA,NA,Pennsylvania State University,2005,2026
+p001348,Knoke,David,NA,NA,NA,NA,University of Michigan,1972,2026
+p001349,Ward,David,NA,NA,NA,NA,NA,NA,2026
+p001350,Hartmann,Douglas,NA,NA,NA,NA,"University of California, San Diego",1997,2026
+p001351,Cornelius,Ed,NA,NA,NA,NA,NA,NA,2026
+p001352,Boyle,Elizabeth,Heger,NA,NA,NA,Stanford University,1996,2026
+p001353,Wrigley-Field,Elizabeth,NA,NA,NA,NA,University of Wisconsin,2014,2026
+p001354,Logan,Enid,NA,NA,NA,NA,NA,NA,2026
+p001355,Roberts,Evan,NA,NA,NA,NA,NA,NA,2026
+p001356,Ferrales,Gabrielle,NA,NA,NA,NA,NA,NA,2026
+p001357,Randell,Heather,NA,NA,NA,NA,NA,NA,2026
+p001358,VanHeuvelen,Jane,NA,NA,NA,NA,NA,NA,2026
+p001359,Broadbent,Jeffrey,NA,NA,NA,NA,NA,NA,2026
+p001360,Mortimer,Jeylan,NA,NA,NA,NA,NA,NA,2026
+p001361,Savelsberg,Joachim,NA,NA,NA,NA,NA,NA,2026
+p001362,Soss,Joe,NA,NA,NA,NA,University of Wisconsin-Madison,1996,2026
+p001363,Nelson,Joel,NA,NA,NA,NA,NA,NA,2026
+p001364,Gerteis,Joseph,NA,NA,NA,NA,University of North Carolina,1999,2026
+p001365,Page,Joshua,NA,NA,NA,NA,University of California at Berkeley,2007,2026
+p001366,Ho,Karen,NA,NA,NA,NA,Princeton University,NA,2026
+p001367,Hull,Kathy,NA,NA,NA,NA,Northwestern University,2001,2026
+p001368,Garbes,Laura,NA,NA,NA,NA,NA,NA,2026
+p001369,Esposito,Michael,NA,NA,NA,NA,NA,NA,2026
+p001370,Goldman,Michael,NA,NA,NA,NA,University of California,1994,2026
+p001371,Walker,Michael,NA,NA,NA,NA,NA,NA,2026
+p001372,Phelps,Michelle,NA,NA,NA,NA,Princeton University,2013,2026
+p001373,Otto,Natália,NA,NA,NA,NA,NA,NA,2026
+p001374,Graetz,Nick,NA,NA,NA,NA,NA,NA,2026
+p001375,Edgell,Penny,NA,NA,NA,NA,University of Chicago,1995,2026
+p001376,Moen,Phyllis,NA,NA,NA,NA,NA,NA,2026
+p001377,Warren,Rob,NA,NA,NA,NA,University of Wisconsin,1998,2026
+p001378,Aminzade,Ron,NA,NA,NA,NA,NA,NA,2026
+p001379,Brewer,Rose,NA,NA,NA,NA,Indiana University,NA,2026
+p001380,Allen,Ryan,NA,NA,NA,NA,NA,NA,2026
+p001381,Flood,Sarah,NA,NA,NA,NA,NA,NA,2026
+p001382,Ruggles,Steven,NA,NA,NA,NA,University of Pennsylvania,1984,2026
+p001383,Gowan,Teresa,NA,NA,NA,NA,NA,NA,2026
+p001384,Swartz,Teresa,NA,NA,NA,NA,"University of California, San Diego",2001,2026
+p001385,Shippee,Tetyana,NA,NA,NA,NA,NA,NA,2026
+p001386,VanHeuvelen,Tom,NA,NA,NA,NA,NA,NA,2026
+p001387,Bélair-Gagnon,Valérie,NA,NA,NA,NA,NA,NA,2026
+p001388,Bian,Yanjie,NA,NA,NA,NA,NA,NA,2026
+p001389,Ravenelle,Alexandrea,NA,NA,NA,NA,NA,NA,2026
+p001390,Entwisle,Barbara,NA,NA,NA,NA,Brown University,1980,2026
+p001391,Gutierrez,Carmen,NA,NA,NA,NA,NA,NA,2026
+p001392,Kurzman,Charles,NA,NA,NA,NA,University of California – Berkeley,1992,2026
+p001393,Cook-Martín,David,NA,NA,NA,NA,NA,NA,2026
+p001394,Frankenberg,Elizabeth,NA,NA,NA,NA,NA,NA,2026
+p001395,Korver-Glenn,Elizabeth,NA,NA,NA,NA,NA,NA,2026
+p001396,Parker,Emily,NA,NA,NA,NA,NA,NA,2026
+p001397,Guo,Guang,NA,NA,NA,NA,Princeton University,1991,2026
+p001398,Su,Jessica,NA,NA,NA,NA,NA,NA,2026
+p001399,Sola,Justin,NA,NA,NA,NA,NA,NA,2026
+p001400,Guzzo,Karen,Benjamin,NA,NA,NA,University of North Carolina at Chapel Hill,2003,2026
+p001401,Fitzgerald,Kathleen,NA,NA,NA,NA,NA,NA,2026
+p001402,Bollen,Kenneth,NA,NA,NA,NA,Brown University,1977,2026
+p001403,Schewel,Kerilyn,NA,NA,NA,NA,NA,NA,2026
+p001404,Gaydosh,Lauren,NA,NA,NA,NA,NA,NA,2026
+p001405,Valentino,Lauren,NA,NA,NA,NA,NA,NA,2026
+p001406,Pearce,Lisa,NA,NA,NA,NA,Pennsylvania State University,2000,2026
+p001407,Lammers,Matthew,NA,NA,NA,NA,NA,NA,2026
+p001408,Caren,Neal,NA,NA,NA,NA,New York University,2005,2026
+p001409,Baker,Regina,NA,NA,NA,NA,NA,NA,2026
+p001410,Hummer,Robert,NA,NA,NA,NA,Florida State University,1993,2026
+p001411,Peng,Rui Jie,NA,NA,NA,NA,NA,NA,2026
+p001412,Manrique,Ruy,NA,NA,NA,NA,NA,NA,2026
+p001413,Duxbury,Scott,NA,NA,NA,NA,NA,NA,2026
+p001414,Malone Gonzalez,Shannon,NA,NA,NA,NA,NA,NA,2026
+p001415,Jenkins,Tania,NA,NA,NA,NA,NA,NA,2026
+p001416,Mouw,Ted,NA,NA,NA,NA,University of Michigan,1999,2026
+p001417,Davidson,Thomas,NA,NA,NA,NA,NA,NA,2026
+p001418,Cai,Yong,NA,NA,NA,NA,NA,NA,2026
+p001419,Gullickson,Aaron,NA,NA,NA,NA,"University of California, Berkeley",2004,2026
+p001420,Bridge,Aidan,NA,NA,NA,NA,NA,NA,2026
+p001421,Cardosi,Avery,NA,NA,NA,NA,NA,NA,2026
+p001422,Palmer,Brian,NA,NA,NA,NA,NA,NA,2026
+p001423,Villacis Cruz,Byron,NA,NA,NA,NA,NA,NA,2026
+p001424,Pascoe,CJ,NA,NA,NA,NA,"University of California, Berkeley",2006,2026
+p001425,Herbert,Claire,NA,NA,NA,NA,University of Michigan,2016,2026
+p001426,Evans,Clare,NA,NA,NA,NA,NA,NA,2026
+p001427,Capelle,David,NA,NA,NA,NA,NA,NA,2026
+p001428,Scott,Ellen,NA,NA,NA,NA,NA,NA,2026
+p001429,Decker,Elyse,NA,NA,NA,NA,NA,NA,2026
+p001430,Altmire,Gabriella,NA,NA,NA,NA,NA,NA,2026
+p001431,McLauchlan,Greg,NA,NA,NA,NA,NA,NA,2026
+p001432,Waight,Hannah,NA,NA,NA,NA,NA,NA,2026
+p001433,Garcia Valdivia,Isabel,NA,NA,NA,NA,NA,NA,2026
+p001434,Stanciu,Jasmine,NA,NA,NA,NA,NA,NA,2026
+p001435,Vasquez-Tokos,Jessica,NA,NA,NA,NA,"University of California, Berkeley",2007,2026
+p001436,Shiao,Jiannbin,NA,NA,NA,NA,University of California at Berkeley,1998,2026
+p001437,Lin,Jiayan,NA,NA,NA,NA,NA,NA,2026
+p001438,Harrison,Jill,Ann,NA,NA,NA,NA,NA,2026
+p001439,Hollander,Jocelyn,NA,NA,NA,NA,University of Washington,1997,2026
+p001440,Foster,John,Bellamy,NA,NA,NA,NA,NA,2026
+p001441,McGee,Julius,NA,NA,NA,NA,NA,NA,2026
+p001442,Jenkins,June,NA,NA,NA,NA,NA,NA,2026
+p001443,Norgaard,Kari,Marie,NA,NA,NA,University of Oregon,2003,2026
+p001444,Clarke,Katherine,NA,NA,NA,NA,NA,NA,2026
+p001445,Liberman,Ken,NA,NA,NA,NA,NA,NA,2026
+p001446,Beggen,Kristina,NA,NA,NA,NA,NA,NA,2026
+p001447,Littlejohn,Krystale,NA,NA,NA,NA,Stanford University,2013,2026
+p001448,Mann,Logan,NA,NA,NA,NA,NA,NA,2026
+p001449,Christensen,MacKenzie,NA,NA,NA,NA,NA,NA,2026
+p001450,Sowards,Mae,NA,NA,NA,NA,NA,NA,2026
+p001451,Hong,Margaret,NA,NA,NA,NA,NA,NA,2026
+p001452,Goldman,Marion,NA,NA,NA,NA,NA,NA,2026
+p001453,Guerra,Matthew,NA,NA,NA,NA,NA,NA,2026
+p001454,Norton,Matthew,NA,NA,NA,NA,Yale University,2012,2026
+p001455,Aguilera,Michael,NA,NA,NA,NA,NA,NA,2026
+p001456,Dreiling,Michael,NA,NA,NA,NA,University of Michigan,1997,2026
+p001457,Hernández-Vidal,Nathalia,NA,NA,NA,NA,NA,NA,2026
+p001458,Balogun,Oluwakemi,NA,NA,NA,NA,NA,NA,2026
+p001459,Gwartney,Patricia,NA,NA,NA,NA,NA,NA,2026
+p001460,Lievanos,Raoul,NA,NA,NA,NA,NA,NA,2026
+p001461,York,Richard,NA,NA,NA,NA,Washington State University,2002,2026
+p001462,O'Brien,Robert,NA,NA,NA,NA,NA,NA,2026
+p001463,Light,Ryan,NA,NA,NA,NA,The Ohio State University,NA,2026
+p001464,Stoll,Shannan,Lenke,NA,NA,NA,NA,NA,2026
+p001465,Liu,Shiyi,NA,NA,NA,NA,NA,NA,2026
+p001466,Coonfield,Stephanie,NA,NA,NA,NA,NA,NA,2026
+p001467,Wiley,Stephanie,NA,NA,NA,NA,NA,NA,2026
+p001468,Dunn,Tre,NA,III,NA,NA,NA,NA,2026
+p001469,Charles,Camille,Zubrinsky,NA,NA,NA,"University of California, Los Angeles",1996,2026
+p001470,Sirois,Catherine,NA,NA,NA,NA,NA,NA,2026
+p001471,Flippen,Chenoa,NA,NA,NA,NA,University of Chicago,1999,2026
+p001472,Grazian,David,NA,NA,NA,NA,University of Chicago,2000,2026
+p001473,Roberts,Dorothy,E.,NA,NA,NA,NA,NA,2026
+p001474,Parrado,Emilio,A.,NA,NA,NA,University of Chicago,1997,2026
+p001475,Hannum,Emily,NA,NA,NA,NA,University of Michigan,1998,2026
+p001476,Yang,Guobin,NA,NA,NA,NA,NA,NA,2026
+p001477,Kohler,Hans-Peter,NA,NA,NA,NA,"University of California, Berkeley",1997,2026
+p001478,Park,Hyunjoon,NA,NA,NA,NA,"University of Wisconsin, Madison",2005,2026
+p001479,Elo,Irma,T.,NA,NA,NA,Princeton University,1990,2026
+p001480,Schnittker,Jason,NA,NA,NA,NA,Indiana University,2001,2026
+p001481,Mittleman,Joel,NA,NA,NA,NA,NA,NA,2026
+p001482,Freeman,Lance,NA,NA,NA,NA,University of North Carolina at Chapel Hill,1997,2026
+p001483,Marteleto,Letícia,NA,NA,NA,NA,NA,NA,2026
+p001484,Wilde,Melissa,J.,NA,NA,NA,"University of California, Berkeley",2002,2026
+p001485,Guillot,Michel,NA,NA,NA,NA,University of Pennsylvania,2000,2026
+p001486,Fomby,Paula,NA,NA,NA,NA,University of Wisconsin,2001,2026
+p001487,Gonalons-Pons,Pilar,NA,NA,NA,NA,NA,NA,2026
+p001488,Gonzales,Roberto,G.,NA,NA,NA,University of California Irvine,2008,2026
+p001489,Shams,Tahseen,NA,NA,NA,NA,NA,NA,2026
+p001490,Zuberi,Tukufu,NA,NA,NA,NA,University of Chicago,1989,2026
+p001491,Roth,Wendy,D.,NA,NA,NA,Harvard University,2006,2026
+p001492,Cueto Piazza,Alejandra,NA,NA,NA,NA,NA,NA,2026
+p001493,Brewer,Alexandra,NA,NA,NA,NA,NA,NA,2026
+p001494,Carrington,Ben,NA,NA,NA,NA,NA,NA,2026
+p001495,Finch,Brian,NA,NA,NA,NA,NA,NA,2026
+p001496,Friedman,Brittany,NA,NA,NA,NA,NA,NA,2026
+p001497,Schrage,Dan,NA,NA,NA,NA,NA,NA,2026
+p001498,Lainer-Vos,Dan,NA,NA,NA,NA,NA,NA,2026
+p001499,Urbina Julio,Daniela,NA,NA,NA,NA,NA,NA,2026
+p001500,Levy,Daniela,NA,NA,NA,NA,NA,NA,2026
+p001501,Brady,David,NA,NA,NA,NA,Indiana University,NA,2026
+p001502,Del Real,Deisy,NA,NA,NA,NA,NA,NA,2026
+p001503,Myers,Dowell,NA,NA,NA,NA,NA,NA,2026
+p001504,Kaplan,Elaine,Bell,NA,NA,NA,"University of California, Berkeley",1988,2026
+p001505,Smith-Greenaway,Emily,NA,NA,NA,NA,Penn State University,2014,2026
+p001506,Yazdiha,Hajar,NA,NA,NA,NA,NA,NA,2026
+p001507,Gomory,Henry,NA,NA,NA,NA,NA,NA,2026
+p001508,Hook,Jennifer,NA,NA,NA,NA,University of Washington,2006,2026
+p001509,Agius Vallejo,Jody,NA,NA,NA,NA,NA,NA,2026
+p001510,Wilson,John,NA,NA,NA,NA,University of Toronto,1986,2026
+p001511,Miller,Jon,NA,NA,NA,NA,NA,NA,2026
+p001512,McGene,Juliana,NA,NA,NA,NA,NA,NA,2026
+p001513,Sternheimer,Karen,NA,NA,NA,NA,NA,NA,2026
+p001514,Gose,Leah,NA,NA,NA,NA,NA,NA,2026
+p001515,Saito,Leland,NA,NA,NA,NA,NA,NA,2026
+p001516,Casper,Lynne,NA,NA,NA,NA,Penn State,1992,2026
+p001517,Castells,Manuel,NA,NA,NA,NA,University of Paris-Sorbonne,NA,2026
+p001518,Pastor,Manuel,NA,NA,NA,NA,"University of Massachusetts, Amherst",1984,2026
+p001519,Eger,Maureen,NA,NA,NA,NA,NA,NA,2026
+p001520,Messner,Michael,NA,NA,NA,NA,NA,NA,2026
+p001521,Eliasoph,Nina,NA,NA,NA,NA,"University of California, Berkeley",1993,2026
+p001522,Argote Tironi,Pablo,NA,NA,NA,NA,NA,NA,2026
+p001523,Adler,Paul,NA,NA,NA,NA,NA,NA,2026
+p001524,Lichterman,Paul,NA,NA,NA,NA,"University of California, Berkeley",1992,2026
+p001525,Noguera,Pedro,NA,NA,NA,NA,"University of California, Berkeley",NA,2026
+p001526,Fiss,Peer,C.,NA,NA,NA,NA,NA,2026
+p001527,Hondagneu-Sotelo,Pierrette,NA,NA,NA,NA,NA,NA,2026
+p001528,Werth,Robert,NA,NA,NA,NA,NA,NA,2026
+p001529,Liu,Shang,NA,NA,NA,NA,NA,NA,2026
+p001530,Biblarz,Timothy,NA,NA,NA,NA,NA,NA,2026
+p001531,Gold,Tomas,NA,NA,NA,NA,NA,NA,2026
+p001532,Marquez,Alejandro,NA,NA,NA,NA,NA,NA,2026
+p001533,Klein,Alissa,NA,NA,NA,NA,NA,NA,2026
+p001534,Padilla,Beatriz,NA,NA,NA,NA,University of Illinois at Urbana-Champaign,2001,2026
+p001535,Turnbull,Brian,NA,NA,NA,NA,NA,NA,2026
+p001536,Miller,Byron,NA,NA,NA,NA,NA,NA,2026
+p001537,Geiss,Carley,NA,NA,NA,NA,NA,NA,2026
+p001538,Greek,Cecil,NA,NA,NA,NA,NA,NA,2026
+p001539,Ponticelli,Christy,NA,NA,NA,NA,NA,NA,2026
+p001540,Jacobson,David,NA,NA,NA,NA,Princeton University,1991,2026
+p001541,Stamps,David,NA,NA,NA,NA,NA,NA,2026
+p001542,Loseke,Donileen,NA,NA,NA,NA,NA,NA,2026
+p001543,Aranda,Elizabeth,NA,NA,NA,NA,Temple University,2001,2026
+p001544,Curry,Emelda,NA,NA,NA,NA,NA,NA,2026
+p001545,Toothman,Erica,NA,NA,NA,NA,NA,NA,2026
+p001546,Hao,Feng,NA,NA,NA,NA,NA,NA,2026
+p001547,Biafora,Frank,NA,NA,NA,NA,University of Miami,1991,2026
+p001548,Voelkl,Gary,NA,NA,NA,NA,NA,NA,2026
+p001549,Fulton,Hayden,NA,NA,NA,NA,NA,NA,2026
+p001550,Cavendish,James,C.,NA,NA,NA,NA,NA,2026
+p001551,Sommer,Jamie,NA,NA,NA,NA,NA,NA,2026
+p001552,Christiansen,Jamilah,NA,NA,NA,NA,NA,NA,2026
+p001553,Friedman,Jennifer,NA,NA,NA,NA,NA,NA,2026
+p001554,Skvoretz,John,NA,NA,NA,NA,University of Pittsburgh,1976,2026
+p001555,Graham,Laurel,NA,NA,NA,NA,NA,NA,2026
+p001556,Mayberry,Maralee,NA,NA,NA,NA,NA,NA,2026
+p001557,Kusenbach,Margarethe,NA,NA,NA,NA,University of California - Los Angeles,2003,2026
+p001558,Sloan,Melissa,NA,NA,NA,NA,Vanderbilt University,2005,2026
+p001559,Kleiman,Michael,NA,NA,NA,NA,NA,NA,2026
+p001560,Fee,Molly,NA,NA,NA,NA,NA,NA,2026
+p001561,Tuntiya,Nana,NA,NA,NA,NA,NA,NA,2026
+p001562,Blackwell,Rebecca,NA,NA,NA,NA,NA,NA,2026
+p001563,Benford,Robert,D.,NA,NA,NA,NA,NA,2026
+p001564,Crawley,S.L.,NA,NA,NA,NA,University of Florida,2002,2026
+p001565,Green,Sara,NA,NA,NA,NA,Tulane University,1994,2026
+p001566,Alasaly,Shahd,NA,NA,NA,NA,NA,NA,2026
+p001567,Fatima,Shumaila,NA,NA,NA,NA,NA,NA,2026
+p001568,Ghimire Sharma,Shuveccha,NA,NA,NA,NA,NA,NA,2026
+p001569,Maddanu,Simone,NA,NA,NA,NA,NA,NA,2026
+p001570,Marwah,Vrinda,NA,NA,NA,NA,NA,NA,2026
+p001571,Tyson,Will,NA,NA,NA,NA,Duke University,2004,2026
+p001572,Kamimura,Akiko,NA,NA,NA,0000-0001-6528-5770,University of Michigan,NA,2026
+p001573,Thompson,Amber,NA,NA,NA,NA,NA,NA,2026
+p001574,Pascoe,Anita,NA,NA,NA,NA,NA,NA,2026
+p001575,Clark,Brett,NA,NA,NA,NA,University of Oregon,NA,2026
+p001576,Packard,Chiara,NA,NA,NA,NA,NA,NA,2026
+p001577,Geist,Claudia,NA,NA,NA,0000-0003-1901-3429,Indiana University,2008,2026
+p001578,James,Coco,NA,NA,NA,NA,NA,NA,2026
+p001579,Echols,Courtney,NA,NA,NA,NA,NA,NA,2026
+p001580,Adkins,Daniel,NA,NA,NA,0000-0003-3683-6793,"University of North Carolina, Chapel Hill",2009,2026
+p001581,Carlson,Daniel,NA,NA,NA,NA,NA,NA,2026
+p001582,Routh,Doug,NA,NA,NA,NA,NA,NA,2026
+p001583,Muñoz,Ed,NA,NA,NA,NA,NA,NA,2026
+p001584,Volinn,Ernest,NA,NA,NA,NA,NA,NA,2026
+p001585,Page,Frank,NA,NA,NA,NA,NA,NA,2026
+p001586,Wu,Guangzhen,NA,NA,NA,NA,NA,NA,2026
+p001587,Melton,Heather,NA,NA,NA,NA,NA,NA,2026
+p001588,Poff,Jared,NA,NA,NA,NA,NA,NA,2026
+p001589,zavita,karma,r0se,NA,NA,NA,NA,NA,2026
+p001590,Maldonado,Katherine,NA,NA,NA,NA,NA,NA,2026
+p001591,Durante,Katie,NA,NA,NA,NA,NA,NA,2026
+p001592,Korinek,Kim,NA,NA,NA,0000-0003-3148-1639,University of Washington,2002,2026
+p001593,Young,Kris,NA,NA,NA,NA,NA,NA,2026
+p001594,Bench,Larry,NA,NA,NA,NA,NA,NA,2026
+p001595,Adua,Lazarus,NA,NA,NA,NA,NA,NA,2026
+p001596,Kowaleski-Jones,Lori,NA,NA,NA,NA,NA,NA,2026
+p001597,Paret,Marcel,NA,NA,NA,NA,NA,NA,2026
+p001598,Coleman,Max,NA,NA,NA,NA,NA,NA,2026
+p001599,Reynolds,Megan,NA,NA,NA,NA,NA,NA,2026
+p001600,Hollingshaus,Michael,NA,NA,NA,NA,NA,NA,2026
+p001601,Timberlake,Michael,NA,NA,NA,NA,NA,NA,2026
+p001602,Wen,Ming,NA,NA,NA,NA,NA,NA,2026
+p001603,Wolfinger,Nicholas,H.,NA,NA,NA,NA,NA,2026
+p001604,Owen,Rebecca,NA,NA,NA,NA,NA,NA,2026
+p001605,Utz,Rebecca,NA,NA,NA,0000-0001-7734-7676,University of Michigan,2004,2026
+p001606,Grineski,Sara,NA,NA,NA,0000-0002-3561-1755,Arizona State University,2006,2026
+p001607,Gaytán,Sarita,NA,NA,NA,NA,NA,NA,2026
+p001608,Salari,Sonia,NA,NA,NA,NA,NA,NA,2026
+p001609,Martinez,Theresa,NA,NA,NA,NA,NA,NA,2026
+p001610,Quinn,Thomas,NA,NA,NA,NA,NA,NA,2026
+p001611,Cole,Wade,NA,NA,NA,0000-0001-5095-8645,Stanford University,2006,2026
+p001612,Kuo,Wen,NA,NA,NA,NA,NA,NA,2026
+p001613,Weitzman,Abigail,NA,NA,NA,NA,New York University,NA,2026
+p001614,Ugalde,Antonio,NA,NA,NA,NA,Stanford University,NA,2026
+p001615,Adut,Ari,NA,NA,NA,NA,University of Chicago,NA,2026
+p001616,Pettit,Becky,NA,NA,NA,NA,Princeton University,NA,2026
+p001617,Ramirez,Blanca,A.,NA,NA,NA,University of Southern California,NA,2026
+p001618,McCaslin,Brianna,NA,NA,NA,NA,University of Notre Dame,NA,2026
+p001619,Goosby,Bridget,NA,NA,NA,NA,Pennsylvania State University,NA,2026
+p001620,Roberts,Bryan,R.,NA,NA,NA,University of Chicago,NA,2026
+p001621,Waldrep,Carolyn,NA,NA,NA,NA,The University of Texas at Austin,NA,2026
+p001622,Breen,Casey,NA,NA,NA,NA,"University of California, Berkeley",NA,2026
+p001623,Ross,Catherine,E.,NA,NA,NA,Yale University,NA,2026
+p001624,Muller,Chandra,L.,NA,NA,NA,University of Chicago,NA,2026
+p001625,Hailey,Chantal,NA,NA,NA,NA,New York University,NA,2026
+p001626,Caramanis,Christina,NA,NA,NA,NA,University of Texas at Austin,NA,2026
+p001627,Williams,Christine,L.,NA,NA,NA,"University of California, Berkeley",NA,2026
+p001628,Erving,Christy,L.,NA,NA,NA,"Indiana University, Bloomington",NA,2026
+p001629,Cortez,Dagoberto,NA,NA,NA,NA,University of Wisconsin–Madison,NA,2026
+p001630,dillon,daniel,NA,NA,NA,NA,The University of Texas at Austin,NA,2026
+p001631,Fridman,Daniel,NA,NA,NA,NA,Columbia University,NA,2026
+p001632,Powers,Daniel,A.,NA,NA,NA,University of Wisconsin–Madison,NA,2026
+p001633,Schaefer,David,R.,NA,NA,NA,University of Arizona,NA,2026
+p001634,Umberson,Debra,J.,NA,NA,NA,Vanderbilt University,NA,2026
+p001635,Murthy,Dhiraj,NA,NA,NA,NA,University of Cambridge,NA,2026
+p001636,Coffey,Diane,NA,NA,NA,NA,Princeton University,NA,2026
+p001637,Warr,E.,Mark,NA,NA,NA,University of Arizona,NA,2026
+p001638,Gershoff,Elizabeth,NA,NA,NA,NA,The University of Texas at Austin,NA,2026
+p001639,Tang,Eric,NA,NA,NA,NA,New York University,NA,2026
+p001640,Ice,Erin,NA,NA,NA,NA,University of Michigan,NA,2026
+p001641,González-López,Gloria,NA,NA,NA,NA,University of Southern California,NA,2026
+p001642,Shapira,Harel,NA,NA,NA,NA,Columbia University,NA,2026
+p001643,Cheadle,Jacob,NA,NA,NA,NA,Pennsylvania State University,NA,2026
+p001644,Angel,Jacqueline,L.,NA,NA,NA,Rutgers University,NA,2026
+p001645,Auyero,Javier,NA,NA,NA,NA,The New School for Social Research,NA,2026
+p001646,Herman,Jeanette,M.,NA,NA,NA,The University of Texas at Austin,NA,2026
+p001647,Glass,Jennifer,NA,NA,NA,NA,University of Wisconsin–Madison,NA,2026
+p001648,Butler,John,S.,NA,NA,NA,Northwestern University,NA,2026
+p001649,Higley,John,NA,NA,NA,NA,University of Connecticut,NA,2026
+p001650,Mirowsky,John,NA,NA,NA,NA,Yale University,NA,2026
+p001651,Conwell,Jordan,NA,NA,NA,NA,Northwestern University,NA,2026
+p001652,Griesbach,Kathleen,NA,NA,NA,NA,Columbia University,NA,2026
+p001653,Fulton,Kelly,NA,NA,NA,NA,The University of Texas at Austin,NA,2026
+p001654,Raley,Kelly,NA,NA,NA,NA,University of Wisconsin–Madison,NA,2026
+p001655,Lin,Ken-Hou,NA,NA,NA,NA,University of Massachusetts Amherst,NA,2026
+p001656,Pernell,Kim,NA,NA,NA,NA,Harvard University,NA,2026
+p001657,Schudde,Lauren,NA,NA,NA,NA,University of Wisconsin-Madison,NA,2026
+p001658,Deithloff,Leta,F,NA,NA,NA,NA,NA,2026
+p001659,Musick,Marc,A.,NA,NA,NA,Duke University,NA,2026
+p001660,Hayward,Mark,D.,NA,NA,NA,Indiana University Bloomington,NA,2026
+p001661,Regnerus,Mark,NA,NA,NA,NA,NA,NA,2026
+p001662,Rose,Mary,NA,NA,NA,NA,Duke University,NA,2026
+p001663,Farina,Mateo,NA,NA,NA,NA,The University of Texas at Austin,NA,2026
+p001664,Giani,Matt,NA,NA,NA,NA,The University of Texas at Austin,NA,2026
+p001665,Haghshenas,Mehdi,NA,NA,NA,NA,The University of Texas at Austin,NA,2026
+p001666,Sierra-Arévalo,Michael,NA,NA,NA,NA,Yale University,NA,2026
+p001667,Hames-García,Michael,Roy,NA,NA,NA,Cornell University,NA,2026
+p001668,Young,Michael,P,NA,NA,NA,New York University,NA,2026
+p001669,Charrad,Mounira,M.,NA,NA,NA,Harvard University,NA,2026
+p001670,Rodríguez,Néstor,P.,NA,NA,NA,The University of Texas at Austin,NA,2026
+p001671,Palmo,Nina,NA,NA,NA,NA,The University of Texas at Austin,NA,2026
+p001672,Galle,Omer,R.,NA,NA,NA,University of Chicago,NA,2026
+p001673,Paxton,Pamela,NA,NA,NA,NA,University of North Carolina at Chapel Hill,NA,2026
+p001674,von Hippel,Paul,NA,NA,NA,NA,Ohio State University,NA,2026
+p001675,Ward,Peter,NA,NA,NA,NA,University of Liverpool,NA,2026
+p001676,Crosnoe,Robert,NA,NA,NA,NA,Stanford University,NA,2026
+p001677,Reece,Robert,L.,NA,NA,NA,Duke University,NA,2026
+p001678,Angel,Ronald,J.,NA,NA,NA,University of Wisconsin–Madison,NA,2026
+p001679,Watkins,S.,Craig,NA,NA,NA,University of Michigan,NA,2026
+p001680,McLemore,Samuel,D,NA,NA,NA,Yale University,NA,2026
+p001681,Swearingen,Scott,NA,NA,NA,NA,The University of Texas at Austin,NA,2026
+p001682,Cavanagh,Shannon,E.,NA,NA,NA,University of North Carolina at Chapel Hill,NA,2026
+p001683,Ekland-Olson,Sheldon,NA,NA,NA,NA,University of Washington,NA,2026
+p001684,Browne,Simone,NA,NA,NA,NA,University of Toronto,NA,2026
+p001685,Osbakken,Steph,NA,NA,NA,NA,University of Michigan,NA,2026
+p001686,Sullivan,Teresa,A,NA,NA,NA,University of Chicago,NA,2026
+p001687,Pullum,Thomas,NA,NA,NA,NA,University of Chicago,NA,2026
+p001688,Chen,Wenhong,NA,NA,NA,NA,University of Toronto,NA,2026
+p001689,Kelly,William,R,NA,NA,NA,Indiana University Bloomington,NA,2026
+p001690,Wang,Xueqing,NA,NA,NA,NA,Princeton University,NA,2026
+p001691,Irizarry,Yasmiyn,NA,NA,NA,NA,"Indiana University, Bloomington",NA,2026
+p001692,Slez,Adam,NA,NA,NA,NA,NA,NA,2026
+p001693,Stolte,Allison,NA,NA,NA,NA,NA,NA,2026
+p001694,Press,Andrea,NA,NA,NA,NA,University of California at Berkeley,NA,2026
+p001695,parham,Angel,NA,NA,NA,NA,NA,NA,2026
+p001696,Foster,B.,Brian,NA,NA,NA,NA,NA,2026
+p001697,Unlu,Baris,NA,NA,NA,NA,NA,NA,2026
+p001698,Wilcox,Brad,NA,NA,NA,NA,Princeton University,NA,2026
+p001699,Driscoll,Daniel,NA,NA,NA,NA,NA,NA,2026
+p001700,Skubby,David,NA,NA,NA,NA,NA,NA,2026
+p001701,Makarova,Ekaterina,NA,NA,NA,NA,NA,NA,2026
+p001702,Gorman,Elizabeth,NA,NA,NA,NA,NA,NA,2026
+p001703,Sarıoğlu,Esra,NA,NA,NA,NA,NA,NA,2026
+p001704,Greenland,Fiona,NA,NA,NA,NA,NA,NA,2026
+p001705,Mullins,Ian,NA,NA,NA,NA,NA,NA,2026
+p001706,Reed,Isaac,Ariail,NA,NA,NA,Yale University,NA,2026
+p001707,Hunter,James,NA,NA,NA,NA,Rutgers University,1981,2026
+p001708,Olick,Jeffrey,NA,NA,NA,NA,Yale,1993,2026
+p001709,Bair,Jennifer,NA,NA,NA,NA,Duke University,NA,2026
+p001710,Roksa,Josipa,NA,NA,NA,0000-0003-2757-5982,NA,NA,2026
+p001711,Kumar,Krishan,NA,NA,NA,NA,NA,NA,2026
+p001712,Vickerman,Milton,NA,NA,NA,NA,NA,NA,2026
+p001713,Aviles,Natalie,NA,NA,NA,NA,NA,NA,2026
+p001714,Fink,Pierre-Christian,NA,NA,NA,NA,NA,NA,2026
+p001715,Buckelew,Rose,NA,NA,NA,NA,NA,NA,2026
+p001716,Polillo,Simone,NA,NA,NA,NA,University of Pennsylvania,2008,2026
+p001717,Sun,Yanfei,NA,NA,NA,NA,NA,NA,2026
+p001718,Wang,Yingyao,NA,NA,NA,NA,NA,NA,2026
+p001719,Harris,Alexes,NA,NA,NA,NA,"University of California, Los Angeles",2002,2026
+p001720,Messamore,Andrew,NA,NA,NA,NA,NA,NA,2026
+p001721,Frost,Ann,NA,NA,NA,NA,NA,NA,2026
+p001722,Dorélien,Audrey,NA,NA,NA,NA,NA,NA,2026
+p001723,Cha,Hyungmin,NA,NA,NA,NA,NA,NA,2026
+p001724,Ince,Jelani,NA,NA,NA,NA,NA,NA,2026
+p001725,Brines,Julie,NA,NA,NA,NA,NA,NA,2026
+p001726,Beckett,Katherine,NA,NA,NA,NA,UCLA,1994,2026
+p001727,Crowder,Kyle,NA,NA,NA,NA,State University of New York at Albany,1997,2026
+p001728,Williams,Nathalie,NA,NA,NA,NA,University of Michigan,2009,2026
+p001729,Louie,Patricia,NA,NA,NA,NA,NA,NA,2026
+p001730,Greiner,Patrick,NA,NA,NA,NA,NA,NA,2026
+p001731,Catron,Peter,NA,NA,NA,NA,NA,NA,2026
+p001732,Kichler,Rosalind,NA,NA,NA,NA,NA,NA,2026
+p001733,Curran,Sara,NA,NA,NA,NA,NA,NA,2026
+p001734,Quinn,Sarah,NA,NA,NA,NA,NA,NA,2026
+p001735,Johfre,Sasha,NA,NA,NA,NA,NA,NA,2026
+p001736,Rocha Beardall,Theresa,NA,NA,NA,NA,NA,NA,2026
+p001737,McCormick,Tyler,NA,NA,NA,NA,Columbia University,2011,2026
+p001738,Almquist,Zack,NA,NA,NA,NA,"University of California, Irvine",2013,2026
+p001739,Frenette,Alexandre,NA,NA,NA,NA,NA,NA,2026
+p001740,Hendi,Arun,NA,NA,NA,NA,NA,NA,2026
+p001741,Manago,Bianca,NA,NA,NA,NA,NA,NA,2026
+p001742,Christie-Mizell,C. André,NA,NA,NA,NA,NA,NA,2026
+p001743,Cornfield,Daniel,B.,NA,NA,NA,University of Chicago,NA,2026
+p001744,Hess,David,J.,NA,NA,NA,NA,NA,2026
+p001745,McCammon,Holly,J.,NA,NA,NA,Indiana University,NA,2026
+p001746,Davis,Jenny,NA,NA,NA,NA,NA,NA,2026
+p001747,Ho,Jessica,NA,NA,NA,NA,NA,NA,2026
+p001748,Bandy,Joe,NA,NA,NA,NA,NA,NA,2026
+p001749,Metzl,Jonathan,M.,NA,NA,NA,University of Michigan,NA,2026
+p001750,Murray,Joshua,NA,NA,NA,NA,NA,NA,2026
+p001751,Carpenter,Laura,M.,NA,NA,NA,NA,NA,2026
+p001752,Woods,Laurie,NA,NA,NA,NA,NA,NA,2026
+p001753,Stacey,Lawrence,NA,NA,NA,NA,NA,NA,2026
+p001754,Song,Lijun,NA,NA,NA,NA,NA,NA,2026
+p001755,Kalousova,Lucie,NA,NA,NA,NA,NA,NA,2026
+p001756,Sana,Mariano,NA,NA,NA,NA,NA,NA,2026
+p001757,Donnelly,Rachel,NA,NA,NA,NA,NA,NA,2026
+p001758,Lloyd,Richard,NA,NA,NA,NA,NA,NA,2026
+p001759,Kelner,Shaul,NA,NA,NA,NA,CUNY Graduate Center,2002,2026
+p001760,Frierson,Whitney,NA,NA,NA,NA,NA,NA,2026
+p001761,Tzankova,Zdravka,NA,NA,NA,NA,NA,NA,2026
+p001762,Daminger,Allison,NA,NA,NA,NA,NA,NA,2026
+p001763,Goldberg,Chad,Alan,NA,NA,NA,New School for Social Research,2002,2026
+p001764,Hart,Chloe,Grace,NA,NA,NA,NA,NA,2026
+p001765,Schwartz,Christine,NA,NA,NA,NA,NA,NA,2026
+p001766,Gathman,E.,Cabell Hankinson,NA,NA,NA,NA,NA,2026
+p001767,Grodsky,Eric,NA,NA,NA,NA,University of Wisconsin,2002,2026
+p001768,Oh,Eunsil,NA,NA,NA,NA,NA,NA,2026
+p001769,Accominotti,Fabien,NA,NA,NA,NA,NA,NA,2026
+p001770,Elwert,Felix,NA,NA,NA,NA,Harvard University,2007,2026
+p001771,Seidman,Gay,NA,NA,NA,NA,University of California-Berkeley,1990,2026
+p001772,Ermakoff,Ivan,NA,NA,NA,NA,NA,NA,2026
+p001773,Nolen,Jason,NA,NA,NA,NA,NA,NA,2026
+p001774,Dykema,Jennifer,NA,NA,NA,NA,University of Wisconsin–Madison,2004,2026
+p001775,Calarco,Jessica,NA,NA,NA,NA,University of Pennsylvania,2012,2026
+p001776,Rogers,Joel,NA,NA,NA,NA,Princeton University,NA,2026
+p001777,Conti,Joseph,NA,NA,NA,NA,NA,NA,2026
+p001778,Jensen,Katherine,NA,NA,NA,NA,NA,NA,2026
+p001779,Ward,Kelly,Marie,NA,NA,NA,NA,NA,2026
+p001780,Carlson,Marcia,J.,NA,NA,NA,University of Michigan,1999,2026
+p001781,Santos,Maria-Fátima,NA,NA,NA,NA,NA,NA,2026
+p001782,Eiermann,Martin,NA,NA,NA,NA,NA,NA,2026
+p001783,Besbris,Max,NA,NA,NA,NA,NA,NA,2026
+p001784,Light,Michael,NA,NA,NA,NA,The Pennsylvania State University,2013,2026
+p001785,Massoglia,Michael,NA,NA,NA,NA,University of Minnesota,NA,2026
+p001786,Simmons,Michaela,NA,NA,NA,NA,NA,NA,2026
+p001787,Engelman,Michal,NA,NA,NA,NA,Johns Hopkins School of Public Health,NA,2026
+p001788,Grant,Monica,NA,NA,NA,NA,NA,NA,2026
+p001789,Ifatunji,Mosi,NA,NA,NA,NA,NA,NA,2026
+p001790,Emirbayer,Mustafa,NA,NA,NA,NA,Harvard University,1989,2026
+p001791,Savelyeva,Natalia,NA,NA,NA,NA,NA,NA,2026
+p001792,Mark,Nicholas,NA,NA,NA,NA,NA,NA,2026
+p001793,Pedriana,Nicholas,NA,NA,NA,NA,NA,NA,2026
+p001794,Rich,Peter,NA,NA,NA,NA,NA,NA,2026
+p001795,Frank,Sarah,NA,NA,NA,NA,NA,NA,2026
+p001796,Rauf,Tamkinat,NA,NA,NA,NA,NA,NA,2026
+p001797,Gerber,Ted,NA,NA,NA,NA,University of California-Berkeley,1995,2026
+p001798,Harvey Wingfield,Adia,NA,NA,NA,NA,Johns Hopkins University,NA,2026
+p001799,Schachter,Ariela,NA,NA,NA,NA,NA,NA,2026
+p001800,Collins,Caitlyn,NA,NA,NA,NA,NA,NA,2026
+p001801,Lim,Chaeyoon,NA,NA,NA,NA,Harvard University,NA,2026
+p001802,Feliciano,Cynthia,NA,NA,NA,NA,University of California Los Angeles,NA,2026
+p001803,Baluran,Darwin,NA,NA,NA,NA,NA,NA,2026
+p001804,Cunningham,David,NA,NA,NA,NA,University of North Carolina,NA,2026
+p001805,Rosenfeld,Jake,NA,NA,NA,NA,Princeton University,NA,2026
+p001806,Andrews,Kenneth,NA,NA,NA,NA,State University of New York at Stony Brook,NA,2026
+p001807,Wyndham,Kiara,NA,NA,NA,NA,NA,NA,2026
+p001808,Chiarello,Liz,NA,NA,NA,NA,NA,NA,2026
+p001809,Moinester,Margot,NA,NA,NA,NA,NA,NA,2026
+p001810,Vale,Mira,NA,NA,NA,NA,NA,NA,2026
+p001811,Ishizuka,Patrick,NA,NA,NA,NA,NA,NA,2026
+p001812,Moore,Rick,NA,NA,NA,NA,NA,NA,2026
+p001813,Kye,Samuel,NA,NA,NA,NA,NA,NA,2026
+p001814,Fazzari,Steven,NA,NA,NA,NA,Stanford University,NA,2026
+p001815,Coenders,Yannick,NA,NA,NA,NA,NA,NA,2026
+p001816,Luna,Zakiya,NA,NA,NA,NA,NA,NA,2026
+p001817,Menon,Alka,NA,NA,NA,NA,NA,NA,2026
+p001818,Escamilla García,Ángel,NA,NA,NA,NA,NA,NA,2026
+p001819,Karell,Daniel,NA,NA,NA,NA,NA,NA,2026
+p001820,Knight,David,J.,NA,NA,NA,NA,NA,2026
+p001821,Anderson,Elijah,NA,NA,NA,NA,NA,NA,2026
+p001822,Erikson,Emily,NA,NA,NA,NA,Columbia University,2006,2026
+p001823,Zang,Emma,NA,NA,NA,NA,NA,NA,2026
+p001824,Kao,Grace,NA,NA,NA,NA,The University of Chicago,1997,2026
+p001825,Wahutu,j,NA,NA,NA,NA,NA,NA,2026
+p001826,Wyrtzen,Jonathan,NA,NA,NA,NA,Georgetown,2009,2026
+p001827,Adams,Julia,NA,NA,NA,NA,NA,NA,2026
+p001828,Christakis,Nicholas,NA,NA,NA,NA,University of Pennsylvania,1995,2026
+p001829,Gorski,Phil,NA,NA,NA,NA,"University of California, Berkeley",1996,2026
+p001830,Smith,Philip,NA,NA,NA,NA,"University of California, Los Angeles",1993,2026
+p001831,Sotoudeh,Ramina,NA,NA,NA,NA,NA,NA,2026
+p001832,Almeling,Rene,NA,NA,NA,NA,UCLA,2008,2026
+p001833,O’Brien,Rourke,NA,NA,NA,NA,NA,NA,2026
+p001834,Boorman,Scott,NA,NA,NA,NA,Harvard University,1973,2026
+p001835,Karakaya,Yagmur,NA,NA,NA,NA,NA,NA,2026
+p001836,Hsiao,Yuan,NA,NA,NA,NA,NA,NA,2026

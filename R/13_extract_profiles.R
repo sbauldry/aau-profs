@@ -26,6 +26,13 @@ cfg <- site_config()
 sp <- load_system_prompt()
 spent <- \() if (file.exists(usage_log_file)) sum(summarize_usage()$usd) else 0
 
+# Cache file per profile URL: readable prefix plus a hash of the full URL (a truncated URL alone collides
+# when many profile URLs share a long prefix, as at Buffalo).
+profile_cache_file <- function(dir, url) {
+  slug <- str_replace_all(str_remove(url, "^https?://"), "[^A-Za-z0-9]+", "_") |> str_sub(1, 60)
+  file.path(dir, paste0(slug, "_", str_sub(digest::digest(url, algo = "md5", serialize = FALSE), 1, 10), ".csv"))
+}
+
 ids <- if (inst_arg == "all") str_remove(list.files(roster_dir, pattern = "\\.csv$"), "\\.csv$") else str_split_1(inst_arg, ",")
 ids <- intersect(ids, cfg$inst_id[!cfg$profile_method %in% c("hand", "none")])
 
@@ -40,7 +47,7 @@ for (id in ids) {
   cache <- file.path(out_dir, id); dir.create(cache, showWarnings = FALSE)
   profiles <- pmap(targets, \(...) {
     r <- list(...)
-    f <- file.path(cache, paste0(str_replace_all(str_remove(r$profile_url, "^https?://"), "[^A-Za-z0-9]+", "_") |> str_sub(1, 100), ".csv"))
+    f <- profile_cache_file(cache, r$profile_url)
     if (file.exists(f)) return(read_csv(f, show_col_types = FALSE, col_types = cols(.default = "c")))
     if (spent() > budget_usd) { message("budget reached: stopping"); return(NULL) }
     pg <- scrape_profile(id, r$profile_url, row$profile_method, run_year)

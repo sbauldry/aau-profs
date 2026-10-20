@@ -55,7 +55,7 @@ robots_allows <- function(url) {
 # A challenge marker only counts when the page is small: real pages from WAF-protected sites
 # (e.g. msu) also embed the vendor's script, so the marker alone is not evidence of a block.
 looks_blocked <- function(html, status, final_url = "") {
-  marker <- str_detect(html, regex("_Incapsula_Resource|Just a moment|cf-browser-verification|captcha|Access Denied|Request unsuccessful", TRUE))
+  marker <- str_detect(html, regex("_Incapsula_Resource|Just a moment|cf-browser-verification|captcha|Access Denied|Request unsuccessful|leastFactor", TRUE))
   status %in% c(401, 403, 429) ||
     nchar(html) < 100 ||                                  # empty body (e.g. 202 challenge with no content)
     str_detect(coalesce(final_url, ""), "[?&]challenge=") ||

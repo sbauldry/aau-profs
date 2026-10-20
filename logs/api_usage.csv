@@ -102,3 +102,8 @@ timestamp,step,model,prompt_ver,source_url,input,output,cached_input
 2026-10-09 22:51:20,extract,claude-sonnet-5-5,v1,https://sociology.utoronto.ca/people/directories/all-faculty/,4515,7651,4050
 2026-10-09 22:52:04,extract,claude-sonnet-5-5,v1,https://sociology.utoronto.ca/people/directories/all-faculty/,4517,8713,4050
 2026-10-09 22:52:20,extract,claude-sonnet-5-5,v1,https://sociology.utoronto.ca/people/directories/all-faculty/,1489,2777,4050
+2026-10-20 14:39:27,extract,claude-sonnet-5-5,v1,https://www.sociology.utoronto.ca/people/directories/all-faculty/scott-davies,4245,627,0
+2026-10-20 14:39:33,extract,claude-sonnet-5-5,v1,https://www.sociology.utoronto.ca/people/directories/all-faculty/ito-peng,220,623,4050
+2026-10-20 14:39:41,extract,claude-sonnet-5-5,v1,https://www.sociology.utoronto.ca/people/directories/all-faculty/arjumand-siddiqi,210,777,4050
+2026-10-20 14:39:44,extract,claude-sonnet-5-5,v1,https://www.sociology.utoronto.ca/people/directories/all-faculty/kelly-hannah-moffat,216,323,4050
+2026-10-20 14:39:50,extract,claude-sonnet-5-5,v1,https://www.sociology.utoronto.ca/people/directories/all-faculty/samuel-lucas,210,573,4050

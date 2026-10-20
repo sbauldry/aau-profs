@@ -1,6 +1,6 @@
 # AAU Sociology Full Professors: Schema and Codebook
 
-Version 0.1.22 (draft), October 2026
+Version 0.1.23 (draft), October 2026
 
 ## 1. Purpose and scope
 
@@ -279,7 +279,7 @@ Never merge two IDs automatically. Merges are recorded by hand with a note, and 
 
 ## 7. Validation
 
-- **First year:** hand-code a stratified random sample of about 50 people (by institution size) on rank, inclusion, and areas. Report agreement with the automated output:
+- **First year:** hand-code a stratified random sample of about 50 people (by institution size) on rank, inclusion, and areas. Design details are in §8 (v0.1.23); instructions are in `validation/handcode_instructions_2026.md`. Report agreement with the automated output:
   - **Rank and inclusion:** percent agreement.
   - **Area codes:** (a) Krippendorff's alpha computed per section on presence/absence (is the person coded to that section by each coder), reported per section and averaged across sections that have at least one coding; and (b) percent agreement on the first-listed code, and on whether the two coders share at least one code. With about 50 people, per-section alphas for rare sections are noisy, so report the number of cases per section.
 - **Later years:** hand-review all rows in `changes` plus a random 10% of unchanged rows.
@@ -314,6 +314,7 @@ This table is the single log of adopted changes that affect comparability across
 | 2026-10 | 0.1.20 | §3.4 `areas`: added `matched_text` (the exact fragment of `areas_raw` supporting each code, kept as audit evidence like `rank_evidence`). Areas are coded for `included = TRUE` snapshots only; records with no `areas_raw` are left uncoded by rule and flagged without an API call; a record is re-coded only when `areas_raw`, the model, or the prompt version changes, and hand-coded rows are never overwritten. Pre-collection; effective with the first collection year (2026). |
 | 2026-10 | 0.1.21 | Sibling faculty lists (emeriti, affiliated, joint, adjunct, visiting, non-tenure-line) linked from each department's faculty page are now scraped and extracted, so excluded people are kept and auditable as §2 already required. Seed table `data/seeds/institution_pages.csv` lists them per institution (reviewed by hand from automatic discovery). `snapshots.source_list` records which list a record came from. The list decides what a bare title cannot: emeriti, visiting and non-tenure lists set the rank accordingly; affiliated and adjunct lists set `courtesy`; a joint list sets the appointment type to `unknown` (no budgeted share is stated), so those people are undecided. All of these except a settled joint appointment are `included = FALSE`. Scope limit: sibling lists are not paginated and profile pages are not fetched for them. Pre-collection; effective with the first collection year (2026). |
 | 2026-10 | 0.1.22 | §2 rule 2 exception for units whose name lacks "sociology" but which house sociologists (decided for ASU's T. Denny Sanford School of Social and Family Dynamics, home of ASU's Sociology MA and PhD): scope is decided person by person from the profile. A tenured full professor counts as a sociologist if the profile states a sociology title or a sociology degree; one with no sociology title or degree is excluded; a person who cannot be confirmed (or any later addition) stays undecided for hand review. A person confirmed as a sociologist whose appointment type is `unknown` only because the title names two units is set to `primary`. The confirmed decisions, including those the reviewer supplied (a sociology PhD not stated on the profile), are the seed file `data/seeds/person_scope.csv`, reviewed each year. 2026 trial result at ASU: 7 included, 9 excluded, 0 undecided of 16 full professors. Effective with the first collection year (2026). |
+| 2026-10 | 0.1.23 | §7 first-year validation made operational: 50 people, of whom 40 are drawn from the in-scope population (`included = TRUE`, main faculty list) stratified by institution size (terciles of in-scope headcount per institution, allocation proportional to people) and 10 from full or unknown-rank records that were not included (to check inclusion in both directions); people from the earlier 20-profile spot check are left out. The coder gets a blind sheet (name, profile link, and the listed title and areas the model saw), not the pipeline's answers. Scoring: rank and inclusion by percent agreement (inclusion over records the pipeline decided; undecided records reported separately); areas over people in scope by both coders. Pre-collection; effective with the first collection year (2026). |
 
 ## 9. Prompt versioning and pinned models
 

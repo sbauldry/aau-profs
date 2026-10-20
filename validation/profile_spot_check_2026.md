@@ -28,7 +28,7 @@ Method: 20 profiles with a profile extraction (Toronto excluded), seed 20261020,
 
 ## Summary
 
-- 17 of 20 correct on rank, appointment type and `included`; 3 undecided cases (6, 7, 8, 9 counted as appropriate flags, 4 in all) are conservative and not errors.
+- 19 of 20 were correct or appropriately flagged on rank, appointment type and `included`: 15 correct, and 4 undecided (6, 7, 8, 9) that were conservative flags for hand review, not errors.
 - 1 questionable call (13, Allen): a unit named in the title was read as the home department and the person was set to `courtesy` with no flag.
 - 1 gap: `areas_raw` sometimes comes from biography prose when no research-areas field exists (17); area coding should treat these as weaker evidence.
 - Rank taken from a profile when the roster had none worked (3, 5, 6).

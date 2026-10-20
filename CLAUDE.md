@@ -72,6 +72,7 @@ Institutional frame: all AAU members, including the Canadian members (Toronto, M
 3. Chrome or Chromium must be installed for `chromote`.
 4. `data/raw_html/` is git-ignored and will be empty. Scripts `04`, `05` and `06` read cached pages from it, and `11_rebuild_roster_text.R` rebuilds roster text from the saved HTML of the trial scrape; the scraped text and extraction results themselves are tracked in `data/interim/` (`scrape_trial/roster_chunks.rds`, `extract_trial_all.csv`), so most later steps do not need the HTML. To regenerate pages, rerun `R/04_check_js_pages.R`, `R/06_test_profiles.R` (fetches its own profiles) or `R/10_scrape_all_rosters.R` (about 15 minutes for all rosters).
 5. Check that `Sys.getenv("SCRAPER_CONTACT")` and `nzchar(Sys.getenv("ANTHROPIC_API_KEY"))` look right before any scraping or API call.
+6. The hand-built comparison database `data/Head - AAU Database.xlsx` is git-ignored and local only; copy it into `data/` to run `R/21_compare_head.R`.
 
 ## Status (as of 2026-10-20)
 

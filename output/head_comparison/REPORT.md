@@ -82,10 +82,10 @@ After the name-parsing fix for "Last, First" lists (Maryland's Korzeniewicz now 
 | UC Riverside | Brint | Distinguished Professor of Sociology and Public Policy at UCR | **our miss**: the UCR roster is lazy-loaded and only about 9 people are captured |
 | UC Riverside | Nieri | Professor of Sociology at UCR from July 2025 (CV) | **our miss**: same cause |
 | UCSB | Ghaziani | UBC professor; his CV lists a 2025-26 UCSB appointment; not on UCSB's lists | likely temporary |
-| UNC | Harris | Has a department profile page ("James E. Haar Distinguished Professor of Sociology") but is not on the department's Faculty list | **our miss**: the department's list omits her; add by hand |
-| UNC | Yang | The emeriti list has an entry the extraction read as "Yang Claire Yang" with no name parts | extraction name defect: recheck |
+| UNC | Harris | Has a department profile page ("James E. Haar Distinguished Professor of Sociology") but is not on the department's Faculty list | retired (confirmed by the user), so not on the current Faculty list: no reconciliation needed |
+| UNC | Yang | The emeriti list has an entry the extraction read as "Yang Claire Yang" with no name parts | the hand file's "Claire Yang" moved from UNC to Notre Dame (confirmed by the user); the UNC emeriti entry parsed as "Yang Claire Yang" is a name defect but needs no reconciliation |
 | USC | Lakoff | Not on the sociology faculty list; a USC Today item dated 2026-09-22 looks like an in-memoriam notice (headline only, not verified) | verify |
 | Utah | Camacho | Dean of the College of Social and Behavioral Science, tenured in the college; discipline not stated; not on the sociology list | administrator: excluded unless she holds a sociology appointment |
 | GWU, MSU, Yale | Livingston, Marquart-Pyatt, Farrell | Marked "not soc" in the hand file | not checked further |
 
-So of the 15: 4 are people outside the department or who have left, 3 are admin or unclear, and 3 are real gaps in our data (Brint, Nieri, Harris), plus Yang (a name defect) and Schaefer (unresolved).
+So of the 15: 6 are people outside the department or who have left or retired (including Harris and Yang, per the user), 3 are admin or unclear, 2 are real gaps in our data (Brint and Nieri, from the UC Riverside roster), 1 is unresolved (Schaefer), and 3 are marked "not soc".

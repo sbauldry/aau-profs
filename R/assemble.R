@@ -50,6 +50,10 @@ apply_person_scope <- function(df, file = "data/seeds/person_scope.csv") {
                     status == "undecided" ~ "unit has no 'sociology' in its name; sociology appointment not yet checked",
                     TRUE ~ NA_character_)
   df$scope_status <- status
+  # A confirmed sociologist in the unit settles a dual-unit title: unknown appointment type becomes primary.
+  fix <- status %in% "ok" & df$appointment_type %in% "unknown"
+  df$appointment_type[fix] <- "primary"
+  note[fix] <- paste0("appointment type set to primary: confirmed sociologist in the unit (", hit$basis[fix], ")")
   df$review_note <- if_else(is.na(note), df$review_note, if_else(is.na(df$review_note), note, paste(df$review_note, note, sep = " | ")))
   df
 }

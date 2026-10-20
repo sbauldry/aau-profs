@@ -23,6 +23,12 @@ stopifnot(inc("Ann Soc")$included,                                    # confirme
           inc("Soc, Ann")$included,
           person_key("Ann Soc, PhD") == "ann soc", person_key("Korzeniewicz, (Roberto) Patricio") == "patricio korzeniewicz")                             # "Last, First" form matches too
 stopifnot(!"scope_status" %in% names(d))
+# a confirmed sociologist with an unknown appointment type (dual-unit title) becomes primary and is included
+d2 <- mk("Ann Soc") |> mutate(appointment_type = "unknown") |> apply_person_scope(f) |> derive_included()
+stopifnot(d2$appointment_type == "primary", d2$included, str_detect(d2$review_note, "set to primary"))
+# an unknown appointment type for someone not confirmed is not changed (stays undecided)
+d3 <- mk("Cy Maybe") |> mutate(appointment_type = "unknown") |> apply_person_scope(f) |> derive_included()
+stopifnot(d3$appointment_type == "unknown", is.na(d3$included))
 # without the seed file nothing changes
 d0 <- mk("Bob Psych") |> apply_person_scope(tempfile()) |> derive_included()
 stopifnot(d0$included)

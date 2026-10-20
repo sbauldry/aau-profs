@@ -1,5 +1,7 @@
 person_id,year,inst_id,areas_hash,n_codes,more_available,review_flag,review_note,coded_by,code_model,code_prompt_ver,batch_tokens_input,batch_tokens_output
+p000005,2026,asu,e7237b1804735e4292f5abb825132ae2,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,104,404
 p000022,2026,asu,d66e2e13a02169f86ef1a3607523104f,3,FALSE,TRUE,Guns in Society coded crime; uncertain,model,claude-opus-5-5,v1,7623,3799
+p000036,2026,asu,12ee903d3d749b83c9bcce507ab985c9,3,FALSE,FALSE,NA,model,claude-opus-5-5,v1,5511,107
 p000048,2026,asu,2b3d6b508c7ee7d414438d3980f382b9,3,TRUE,FALSE,NA,model,claude-opus-5-5,v1,7623,3799
 p000049,2026,asu,3601315beaf52e4d81921aea26ccc0b2,2,FALSE,FALSE,NA,model,claude-opus-5-5,v1,7623,3799
 p000058,2026,asu,896b474e0fa9d3ad14b393f3ca9a421e,3,TRUE,TRUE,areas from prose,model,claude-opus-5-5,v1,7623,3799

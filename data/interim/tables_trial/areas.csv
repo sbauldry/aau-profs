@@ -1,7 +1,13 @@
 person_id,year,inst_id,area_code,area_order,matched_text,code_model,code_prompt_ver,hand_coded
+p000005,2026,asu,crime,1,youth violence,claude-opus-5-5,v1,FALSE
+p000005,2026,asu,children,2,youth,claude-opus-5-5,v1,FALSE
+p000005,2026,asu,education,3,schools,claude-opus-5-5,v1,FALSE
 p000022,2026,asu,crime,1,Guns in Society,claude-opus-5-5,v1,FALSE
 p000022,2026,asu,law,2,Law & Society,claude-opus-5-5,v1,FALSE
 p000022,2026,asu,inequality,3,Social Inequalities,claude-opus-5-5,v1,FALSE
+p000036,2026,asu,children,1,youth,claude-opus-5-5,v1,FALSE
+p000036,2026,asu,family,2,families,claude-opus-5-5,v1,FALSE
+p000036,2026,asu,law,3,law and society,claude-opus-5-5,v1,FALSE
 p000048,2026,asu,children,1,Children - Teens,claude-opus-5-5,v1,FALSE
 p000048,2026,asu,family,2,Families,claude-opus-5-5,v1,FALSE
 p000048,2026,asu,rem,3,Race and Ethnicity,claude-opus-5-5,v1,FALSE

@@ -1,0 +1,1292 @@
+person_id,year,inst_id,area_code,area_order,matched_text,code_model,code_prompt_ver,hand_coded
+p000009,2026,asu,crime,1,youth violence,claude-opus-5-5,v1,FALSE
+p000009,2026,asu,children,2,youth,claude-opus-5-5,v1,FALSE
+p000009,2026,asu,education,3,schools,claude-opus-5-5,v1,FALSE
+p000038,2026,asu,crime,1,Guns in Society,claude-opus-5-5,v1,FALSE
+p000038,2026,asu,law,2,Law & Society,claude-opus-5-5,v1,FALSE
+p000038,2026,asu,inequality,3,Social Inequalities,claude-opus-5-5,v1,FALSE
+p000054,2026,asu,children,1,youth,claude-opus-5-5,v1,FALSE
+p000054,2026,asu,family,2,families,claude-opus-5-5,v1,FALSE
+p000054,2026,asu,law,3,law and society,claude-opus-5-5,v1,FALSE
+p000074,2026,asu,children,1,Children - Teens,claude-opus-5-5,v1,FALSE
+p000074,2026,asu,family,2,Families,claude-opus-5-5,v1,FALSE
+p000074,2026,asu,rem,3,Race and Ethnicity,claude-opus-5-5,v1,FALSE
+p000093,2026,asu,drugs,1,youth drug use,claude-opus-5-5,v1,FALSE
+p000093,2026,asu,rem,2,ethnicity,claude-opus-5-5,v1,FALSE
+p000093,2026,asu,medical,3,health disparities,claude-opus-5-5,v1,FALSE
+p000101,2026,brown,comphist,1,Comparative Sociology,claude-opus-5-5,v1,FALSE
+p000101,2026,brown,political,2,Political,claude-opus-5-5,v1,FALSE
+p000101,2026,brown,economic,3,Economic,claude-opus-5-5,v1,FALSE
+p000106,2026,brown,population,1,Demography,claude-opus-5-5,v1,FALSE
+p000106,2026,brown,migration,2,Migration,claude-opus-5-5,v1,FALSE
+p000112,2026,brown,inequality,1,Inequality,claude-opus-5-5,v1,FALSE
+p000112,2026,brown,education,2,Education,claude-opus-5-5,v1,FALSE
+p000112,2026,brown,population,3,Demography,claude-opus-5-5,v1,FALSE
+p000117,2026,brown,environment,1,Sociology of Climate Change Impacts,claude-opus-5-5,v1,FALSE
+p000117,2026,brown,development,2,International Development,claude-opus-5-5,v1,FALSE
+p000119,2026,brown,rem,1,Race,claude-opus-5-5,v1,FALSE
+p000119,2026,brown,inequality,2,Class,claude-opus-5-5,v1,FALSE
+p000119,2026,brown,education,3,Sociology of Education,claude-opus-5-5,v1,FALSE
+p000121,2026,brown,urban,1,Urban Sociology,claude-opus-5-5,v1,FALSE
+p000121,2026,brown,rem,2,Race and Ethnicity,claude-opus-5-5,v1,FALSE
+p000121,2026,brown,migration,3,Migration and Immigration,claude-opus-5-5,v1,FALSE
+p000122,2026,brown,theory,1,Decolonizing Sociological Theory,claude-opus-5-5,v1,FALSE
+p000122,2026,brown,rem,2,Racialized Modernity,claude-opus-5-5,v1,FALSE
+p000122,2026,brown,marxist,3,Racial and Colonial Capitalism,claude-opus-5-5,v1,FALSE
+p000128,2026,brown,environment,1,Environment and Development,claude-opus-5-5,v1,FALSE
+p000128,2026,brown,development,2,Development,claude-opus-5-5,v1,FALSE
+p000128,2026,brown,population,3,Household Demography,claude-opus-5-5,v1,FALSE
+p000129,2026,brown,inequality,1,Stratification,claude-opus-5-5,v1,FALSE
+p000129,2026,brown,population,2,Demography,claude-opus-5-5,v1,FALSE
+p000129,2026,brown,education,3,Education,claude-opus-5-5,v1,FALSE
+p000131,2026,brown,science,1,Knowledge,claude-opus-5-5,v1,FALSE
+p000131,2026,brown,culture,2,Cultural Sociology,claude-opus-5-5,v1,FALSE
+p000131,2026,brown,global,3,Global and Transnational Sociology,claude-opus-5-5,v1,FALSE
+p000135,2026,brown,pews,1,Global Political Economy,claude-opus-5-5,v1,FALSE
+p000135,2026,brown,global,2,Global and Transnational Sociology,claude-opus-5-5,v1,FALSE
+p000135,2026,brown,development,3,Development,claude-opus-5-5,v1,FALSE
+p000137,2026,brown,development,1,Development,claude-opus-5-5,v1,FALSE
+p000137,2026,brown,political,2,Political Sociology,claude-opus-5-5,v1,FALSE
+p000137,2026,brown,economic,3,Comparative Political Economy,claude-opus-5-5,v1,FALSE
+p000140,2026,brown,culture,1,Culture,claude-opus-5-5,v1,FALSE
+p000140,2026,brown,rgc,2,"Race, Class, and Gender",claude-opus-5-5,v1,FALSE
+p000140,2026,brown,inequality,3,Poverty and Inequality,claude-opus-5-5,v1,FALSE
+p000143,2026,brown,religion,1,Sociology of Religion,claude-opus-5-5,v1,FALSE
+p000143,2026,brown,inequality,2,Inequality and Poverty,claude-opus-5-5,v1,FALSE
+p000143,2026,brown,urban,3,Urban Sociology,claude-opus-5-5,v1,FALSE
+p000144,2026,brown,environment,1,Environment-Society Interactions,claude-opus-5-5,v1,FALSE
+p000144,2026,brown,science,2,Experts and Knowledge/Ignorance,claude-opus-5-5,v1,FALSE
+p000144,2026,brown,movements,3,Social Movements,claude-opus-5-5,v1,FALSE
+p000145,2026,brown,gender,1,Gender,claude-opus-5-5,v1,FALSE
+p000145,2026,brown,population,2,Social Demography,claude-opus-5-5,v1,FALSE
+p000145,2026,brown,medical,3,Global Population Health,claude-opus-5-5,v1,FALSE
+p000146,2026,brown,population,1,Social Demography,claude-opus-5-5,v1,FALSE
+p000146,2026,brown,inequality,2,Stratification,claude-opus-5-5,v1,FALSE
+p000146,2026,brown,family,3,Family,claude-opus-5-5,v1,FALSE
+p000172,2026,bu,migration,1,migration,claude-opus-5-5,v1,FALSE
+p000172,2026,bu,rem,2,race,claude-opus-5-5,v1,FALSE
+p000172,2026,bu,family,3,family,claude-opus-5-5,v1,FALSE
+p000184,2026,buffalo,family,1,Family,claude-opus-5-5,v1,FALSE
+p000184,2026,buffalo,inequality,2,Family Inequality,claude-opus-5-5,v1,FALSE
+p000184,2026,buffalo,aging,3,Aging and Life Course,claude-opus-5-5,v1,FALSE
+p000187,2026,buffalo,urban,1,Urban Sociology,claude-opus-5-5,v1,FALSE
+p000187,2026,buffalo,rem,2,Sociology of Race and Ethnicity,claude-opus-5-5,v1,FALSE
+p000187,2026,buffalo,political,3,Urban Governance,claude-opus-5-5,v1,FALSE
+p000188,2026,buffalo,medical,1,Health,claude-opus-5-5,v1,FALSE
+p000188,2026,buffalo,aging,2,Aging and the Life Course,claude-opus-5-5,v1,FALSE
+p000188,2026,buffalo,family,3,Families,claude-opus-5-5,v1,FALSE
+p000189,2026,buffalo,oow,1,Work and Labor Markets,claude-opus-5-5,v1,FALSE
+p000189,2026,buffalo,labor,2,Labor and Labor Movements,claude-opus-5-5,v1,FALSE
+p000189,2026,buffalo,law,3,Law and Social Policy,claude-opus-5-5,v1,FALSE
+p000190,2026,buffalo,medical,1,Medical Sociology,claude-opus-5-5,v1,FALSE
+p000190,2026,buffalo,population,2,Demography,claude-opus-5-5,v1,FALSE
+p000190,2026,buffalo,methods,3,Research Methods,claude-opus-5-5,v1,FALSE
+p000195,2026,buffalo,gender,1,Gender,claude-opus-5-5,v1,FALSE
+p000195,2026,buffalo,aging,2,Aging,claude-opus-5-5,v1,FALSE
+p000195,2026,buffalo,family,3,Families,claude-opus-5-5,v1,FALSE
+p000198,2026,buffalo,law,1,Sociology of Law,claude-opus-5-5,v1,FALSE
+p000198,2026,buffalo,gender,2,Gender,claude-opus-5-5,v1,FALSE
+p000198,2026,buffalo,sexualities,3,Sexuality,claude-opus-5-5,v1,FALSE
+p000202,2026,buffalo,urban,1,Urban Sociology,claude-opus-5-5,v1,FALSE
+p000202,2026,buffalo,rem,2,Race and Ethnicity,claude-opus-5-5,v1,FALSE
+p000202,2026,buffalo,migration,3,Sociology of Immigration,claude-opus-5-5,v1,FALSE
+p000218,2026,cornell,economic,1,Economy and Society,claude-opus-5-5,v1,FALSE
+p000218,2026,cornell,networks,2,Social Networks,claude-opus-5-5,v1,FALSE
+p000221,2026,cornell,methods,1,Methodology,claude-opus-5-5,v1,FALSE
+p000221,2026,cornell,economic,2,Economy and Society,claude-opus-5-5,v1,FALSE
+p000221,2026,cornell,inequality,3,Inequality and Social Stratification,claude-opus-5-5,v1,FALSE
+p000224,2026,cornell,oow,1,"Organizations, Work and Occupations",claude-opus-5-5,v1,FALSE
+p000224,2026,cornell,political,2,Political Sociology,claude-opus-5-5,v1,FALSE
+p000224,2026,cornell,movements,3,Social Movements,claude-opus-5-5,v1,FALSE
+p000236,2026,cornell,gender,1,Gender,claude-opus-5-5,v1,FALSE
+p000236,2026,cornell,inequality,2,Inequality and Social Stratification,claude-opus-5-5,v1,FALSE
+p000236,2026,cornell,oow,3,"Organizations, Work and Occupations",claude-opus-5-5,v1,FALSE
+p000239,2026,cornell,culture,1,Culture,claude-opus-5-5,v1,FALSE
+p000239,2026,cornell,political,2,Political Sociology,claude-opus-5-5,v1,FALSE
+p000239,2026,cornell,movements,3,Social Movements,claude-opus-5-5,v1,FALSE
+p000242,2026,cornell,economic,1,Economy and Society,claude-opus-5-5,v1,FALSE
+p000242,2026,cornell,networks,2,Social Networks,claude-opus-5-5,v1,FALSE
+p000247,2026,cornell,theory,1,Theory,claude-opus-5-5,v1,FALSE
+p000247,2026,cornell,economic,2,Economic Sociology,claude-opus-5-5,v1,FALSE
+p000247,2026,cornell,comphist,3,Comparative Institutional Analysis,claude-opus-5-5,v1,FALSE
+p000253,2026,cuboulder,crime,1,Incarceration,claude-opus-5-5,v1,FALSE
+p000253,2026,cuboulder,urban,2,Community violence,claude-opus-5-5,v1,FALSE
+p000253,2026,cuboulder,medical,3,Health criminology,claude-opus-5-5,v1,FALSE
+p000303,2026,cwru,medical,1,medical sociology,claude-opus-5-5,v1,FALSE
+p000303,2026,cwru,aging,2,aging individuals,claude-opus-5-5,v1,FALSE
+p000303,2026,cwru,migration,3,migration,claude-opus-5-5,v1,FALSE
+p000311,2026,cwru,inequality,1,socially and economically marginalized communities,claude-opus-5-5,v1,FALSE
+p000312,2026,dartmouth,economic,1,Economic sociology,claude-opus-5-5,v1,FALSE
+p000312,2026,dartmouth,inequality,2,Sociology of stratification,claude-opus-5-5,v1,FALSE
+p000312,2026,dartmouth,oow,3,Sociology of the professions,claude-opus-5-5,v1,FALSE
+p000316,2026,dartmouth,medical,1,Health Disparities,claude-opus-5-5,v1,FALSE
+p000316,2026,dartmouth,rem,2,Race and Ethnicity,claude-opus-5-5,v1,FALSE
+p000316,2026,dartmouth,urban,3,"Urban, Suburban, and Rural Places",claude-opus-5-5,v1,FALSE
+p000319,2026,dartmouth,education,1,Education,claude-opus-5-5,v1,FALSE
+p000319,2026,dartmouth,socpsych,2,Social Psychology,claude-opus-5-5,v1,FALSE
+p000319,2026,dartmouth,gender,3,Gender,claude-opus-5-5,v1,FALSE
+p000320,2026,dartmouth,mentalhealth,1,Mental health,claude-opus-5-5,v1,FALSE
+p000320,2026,dartmouth,medical,2,Health disparities,claude-opus-5-5,v1,FALSE
+p000320,2026,dartmouth,inequality,3,Social stratification and mobility,claude-opus-5-5,v1,FALSE
+p000322,2026,dartmouth,emotions,1,Sociology of Emotion,claude-opus-5-5,v1,FALSE
+p000322,2026,dartmouth,socpsych,2,Social Psychology,claude-opus-5-5,v1,FALSE
+p000326,2026,dartmouth,movements,1,Collective Behavior and Social Movements,claude-opus-5-5,v1,FALSE
+p000326,2026,dartmouth,labor,2,Sociology of Work and Labor,claude-opus-5-5,v1,FALSE
+p000326,2026,dartmouth,political,3,Political Sociology,claude-opus-5-5,v1,FALSE
+p000399,2026,emory,culture,1,Cultural Sociology,claude-opus-5-5,v1,FALSE
+p000399,2026,emory,political,2,Political Sociology,claude-opus-5-5,v1,FALSE
+p000399,2026,emory,socpsych,3,Social Psychology,claude-opus-5-5,v1,FALSE
+p000403,2026,emory,socpsych,1,social psychology,claude-opus-5-5,v1,FALSE
+p000403,2026,emory,oow,2,organizations,claude-opus-5-5,v1,FALSE
+p000403,2026,emory,emotions,3,emotions,claude-opus-5-5,v1,FALSE
+p000418,2026,emory,rem,1,race and ethnic relations,claude-opus-5-5,v1,FALSE
+p000418,2026,emory,rgc,2,race/class/gender intersectionality,claude-opus-5-5,v1,FALSE
+p000418,2026,emory,migration,3,immigration,claude-opus-5-5,v1,FALSE
+p000428,2026,emory,population,1,International Social Demography,claude-opus-5-5,v1,FALSE
+p000428,2026,emory,medical,2,Public Health Research,claude-opus-5-5,v1,FALSE
+p000428,2026,emory,gender,3,Gender,claude-opus-5-5,v1,FALSE
+p000446,2026,emory,movements,1,social protest,claude-opus-5-5,v1,FALSE
+p000446,2026,emory,peace,2,violence,claude-opus-5-5,v1,FALSE
+p000458,2026,gatech,science,1,"Sociology and History of Science, Technology, and Medicine",claude-opus-5-5,v1,FALSE
+p000458,2026,gatech,theory,2,Social Theory,claude-opus-5-5,v1,FALSE
+p000458,2026,gatech,global,3,Globalization and Transnational Transformations,claude-opus-5-5,v1,FALSE
+p000462,2026,gatech,political,1,Political Sociology,claude-opus-5-5,v1,FALSE
+p000462,2026,gatech,pews,2,Political Economy of the World System,claude-opus-5-5,v1,FALSE
+p000462,2026,gatech,movements,3,Social Movements,claude-opus-5-5,v1,FALSE
+p000467,2026,gatech,urban,1,Urban governance,claude-opus-5-5,v1,FALSE
+p000467,2026,gatech,economic,2,entrepreneurship,claude-opus-5-5,v1,FALSE
+p000467,2026,gatech,education,3,higher education,claude-opus-5-5,v1,FALSE
+p000473,2026,gatech,science,1,Critiques of technology,claude-opus-5-5,v1,FALSE
+p000473,2026,gatech,political,2,technofascism,claude-opus-5-5,v1,FALSE
+p000477,2026,gatech,asia,1,China,claude-opus-5-5,v1,FALSE
+p000477,2026,gatech,culture,2,Cultural Studies,claude-opus-5-5,v1,FALSE
+p000477,2026,gatech,comphist,3,Socioeconomic History,claude-opus-5-5,v1,FALSE
+p000478,2026,gatech,science,1,biotechnology,claude-opus-5-5,v1,FALSE
+p000478,2026,gatech,environment,2,conservation,claude-opus-5-5,v1,FALSE
+p000478,2026,gatech,development,3,international development,claude-opus-5-5,v1,FALSE
+p000481,2026,gatech,peace,1,Guerrilla Warfare,claude-opus-5-5,v1,FALSE
+p000481,2026,gatech,political,2,Nationalism,claude-opus-5-5,v1,FALSE
+p000482,2026,gatech,body,1,History of American Sports,claude-opus-5-5,v1,FALSE
+p000482,2026,gatech,culture,2,History of American Popular Culture,claude-opus-5-5,v1,FALSE
+p000491,2026,gatech,body,1,Sport,claude-opus-5-5,v1,FALSE
+p000491,2026,gatech,culture,2,Cultural Studies,claude-opus-5-5,v1,FALSE
+p000491,2026,gatech,rgc,3,Intersectionality,claude-opus-5-5,v1,FALSE
+p000506,2026,gatech,comphist,1,Paris in the eighteenth and nineteenth centuries,claude-opus-5-5,v1,FALSE
+p000506,2026,gatech,urban,2,urban public space,claude-opus-5-5,v1,FALSE
+p000506,2026,gatech,gender,3,gender and women's history,claude-opus-5-5,v1,FALSE
+p000507,2026,gatech,gender,1,Gender,claude-opus-5-5,v1,FALSE
+p000507,2026,gatech,inequality,2,Inequality,claude-opus-5-5,v1,FALSE
+p000507,2026,gatech,development,3,International Development,claude-opus-5-5,v1,FALSE
+p000548,2026,indiana,population,1,social demography,claude-opus-5-5,v1,FALSE
+p000548,2026,indiana,education,2,sociology of education,claude-opus-5-5,v1,FALSE
+p000548,2026,indiana,inequality,3,stratification,claude-opus-5-5,v1,FALSE
+p000549,2026,indiana,mentalhealth,1,Suicide,claude-opus-5-5,v1,FALSE
+p000549,2026,indiana,children,2,Children/Youth,claude-opus-5-5,v1,FALSE
+p000549,2026,indiana,medical,3,Medical Sociology,claude-opus-5-5,v1,FALSE
+p000550,2026,indiana,inequality,1,social stratification,claude-opus-5-5,v1,FALSE
+p000550,2026,indiana,economic,2,economic,claude-opus-5-5,v1,FALSE
+p000550,2026,indiana,political,3,political sociology,claude-opus-5-5,v1,FALSE
+p000554,2026,indiana,medical,1,medical sociology,claude-opus-5-5,v1,FALSE
+p000554,2026,indiana,networks,2,social networks,claude-opus-5-5,v1,FALSE
+p000554,2026,indiana,biology,3,biosociology,claude-opus-5-5,v1,FALSE
+p000555,2026,indiana,medical,1,Medical Sociology,claude-opus-5-5,v1,FALSE
+p000555,2026,indiana,drugs,2,Substance Use,claude-opus-5-5,v1,FALSE
+p000555,2026,indiana,crime,3,Deviance,claude-opus-5-5,v1,FALSE
+p000556,2026,indiana,family,1,sociology of family,claude-opus-5-5,v1,FALSE
+p000556,2026,indiana,education,2,sociology of education,claude-opus-5-5,v1,FALSE
+p000556,2026,indiana,gender,3,gender,claude-opus-5-5,v1,FALSE
+p000564,2026,indiana,rem,1,race/ethnicity,claude-opus-5-5,v1,FALSE
+p000564,2026,indiana,migration,2,immigration,claude-opus-5-5,v1,FALSE
+p000564,2026,indiana,movements,3,collective behavior/social movements,claude-opus-5-5,v1,FALSE
+p000569,2026,indiana,asia,1,China,claude-opus-5-5,v1,FALSE
+p000569,2026,indiana,law,2,law and society,claude-opus-5-5,v1,FALSE
+p000569,2026,indiana,oow,3,work and occupations,claude-opus-5-5,v1,FALSE
+p000578,2026,indiana,family,1,family sociology,claude-opus-5-5,v1,FALSE
+p000578,2026,indiana,population,2,social demography,claude-opus-5-5,v1,FALSE
+p000578,2026,indiana,socpsych,3,social psychology,claude-opus-5-5,v1,FALSE
+p000579,2026,indiana,education,1,Sociology of Education,claude-opus-5-5,v1,FALSE
+p000579,2026,indiana,migration,2,Immigration,claude-opus-5-5,v1,FALSE
+p000579,2026,indiana,asia,3,Asian American Studies,claude-opus-5-5,v1,FALSE
+p000582,2026,indiana,population,1,demography,claude-opus-5-5,v1,FALSE
+p000582,2026,indiana,family,2,family,claude-opus-5-5,v1,FALSE
+p000582,2026,indiana,medical,3,health,claude-opus-5-5,v1,FALSE
+p000587,2026,indiana,socpsych,1,social psychology,claude-opus-5-5,v1,FALSE
+p000587,2026,indiana,mentalhealth,2,mental illness,claude-opus-5-5,v1,FALSE
+p000587,2026,indiana,rem,3,race and ethnicity,claude-opus-5-5,v1,FALSE
+p000602,2026,indiana,gender,1,gender inequality,claude-opus-5-5,v1,FALSE
+p000602,2026,indiana,inequality,2,social inequality,claude-opus-5-5,v1,FALSE
+p000602,2026,indiana,oow,3,work,claude-opus-5-5,v1,FALSE
+p000603,2026,ku,education,1,Sociology of education,claude-opus-5-5,v1,FALSE
+p000603,2026,ku,oow,2,"sociology of organizations, occupations, and work",claude-opus-5-5,v1,FALSE
+p000603,2026,ku,science,3,"science, technology, and society",claude-opus-5-5,v1,FALSE
+p000605,2026,ku,gender,1,Gender,claude-opus-5-5,v1,FALSE
+p000605,2026,ku,sexualities,2,Sexuality,claude-opus-5-5,v1,FALSE
+p000605,2026,ku,comphist,3,Historical Sociology,claude-opus-5-5,v1,FALSE
+p000607,2026,ku,inequality,1,Stratification and Inequality,claude-opus-5-5,v1,FALSE
+p000607,2026,ku,labor,2,Labor Markets,claude-opus-5-5,v1,FALSE
+p000607,2026,ku,economic,3,Economic Sociology,claude-opus-5-5,v1,FALSE
+p000620,2026,ku,gender,1,Sociology of Gender,claude-opus-5-5,v1,FALSE
+p000620,2026,ku,religion,2,Sociology of Religion,claude-opus-5-5,v1,FALSE
+p000620,2026,ku,rem,3,Race and Ethnicity,claude-opus-5-5,v1,FALSE
+p000637,2026,ku,family,1,Family,claude-opus-5-5,v1,FALSE
+p000637,2026,ku,aging,2,Life Course/Aging,claude-opus-5-5,v1,FALSE
+p000637,2026,ku,medical,3,Medical Sociology,claude-opus-5-5,v1,FALSE
+p000641,2026,mcgill,population,1,Social demography,claude-opus-5-5,v1,FALSE
+p000641,2026,mcgill,medical,2,medical sociology,claude-opus-5-5,v1,FALSE
+p000650,2026,mcgill,peace,1,Political Conflict,claude-opus-5-5,v1,FALSE
+p000650,2026,mcgill,humanrights,2,Human Rights,claude-opus-5-5,v1,FALSE
+p000650,2026,mcgill,medical,3,Sociology of Health,claude-opus-5-5,v1,FALSE
+p000652,2026,mcgill,crime,1,Criminology,claude-opus-5-5,v1,FALSE
+p000652,2026,mcgill,movements,2,social movements,claude-opus-5-5,v1,FALSE
+p000652,2026,mcgill,environment,3,climate change concern,claude-opus-5-5,v1,FALSE
+p000656,2026,mcgill,political,1,Political Sociology,claude-opus-5-5,v1,FALSE
+p000656,2026,mcgill,comphist,2,Comparative-Historical Sociology,claude-opus-5-5,v1,FALSE
+p000656,2026,mcgill,peace,3,Ethnic Violence,claude-opus-5-5,v1,FALSE
+p000660,2026,mcgill,population,1,Demography,claude-opus-5-5,v1,FALSE
+p000660,2026,mcgill,family,2,Family Sociology,claude-opus-5-5,v1,FALSE
+p000661,2026,mcgill,population,1,Social demography,claude-opus-5-5,v1,FALSE
+p000661,2026,mcgill,family,2,family and fertility dynamics,claude-opus-5-5,v1,FALSE
+p000661,2026,mcgill,urban,3,rural and urban inequalities,claude-opus-5-5,v1,FALSE
+p000663,2026,mcgill,migration,1,International Migration,claude-opus-5-5,v1,FALSE
+p000663,2026,mcgill,rem,2,Comparative Race and Ethnicity,claude-opus-5-5,v1,FALSE
+p000663,2026,mcgill,political,3,Political Attachments of Migrants,claude-opus-5-5,v1,FALSE
+p000707,2026,mizzou,environment,1,Environmental inequality,claude-opus-5-5,v1,FALSE
+p000707,2026,mizzou,inequality,2,Environmental inequality,claude-opus-5-5,v1,FALSE
+p000707,2026,mizzou,indigenous,3,settler culture,claude-opus-5-5,v1,FALSE
+p000764,2026,northwestern,networks,1,Social Networks,claude-opus-5-5,v1,FALSE
+p000764,2026,northwestern,urban,2,Urban Neighborhoods,claude-opus-5-5,v1,FALSE
+p000764,2026,northwestern,crime,3,Gun Violence,claude-opus-5-5,v1,FALSE
+p000766,2026,northwestern,comphist,1,Comparative Historical Sociology,claude-opus-5-5,v1,FALSE
+p000766,2026,northwestern,global,2,Global and Transnational Sociology,claude-opus-5-5,v1,FALSE
+p000766,2026,northwestern,inequality,3,Inequality/Stratification,claude-opus-5-5,v1,FALSE
+p000772,2026,northwestern,comphist,1,Comparative Sociology,claude-opus-5-5,v1,FALSE
+p000772,2026,northwestern,economic,2,Economy and Society,claude-opus-5-5,v1,FALSE
+p000772,2026,northwestern,law,3,Sociology of Law,claude-opus-5-5,v1,FALSE
+p000781,2026,northwestern,sexualities,1,Sexualities,claude-opus-5-5,v1,FALSE
+p000781,2026,northwestern,migration,2,Migration,claude-opus-5-5,v1,FALSE
+p000781,2026,northwestern,global,3,transnationalism,claude-opus-5-5,v1,FALSE
+p000794,2026,northwestern,law,1,Sociology of Law,claude-opus-5-5,v1,FALSE
+p000794,2026,northwestern,inequality,2,Inequality,claude-opus-5-5,v1,FALSE
+p000794,2026,northwestern,gender,3,Gender,claude-opus-5-5,v1,FALSE
+p000796,2026,northwestern,urban,1,Urban Sociology,claude-opus-5-5,v1,FALSE
+p000796,2026,northwestern,inequality,2,Social Stratification,claude-opus-5-5,v1,FALSE
+p000796,2026,northwestern,rem,3,Race and Ethnicity,claude-opus-5-5,v1,FALSE
+p000805,2026,northwestern,population,1,Mortality,claude-opus-5-5,v1,FALSE
+p000805,2026,northwestern,methods,2,Demographic Methods,claude-opus-5-5,v1,FALSE
+p000805,2026,northwestern,inequality,3,Social Stratification,claude-opus-5-5,v1,FALSE
+p000807,2026,northwestern,law,1,Sociology of Law,claude-opus-5-5,v1,FALSE
+p000807,2026,northwestern,oow,2,Professions,claude-opus-5-5,v1,FALSE
+p000807,2026,northwestern,inequality,3,Inequality,claude-opus-5-5,v1,FALSE
+p000811,2026,northwestern,science,1,"Science, Knowledge, and Technology",claude-opus-5-5,v1,FALSE
+p000811,2026,northwestern,medical,2,Health and Biomedicine,claude-opus-5-5,v1,FALSE
+p000811,2026,northwestern,sexualities,3,Sexualities,claude-opus-5-5,v1,FALSE
+p000827,2026,notredame,education,1,Educational Inequality,claude-opus-5-5,v1,FALSE
+p000827,2026,notredame,inequality,2,Educational Inequality,claude-opus-5-5,v1,FALSE
+p000827,2026,notredame,gender,3,Social construction of gender,claude-opus-5-5,v1,FALSE
+p000829,2026,notredame,population,1,Demography,claude-opus-5-5,v1,FALSE
+p000829,2026,notredame,medical,2,medical sociology,claude-opus-5-5,v1,FALSE
+p000829,2026,notredame,aging,3,aging and the life course,claude-opus-5-5,v1,FALSE
+p000843,2026,notredame,political,1,Political,claude-opus-5-5,v1,FALSE
+p000843,2026,notredame,comphist,2,Comparative Historical,claude-opus-5-5,v1,FALSE
+p000843,2026,notredame,development,3,Development,claude-opus-5-5,v1,FALSE
+p000851,2026,notredame,education,1,Sociology of Education,claude-opus-5-5,v1,FALSE
+p000851,2026,notredame,oow,2,Organizational Behavior,claude-opus-5-5,v1,FALSE
+p000851,2026,notredame,methods,3,Research Methods,claude-opus-5-5,v1,FALSE
+p000860,2026,notredame,inequality,1,Inequality,claude-opus-5-5,v1,FALSE
+p000860,2026,notredame,movements,2,social movements,claude-opus-5-5,v1,FALSE
+p000860,2026,notredame,political,3,political sociology,claude-opus-5-5,v1,FALSE
+p000861,2026,notredame,medical,1,Medical Sociology,claude-opus-5-5,v1,FALSE
+p000861,2026,notredame,mentalhealth,2,Mental Health,claude-opus-5-5,v1,FALSE
+p000861,2026,notredame,socpsych,3,Social Psychology,claude-opus-5-5,v1,FALSE
+p000864,2026,notredame,culture,1,Meaning,claude-opus-5-5,v1,FALSE
+p000864,2026,notredame,media,2,Media,claude-opus-5-5,v1,FALSE
+p000864,2026,notredame,medical,3,Health,claude-opus-5-5,v1,FALSE
+p000865,2026,notredame,oow,1,Organizations,claude-opus-5-5,v1,FALSE
+p000866,2026,notredame,education,1,Sociology of Education,claude-opus-5-5,v1,FALSE
+p000866,2026,notredame,inequality,2,Social Stratification,claude-opus-5-5,v1,FALSE
+p000866,2026,notredame,methods,3,Research Methods and Statistics,claude-opus-5-5,v1,FALSE
+p000869,2026,nyu,rem,1,Race and ethnicity,claude-opus-5-5,v1,FALSE
+p000869,2026,nyu,population,2,demography,claude-opus-5-5,v1,FALSE
+p000869,2026,nyu,science,3,sociology of knowledge and science,claude-opus-5-5,v1,FALSE
+p000882,2026,nyu,political,1,Political sociology,claude-opus-5-5,v1,FALSE
+p000882,2026,nyu,economic,2,economic sociology,claude-opus-5-5,v1,FALSE
+p000882,2026,nyu,methods,3,methodology of social research,claude-opus-5-5,v1,FALSE
+p000885,2026,nyu,urban,1,Urban Studies,claude-opus-5-5,v1,FALSE
+p000885,2026,nyu,environment,2,Climate Change and the Environment,claude-opus-5-5,v1,FALSE
+p000885,2026,nyu,culture,3,Culture,claude-opus-5-5,v1,FALSE
+p000888,2026,nyu,theory,1,Basic sociobehavioral theory,claude-opus-5-5,v1,FALSE
+p000888,2026,nyu,socpsych,2,status,claude-opus-5-5,v1,FALSE
+p000888,2026,nyu,migration,3,international migration,claude-opus-5-5,v1,FALSE
+p000890,2026,nyu,culture,1,Sociology of Culture,claude-opus-5-5,v1,FALSE
+p000890,2026,nyu,methods,2,Theory and Method in Ethnography,claude-opus-5-5,v1,FALSE
+p000890,2026,nyu,religion,3,Sociology of Religion,claude-opus-5-5,v1,FALSE
+p000892,2026,nyu,movements,1,Social Movements,claude-opus-5-5,v1,FALSE
+p000892,2026,nyu,peace,2,Political Violence and Terrorism,claude-opus-5-5,v1,FALSE
+p000892,2026,nyu,comphist,3,Comparative and Historical Sociology,claude-opus-5-5,v1,FALSE
+p000893,2026,nyu,inequality,1,Social inequality,claude-opus-5-5,v1,FALSE
+p000893,2026,nyu,political,2,political sociology,claude-opus-5-5,v1,FALSE
+p000900,2026,nyu,gender,1,Gender,claude-opus-5-5,v1,FALSE
+p000900,2026,nyu,family,2,Family,claude-opus-5-5,v1,FALSE
+p000900,2026,nyu,oow,3,Work and Occupations,claude-opus-5-5,v1,FALSE
+p000903,2026,nyu,population,1,Social Demography,claude-opus-5-5,v1,FALSE
+p000903,2026,nyu,family,2,Family,claude-opus-5-5,v1,FALSE
+p000903,2026,nyu,sexualities,3,Sexual and Contraceptive Behavior,claude-opus-5-5,v1,FALSE
+p000906,2026,nyu,gender,1,Gender Studies,claude-opus-5-5,v1,FALSE
+p000906,2026,nyu,law,2,Law,claude-opus-5-5,v1,FALSE
+p000906,2026,nyu,crime,3,Punishment,claude-opus-5-5,v1,FALSE
+p000908,2026,nyu,inequality,1,Inequality,claude-opus-5-5,v1,FALSE
+p000908,2026,nyu,population,2,Demography,claude-opus-5-5,v1,FALSE
+p000924,2026,nyu,economic,1,Economic sociology,claude-opus-5-5,v1,FALSE
+p000924,2026,nyu,development,2,sociology of development,claude-opus-5-5,v1,FALSE
+p000924,2026,nyu,marxist,3,Marxian theory,claude-opus-5-5,v1,FALSE
+p000925,2026,nyu,asia,1,China,claude-opus-5-5,v1,FALSE
+p000925,2026,nyu,education,2,Education,claude-opus-5-5,v1,FALSE
+p000925,2026,nyu,inequality,3,Inequality and Stratification,claude-opus-5-5,v1,FALSE
+p000930,2026,osu,methods,1,Methodology,claude-opus-5-5,v1,FALSE
+p000930,2026,osu,comphist,2,Comparative & Historical,claude-opus-5-5,v1,FALSE
+p000930,2026,osu,movements,3,Social Movements,claude-opus-5-5,v1,FALSE
+p000942,2026,osu,family,1,Family,claude-opus-5-5,v1,FALSE
+p000942,2026,osu,body,2,Sports & Society,claude-opus-5-5,v1,FALSE
+p000942,2026,osu,inequality,3,Stratification,claude-opus-5-5,v1,FALSE
+p000944,2026,osu,urban,1,Community & Urban,claude-opus-5-5,v1,FALSE
+p000944,2026,osu,medical,2,Health & Medical,claude-opus-5-5,v1,FALSE
+p000944,2026,osu,crime,3,"Crime, Deviance, & Social Control",claude-opus-5-5,v1,FALSE
+p000947,2026,osu,medical,1,Health Disparities,claude-opus-5-5,v1,FALSE
+p000947,2026,osu,population,2,Demography,claude-opus-5-5,v1,FALSE
+p000947,2026,osu,aging,3,Life Course,claude-opus-5-5,v1,FALSE
+p000948,2026,osu,crime,1,"Crime, Deviance, & Social Control",claude-opus-5-5,v1,FALSE
+p000948,2026,osu,networks,2,Social Networks,claude-opus-5-5,v1,FALSE
+p000948,2026,osu,socpsych,3,Group Processes,claude-opus-5-5,v1,FALSE
+p000952,2026,osu,socpsych,1,Groups Processes,claude-opus-5-5,v1,FALSE
+p000952,2026,osu,networks,2,Networks,claude-opus-5-5,v1,FALSE
+p000952,2026,osu,methods,3,Methodology,claude-opus-5-5,v1,FALSE
+p000955,2026,osu,rgc,1,"Gender, Race, & Class",claude-opus-5-5,v1,FALSE
+p000956,2026,osu,rgc,1,"Gender, Class, & Race",claude-opus-5-5,v1,FALSE
+p000956,2026,osu,family,2,Family,claude-opus-5-5,v1,FALSE
+p000961,2026,osu,theory,1,Theory,claude-opus-5-5,v1,FALSE
+p000961,2026,osu,culture,2,Cultural Sociology,claude-opus-5-5,v1,FALSE
+p000961,2026,osu,political,3,Political Sociology,claude-opus-5-5,v1,FALSE
+p000964,2026,osu,crime,1,Criminology,claude-opus-5-5,v1,FALSE
+p000964,2026,osu,peace,2,Peace & Conflict,claude-opus-5-5,v1,FALSE
+p000964,2026,osu,law,3,Sociology of Law,claude-opus-5-5,v1,FALSE
+p000972,2026,osu,medical,1,Health & Medical,claude-opus-5-5,v1,FALSE
+p000972,2026,osu,family,2,Family,claude-opus-5-5,v1,FALSE
+p000972,2026,osu,population,3,Population,claude-opus-5-5,v1,FALSE
+p000978,2026,osu,oow,1,Organizational Systems,claude-opus-5-5,v1,FALSE
+p000978,2026,osu,rem,2,Race,claude-opus-5-5,v1,FALSE
+p000978,2026,osu,religion,3,Religion,claude-opus-5-5,v1,FALSE
+p000979,2026,osu,family,1,Family,claude-opus-5-5,v1,FALSE
+p000979,2026,osu,medical,2,Health,claude-opus-5-5,v1,FALSE
+p000979,2026,osu,population,3,Population,claude-opus-5-5,v1,FALSE
+p000980,2026,osu,crime,1,"Crime, Deviance, and Social Control",claude-opus-5-5,v1,FALSE
+p000980,2026,osu,methods,2,Methodology,claude-opus-5-5,v1,FALSE
+p000980,2026,osu,political,3,Political Sociology,claude-opus-5-5,v1,FALSE
+p000986,2026,osu,crime,1,"Crime, Deviance, & Social Control",claude-opus-5-5,v1,FALSE
+p000986,2026,osu,medical,2,Health & Medical,claude-opus-5-5,v1,FALSE
+p000986,2026,osu,methods,3,Methodology,claude-opus-5-5,v1,FALSE
+p000988,2026,osu,inequality,1,Socio-Economic Disadvantage,claude-opus-5-5,v1,FALSE
+p000988,2026,osu,crime,2,Criminology,claude-opus-5-5,v1,FALSE
+p000988,2026,osu,oow,3,Employment,claude-opus-5-5,v1,FALSE
+p000990,2026,osu,inequality,1,Social Inequality,claude-opus-5-5,v1,FALSE
+p000990,2026,osu,economic,2,"Credit, and Debt",claude-opus-5-5,v1,FALSE
+p000990,2026,osu,family,3,Family,claude-opus-5-5,v1,FALSE
+p000993,2026,osu,migration,1,Immigration/Migration,claude-opus-5-5,v1,FALSE
+p000993,2026,osu,population,2,Social Demography,claude-opus-5-5,v1,FALSE
+p000993,2026,osu,rem,3,Racial/Ethnic Inequality,claude-opus-5-5,v1,FALSE
+p000994,2026,osu,family,1,Family,claude-opus-5-5,v1,FALSE
+p000994,2026,osu,rgc,2,"Gender, Race, & Class",claude-opus-5-5,v1,FALSE
+p000994,2026,osu,medical,3,Health & Medical,claude-opus-5-5,v1,FALSE
+p000998,2026,osu,crime,1,Crime & Deviance,claude-opus-5-5,v1,FALSE
+p000998,2026,osu,peace,2,Inter-group Conflict,claude-opus-5-5,v1,FALSE
+p000998,2026,osu,law,3,Sociology of Law,claude-opus-5-5,v1,FALSE
+p000999,2026,osu,population,1,Formal Demography,claude-opus-5-5,v1,FALSE
+p000999,2026,osu,medical,2,Epidemiology & Health Metrics,claude-opus-5-5,v1,FALSE
+p000999,2026,osu,methods,3,Methods & Data,claude-opus-5-5,v1,FALSE
+p001000,2026,osu,family,1,Family,claude-opus-5-5,v1,FALSE
+p001000,2026,osu,medical,2,Health & Medical,claude-opus-5-5,v1,FALSE
+p001000,2026,osu,population,3,Population,claude-opus-5-5,v1,FALSE
+p001002,2026,osu,oow,1,"Work, Economy, & Organizations",claude-opus-5-5,v1,FALSE
+p001002,2026,osu,economic,2,Economy,claude-opus-5-5,v1,FALSE
+p001002,2026,osu,methods,3,Qualitative Methodology,claude-opus-5-5,v1,FALSE
+p001009,2026,osu,urban,1,Community & Urban,claude-opus-5-5,v1,FALSE
+p001012,2026,osu,rgc,1,"Gender, Race, & Class",claude-opus-5-5,v1,FALSE
+p001012,2026,osu,education,2,Education,claude-opus-5-5,v1,FALSE
+p001012,2026,osu,oow,3,Work,claude-opus-5-5,v1,FALSE
+p001042,2026,purdue,media,1,Communication and Media,claude-opus-5-5,v1,FALSE
+p001042,2026,purdue,gender,2,Sex and Gender,claude-opus-5-5,v1,FALSE
+p001042,2026,purdue,body,3,Sport,claude-opus-5-5,v1,FALSE
+p001043,2026,purdue,medical,1,Sexual and Reproductive Health,claude-opus-5-5,v1,FALSE
+p001043,2026,purdue,population,2,Fertility,claude-opus-5-5,v1,FALSE
+p001043,2026,purdue,family,3,Family Formation,claude-opus-5-5,v1,FALSE
+p001050,2026,purdue,law,1,sociology of law,claude-opus-5-5,v1,FALSE
+p001050,2026,purdue,oow,2,sociology of organizations,claude-opus-5-5,v1,FALSE
+p001050,2026,purdue,gender,3,gender,claude-opus-5-5,v1,FALSE
+p001051,2026,purdue,biology,1,Sociogenomics,claude-opus-5-5,v1,FALSE
+p001053,2026,purdue,religion,1,sociology of religion,claude-opus-5-5,v1,FALSE
+p001053,2026,purdue,migration,2,immigrant religion,claude-opus-5-5,v1,FALSE
+p001056,2026,purdue,family,1,parent-adult child relations,claude-opus-5-5,v1,FALSE
+p001056,2026,purdue,socpsych,2,interpersonal relations,claude-opus-5-5,v1,FALSE
+p001056,2026,purdue,mentalhealth,3,well-being,claude-opus-5-5,v1,FALSE
+p001060,2026,purdue,oow,1,Work and Organizations,claude-opus-5-5,v1,FALSE
+p001060,2026,purdue,family,2,Work and Family,claude-opus-5-5,v1,FALSE
+p001060,2026,purdue,inequality,3,Stratification/Inequality,claude-opus-5-5,v1,FALSE
+p001065,2026,purdue,oow,1,Work and organizations,claude-opus-5-5,v1,FALSE
+p001065,2026,purdue,inequality,2,Social stratification and inequality,claude-opus-5-5,v1,FALSE
+p001065,2026,purdue,rgc,3,"Race/Ethnicity, Gender, Class",claude-opus-5-5,v1,FALSE
+p001072,2026,purdue,law,1,Law & Society,claude-opus-5-5,v1,FALSE
+p001075,2026,purdue,movements,1,social movements,claude-opus-5-5,v1,FALSE
+p001075,2026,purdue,political,2,political sociology,claude-opus-5-5,v1,FALSE
+p001075,2026,purdue,gender,3,gender,claude-opus-5-5,v1,FALSE
+p001079,2026,purdue,law,1,Law & Society,claude-opus-5-5,v1,FALSE
+p001080,2026,purdue,networks,1,social networks,claude-opus-5-5,v1,FALSE
+p001080,2026,purdue,methods,2,evaluation research,claude-opus-5-5,v1,FALSE
+p001085,2026,purdue,methods,1,Methodology,claude-opus-5-5,v1,FALSE
+p001085,2026,purdue,socpsych,2,Social Psychology,claude-opus-5-5,v1,FALSE
+p001085,2026,purdue,medical,3,Health & Well-Being,claude-opus-5-5,v1,FALSE
+p002647,2026,rice,inequality,1,Social Stratification,claude-opus-5-5,v1,FALSE
+p002647,2026,rice,medical,2,Health and Medicine,claude-opus-5-5,v1,FALSE
+p002647,2026,rice,culture,3,Culture and Cognition,claude-opus-5-5,v1,FALSE
+p002649,2026,rice,religion,1,Religion,claude-opus-5-5,v1,FALSE
+p002649,2026,rice,science,2,Science,claude-opus-5-5,v1,FALSE
+p002649,2026,rice,migration,3,Immigration,claude-opus-5-5,v1,FALSE
+p002655,2026,rice,urban,1,Urban & Community Sociology,claude-opus-5-5,v1,FALSE
+p002655,2026,rice,environment,2,Environmental Sociology,claude-opus-5-5,v1,FALSE
+p002655,2026,rice,inequality,3,Social Stratification & Inequality,claude-opus-5-5,v1,FALSE
+p002656,2026,rice,rem,1,Race/Ethnicity,claude-opus-5-5,v1,FALSE
+p002656,2026,rice,inequality,2,Inequality,claude-opus-5-5,v1,FALSE
+p002656,2026,rice,population,3,Demography,claude-opus-5-5,v1,FALSE
+p002663,2026,rice,migration,1,International Migration,claude-opus-5-5,v1,FALSE
+p002663,2026,rice,rem,2,Race and Ethnicity,claude-opus-5-5,v1,FALSE
+p002663,2026,rice,children,3,Children,claude-opus-5-5,v1,FALSE
+p002667,2026,rice,inequality,1,Poverty and Inequality,claude-opus-5-5,v1,FALSE
+p002667,2026,rice,family,2,Family,claude-opus-5-5,v1,FALSE
+p002667,2026,rice,medical,3,Population Health,claude-opus-5-5,v1,FALSE
+p002669,2026,rice,education,1,Educational Inequality,claude-opus-5-5,v1,FALSE
+p002669,2026,rice,inequality,2,Educational Inequality,claude-opus-5-5,v1,FALSE
+p002674,2026,rice,rem,1,Anti-Blackness,claude-opus-5-5,v1,FALSE
+p002674,2026,rice,medical,2,Health Disparities,claude-opus-5-5,v1,FALSE
+p002674,2026,rice,socpsych,3,Racial Attitudes,claude-opus-5-5,v1,FALSE
+p001091,2026,rutgers,gender,1,Gender,claude-opus-5-5,v1,FALSE
+p001091,2026,rutgers,sexualities,2,Sexuality,claude-opus-5-5,v1,FALSE
+p001091,2026,rutgers,body,3,Embodiment,claude-opus-5-5,v1,FALSE
+p001102,2026,rutgers,culture,1,Culture,claude-opus-5-5,v1,FALSE
+p001102,2026,rutgers,gender,2,Gender,claude-opus-5-5,v1,FALSE
+p001102,2026,rutgers,sexualities,3,Sexuality,claude-opus-5-5,v1,FALSE
+p001108,2026,rutgers,environment,1,Environment,claude-opus-5-5,v1,FALSE
+p001108,2026,rutgers,gender,2,Gender,claude-opus-5-5,v1,FALSE
+p001108,2026,rutgers,sexualities,3,Sexuality,claude-opus-5-5,v1,FALSE
+p001112,2026,rutgers,culture,1,Culture,claude-opus-5-5,v1,FALSE
+p001112,2026,rutgers,gender,2,Gender,claude-opus-5-5,v1,FALSE
+p001112,2026,rutgers,sexualities,3,Sexuality,claude-opus-5-5,v1,FALSE
+p001118,2026,rutgers,crime,1,Crime,claude-opus-5-5,v1,FALSE
+p001118,2026,rutgers,medical,2,Health,claude-opus-5-5,v1,FALSE
+p001118,2026,rutgers,population,3,Population,claude-opus-5-5,v1,FALSE
+p001137,2026,rutgers,medical,1,Health,claude-opus-5-5,v1,FALSE
+p001137,2026,rutgers,population,2,Population,claude-opus-5-5,v1,FALSE
+p001137,2026,rutgers,rem,3,"Race, Ethnicity",claude-opus-5-5,v1,FALSE
+p001147,2026,stanford,population,1,Sociology of population/demography,claude-opus-5-5,v1,FALSE
+p001147,2026,stanford,rem,2,Racial and ethnic minorities,claude-opus-5-5,v1,FALSE
+p001147,2026,stanford,gender,3,Sociology of sex and gender,claude-opus-5-5,v1,FALSE
+p001149,2026,stanford,asia,1,Asia and Asian America,claude-opus-5-5,v1,FALSE
+p001149,2026,stanford,comphist,2,Comparative-historical sociology,claude-opus-5-5,v1,FALSE
+p001149,2026,stanford,political,3,Political Sociology,claude-opus-5-5,v1,FALSE
+p001154,2026,stanford,rem,1,Racial and ethnic minorities,claude-opus-5-5,v1,FALSE
+p001158,2026,stanford,inequality,1,"Inequality, poverty, and mobility",claude-opus-5-5,v1,FALSE
+p001162,2026,stanford,urban,1,Community and urban sociology,claude-opus-5-5,v1,FALSE
+p001162,2026,stanford,crime,2,"Crime, law, and deviance",claude-opus-5-5,v1,FALSE
+p001162,2026,stanford,culture,3,Sociology of culture,claude-opus-5-5,v1,FALSE
+p001164,2026,stanford,movements,1,Collective behavior and social movements,claude-opus-5-5,v1,FALSE
+p001164,2026,stanford,comphist,2,Comparative-historical sociology,claude-opus-5-5,v1,FALSE
+p001164,2026,stanford,asia,3,Asia and Asian America,claude-opus-5-5,v1,FALSE
+p001169,2026,stanford,inequality,1,"Inequality, poverty, and mobility",claude-opus-5-5,v1,FALSE
+p001169,2026,stanford,socpsych,2,Social psychology,claude-opus-5-5,v1,FALSE
+p001169,2026,stanford,medical,3,Sociology of health and medicine,claude-opus-5-5,v1,FALSE
+p001173,2026,stanford,comphist,1,Comparative-historical sociology,claude-opus-5-5,v1,FALSE
+p001173,2026,stanford,political,2,Political sociology,claude-opus-5-5,v1,FALSE
+p001173,2026,stanford,movements,3,Collective behavior and social movements,claude-opus-5-5,v1,FALSE
+p001179,2026,stanford,family,1,Family,claude-opus-5-5,v1,FALSE
+p001179,2026,stanford,population,2,Sociology of population/demography,claude-opus-5-5,v1,FALSE
+p001179,2026,stanford,gender,3,Sociology of sex and gender,claude-opus-5-5,v1,FALSE
+p001185,2026,stanford,socpsych,1,Social psychology,claude-opus-5-5,v1,FALSE
+p001185,2026,stanford,political,2,Political sociology,claude-opus-5-5,v1,FALSE
+p001185,2026,stanford,movements,3,Collective behavior and social movements,claude-opus-5-5,v1,FALSE
+p001190,2026,stanford,gender,1,Sociology of sex and gender,claude-opus-5-5,v1,FALSE
+p001190,2026,stanford,oow,2,"Organizations, occupations, and work",claude-opus-5-5,v1,FALSE
+p001190,2026,stanford,socpsych,3,Social psychology,claude-opus-5-5,v1,FALSE
+p001192,2026,stanford,migration,1,International migration,claude-opus-5-5,v1,FALSE
+p001192,2026,stanford,rem,2,Racial and ethnic minorities,claude-opus-5-5,v1,FALSE
+p001192,2026,stanford,inequality,3,"Inequality, poverty, and mobility",claude-opus-5-5,v1,FALSE
+p001195,2026,stanford,asia,1,Asia and Asian America,claude-opus-5-5,v1,FALSE
+p001195,2026,stanford,economic,2,Economic Sociology,claude-opus-5-5,v1,FALSE
+p001195,2026,stanford,oow,3,"Organizations, occupations, and work",claude-opus-5-5,v1,FALSE
+p001200,2026,stonybrook,oow,1,Internships,claude-opus-5-5,v1,FALSE
+p001200,2026,stonybrook,disability,2,Disabilities,claude-opus-5-5,v1,FALSE
+p001200,2026,stonybrook,aging,3,Transition to Adulthood,claude-opus-5-5,v1,FALSE
+p001204,2026,stonybrook,political,1,Political Sociology,claude-opus-5-5,v1,FALSE
+p001204,2026,stonybrook,culture,2,Memory Studies,claude-opus-5-5,v1,FALSE
+p001204,2026,stonybrook,comphist,3,Comparative Historical Sociology,claude-opus-5-5,v1,FALSE
+p001212,2026,stonybrook,environment,1,Environmental Sociology,claude-opus-5-5,v1,FALSE
+p001212,2026,stonybrook,global,2,Globalization,claude-opus-5-5,v1,FALSE
+p001212,2026,stonybrook,methods,3,Quantitative Methodology,claude-opus-5-5,v1,FALSE
+p001214,2026,stonybrook,political,1,Political sociology,claude-opus-5-5,v1,FALSE
+p001214,2026,stonybrook,movements,2,social movements,claude-opus-5-5,v1,FALSE
+p001214,2026,stonybrook,gender,3,gender,claude-opus-5-5,v1,FALSE
+p001217,2026,stonybrook,gender,1,Gender,claude-opus-5-5,v1,FALSE
+p001217,2026,stonybrook,global,2,Globalization,claude-opus-5-5,v1,FALSE
+p001217,2026,stonybrook,humanrights,3,Human Rights,claude-opus-5-5,v1,FALSE
+p001249,2026,tamu,crime,1,Crime Law & Deviance,claude-opus-5-5,v1,FALSE
+p001249,2026,tamu,oow,2,Organizational,claude-opus-5-5,v1,FALSE
+p001249,2026,tamu,political,3,Political,claude-opus-5-5,v1,FALSE
+p001253,2026,tamu,socpsych,1,Social Psychology,claude-opus-5-5,v1,FALSE
+p001253,2026,tamu,inequality,2,Inequality,claude-opus-5-5,v1,FALSE
+p001253,2026,tamu,networks,3,Social Capital,claude-opus-5-5,v1,FALSE
+p001270,2026,tamu,population,1,Demography,claude-opus-5-5,v1,FALSE
+p001270,2026,tamu,rgc,2,Race Class & Gender,claude-opus-5-5,v1,FALSE
+p001270,2026,tamu,socpsych,3,Social Psychology,claude-opus-5-5,v1,FALSE
+p001271,2026,tamu,culture,1,Culture,claude-opus-5-5,v1,FALSE
+p001271,2026,tamu,rgc,2,Race Class & Gender,claude-opus-5-5,v1,FALSE
+p001274,2026,tamu,rgc,1,Race Class & Gender,claude-opus-5-5,v1,FALSE
+p001274,2026,tamu,oow,2,Organizational,claude-opus-5-5,v1,FALSE
+p001274,2026,tamu,political,3,Political,claude-opus-5-5,v1,FALSE
+p001275,2026,tamu,oow,1,Organizational,claude-opus-5-5,v1,FALSE
+p001275,2026,tamu,political,2,Political,claude-opus-5-5,v1,FALSE
+p001275,2026,tamu,economic,3,Economic Sociology,claude-opus-5-5,v1,FALSE
+p001279,2026,tamu,crime,1,Criminology,claude-opus-5-5,v1,FALSE
+p001279,2026,tamu,rem,2,Race,claude-opus-5-5,v1,FALSE
+p001279,2026,tamu,latinx,3,Latina/o/x Criminology/Sociology,claude-opus-5-5,v1,FALSE
+p001283,2026,tamu,theory,1,Social theory,claude-opus-5-5,v1,FALSE
+p001283,2026,tamu,culture,2,Culture,claude-opus-5-5,v1,FALSE
+p001283,2026,tamu,peace,3,War Crimes,claude-opus-5-5,v1,FALSE
+p001284,2026,tamu,gender,1,Gender,claude-opus-5-5,v1,FALSE
+p001284,2026,tamu,medical,2,Health and Medicine,claude-opus-5-5,v1,FALSE
+p001284,2026,tamu,oow,3,Organizations,claude-opus-5-5,v1,FALSE
+p001297,2026,tufts,migration,1,Immigration,claude-opus-5-5,v1,FALSE
+p001297,2026,tufts,rem,2,Race and Ethnicity,claude-opus-5-5,v1,FALSE
+p001297,2026,tufts,inequality,3,Social Class,claude-opus-5-5,v1,FALSE
+p001300,2026,tufts,education,1,Education,claude-opus-5-5,v1,FALSE
+p001300,2026,tufts,rem,2,race,claude-opus-5-5,v1,FALSE
+p001300,2026,tufts,migration,3,immigration,claude-opus-5-5,v1,FALSE
+p001304,2026,tufts,media,1,Media,claude-opus-5-5,v1,FALSE
+p001304,2026,tufts,political,2,Political Culture,claude-opus-5-5,v1,FALSE
+p001304,2026,tufts,movements,3,Social Movements,claude-opus-5-5,v1,FALSE
+p001310,2026,uarizona,environment,1,Environmental sociology,claude-opus-5-5,v1,FALSE
+p001310,2026,uarizona,medical,2,Health,claude-opus-5-5,v1,FALSE
+p001310,2026,uarizona,science,3,"Science, Knowledge, and Innovation",claude-opus-5-5,v1,FALSE
+p001314,2026,uarizona,rem,1,Race & Ethnicity,claude-opus-5-5,v1,FALSE
+p001314,2026,uarizona,law,2,Law & Society,claude-opus-5-5,v1,FALSE
+p001314,2026,uarizona,crime,3,Criminology,claude-opus-5-5,v1,FALSE
+p001318,2026,uarizona,oow,1,Organizations & Work,claude-opus-5-5,v1,FALSE
+p001318,2026,uarizona,science,2,"Science, Knowledge, and Innovation",claude-opus-5-5,v1,FALSE
+p001318,2026,uarizona,methods,3,Statistics and Methods,claude-opus-5-5,v1,FALSE
+p001323,2026,uarizona,oow,1,Organizations & Work,claude-opus-5-5,v1,FALSE
+p001323,2026,uarizona,political,2,Political sociology,claude-opus-5-5,v1,FALSE
+p001323,2026,uarizona,science,3,"Science, Knowledge, and Innovation",claude-opus-5-5,v1,FALSE
+p001331,2026,uarizona,gender,1,Gender,claude-opus-5-5,v1,FALSE
+p001331,2026,uarizona,family,2,Family,claude-opus-5-5,v1,FALSE
+p001331,2026,uarizona,law,3,Law & Society,claude-opus-5-5,v1,FALSE
+p001340,2026,uarizona,networks,1,Networks,claude-opus-5-5,v1,FALSE
+p001340,2026,uarizona,inequality,2,Stratification,claude-opus-5-5,v1,FALSE
+p001340,2026,uarizona,science,3,"Science, Knowledge, and Innovation",claude-opus-5-5,v1,FALSE
+p001349,2026,ucberkeley,culture,1,Culture,claude-opus-5-5,v1,FALSE
+p001349,2026,ucberkeley,religion,2,religion,claude-opus-5-5,v1,FALSE
+p001349,2026,ucberkeley,theory,3,theory,claude-opus-5-5,v1,FALSE
+p001361,2026,ucberkeley,political,1,Political sociology,claude-opus-5-5,v1,FALSE
+p001361,2026,ucberkeley,theory,2,Social theory,claude-opus-5-5,v1,FALSE
+p001361,2026,ucberkeley,religion,3,Religion,claude-opus-5-5,v1,FALSE
+p001362,2026,ucberkeley,networks,1,Personal networks,claude-opus-5-5,v1,FALSE
+p001362,2026,ucberkeley,comphist,2,American social history,claude-opus-5-5,v1,FALSE
+p001362,2026,ucberkeley,science,3,technology,claude-opus-5-5,v1,FALSE
+p001363,2026,ucberkeley,political,1,Welfare State,claude-opus-5-5,v1,FALSE
+p001363,2026,ucberkeley,migration,2,Immigration,claude-opus-5-5,v1,FALSE
+p001363,2026,ucberkeley,rem,3,Race and Ethnic Relations,claude-opus-5-5,v1,FALSE
+p001367,2026,ucberkeley,inequality,1,poverty,claude-opus-5-5,v1,FALSE
+p001367,2026,ucberkeley,methods,2,causal inference,claude-opus-5-5,v1,FALSE
+p001367,2026,ucberkeley,crime,3,criminal legal systems,claude-opus-5-5,v1,FALSE
+p001368,2026,ucberkeley,political,1,Political Sociology,claude-opus-5-5,v1,FALSE
+p001368,2026,ucberkeley,comphist,2,Comparative Historical Sociology,claude-opus-5-5,v1,FALSE
+p001368,2026,ucberkeley,theory,3,Social Theory,claude-opus-5-5,v1,FALSE
+p001373,2026,ucberkeley,inequality,1,Inequality,claude-opus-5-5,v1,FALSE
+p001373,2026,ucberkeley,culture,2,Culture,claude-opus-5-5,v1,FALSE
+p001373,2026,ucberkeley,rem,3,Race and Ethnicity,claude-opus-5-5,v1,FALSE
+p001375,2026,ucberkeley,oow,1,Organizational theory,claude-opus-5-5,v1,FALSE
+p001375,2026,ucberkeley,economic,2,economic sociology,claude-opus-5-5,v1,FALSE
+p001375,2026,ucberkeley,comphist,3,historical sociology,claude-opus-5-5,v1,FALSE
+p001380,2026,ucberkeley,culture,1,Culture,claude-opus-5-5,v1,FALSE
+p001380,2026,ucberkeley,population,2,population,claude-opus-5-5,v1,FALSE
+p001380,2026,ucberkeley,science,3,epistemology,claude-opus-5-5,v1,FALSE
+p001385,2026,ucberkeley,theory,1,Social theory,claude-opus-5-5,v1,FALSE
+p001388,2026,ucberkeley,labor,1,Labor,claude-opus-5-5,v1,FALSE
+p001388,2026,ucberkeley,movements,2,social movements,claude-opus-5-5,v1,FALSE
+p001388,2026,ucberkeley,inequality,3,inequality,claude-opus-5-5,v1,FALSE
+p001389,2026,ucberkeley,labor,1,Labor,claude-opus-5-5,v1,FALSE
+p001389,2026,ucberkeley,inequality,2,social stratification and mobility,claude-opus-5-5,v1,FALSE
+p001389,2026,ucberkeley,population,3,demography,claude-opus-5-5,v1,FALSE
+p001392,2026,ucberkeley,development,1,Development in Latin America,claude-opus-5-5,v1,FALSE
+p001392,2026,ucberkeley,migration,2,Latin American Emigration to Europe,claude-opus-5-5,v1,FALSE
+p001392,2026,ucberkeley,urban,3,Rural Sociology,claude-opus-5-5,v1,FALSE
+p001397,2026,ucberkeley,body,1,Embodiment,claude-opus-5-5,v1,FALSE
+p001397,2026,ucberkeley,crime,2,penal state,claude-opus-5-5,v1,FALSE
+p001397,2026,ucberkeley,inequality,3,comparative urban inequality and marginality,claude-opus-5-5,v1,FALSE
+p001401,2026,ucberkeley,comphist,1,Comparative and historical sociology,claude-opus-5-5,v1,FALSE
+p001401,2026,ucberkeley,political,2,political sociology,claude-opus-5-5,v1,FALSE
+p001401,2026,ucberkeley,rem,3,ethnoracial politics,claude-opus-5-5,v1,FALSE
+p001404,2026,ucberkeley,economic,1,Economic sociology,claude-opus-5-5,v1,FALSE
+p001404,2026,ucberkeley,culture,2,culture,claude-opus-5-5,v1,FALSE
+p001404,2026,ucberkeley,political,3,political sociology,claude-opus-5-5,v1,FALSE
+p001405,2026,ucberkeley,inequality,1,Sociology of poverty,claude-opus-5-5,v1,FALSE
+p001405,2026,ucberkeley,rem,2,race and ethnicity,claude-opus-5-5,v1,FALSE
+p001405,2026,ucberkeley,peace,3,social violence,claude-opus-5-5,v1,FALSE
+p001413,2026,ucberkeley,economic,1,Economic sociology,claude-opus-5-5,v1,FALSE
+p001413,2026,ucberkeley,oow,2,organizational theory,claude-opus-5-5,v1,FALSE
+p001416,2026,ucberkeley,gender,1,Gender,claude-opus-5-5,v1,FALSE
+p001416,2026,ucberkeley,inequality,2,emerging middle classes,claude-opus-5-5,v1,FALSE
+p001416,2026,ucberkeley,asia,3,South Asia,claude-opus-5-5,v1,FALSE
+p001417,2026,ucberkeley,rem,1,Race,claude-opus-5-5,v1,FALSE
+p001417,2026,ucberkeley,crime,2,Punishment,claude-opus-5-5,v1,FALSE
+p001417,2026,ucberkeley,inequality,3,Poverty,claude-opus-5-5,v1,FALSE
+p001428,2026,ucberkeley,oow,1,Organizations,claude-opus-5-5,v1,FALSE
+p001428,2026,ucberkeley,inequality,2,social stratification,claude-opus-5-5,v1,FALSE
+p001428,2026,ucberkeley,economic,3,economic sociology,claude-opus-5-5,v1,FALSE
+p001433,2026,uchicago,culture,1,Cultural change,claude-opus-5-5,v1,FALSE
+p001433,2026,uchicago,science,2,ways of knowing and understanding,claude-opus-5-5,v1,FALSE
+p001433,2026,uchicago,socpsych,3,identity,claude-opus-5-5,v1,FALSE
+p001434,2026,uchicago,oow,1,Professions and work,claude-opus-5-5,v1,FALSE
+p001434,2026,uchicago,urban,2,urban sociology,claude-opus-5-5,v1,FALSE
+p001434,2026,uchicago,comphist,3,historical sociology,claude-opus-5-5,v1,FALSE
+p001443,2026,uchicago,political,1,Political sociology,claude-opus-5-5,v1,FALSE
+p001443,2026,uchicago,oow,2,organizational analysis,claude-opus-5-5,v1,FALSE
+p001443,2026,uchicago,comphist,3,historical sociology,claude-opus-5-5,v1,FALSE
+p001444,2026,uchicago,inequality,1,Inequality,claude-opus-5-5,v1,FALSE
+p001444,2026,uchicago,socpsych,2,social psychology,claude-opus-5-5,v1,FALSE
+p001444,2026,uchicago,urban,3,urban sociology,claude-opus-5-5,v1,FALSE
+p001451,2026,uchicago,science,1,science of science,claude-opus-5-5,v1,FALSE
+p001451,2026,uchicago,methods,2,computational social science,claude-opus-5-5,v1,FALSE
+p001451,2026,uchicago,networks,3,field and networks,claude-opus-5-5,v1,FALSE
+p001452,2026,uchicago,population,1,Demography,claude-opus-5-5,v1,FALSE
+p001452,2026,uchicago,religion,2,sociology of religion,claude-opus-5-5,v1,FALSE
+p001455,2026,uchicago,political,1,political fields,claude-opus-5-5,v1,FALSE
+p001455,2026,uchicago,methods,2,quantitative study of qualities,claude-opus-5-5,v1,FALSE
+p001456,2026,uchicago,comphist,1,historical sociology,claude-opus-5-5,v1,FALSE
+p001456,2026,uchicago,theory,2,social theory,claude-opus-5-5,v1,FALSE
+p001456,2026,uchicago,global,3,global and transnational sociology,claude-opus-5-5,v1,FALSE
+p001458,2026,uchicago,economic,1,Economic sociology,claude-opus-5-5,v1,FALSE
+p001458,2026,uchicago,science,2,sociology of science,claude-opus-5-5,v1,FALSE
+p001458,2026,uchicago,consumption,3,consumption,claude-opus-5-5,v1,FALSE
+p001460,2026,uchicago,mathematical,1,mathematical models for social phenomena,claude-opus-5-5,v1,FALSE
+p001460,2026,uchicago,methods,2,statistical models for social data,claude-opus-5-5,v1,FALSE
+p001460,2026,uchicago,aging,3,life course,claude-opus-5-5,v1,FALSE
+p001461,2026,uchicago,economic,1,Economic sociology,claude-opus-5-5,v1,FALSE
+p001461,2026,uchicago,law,2,law,claude-opus-5-5,v1,FALSE
+p001461,2026,uchicago,global,3,global sociology,claude-opus-5-5,v1,FALSE
+p001463,2026,uchicago,medical,1,Health & society,claude-opus-5-5,v1,FALSE
+p001463,2026,uchicago,aging,2,aging,claude-opus-5-5,v1,FALSE
+p001463,2026,uchicago,family,3,family,claude-opus-5-5,v1,FALSE
+p001469,2026,uchicago,urban,1,Critical urban theory and capitalist urbanization,claude-opus-5-5,v1,FALSE
+p001469,2026,uchicago,environment,2,global political ecology,claude-opus-5-5,v1,FALSE
+p001469,2026,uchicago,economic,3,economic sociology,claude-opus-5-5,v1,FALSE
+p001474,2026,uchicago,crime,1,policing,claude-opus-5-5,v1,FALSE
+p001474,2026,uchicago,urban,2,urban studies,claude-opus-5-5,v1,FALSE
+p001474,2026,uchicago,law,3,law,claude-opus-5-5,v1,FALSE
+p001480,2026,uchicago,networks,1,decision-making theory,claude-opus-5-5,v1,FALSE
+p001480,2026,uchicago,urban,2,urban politics,claude-opus-5-5,v1,FALSE
+p001480,2026,uchicago,culture,3,sociology of culture,claude-opus-5-5,v1,FALSE
+p001485,2026,ucirvine,education,1,education,claude-opus-5-5,v1,FALSE
+p001485,2026,ucirvine,inequality,2,inequality,claude-opus-5-5,v1,FALSE
+p001485,2026,ucirvine,gender,3,gender,claude-opus-5-5,v1,FALSE
+p001486,2026,ucirvine,political,1,political sociology,claude-opus-5-5,v1,FALSE
+p001486,2026,ucirvine,peace,2,war and peace,claude-opus-5-5,v1,FALSE
+p001486,2026,ucirvine,environment,3,environmental sociology,claude-opus-5-5,v1,FALSE
+p001489,2026,ucirvine,mathematical,1,Mathematical Sociology,claude-opus-5-5,v1,FALSE
+p001489,2026,ucirvine,networks,2,Social and Biophysical Networks,claude-opus-5-5,v1,FALSE
+p001489,2026,ucirvine,methods,3,"Computational, Bayesian, and Applied Statistics",claude-opus-5-5,v1,FALSE
+p001496,2026,ucirvine,global,1,world society,claude-opus-5-5,v1,FALSE
+p001496,2026,ucirvine,education,2,university and society,claude-opus-5-5,v1,FALSE
+p001496,2026,ucirvine,environment,3,environment and society,claude-opus-5-5,v1,FALSE
+p001497,2026,ucirvine,movements,1,social movements,claude-opus-5-5,v1,FALSE
+p001497,2026,ucirvine,peace,2,peace and war,claude-opus-5-5,v1,FALSE
+p001498,2026,ucirvine,pews,1,world systems analysis,claude-opus-5-5,v1,FALSE
+p001498,2026,ucirvine,urban,2,urbanization,claude-opus-5-5,v1,FALSE
+p001498,2026,ucirvine,development,3,development,claude-opus-5-5,v1,FALSE
+p001500,2026,ucirvine,population,1,social demography,claude-opus-5-5,v1,FALSE
+p001500,2026,ucirvine,rem,2,race and ethnicity,claude-opus-5-5,v1,FALSE
+p001500,2026,ucirvine,migration,3,immigration and immigrant integration,claude-opus-5-5,v1,FALSE
+p001501,2026,ucirvine,political,1,political sociology,claude-opus-5-5,v1,FALSE
+p001501,2026,ucirvine,comphist,2,historical and comparative sociology,claude-opus-5-5,v1,FALSE
+p001501,2026,ucirvine,movements,3,social movements,claude-opus-5-5,v1,FALSE
+p001504,2026,ucirvine,global,1,globalization,claude-opus-5-5,v1,FALSE
+p001504,2026,ucirvine,political,2,political participation,claude-opus-5-5,v1,FALSE
+p001504,2026,ucirvine,education,3,education,claude-opus-5-5,v1,FALSE
+p001505,2026,ucirvine,population,1,demographic,claude-opus-5-5,v1,FALSE
+p001505,2026,ucirvine,economic,2,economic,claude-opus-5-5,v1,FALSE
+p001505,2026,ucirvine,inequality,3,social inequality in state socialisms,claude-opus-5-5,v1,FALSE
+p001507,2026,ucirvine,political,1,political sociology,claude-opus-5-5,v1,FALSE
+p001507,2026,ucirvine,movements,2,social movements,claude-opus-5-5,v1,FALSE
+p001507,2026,ucirvine,culture,3,culture,claude-opus-5-5,v1,FALSE
+p001522,2026,ucirvine,crime,1,criminal legal system,claude-opus-5-5,v1,FALSE
+p001522,2026,ucirvine,family,2,families,claude-opus-5-5,v1,FALSE
+p001522,2026,ucirvine,medical,3,health,claude-opus-5-5,v1,FALSE
+p001527,2026,ucirvine,gender,1,gender,claude-opus-5-5,v1,FALSE
+p001527,2026,ucirvine,rem,2,racial inequality,claude-opus-5-5,v1,FALSE
+p001527,2026,ucirvine,oow,3,organizations,claude-opus-5-5,v1,FALSE
+p001531,2026,ucirvine,economic,1,economic sociology,claude-opus-5-5,v1,FALSE
+p001531,2026,ucirvine,culture,2,culture,claude-opus-5-5,v1,FALSE
+p001531,2026,ucirvine,oow,3,organizations,claude-opus-5-5,v1,FALSE
+p001536,2026,ucirvine,inequality,1,Social Stratification,claude-opus-5-5,v1,FALSE
+p001536,2026,ucirvine,oow,2,Sociology of Organizations,claude-opus-5-5,v1,FALSE
+p001536,2026,ucirvine,education,3,Sociology of Education,claude-opus-5-5,v1,FALSE
+p001537,2026,ucirvine,migration,1,international migration,claude-opus-5-5,v1,FALSE
+p001537,2026,ucirvine,economic,2,ethnic economies,claude-opus-5-5,v1,FALSE
+p001537,2026,ucirvine,urban,3,urban sociology,claude-opus-5-5,v1,FALSE
+p001544,2026,ucirvine,rem,1,race and ethnicity,claude-opus-5-5,v1,FALSE
+p001544,2026,ucirvine,religion,2,religion,claude-opus-5-5,v1,FALSE
+p001544,2026,ucirvine,migration,3,immigration,claude-opus-5-5,v1,FALSE
+p001552,2026,ucirvine,movements,1,social movements and collective action,claude-opus-5-5,v1,FALSE
+p001552,2026,ucirvine,political,2,political sociology,claude-opus-5-5,v1,FALSE
+p001554,2026,ucla,gender,1,Sociology of Gender,claude-opus-5-5,v1,FALSE
+p001554,2026,ucla,culture,2,Cultural Sociology,claude-opus-5-5,v1,FALSE
+p001554,2026,ucla,law,3,Law and Society,claude-opus-5-5,v1,FALSE
+p001559,2026,ucla,migration,1,International migration,claude-opus-5-5,v1,FALSE
+p001559,2026,ucla,rem,2,race and ethnicity,claude-opus-5-5,v1,FALSE
+p001559,2026,ucla,inequality,3,stratification/mobility,claude-opus-5-5,v1,FALSE
+p001560,2026,ucla,urban,1,Urban Sociology,claude-opus-5-5,v1,FALSE
+p001560,2026,ucla,inequality,2,Social Stratification,claude-opus-5-5,v1,FALSE
+p001560,2026,ucla,education,3,Sociology of Education,claude-opus-5-5,v1,FALSE
+p001564,2026,ucla,migration,1,International migration,claude-opus-5-5,v1,FALSE
+p001564,2026,ucla,family,2,immigrant families,claude-opus-5-5,v1,FALSE
+p001564,2026,ucla,law,3,immigration law,claude-opus-5-5,v1,FALSE
+p001565,2026,ucla,rem,1,racial inequality,claude-opus-5-5,v1,FALSE
+p001565,2026,ucla,comphist,2,comparative historial perspective,claude-opus-5-5,v1,FALSE
+p001566,2026,ucla,labor,1,labor,claude-opus-5-5,v1,FALSE
+p001566,2026,ucla,political,2,political sociology,claude-opus-5-5,v1,FALSE
+p001566,2026,ucla,development,3,global development,claude-opus-5-5,v1,FALSE
+p001571,2026,ucla,rem,1,race,claude-opus-5-5,v1,FALSE
+p001571,2026,ucla,media,2,media,claude-opus-5-5,v1,FALSE
+p001571,2026,ucla,culture,3,cultural studies,claude-opus-5-5,v1,FALSE
+p001576,2026,ucla,political,1,Political Sociology,claude-opus-5-5,v1,FALSE
+p001576,2026,ucla,movements,2,Social Movements,claude-opus-5-5,v1,FALSE
+p001576,2026,ucla,oow,3,Organizations,claude-opus-5-5,v1,FALSE
+p001580,2026,ucla,economic,1,Economic sociology,claude-opus-5-5,v1,FALSE
+p001584,2026,ucla,science,1,Science and technology studies,claude-opus-5-5,v1,FALSE
+p001596,2026,ucla,inequality,1,Stratification/Mobility,claude-opus-5-5,v1,FALSE
+p001596,2026,ucla,population,2,Social Demography,claude-opus-5-5,v1,FALSE
+p001596,2026,ucla,education,3,Education,claude-opus-5-5,v1,FALSE
+p001597,2026,ucla,socpsych,1,Social Psychology,claude-opus-5-5,v1,FALSE
+p001597,2026,ucla,gender,2,Gender,claude-opus-5-5,v1,FALSE
+p001597,2026,ucla,family,3,Family,claude-opus-5-5,v1,FALSE
+p001610,2026,ucla,urban,1,Urban Sociology,claude-opus-5-5,v1,FALSE
+p001610,2026,ucla,sexualities,2,Sexuality,claude-opus-5-5,v1,FALSE
+p001610,2026,ucla,culture,3,Culture,claude-opus-5-5,v1,FALSE
+p001613,2026,ucla,family,1,Family,claude-opus-5-5,v1,FALSE
+p001613,2026,ucla,population,2,Demography,claude-opus-5-5,v1,FALSE
+p001613,2026,ucla,medical,3,Reproductive Health,claude-opus-5-5,v1,FALSE
+p001617,2026,ucla,migration,1,Migration,claude-opus-5-5,v1,FALSE
+p001617,2026,ucla,development,2,development,claude-opus-5-5,v1,FALSE
+p001617,2026,ucla,rem,3,race and ethnicity,claude-opus-5-5,v1,FALSE
+p001623,2026,ucla,culture,1,Culture,claude-opus-5-5,v1,FALSE
+p001623,2026,ucla,networks,2,Networks,claude-opus-5-5,v1,FALSE
+p001623,2026,ucla,socpsych,3,Cognition,claude-opus-5-5,v1,FALSE
+p001624,2026,ucla,family,1,family structures,claude-opus-5-5,v1,FALSE
+p001624,2026,ucla,children,2,child wellbeing,claude-opus-5-5,v1,FALSE
+p001624,2026,ucla,aging,3,transition to adulthood,claude-opus-5-5,v1,FALSE
+p001627,2026,ucla,comphist,1,Historical and Comparative Sociology,claude-opus-5-5,v1,FALSE
+p001627,2026,ucla,science,2,Sociology of Knowledge,claude-opus-5-5,v1,FALSE
+p001627,2026,ucla,economic,3,Economic Sociology,claude-opus-5-5,v1,FALSE
+p001631,2026,ucla,migration,1,International migration,claude-opus-5-5,v1,FALSE
+p001631,2026,ucla,rem,2,race and ethnicity,claude-opus-5-5,v1,FALSE
+p001633,2026,ucla,migration,1,International Migration,claude-opus-5-5,v1,FALSE
+p001633,2026,ucla,rem,2,Race and Ethnicity,claude-opus-5-5,v1,FALSE
+p001633,2026,ucla,labor,3,Labor,claude-opus-5-5,v1,FALSE
+p001637,2026,ucla,medical,1,sociology of health and illness,claude-opus-5-5,v1,FALSE
+p001637,2026,ucla,science,2,science and technology,claude-opus-5-5,v1,FALSE
+p001637,2026,ucla,body,3,the body,claude-opus-5-5,v1,FALSE
+p001639,2026,ucla,ethnometh,1,Conversation Analysis,claude-opus-5-5,v1,FALSE
+p001639,2026,ucla,medical,2,Medical Sociology,claude-opus-5-5,v1,FALSE
+p001641,2026,ucla,population,1,Social Demography,claude-opus-5-5,v1,FALSE
+p001641,2026,ucla,migration,2,Migration,claude-opus-5-5,v1,FALSE
+p001641,2026,ucla,medical,3,Reproductive Health,claude-opus-5-5,v1,FALSE
+p001642,2026,ucla,latinx,1,Latina/o Sociology,claude-opus-5-5,v1,FALSE
+p001642,2026,ucla,rem,2,Race/Ethnic/Minority Relations,claude-opus-5-5,v1,FALSE
+p001642,2026,ucla,gender,3,Sex and Gender,claude-opus-5-5,v1,FALSE
+p001645,2026,ucla,inequality,1,Social Stratification,claude-opus-5-5,v1,FALSE
+p001645,2026,ucla,gender,2,Gender,claude-opus-5-5,v1,FALSE
+p001645,2026,ucla,labor,3,Labor Markets,claude-opus-5-5,v1,FALSE
+p002676,2026,ucsb,socpsych,1,Social psychology,claude-opus-5-5,v1,FALSE
+p002676,2026,ucsb,family,2,family,claude-opus-5-5,v1,FALSE
+p002676,2026,ucsb,gender,3,gender,claude-opus-5-5,v1,FALSE
+p002678,2026,ucsb,culture,1,Culture,claude-opus-5-5,v1,FALSE
+p002678,2026,ucsb,urban,2,Urban Studies,claude-opus-5-5,v1,FALSE
+p002678,2026,ucsb,environment,3,Environmental Studies,claude-opus-5-5,v1,FALSE
+p002679,2026,ucsb,indigenous,1,Native American and Indigenous Studies,claude-opus-5-5,v1,FALSE
+p002679,2026,ucsb,education,2,Sociology of Education,claude-opus-5-5,v1,FALSE
+p002679,2026,ucsb,rem,3,Sociology of Race,claude-opus-5-5,v1,FALSE
+p002698,2026,ucsb,gender,1,Gender,claude-opus-5-5,v1,FALSE
+p002698,2026,ucsb,inequality,2,Inequality,claude-opus-5-5,v1,FALSE
+p002698,2026,ucsb,rgc,3,Intersectionality,claude-opus-5-5,v1,FALSE
+p002699,2026,ucsb,rem,1,Race and ethnic relations,claude-opus-5-5,v1,FALSE
+p002699,2026,ucsb,culture,2,comparative race and culture,claude-opus-5-5,v1,FALSE
+p002699,2026,ucsb,comphist,3,comparative and historical sociology,claude-opus-5-5,v1,FALSE
+p002702,2026,ucsb,ethnometh,1,Conversation Analysis,claude-opus-5-5,v1,FALSE
+p002702,2026,ucsb,crime,2,Policing,claude-opus-5-5,v1,FALSE
+p002707,2026,ucsb,global,1,globalization,claude-opus-5-5,v1,FALSE
+p002707,2026,ucsb,development,2,development studies,claude-opus-5-5,v1,FALSE
+p002707,2026,ucsb,pews,3,global political economy,claude-opus-5-5,v1,FALSE
+p002713,2026,ucsb,oow,1,Complex Organizations,claude-opus-5-5,v1,FALSE
+p002713,2026,ucsb,methods,2,Computational Sociology,claude-opus-5-5,v1,FALSE
+p002713,2026,ucsb,networks,3,Network Science,claude-opus-5-5,v1,FALSE
+p002718,2026,ucsb,theory,1,Social and political theory,claude-opus-5-5,v1,FALSE
+p002718,2026,ucsb,history,2,history of social thought,claude-opus-5-5,v1,FALSE
+p002718,2026,ucsb,mena,3,Middle East,claude-opus-5-5,v1,FALSE
+p002719,2026,ucsb,ethnometh,1,Ethnomethodology and conversation analysis,claude-opus-5-5,v1,FALSE
+p002719,2026,ucsb,socpsych,2,social categories and identities,claude-opus-5-5,v1,FALSE
+p002719,2026,ucsb,rem,3,race and racism,claude-opus-5-5,v1,FALSE
+p002721,2026,ucsb,gender,1,Gender,claude-opus-5-5,v1,FALSE
+p002721,2026,ucsb,sexualities,2,Sexuality,claude-opus-5-5,v1,FALSE
+p002721,2026,ucsb,theory,3,Theory,claude-opus-5-5,v1,FALSE
+p002724,2026,ucsb,law,1,Sociology of law,claude-opus-5-5,v1,FALSE
+p002724,2026,ucsb,humanrights,2,sociology of human rights,claude-opus-5-5,v1,FALSE
+p002724,2026,ucsb,political,3,political sociology,claude-opus-5-5,v1,FALSE
+p002726,2026,ucsb,gender,1,Gender,claude-opus-5-5,v1,FALSE
+p002726,2026,ucsb,global,2,Global and Transnational Sociology,claude-opus-5-5,v1,FALSE
+p002726,2026,ucsb,oow,3,Work and Occupations,claude-opus-5-5,v1,FALSE
+p002742,2026,ucsb,gender,1,Gender Inequality,claude-opus-5-5,v1,FALSE
+p002742,2026,ucsb,oow,2,Organizations & Work,claude-opus-5-5,v1,FALSE
+p002742,2026,ucsb,family,3,Family,claude-opus-5-5,v1,FALSE
+p002744,2026,ucsb,culture,1,Culture,claude-opus-5-5,v1,FALSE
+p002744,2026,ucsb,theory,2,Social Theory,claude-opus-5-5,v1,FALSE
+p002744,2026,ucsb,comphist,3,Historical Sociology,claude-opus-5-5,v1,FALSE
+p002750,2026,ucsb,gender,1,Gender,claude-opus-5-5,v1,FALSE
+p002750,2026,ucsb,sexualities,2,Sexualities,claude-opus-5-5,v1,FALSE
+p002750,2026,ucsb,family,3,Families,claude-opus-5-5,v1,FALSE
+p002752,2026,ucsb,inequality,1,Inequality,claude-opus-5-5,v1,FALSE
+p002752,2026,ucsb,culture,2,Culture,claude-opus-5-5,v1,FALSE
+p002752,2026,ucsb,education,3,Education,claude-opus-5-5,v1,FALSE
+p002753,2026,ucsb,urban,1,Urban Sociology,claude-opus-5-5,v1,FALSE
+p002753,2026,ucsb,ethnometh,2,Ethnomethodology,claude-opus-5-5,v1,FALSE
+p002753,2026,ucsb,rem,3,Race and Ethnicity,claude-opus-5-5,v1,FALSE
+p002755,2026,ucsb,global,1,Globalization,claude-opus-5-5,v1,FALSE
+p002755,2026,ucsb,pews,2,Global Political Economy,claude-opus-5-5,v1,FALSE
+p002755,2026,ucsb,political,3,Political Sociology,claude-opus-5-5,v1,FALSE
+p001667,2026,ucsc,urban,1,Urban studies,claude-opus-5-5,v1,FALSE
+p001667,2026,ucsc,labor,2,Labor,claude-opus-5-5,v1,FALSE
+p001667,2026,ucsc,movements,3,Social Movements,claude-opus-5-5,v1,FALSE
+p001670,2026,ucsc,emotions,1,Political emotion and affect,claude-opus-5-5,v1,FALSE
+p001670,2026,ucsc,movements,2,social movements,claude-opus-5-5,v1,FALSE
+p001670,2026,ucsc,theory,3,classical and contemporary social theory,claude-opus-5-5,v1,FALSE
+p001681,2026,ucsc,science,1,Science and Technology,claude-opus-5-5,v1,FALSE
+p001681,2026,ucsc,rgc,2,"Race, Gender, Sexuality and Difference",claude-opus-5-5,v1,FALSE
+p001681,2026,ucsc,media,3,New Media,claude-opus-5-5,v1,FALSE
+p001688,2026,ucsc,urban,1,Urbanization,claude-opus-5-5,v1,FALSE
+p001688,2026,ucsc,migration,2,refugees,claude-opus-5-5,v1,FALSE
+p001688,2026,ucsc,global,3,transnationalism,claude-opus-5-5,v1,FALSE
+p001695,2026,ucsc,urban,1,Urban sociology,claude-opus-5-5,v1,FALSE
+p001695,2026,ucsc,environment,2,urban environmental studies,claude-opus-5-5,v1,FALSE
+p001695,2026,ucsc,media,3,media and cultural studies,claude-opus-5-5,v1,FALSE
+p001698,2026,ucsc,education,1,education,claude-opus-5-5,v1,FALSE
+p001698,2026,ucsc,children,2,"children, youth",claude-opus-5-5,v1,FALSE
+p001698,2026,ucsc,family,3,families,claude-opus-5-5,v1,FALSE
+p001703,2026,ucsc,labor,1,Labor and labor markets,claude-opus-5-5,v1,FALSE
+p001703,2026,ucsc,political,2,political sociology,claude-opus-5-5,v1,FALSE
+p001703,2026,ucsc,global,3,transnationalism,claude-opus-5-5,v1,FALSE
+p001709,2026,ucsd,economic,1,Economic sociology,claude-opus-5-5,v1,FALSE
+p001709,2026,ucsd,theory,2,rational choice theory,claude-opus-5-5,v1,FALSE
+p001709,2026,ucsd,inequality,3,comparative social stratification,claude-opus-5-5,v1,FALSE
+p001716,2026,ucsd,theory,1,Social theory,claude-opus-5-5,v1,FALSE
+p001716,2026,ucsd,science,2,Sociology of knowledge and intellectuals,claude-opus-5-5,v1,FALSE
+p001716,2026,ucsd,culture,3,Cultural sociology,claude-opus-5-5,v1,FALSE
+p001722,2026,ucsd,migration,1,International migration,claude-opus-5-5,v1,FALSE
+p001722,2026,ucsd,rem,2,ethnicity,claude-opus-5-5,v1,FALSE
+p001732,2026,ucsd,political,1,political sociology,claude-opus-5-5,v1,FALSE
+p001732,2026,ucsd,development,2,sociology of development,claude-opus-5-5,v1,FALSE
+p001732,2026,ucsd,rem,3,ethnic and race relations,claude-opus-5-5,v1,FALSE
+p001738,2026,ucsd,religion,1,Sociology of Religion,claude-opus-5-5,v1,FALSE
+p001738,2026,ucsd,science,2,Sociology of Science,claude-opus-5-5,v1,FALSE
+p001738,2026,ucsd,political,3,Politics,claude-opus-5-5,v1,FALSE
+p001739,2026,ucsd,science,1,Science and innovation policy,claude-opus-5-5,v1,FALSE
+p001739,2026,ucsd,education,2,education,claude-opus-5-5,v1,FALSE
+p001739,2026,ucsd,oow,3,work,claude-opus-5-5,v1,FALSE
+p001741,2026,ucsd,economic,1,Economic sociology,claude-opus-5-5,v1,FALSE
+p001741,2026,ucsd,science,2,science and technology studies,claude-opus-5-5,v1,FALSE
+p001741,2026,ucsd,culture,3,cultural sociology,claude-opus-5-5,v1,FALSE
+p001743,2026,ucsd,culture,1,Culture,claude-opus-5-5,v1,FALSE
+p001743,2026,ucsd,networks,2,social networks,claude-opus-5-5,v1,FALSE
+p001743,2026,ucsd,socpsych,3,social psychology,claude-opus-5-5,v1,FALSE
+p001746,2026,ucsd,law,1,Sociology of law,claude-opus-5-5,v1,FALSE
+p001746,2026,ucsd,theory,2,social theory,claude-opus-5-5,v1,FALSE
+p001746,2026,ucsd,religion,3,religion,claude-opus-5-5,v1,FALSE
+p001747,2026,ucsd,political,1,Comparative political economy,claude-opus-5-5,v1,FALSE
+p001747,2026,ucsd,inequality,2,poverty,claude-opus-5-5,v1,FALSE
+p001751,2026,ucsd,gender,1,Sociology of gender,claude-opus-5-5,v1,FALSE
+p001751,2026,ucsd,culture,2,culture,claude-opus-5-5,v1,FALSE
+p001751,2026,ucsd,inequality,3,inequality,claude-opus-5-5,v1,FALSE
+p001763,2026,ucsd,socpsych,1,Social psychology,claude-opus-5-5,v1,FALSE
+p001763,2026,ucsd,religion,2,religion,claude-opus-5-5,v1,FALSE
+p001763,2026,ucsd,education,3,(higher) education,claude-opus-5-5,v1,FALSE
+p001767,2026,ufl,crime,1,Crime,claude-opus-5-5,v1,FALSE
+p001767,2026,ufl,urban,2,Communities,claude-opus-5-5,v1,FALSE
+p001767,2026,ufl,family,3,Family Influences,claude-opus-5-5,v1,FALSE
+p001785,2026,ufl,crime,1,Fear of Crime,claude-opus-5-5,v1,FALSE
+p001785,2026,ufl,methods,2,Evaluation Research,claude-opus-5-5,v1,FALSE
+p001800,2026,ufl,aging,1,Aging and the Life Course,claude-opus-5-5,v1,FALSE
+p001800,2026,ufl,religion,2,Religiosity/Spirituality,claude-opus-5-5,v1,FALSE
+p001800,2026,ufl,socpsych,3,Social Psychology,claude-opus-5-5,v1,FALSE
+p001808,2026,ufl,environment,1,Environmental Sociology,claude-opus-5-5,v1,FALSE
+p001808,2026,ufl,development,2,Sociology of Development,claude-opus-5-5,v1,FALSE
+p001808,2026,ufl,global,3,Global and Transnational Sociology,claude-opus-5-5,v1,FALSE
+p001811,2026,ufl,movements,1,Activism,claude-opus-5-5,v1,FALSE
+p001811,2026,ufl,children,2,Young People’s,claude-opus-5-5,v1,FALSE
+p001811,2026,ufl,family,3,Fatherhood,claude-opus-5-5,v1,FALSE
+p001819,2026,uiowa,socpsych,1,Status,claude-opus-5-5,v1,FALSE
+p001819,2026,uiowa,inequality,2,Stratification,claude-opus-5-5,v1,FALSE
+p001819,2026,uiowa,networks,3,Networks,claude-opus-5-5,v1,FALSE
+p001833,2026,uiowa,crime,1,Crime,claude-opus-5-5,v1,FALSE
+p001833,2026,uiowa,law,2,law,claude-opus-5-5,v1,FALSE
+p001836,2026,uiowa,inequality,1,Stratification,claude-opus-5-5,v1,FALSE
+p001836,2026,uiowa,oow,2,Complex organizations,claude-opus-5-5,v1,FALSE
+p001836,2026,uiowa,socpsych,3,Social psychology,claude-opus-5-5,v1,FALSE
+p001837,2026,uiowa,political,1,Political sociology,claude-opus-5-5,v1,FALSE
+p001837,2026,uiowa,oow,2,Complex organizations,claude-opus-5-5,v1,FALSE
+p001840,2026,uiowa,crime,1,Crime,claude-opus-5-5,v1,FALSE
+p001840,2026,uiowa,law,2,law,claude-opus-5-5,v1,FALSE
+p001841,2026,uiowa,socpsych,1,Social psychology,claude-opus-5-5,v1,FALSE
+p001841,2026,uiowa,gender,2,Gender,claude-opus-5-5,v1,FALSE
+p001841,2026,uiowa,family,3,family,claude-opus-5-5,v1,FALSE
+p001869,2026,uiuc,urban,1,Community and Urban Sociology,claude-opus-5-5,v1,FALSE
+p001869,2026,uiuc,rem,2,Racial and Ethnic Minorities,claude-opus-5-5,v1,FALSE
+p001869,2026,uiuc,rgc,3,Race Gender and Class,claude-opus-5-5,v1,FALSE
+p001873,2026,uiuc,inequality,1,Inequality & Mobility,claude-opus-5-5,v1,FALSE
+p001873,2026,uiuc,aging,2,Life Course,claude-opus-5-5,v1,FALSE
+p001873,2026,uiuc,methods,3,Methodology,claude-opus-5-5,v1,FALSE
+p001892,2026,umd,rem,1,The Black Middle Class,claude-opus-5-5,v1,FALSE
+p001892,2026,umd,inequality,2,Middle Class,claude-opus-5-5,v1,FALSE
+p001892,2026,umd,population,3,Demography,claude-opus-5-5,v1,FALSE
+p001904,2026,umd,family,1,families,claude-opus-5-5,v1,FALSE
+p001904,2026,umd,inequality,2,inequality,claude-opus-5-5,v1,FALSE
+p001904,2026,umd,population,3,demographic trends,claude-opus-5-5,v1,FALSE
+p001906,2026,umd,family,1,Family Demography,claude-opus-5-5,v1,FALSE
+p001906,2026,umd,population,2,Demography,claude-opus-5-5,v1,FALSE
+p001906,2026,umd,children,3,Children's well-being,claude-opus-5-5,v1,FALSE
+p001914,2026,umn,family,1,Family,claude-opus-5-5,v1,FALSE
+p001914,2026,umn,aging,2,Life Course,claude-opus-5-5,v1,FALSE
+p001914,2026,umn,children,3,Adolescent and Young Adult Development,claude-opus-5-5,v1,FALSE
+p001916,2026,umn,rem,1,Race and Ethnicity,claude-opus-5-5,v1,FALSE
+p001916,2026,umn,population,2,Social Demography,claude-opus-5-5,v1,FALSE
+p001916,2026,umn,family,3,Sociology of the Family,claude-opus-5-5,v1,FALSE
+p001921,2026,umn,crime,1,Crime,claude-opus-5-5,v1,FALSE
+p001921,2026,umn,law,2,Law,claude-opus-5-5,v1,FALSE
+p001921,2026,umn,aging,3,Life Course,claude-opus-5-5,v1,FALSE
+p001922,2026,umn,family,1,Family,claude-opus-5-5,v1,FALSE
+p001922,2026,umn,aging,2,Life Course,claude-opus-5-5,v1,FALSE
+p001922,2026,umn,medical,3,Population Health,claude-opus-5-5,v1,FALSE
+p001923,2026,umn,networks,1,Social Networks,claude-opus-5-5,v1,FALSE
+p001923,2026,umn,political,2,Political Sociology,claude-opus-5-5,v1,FALSE
+p001923,2026,umn,economic,3,Economic Sociology,claude-opus-5-5,v1,FALSE
+p001925,2026,umn,rem,1,"Race, Ethnicity, and Racism",claude-opus-5-5,v1,FALSE
+p001925,2026,umn,body,2,Sport Studies,claude-opus-5-5,v1,FALSE
+p001925,2026,umn,culture,3,Cultural Sociology,claude-opus-5-5,v1,FALSE
+p001927,2026,umn,humanrights,1,Children’s and Women’s Rights,claude-opus-5-5,v1,FALSE
+p001927,2026,umn,medical,2,Reproductive Health,claude-opus-5-5,v1,FALSE
+p001927,2026,umn,law,3,Sociology of Law,claude-opus-5-5,v1,FALSE
+p001939,2026,umn,altruism,1,Solidarity,claude-opus-5-5,v1,FALSE
+p001939,2026,umn,comphist,2,Historical Sociology,claude-opus-5-5,v1,FALSE
+p001939,2026,umn,political,3,Politics,claude-opus-5-5,v1,FALSE
+p001940,2026,umn,law,1,Law,claude-opus-5-5,v1,FALSE
+p001940,2026,umn,crime,2,Criminology,claude-opus-5-5,v1,FALSE
+p001940,2026,umn,labor,3,Labor and Unionization,claude-opus-5-5,v1,FALSE
+p001942,2026,umn,culture,1,Culture,claude-opus-5-5,v1,FALSE
+p001942,2026,umn,gender,2,Gender,claude-opus-5-5,v1,FALSE
+p001942,2026,umn,sexualities,3,Sexuality,claude-opus-5-5,v1,FALSE
+p001945,2026,umn,global,1,Transnational,claude-opus-5-5,v1,FALSE
+p001945,2026,umn,economic,2,Political Economic,claude-opus-5-5,v1,FALSE
+p001945,2026,umn,urban,3,Urban Sociology,claude-opus-5-5,v1,FALSE
+p001947,2026,umn,crime,1,"Punishment, Policing, Prisons",claude-opus-5-5,v1,FALSE
+p001947,2026,umn,inequality,2,Inequality,claude-opus-5-5,v1,FALSE
+p001947,2026,umn,rem,3,Race and Racism,claude-opus-5-5,v1,FALSE
+p001950,2026,umn,culture,1,Culture,claude-opus-5-5,v1,FALSE
+p001950,2026,umn,religion,2,Sociology of Religion & Nonreligion,claude-opus-5-5,v1,FALSE
+p001950,2026,umn,gender,3,Gender,claude-opus-5-5,v1,FALSE
+p001952,2026,umn,medical,1,Population Health,claude-opus-5-5,v1,FALSE
+p001952,2026,umn,population,2,Demography,claude-opus-5-5,v1,FALSE
+p001952,2026,umn,education,3,Education,claude-opus-5-5,v1,FALSE
+p001959,2026,umn,family,1,Families,claude-opus-5-5,v1,FALSE
+p001959,2026,umn,rem,2,Race and Ethnicity,claude-opus-5-5,v1,FALSE
+p001959,2026,umn,asia,3,Asian American Studies,claude-opus-5-5,v1,FALSE
+p001968,2026,unc,population,1,Social Demography,claude-opus-5-5,v1,FALSE
+p001968,2026,unc,migration,2,Migration,claude-opus-5-5,v1,FALSE
+p001968,2026,unc,aging,3,Life Course,claude-opus-5-5,v1,FALSE
+p001971,2026,unc,political,1,Political Sociology,claude-opus-5-5,v1,FALSE
+p001971,2026,unc,movements,2,Social Movements,claude-opus-5-5,v1,FALSE
+p001971,2026,unc,mena,3,Middle East and Islamic studies,claude-opus-5-5,v1,FALSE
+p001974,2026,unc,political,1,Political sociology,claude-opus-5-5,v1,FALSE
+p001974,2026,unc,rem,2,sociology of race and ethnicity,claude-opus-5-5,v1,FALSE
+p001974,2026,unc,law,3,sociology of law,claude-opus-5-5,v1,FALSE
+p001976,2026,unc,population,1,Demography,claude-opus-5-5,v1,FALSE
+p001976,2026,unc,medical,2,Medical Sociology,claude-opus-5-5,v1,FALSE
+p001983,2026,unc,methods,1,Statistical methods,claude-opus-5-5,v1,FALSE
+p001983,2026,unc,biology,2,social sciences and genomics,claude-opus-5-5,v1,FALSE
+p001992,2026,unc,population,1,Fertility,claude-opus-5-5,v1,FALSE
+p001992,2026,unc,family,2,Family Demography,claude-opus-5-5,v1,FALSE
+p001992,2026,unc,methods,3,Measurement,claude-opus-5-5,v1,FALSE
+p001996,2026,unc,methods,1,Structural equation models,claude-opus-5-5,v1,FALSE
+p001996,2026,unc,population,2,Population,claude-opus-5-5,v1,FALSE
+p001996,2026,unc,medical,3,Health,claude-opus-5-5,v1,FALSE
+p002000,2026,unc,family,1,Family,claude-opus-5-5,v1,FALSE
+p002000,2026,unc,children,2,Adolescence and Transitions to Adulthood,claude-opus-5-5,v1,FALSE
+p002000,2026,unc,religion,3,Religion,claude-opus-5-5,v1,FALSE
+p002005,2026,unc,movements,1,Social Movements,claude-opus-5-5,v1,FALSE
+p002005,2026,unc,methods,2,Computational Social Science,claude-opus-5-5,v1,FALSE
+p002008,2026,unc,population,1,Demography,claude-opus-5-5,v1,FALSE
+p002008,2026,unc,medical,2,Population Health,claude-opus-5-5,v1,FALSE
+p002008,2026,unc,aging,3,Aging and the Life Course,claude-opus-5-5,v1,FALSE
+p002016,2026,unc,population,1,Demography,claude-opus-5-5,v1,FALSE
+p002016,2026,unc,inequality,2,Social Stratification,claude-opus-5-5,v1,FALSE
+p002016,2026,unc,economic,3,Economic Sociology,claude-opus-5-5,v1,FALSE
+p002021,2026,uoregon,family,1,Family,claude-opus-5-5,v1,FALSE
+p002021,2026,uoregon,aging,2,Life Course,claude-opus-5-5,v1,FALSE
+p002021,2026,uoregon,inequality,3,Inequalities and Stratification,claude-opus-5-5,v1,FALSE
+p002028,2026,uoregon,sexualities,1,Sexuality,claude-opus-5-5,v1,FALSE
+p002028,2026,uoregon,inequality,2,Inequality,claude-opus-5-5,v1,FALSE
+p002028,2026,uoregon,children,3,Youth,claude-opus-5-5,v1,FALSE
+p002040,2026,uoregon,rem,1,Race and Ethnicity,claude-opus-5-5,v1,FALSE
+p002040,2026,uoregon,latinx,2,Latinos/as/xs in the U.S.,claude-opus-5-5,v1,FALSE
+p002040,2026,uoregon,family,3,Family,claude-opus-5-5,v1,FALSE
+p002041,2026,uoregon,rem,1,Race and Ethnicity,claude-opus-5-5,v1,FALSE
+p002041,2026,uoregon,theory,2,Theory,claude-opus-5-5,v1,FALSE
+p002041,2026,uoregon,science,3,Knowledge Science,claude-opus-5-5,v1,FALSE
+p002044,2026,uoregon,gender,1,Gender,claude-opus-5-5,v1,FALSE
+p002044,2026,uoregon,socpsych,2,Social Psychology and Interaction,claude-opus-5-5,v1,FALSE
+p002058,2026,uoregon,comphist,1,Comparative and Historical Approaches,claude-opus-5-5,v1,FALSE
+p002058,2026,uoregon,crime,2,Crime and Deviance,claude-opus-5-5,v1,FALSE
+p002058,2026,uoregon,political,3,Politics,claude-opus-5-5,v1,FALSE
+p002060,2026,uoregon,movements,1,social movements,claude-opus-5-5,v1,FALSE
+p002060,2026,uoregon,environment,2,environmental sociology,claude-opus-5-5,v1,FALSE
+p002060,2026,uoregon,peace,3,comparative peace and conflict studies,claude-opus-5-5,v1,FALSE
+p002067,2026,uoregon,networks,1,Social Networks,claude-opus-5-5,v1,FALSE
+p002067,2026,uoregon,science,2,Science,claude-opus-5-5,v1,FALSE
+p002067,2026,uoregon,culture,3,Culture,claude-opus-5-5,v1,FALSE
+p002078,2026,upenn,rem,1,racial and ethnic inequality,claude-opus-5-5,v1,FALSE
+p002078,2026,upenn,aging,2,life-course and aging,claude-opus-5-5,v1,FALSE
+p002078,2026,upenn,migration,3,Hispanic immigrant adaptation,claude-opus-5-5,v1,FALSE
+p002086,2026,upenn,migration,1,International migration,claude-opus-5-5,v1,FALSE
+p002086,2026,upenn,latinx,2,The Hispanic population of the United States,claude-opus-5-5,v1,FALSE
+p002086,2026,upenn,population,3,demographic,claude-opus-5-5,v1,FALSE
+p002095,2026,upenn,education,1,children’s education,claude-opus-5-5,v1,FALSE
+p002095,2026,upenn,family,2,family change,claude-opus-5-5,v1,FALSE
+p002095,2026,upenn,children,3,children’s well-being,claude-opus-5-5,v1,FALSE
+p002096,2026,upenn,medical,1,disparities in health,claude-opus-5-5,v1,FALSE
+p002096,2026,upenn,inequality,2,socioeconomic,claude-opus-5-5,v1,FALSE
+p002096,2026,upenn,rem,3,racial/ethnic,claude-opus-5-5,v1,FALSE
+p002098,2026,upenn,medical,1,determinants of health,claude-opus-5-5,v1,FALSE
+p002113,2026,upenn,comphist,1,comparative-historical sociologist,claude-opus-5-5,v1,FALSE
+p002113,2026,upenn,religion,2,religious institutions,claude-opus-5-5,v1,FALSE
+p002114,2026,upenn,population,1,formal demography,claude-opus-5-5,v1,FALSE
+p002114,2026,upenn,medical,2,health disparities,claude-opus-5-5,v1,FALSE
+p002126,2026,upenn,rem,1,racial and ethnic boundaries,claude-opus-5-5,v1,FALSE
+p002126,2026,upenn,migration,2,immigration,claude-opus-5-5,v1,FALSE
+p002126,2026,upenn,biology,3,genetic ancestry testing,claude-opus-5-5,v1,FALSE
+p002139,2026,usc,rem,1,Race and ethnic relations,claude-opus-5-5,v1,FALSE
+p002139,2026,usc,inequality,2,social inequality,claude-opus-5-5,v1,FALSE
+p002139,2026,usc,children,3,youth,claude-opus-5-5,v1,FALSE
+p002143,2026,usc,family,1,Family Demography,claude-opus-5-5,v1,FALSE
+p002143,2026,usc,population,2,Family Demography,claude-opus-5-5,v1,FALSE
+p002143,2026,usc,gender,3,Gender,claude-opus-5-5,v1,FALSE
+p002151,2026,usc,family,1,Family Sociology,claude-opus-5-5,v1,FALSE
+p002151,2026,usc,population,2,Family Demography,claude-opus-5-5,v1,FALSE
+p002151,2026,usc,oow,3,Work,claude-opus-5-5,v1,FALSE
+p002156,2026,usc,political,1,political sociology,claude-opus-5-5,v1,FALSE
+p002156,2026,usc,media,2,communication,claude-opus-5-5,v1,FALSE
+p002156,2026,usc,culture,3,cultural sociology,claude-opus-5-5,v1,FALSE
+p002169,2026,usf,migration,1,migration,claude-opus-5-5,v1,FALSE
+p002169,2026,usf,gender,2,gender,claude-opus-5-5,v1,FALSE
+p002169,2026,usf,medical,3,health,claude-opus-5-5,v1,FALSE
+p002177,2026,usf,global,1,Globalization and Transnational Sociology,claude-opus-5-5,v1,FALSE
+p002177,2026,usf,political,2,Political Sociology,claude-opus-5-5,v1,FALSE
+p002177,2026,usf,migration,3,Immigration and Citizenship,claude-opus-5-5,v1,FALSE
+p002181,2026,usf,latinx,1,Latina/o Sociology,claude-opus-5-5,v1,FALSE
+p002181,2026,usf,migration,2,Migration/Immigration,claude-opus-5-5,v1,FALSE
+p002181,2026,usf,rem,3,Racial and Ethnic Relations,claude-opus-5-5,v1,FALSE
+p002186,2026,usf,crime,1,"Crime, Law, and Deviance",claude-opus-5-5,v1,FALSE
+p002186,2026,usf,children,2,Children and Youth,claude-opus-5-5,v1,FALSE
+p002186,2026,usf,inequality,3,"Inequality, Poverty, and Mobility",claude-opus-5-5,v1,FALSE
+p002199,2026,usf,theory,1,Theory,claude-opus-5-5,v1,FALSE
+p002199,2026,usf,mathematical,2,Mathematical Sociology,claude-opus-5-5,v1,FALSE
+p002199,2026,usf,networks,3,Social Networks,claude-opus-5-5,v1,FALSE
+p002205,2026,usf,urban,1,Urban Sociology,claude-opus-5-5,v1,FALSE
+p002205,2026,usf,socpsych,2,Social Psychology,claude-opus-5-5,v1,FALSE
+p002205,2026,usf,methods,3,Qualitative Methodology,claude-opus-5-5,v1,FALSE
+p002207,2026,usf,socpsych,1,Social Psychology,claude-opus-5-5,v1,FALSE
+p002207,2026,usf,emotions,2,Emotions,claude-opus-5-5,v1,FALSE
+p002207,2026,usf,mentalhealth,3,Mental Health,claude-opus-5-5,v1,FALSE
+p002217,2026,usf,body,1,embodiment,claude-opus-5-5,v1,FALSE
+p002217,2026,usf,gender,2,gender,claude-opus-5-5,v1,FALSE
+p002217,2026,usf,sexualities,3,sexualities,claude-opus-5-5,v1,FALSE
+p002218,2026,usf,aging,1,Gerontology,claude-opus-5-5,v1,FALSE
+p002218,2026,usf,disability,2,Disabilities,claude-opus-5-5,v1,FALSE
+p002218,2026,usf,medical,3,Medical Sociology,claude-opus-5-5,v1,FALSE
+p002227,2026,usf,education,1,Education,claude-opus-5-5,v1,FALSE
+p002227,2026,usf,rgc,2,"Race, Class, and Gender",claude-opus-5-5,v1,FALSE
+p002227,2026,usf,inequality,3,Stratification/ Mobility,claude-opus-5-5,v1,FALSE
+p002229,2026,utah,medical,1,Public health,claude-opus-5-5,v1,FALSE
+p002229,2026,utah,development,2,Development studies,claude-opus-5-5,v1,FALSE
+p002229,2026,utah,crime,3,Criminology,claude-opus-5-5,v1,FALSE
+p002234,2026,utah,gender,1,Gender studies,claude-opus-5-5,v1,FALSE
+p002234,2026,utah,medical,2,Reproductive medicine,claude-opus-5-5,v1,FALSE
+p002234,2026,utah,population,3,Demography,claude-opus-5-5,v1,FALSE
+p002237,2026,utah,biology,1,Biological psychology,claude-opus-5-5,v1,FALSE
+p002237,2026,utah,medical,2,Clinical sciences,claude-opus-5-5,v1,FALSE
+p002237,2026,utah,mentalhealth,3,Clinical and health psychology,claude-opus-5-5,v1,FALSE
+p002249,2026,utah,population,1,Demography,claude-opus-5-5,v1,FALSE
+p002249,2026,utah,medical,2,Public health,claude-opus-5-5,v1,FALSE
+p002249,2026,utah,labor,3,Human resources and industrial relations,claude-opus-5-5,v1,FALSE
+p002263,2026,utah,medical,1,Clinical sciences,claude-opus-5-5,v1,FALSE
+p002263,2026,utah,mentalhealth,2,Clinical and health psychology,claude-opus-5-5,v1,FALSE
+p002263,2026,utah,population,3,Demography,claude-opus-5-5,v1,FALSE
+p002264,2026,utah,medical,1,health disparities,claude-opus-5-5,v1,FALSE
+p002264,2026,utah,environment,2,environmental justice,claude-opus-5-5,v1,FALSE
+p002264,2026,utah,children,3,children's health,claude-opus-5-5,v1,FALSE
+p002268,2026,utah,development,1,Development studies,claude-opus-5-5,v1,FALSE
+p002268,2026,utah,law,2,International and comparative law,claude-opus-5-5,v1,FALSE
+p002268,2026,utah,gender,3,Gender studies,claude-opus-5-5,v1,FALSE
+p002273,2026,utaustin,inequality,1,Social Inequality,claude-opus-5-5,v1,FALSE
+p002273,2026,utaustin,rem,2,Race and Ethnicity,claude-opus-5-5,v1,FALSE
+p002273,2026,utaustin,gender,3,Gender,claude-opus-5-5,v1,FALSE
+p002276,2026,utaustin,medical,1,Health Disparities,claude-opus-5-5,v1,FALSE
+p002276,2026,utaustin,rem,2,Race and Ethnicity,claude-opus-5-5,v1,FALSE
+p002276,2026,utaustin,biology,3,Biosociology,claude-opus-5-5,v1,FALSE
+p002281,2026,utaustin,education,1,schools and education,claude-opus-5-5,v1,FALSE
+p002281,2026,utaustin,rgc,2,"gender, race and ethnicity, social class",claude-opus-5-5,v1,FALSE
+p002281,2026,utaustin,aging,3,life course outcomes,claude-opus-5-5,v1,FALSE
+p002289,2026,utaustin,population,1,Demography,claude-opus-5-5,v1,FALSE
+p002290,2026,utaustin,networks,1,Social networks,claude-opus-5-5,v1,FALSE
+p002290,2026,utaustin,socpsych,2,social psychology,claude-opus-5-5,v1,FALSE
+p002290,2026,utaustin,crime,3,criminology,claude-opus-5-5,v1,FALSE
+p002291,2026,utaustin,medical,1,Population health,claude-opus-5-5,v1,FALSE
+p002291,2026,utaustin,aging,2,aging and the life course,claude-opus-5-5,v1,FALSE
+p002291,2026,utaustin,mentalhealth,3,stress,claude-opus-5-5,v1,FALSE
+p002300,2026,utaustin,networks,1,Social Networks,claude-opus-5-5,v1,FALSE
+p002300,2026,utaustin,biology,2,Biosociology,claude-opus-5-5,v1,FALSE
+p002300,2026,utaustin,medical,3,Race/Ethnic Health Disparities,claude-opus-5-5,v1,FALSE
+p002302,2026,utaustin,political,1,Political ethnography,claude-opus-5-5,v1,FALSE
+p002302,2026,utaustin,urban,2,urban marginality,claude-opus-5-5,v1,FALSE
+p002302,2026,utaustin,movements,3,collective action,claude-opus-5-5,v1,FALSE
+p002312,2026,utaustin,inequality,1,Inequality,claude-opus-5-5,v1,FALSE
+p002312,2026,utaustin,economic,2,Economic Sociology,claude-opus-5-5,v1,FALSE
+p002312,2026,utaustin,oow,3,Work and Organizations,claude-opus-5-5,v1,FALSE
+p002317,2026,utaustin,medical,1,health disparities,claude-opus-5-5,v1,FALSE
+p002317,2026,utaustin,aging,2,Life course,claude-opus-5-5,v1,FALSE
+p002317,2026,utaustin,population,3,mortality,claude-opus-5-5,v1,FALSE
+p002319,2026,utaustin,law,1,Juries,claude-opus-5-5,v1,FALSE
+p002319,2026,utaustin,socpsych,2,social psychology,claude-opus-5-5,v1,FALSE
+p002327,2026,utaustin,migration,1,International migration,claude-opus-5-5,v1,FALSE
+p002333,2026,utaustin,education,1,Education,claude-opus-5-5,v1,FALSE
+p002333,2026,utaustin,family,2,Family,claude-opus-5-5,v1,FALSE
+p002333,2026,utaustin,medical,3,Health,claude-opus-5-5,v1,FALSE
+p002374,2026,uva,culture,1,Culture,claude-opus-5-5,v1,FALSE
+p002374,2026,uva,religion,2,Religion,claude-opus-5-5,v1,FALSE
+p002374,2026,uva,science,3,Knowledge,claude-opus-5-5,v1,FALSE
+p002376,2026,uva,development,1,Sociology of Development,claude-opus-5-5,v1,FALSE
+p002376,2026,uva,economic,2,Economic Sociology,claude-opus-5-5,v1,FALSE
+p002376,2026,uva,gender,3,Gender,claude-opus-5-5,v1,FALSE
+p002381,2026,uva,theory,1,Social and Political Thought,claude-opus-5-5,v1,FALSE
+p002381,2026,uva,comphist,2,Empires and Colonies,claude-opus-5-5,v1,FALSE
+p002381,2026,uva,political,3,Nations and Nationalism,claude-opus-5-5,v1,FALSE
+p002389,2026,uva,economic,1,Economic Sociology,claude-opus-5-5,v1,FALSE
+p002389,2026,uva,networks,2,Network Theory,claude-opus-5-5,v1,FALSE
+p002389,2026,uva,comphist,3,Comparative-Historical Sociology,claude-opus-5-5,v1,FALSE
+p002398,2026,uw,crime,1,Deviance and Social Control,claude-opus-5-5,v1,FALSE
+p002398,2026,uw,rem,2,Race and Ethnicity,claude-opus-5-5,v1,FALSE
+p002398,2026,uw,inequality,3,Social Stratification/Inequality,claude-opus-5-5,v1,FALSE
+p002433,2026,uw,crime,1,Criminal Law and Punishment,claude-opus-5-5,v1,FALSE
+p002433,2026,uw,humanrights,2,Human Rights,claude-opus-5-5,v1,FALSE
+p002433,2026,uw,law,3,Law and Society,claude-opus-5-5,v1,FALSE
+p002437,2026,uw,population,1,Demography,claude-opus-5-5,v1,FALSE
+p002437,2026,uw,environment,2,Environment,claude-opus-5-5,v1,FALSE
+p002437,2026,uw,urban,3,Neighborhoods,claude-opus-5-5,v1,FALSE
+p002447,2026,uw,peace,1,Conflict,claude-opus-5-5,v1,FALSE
+p002447,2026,uw,population,2,Demography,claude-opus-5-5,v1,FALSE
+p002447,2026,uw,migration,3,Migration,claude-opus-5-5,v1,FALSE
+p002468,2026,uw,population,1,Demography,claude-opus-5-5,v1,FALSE
+p002468,2026,uw,environment,2,Environment,claude-opus-5-5,v1,FALSE
+p002468,2026,uw,inequality,3,Homelessness,claude-opus-5-5,v1,FALSE
+p002472,2026,vanderbilt,medical,1,Physical and Mental Health,claude-opus-5-5,v1,FALSE
+p002472,2026,vanderbilt,mentalhealth,2,Mental Health,claude-opus-5-5,v1,FALSE
+p002472,2026,vanderbilt,family,3,Family,claude-opus-5-5,v1,FALSE
+p002473,2026,vanderbilt,oow,1,Work and Occupations,claude-opus-5-5,v1,FALSE
+p002473,2026,vanderbilt,inequality,2,Social Inequality,claude-opus-5-5,v1,FALSE
+p002473,2026,vanderbilt,movements,3,Social Movements,claude-opus-5-5,v1,FALSE
+p002474,2026,vanderbilt,science,1,Science and Technology,claude-opus-5-5,v1,FALSE
+p002474,2026,vanderbilt,environment,2,Environmental Sociology,claude-opus-5-5,v1,FALSE
+p002474,2026,vanderbilt,political,3,Political Sociology,claude-opus-5-5,v1,FALSE
+p002477,2026,vanderbilt,movements,1,Social Movements,claude-opus-5-5,v1,FALSE
+p002477,2026,vanderbilt,law,2,Women's Legal Rights,claude-opus-5-5,v1,FALSE
+p002477,2026,vanderbilt,gender,3,Women's,claude-opus-5-5,v1,FALSE
+p002511,2026,wisc,comphist,1,Comparative-Historical Sociology,claude-opus-5-5,v1,FALSE
+p002511,2026,wisc,political,2,Political Sociology,claude-opus-5-5,v1,FALSE
+p002511,2026,wisc,movements,3,Social Movements and Collective Behavior,claude-opus-5-5,v1,FALSE
+p002514,2026,wisc,population,1,Demography,claude-opus-5-5,v1,FALSE
+p002514,2026,wisc,family,2,Family,claude-opus-5-5,v1,FALSE
+p002514,2026,wisc,gender,3,Gender,claude-opus-5-5,v1,FALSE
+p002521,2026,wisc,education,1,Education,claude-opus-5-5,v1,FALSE
+p002521,2026,wisc,inequality,2,Social Stratification,claude-opus-5-5,v1,FALSE
+p002521,2026,wisc,medical,3,Health,claude-opus-5-5,v1,FALSE
+p002525,2026,wisc,inequality,1,Social Stratification,claude-opus-5-5,v1,FALSE
+p002525,2026,wisc,methods,2,Methods and Statistics,claude-opus-5-5,v1,FALSE
+p002525,2026,wisc,population,3,Demography,claude-opus-5-5,v1,FALSE
+p002528,2026,wisc,political,1,Political Sociology,claude-opus-5-5,v1,FALSE
+p002528,2026,wisc,development,2,Economic Change and Development,claude-opus-5-5,v1,FALSE
+p002528,2026,wisc,inequality,3,Class Analysis,claude-opus-5-5,v1,FALSE
+p002531,2026,wisc,inequality,1,Class Analysis,claude-opus-5-5,v1,FALSE
+p002531,2026,wisc,comphist,2,Comparative-Historical Sociology,claude-opus-5-5,v1,FALSE
+p002531,2026,wisc,oow,3,Organizational and Occupational Analysis,claude-opus-5-5,v1,FALSE
+p002538,2026,wisc,methods,1,Methods and Statistics,claude-opus-5-5,v1,FALSE
+p002538,2026,wisc,socpsych,2,Social Psychology and Microsociology,claude-opus-5-5,v1,FALSE
+p002538,2026,wisc,population,3,Demography,claude-opus-5-5,v1,FALSE
+p002541,2026,wisc,education,1,Education,claude-opus-5-5,v1,FALSE
+p002541,2026,wisc,family,2,Family,claude-opus-5-5,v1,FALSE
+p002541,2026,wisc,gender,3,Gender,claude-opus-5-5,v1,FALSE
+p002555,2026,wisc,inequality,1,Social Stratification,claude-opus-5-5,v1,FALSE
+p002555,2026,wisc,population,2,Demography,claude-opus-5-5,v1,FALSE
+p002555,2026,wisc,family,3,Family,claude-opus-5-5,v1,FALSE
+p002561,2026,wisc,inequality,1,Social Stratification,claude-opus-5-5,v1,FALSE
+p002561,2026,wisc,law,2,Law and Society,claude-opus-5-5,v1,FALSE
+p002561,2026,wisc,population,3,Demography,claude-opus-5-5,v1,FALSE
+p002563,2026,wisc,aging,1,Aging and the Life Course,claude-opus-5-5,v1,FALSE
+p002563,2026,wisc,population,2,Demography,claude-opus-5-5,v1,FALSE
+p002563,2026,wisc,family,3,Family,claude-opus-5-5,v1,FALSE
+p002564,2026,wisc,methods,1,Methods and Statistics,claude-opus-5-5,v1,FALSE
+p002564,2026,wisc,aging,2,Aging and the Life Course,claude-opus-5-5,v1,FALSE
+p002564,2026,wisc,population,3,Demography,claude-opus-5-5,v1,FALSE
+p002582,2026,wisc,population,1,Demography,claude-opus-5-5,v1,FALSE
+p002582,2026,wisc,education,2,Education,claude-opus-5-5,v1,FALSE
+p002582,2026,wisc,methods,3,Methods and Statistics,claude-opus-5-5,v1,FALSE
+p002586,2026,wustl,religion,1,Religion,claude-opus-5-5,v1,FALSE
+p002586,2026,wustl,networks,2,Social Networks,claude-opus-5-5,v1,FALSE
+p002586,2026,wustl,political,3,Political Sociology,claude-opus-5-5,v1,FALSE
+p002587,2026,wustl,rem,1,Race and Ethnicity,claude-opus-5-5,v1,FALSE
+p002587,2026,wustl,migration,2,Immigration,claude-opus-5-5,v1,FALSE
+p002587,2026,wustl,education,3,Education,claude-opus-5-5,v1,FALSE
+p002589,2026,wustl,movements,1,Social Movements,claude-opus-5-5,v1,FALSE
+p002589,2026,wustl,peace,2,Political Violence,claude-opus-5-5,v1,FALSE
+p002589,2026,wustl,crime,3,Policing and Social Control,claude-opus-5-5,v1,FALSE
+p002590,2026,wustl,inequality,1,Economic Inequality,claude-opus-5-5,v1,FALSE
+p002590,2026,wustl,oow,2,Work,claude-opus-5-5,v1,FALSE
+p002591,2026,wustl,movements,1,Social Movements,claude-opus-5-5,v1,FALSE
+p002591,2026,wustl,political,2,Political Sociology,claude-opus-5-5,v1,FALSE
+p002591,2026,wustl,rem,3,Race and Ethnicity,claude-opus-5-5,v1,FALSE
+p002612,2026,yale,networks,1,Social Networks,claude-opus-5-5,v1,FALSE
+p002612,2026,yale,development,2,Economic Development,claude-opus-5-5,v1,FALSE
+p002612,2026,yale,comphist,3,Comparative Historical Sociology,claude-opus-5-5,v1,FALSE
+p002622,2026,yale,comphist,1,Comparative Historical Sociology,claude-opus-5-5,v1,FALSE
+p002622,2026,yale,theory,2,Social Theory,claude-opus-5-5,v1,FALSE
+p002622,2026,yale,political,3,Political Sociology,claude-opus-5-5,v1,FALSE
+p002630,2026,yale,networks,1,Network Science,claude-opus-5-5,v1,FALSE
+p002630,2026,yale,medical,2,Health,claude-opus-5-5,v1,FALSE
+p002630,2026,yale,biology,3,Biosocial Science,claude-opus-5-5,v1,FALSE
+p002631,2026,yale,comphist,1,Comparative and Historical Sociolog,claude-opus-5-5,v1,FALSE
+p002631,2026,yale,culture,2,Culture,claude-opus-5-5,v1,FALSE
+p002631,2026,yale,methods,3,Methods,claude-opus-5-5,v1,FALSE
+p002632,2026,yale,culture,1,Culture,claude-opus-5-5,v1,FALSE
+p002632,2026,yale,crime,2,"Deviance, Crime",claude-opus-5-5,v1,FALSE
+p002632,2026,yale,political,3,Political Sociology,claude-opus-5-5,v1,FALSE
+p002634,2026,yale,medical,1,Health,claude-opus-5-5,v1,FALSE
+p002634,2026,yale,gender,2,Gender,claude-opus-5-5,v1,FALSE
+p002634,2026,yale,biology,3,Genetics,claude-opus-5-5,v1,FALSE

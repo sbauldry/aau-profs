@@ -28,7 +28,7 @@ nyu,TRUE,TRUE,reachable,compared
 osu,TRUE,TRUE,reachable,compared
 pitt,TRUE,TRUE,reachable_names_only,compared
 princeton,TRUE,FALSE,url_confirmed_by_hand_blocked,not compared: hand-collect site (blocked)
-psu,TRUE,TRUE,reachable,compared
+psu,TRUE,FALSE,reachable,not compared: no data in our tables
 purdue,FALSE,TRUE,reachable,ours only (not in hand file)
 rice,TRUE,TRUE,reachable_js_rendered,compared
 rutgers,TRUE,TRUE,reachable,compared
@@ -36,7 +36,7 @@ stanford,TRUE,TRUE,reachable,compared
 stonybrook,TRUE,TRUE,reachable,compared
 tamu,TRUE,TRUE,reachable_js_rendered,compared
 tufts,TRUE,TRUE,reachable,compared
-tulane,TRUE,TRUE,reachable,compared
+tulane,TRUE,FALSE,reachable,not compared: no data in our tables
 uarizona,TRUE,TRUE,reachable,compared
 ucberkeley,TRUE,TRUE,reachable,compared
 ucdavis,TRUE,FALSE,url_confirmed_by_hand_blocked,not compared: hand-collect site (blocked)

@@ -2,7 +2,7 @@
 prompt: code
 version: v1
 created: 2026-10-20
-status: DRAFT (not yet used in any run; edit freely until first use, then freeze per codebook.md §9)
+status: FROZEN 2026-10-28 (first used in the 2026 production run; any change is a new version file and a codebook section 8 entry)
 changes: Initial version. Encodes codebook §5.1 rules 1-8. Rule 12 revised after the first 30-person development trial (2026-10-20), which flagged 19 of 30 people, mostly for the three-code limit alone. Input is stored `areas_raw` and `title_raw` (raw HTML is not archived, so no other profile text is available). One call codes a batch of people.
 model: claude-opus-5-5 (pinned, codebook §9)
 schema: R/code_schema.R (to be written; shape given under Output)

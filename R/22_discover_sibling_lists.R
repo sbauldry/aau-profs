@@ -37,5 +37,26 @@ find_lists <- function(row) {
 res <- map(seq_len(nrow(cfg)), \(i) { message(cfg$inst_id[i]); tryCatch(find_lists(cfg[i, ]), error = \(e) tibble(inst_id = cfg$inst_id[i], note = paste("error:", str_sub(conditionMessage(e), 1, 100)))) }) |> list_rbind()
 close_browser()
 write_csv(res, "data/seeds/institution_pages_candidates.csv")
+
+# Apply the same pruning used when the list was curated by hand (2026-10-20): drop links to people, centers, fellowships,
+# postdoc and visiting-scholar pages, then compare with the reviewed list. institution_pages.csv itself is never overwritten.
+prune_candidates <- function(d) {
+  d |> filter(!is.na(list_type)) |>
+    filter(!str_detect(label, regex("fellowship|financial support|centers|institutions|guide|scholars|post doctoral|fund|fellows$|mms instructors|resources|grants", TRUE)),
+           !str_detect(page_url, regex("/graduate/|alumni|/research/|admin/vis-scholars|commcms/history|node/\\d+|core-department-faculty-member|/emeritus/[a-z-]+\\.html$|/emeriti/[a-z-]+$|/emeritus/[a-z]+/$|faculty/visiting/[a-z-]+\\.html|people/rick-moore|soc-faculty$|people/faculty/emeritus/[a-z-]+\\.html", TRUE))) |>
+    filter(!(inst_id == "ufl" & !str_ends(page_url, "emeritus/"))) |>
+    mutate(list_type = case_when(inst_id == "ucberkeley" & str_detect(page_url, "visiting") ~ "visiting", inst_id == "upenn" & str_detect(page_url, "lecturers") ~ "nontenure",
+                                 inst_id == "yale" & str_detect(page_url, "affiliated-emeritus") ~ "emeriti", TRUE ~ list_type))
+}
+curated <- read_csv("data/seeds/institution_pages.csv", show_col_types = FALSE)
+cand <- prune_candidates(res)
+new_lists <- anti_join(cand, curated, by = c("inst_id", "page_url")) |> select(inst_id, list_type, page_url, label)
+gone <- anti_join(curated, cand, by = c("inst_id", "page_url"))
+dir.create(dirname(p$scrape_dir), recursive = TRUE, showWarnings = FALSE)
+write_csv(new_lists, file.path(dirname(p$scrape_dir), "sibling_lists_new.csv")); write_csv(gone, file.path(dirname(p$scrape_dir), "sibling_lists_gone.csv"))
+cat("\nreviewed lists:", nrow(curated), "| candidates after pruning:", nrow(cand), "| NEW to review:", nrow(new_lists), "| in the reviewed list but not found now:", nrow(gone), "\n")
+if (nrow(new_lists)) print(new_lists, n = 50, width = 200)
+if (nrow(gone)) print(gone, n = 50, width = 200)
+run_log("sibling_discovery", list(institutions = nrow(cfg), candidates = nrow(cand), new = nrow(new_lists), gone = nrow(gone)), p = p)
 cat("institutions:", nrow(cfg), " with candidates:", n_distinct(res$inst_id[!is.na(res$list_type)]), " candidates:", sum(!is.na(res$list_type)), "\n")
 print(count(res, list_type)); print(res |> filter(!is.na(note)), n = 30)

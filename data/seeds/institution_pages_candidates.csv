@@ -9,6 +9,7 @@ indiana,affiliated,Financial Support & Fellowships,https://sociology.indiana.edu
 msu,affiliated,Affiliated Faculty,https://sociology.msu.edu/people/affiliated-faculty.html,NA
 msu,emeriti,Emeriti and Retired Faculty,https://sociology.msu.edu/people/emeriti-faculty.html,NA
 osu,affiliated,Affiliated Centers and Projects,https://sociology.osu.edu/about-us/affiliated-centers-and-projects,NA
+psu,NA,NA,NA,blocked
 rutgers,adjunct,Adjunct Faculty,https://sociology.rutgers.edu/people/faculty/adjunct-faculty,NA
 rutgers,emeriti,Emeritus Faculty,https://sociology.rutgers.edu/people/faculty/emeritus-faculty,NA
 rutgers,nontenure,Eleanor LaPointe,https://sociology.rutgers.edu/people/faculty/core-department-faculty/core-department-faculty-member/602-lapointe-eleanor-instructor,NA
@@ -109,6 +110,10 @@ emory,emeriti,"Associated, Adjunct, and Emeritus Faculty",https://sociology.emor
 gwu,affiliated,Full-Time Affiliated Faculty,https://sociology.columbian.gwu.edu/affiliated-faculty,NA
 gwu,visiting,Part-Time & Visiting Faculty,https://sociology.columbian.gwu.edu/part-time-visiting-faculty,NA
 gwu,emeriti,Emeriti Faculty,https://sociology.columbian.gwu.edu/emeritus-faculty,NA
+nyu,affiliated,Associated/Affiliated Faculty,https://as.nyu.edu/content/nyu-as/as/departments/sociology/people/adjunct--affiliated---associated-faculty.html,NA
+nyu,visiting,Visiting Professors and Scholars,https://as.nyu.edu/content/nyu-as/as/departments/sociology/people/faculty/visiting-scholars.html,NA
+nyu,emeriti,Emeritus Faculty,https://as.nyu.edu/content/nyu-as/as/departments/sociology/people/faculty/visiting-professors-and-emeritus.html,NA
+nyu,affiliated,Affiliated Faculty From NYU Global Network,https://as.nyu.edu/content/nyu-as/as/departments/sociology/people/global-network-faculty.html,NA
 northwestern,affiliated,Affiliated,https://sociology.northwestern.edu/people/faculty/affiliated/index.html,NA
 northwestern,emeriti,Emeriti,https://sociology.northwestern.edu/people/faculty/emeriti/index.html,NA
 northwestern,visiting,Mark Griffith,https://sociology.northwestern.edu/people/faculty/visiting/mark-griffith.html,NA
@@ -131,4 +136,6 @@ vanderbilt,emeriti,Emeriti Faculty,https://as.vanderbilt.edu/sociology/people/?g
 wustl,nontenure,Rick Moore Lecturer of Sociology,https://sociology.washu.edu/people/rick-moore,NA
 yale,emeriti,Affiliated Faculty,https://sociology.yale.edu/faculty/affiliated-emeritus-faculty,NA
 yale,affiliated,Academic Affiliates,https://sociology.yale.edu/faculty/academic-affiliates,NA
+mcgill,adjunct,Associate / Adjunct and Visiting Members,https://www.mcgill.ca/sociology/contact-us/members,NA
+mcgill,emeriti,Emeritus and Retired Faculty,https://www.mcgill.ca/sociology/contact-us/retired,NA
 utoronto,emeriti,Emeriti Faculty,https://www.sociology.utoronto.ca/people/directories/all-faculty?sort_by=ppl_last_name_value&items_per_page=10&fy_uoft_roles_tid%5B%5D=72,NA

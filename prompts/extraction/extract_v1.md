@@ -2,7 +2,7 @@
 prompt: extract
 version: v1
 created: 2026-10-03
-status: DRAFT (not yet used in any run; edit freely until first use, then freeze per codebook.md §9)
+status: FROZEN 2026-10-28 (first used in the 2026 production run; any change is a new version file and a codebook section 8 entry)
 changes: Initial version. Schema uses empty strings, not nulls, for unstated values (API limit on optional fields). Rule 7: dual-unit titles with no stated home are `unknown` plus a review flag. Links are passed in the page text as `text <url>`. Added optional `listing_context` input and rule 17 so profile pages take rank from the listing.
 schema: R/extract_schema.R
 codebook: v0.1.14

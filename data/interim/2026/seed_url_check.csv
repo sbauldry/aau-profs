@@ -1,0 +1,68 @@
+inst_id,config_method,tried,status,robots_ok,text_chars,has_professor,note,checked,outcome
+asu,chromote,chromote,200,TRUE,14682,TRUE,NA,2026-10-28,ok
+gatech,http,http,200,TRUE,8330,TRUE,NA,2026-10-28,ok
+indiana,http,http,200,TRUE,9122,TRUE,NA,2026-10-28,ok
+msu,chromote,chromote,200,TRUE,5235,TRUE,NA,2026-10-28,ok
+osu,http,http,200,TRUE,19511,TRUE,NA,2026-10-28,ok
+psu,http,http,blocked,TRUE,NA,FALSE,bot block or challenge: not worked around; collect by hand,2026-10-28,blocked
+purdue,http,http,200,TRUE,13825,TRUE,NA,2026-10-28,ok
+rutgers,http,http,200,TRUE,11062,TRUE,NA,2026-10-28,ok
+stonybrook,http,http,200,TRUE,14572,TRUE,NA,2026-10-28,ok
+tamu,chromote,chromote,200,TRUE,9247,TRUE,NA,2026-10-28,ok
+uarizona,http,http,200,TRUE,19978,TRUE,NA,2026-10-28,ok
+buffalo,http,http,200,TRUE,22893,TRUE,NA,2026-10-28,ok
+ucberkeley,http,http,200,TRUE,8158,TRUE,NA,2026-10-28,ok
+ucdavis,hand,http,blocked,TRUE,NA,FALSE,bot block or challenge: not worked around; collect by hand,2026-10-28,blocked
+ucirvine,http,http,200,TRUE,9982,TRUE,NA,2026-10-28,ok
+ucla,http,http,200,TRUE,13552,TRUE,NA,2026-10-28,ok
+ucriverside,chromote,chromote,200,TRUE,1675,TRUE,NA,2026-10-28,ok
+ucsd,http,http,200,TRUE,14643,TRUE,NA,2026-10-28,ok
+ucsb,http,http,200,TRUE,13981,TRUE,NA,2026-10-28,ok
+ucsc,http,http,200,TRUE,13227,TRUE,NA,2026-10-28,ok
+cuboulder,chromote,chromote,200,TRUE,5099,TRUE,NA,2026-10-28,ok
+ufl,http,http,200,TRUE,10255,TRUE,NA,2026-10-28,ok
+uiuc,http,http,200,TRUE,3779,TRUE,NA,2026-10-28,ok
+uiowa,http,http,200,TRUE,6072,TRUE,NA,2026-10-28,ok
+ku,http,http,200,TRUE,3019,TRUE,NA,2026-10-28,ok
+umd,http,http,200,TRUE,8336,TRUE,NA,2026-10-28,ok
+umich,hand,http,blocked,TRUE,NA,FALSE,bot block or challenge: not worked around; collect by hand,2026-10-28,blocked
+umn,http,http,200,TRUE,16539,TRUE,NA,2026-10-28,ok
+mizzou,http,http,200,TRUE,1957,TRUE,NA,2026-10-28,ok
+unc,http,http,200,TRUE,5714,TRUE,NA,2026-10-28,ok
+uoregon,http,http,200,TRUE,13087,TRUE,NA,2026-10-28,ok
+pitt,http,http,200,TRUE,1142,FALSE,NA,2026-10-28,check
+usf,http,http,200,TRUE,7347,TRUE,NA,2026-10-28,ok
+utaustin,chromote,chromote,200,TRUE,22711,TRUE,NA,2026-10-28,ok
+utah,http,http,200,TRUE,5854,TRUE,NA,2026-10-28,ok
+uva,http,http,200,TRUE,16132,TRUE,NA,2026-10-28,ok
+uw,http,http,200,TRUE,13574,TRUE,NA,2026-10-28,ok
+wisc,chromote,chromote,200,TRUE,8871,TRUE,NA,2026-10-28,ok
+bu,http,http,200,TRUE,4309,TRUE,NA,2026-10-28,ok
+brandeis,hand,http,blocked,TRUE,NA,FALSE,bot block or challenge: not worked around; collect by hand,2026-10-28,blocked
+brown,http,http,200,TRUE,16108,TRUE,NA,2026-10-28,ok
+cwru,http,http,200,TRUE,6344,TRUE,NA,2026-10-28,ok
+columbia,hand,http,blocked,TRUE,NA,FALSE,bot block or challenge: not worked around; collect by hand,2026-10-28,blocked
+cornell,http,http,200,TRUE,5827,TRUE,NA,2026-10-28,ok
+dartmouth,http,http,200,TRUE,7345,TRUE,NA,2026-10-28,ok
+duke,http,http,200,TRUE,9443,TRUE,NA,2026-10-28,ok
+emory,http,http,200,TRUE,4405,TRUE,NA,2026-10-28,ok
+gwu,http,http,200,TRUE,2940,TRUE,NA,2026-10-28,ok
+harvard,hand,http,blocked,TRUE,NA,FALSE,bot block or challenge: not worked around; collect by hand,2026-10-28,blocked
+jhu,hand,http,blocked,TRUE,NA,FALSE,bot block or challenge: not worked around; collect by hand,2026-10-28,blocked
+nyu,http,http,200,TRUE,13263,TRUE,NA,2026-10-28,ok
+northwestern,http,http,200,TRUE,7408,TRUE,NA,2026-10-28,ok
+princeton,hand,http,blocked,TRUE,NA,FALSE,bot block or challenge: not worked around; collect by hand,2026-10-28,blocked
+rice,chromote,chromote,200,TRUE,7084,TRUE,NA,2026-10-28,ok
+stanford,http,http,200,TRUE,6537,TRUE,NA,2026-10-28,ok
+tufts,http,http,200,TRUE,6279,TRUE,NA,2026-10-28,ok
+tulane,http,http,blocked,TRUE,NA,FALSE,bot block or challenge: not worked around; collect by hand,2026-10-28,blocked
+uchicago,http,http,200,TRUE,7708,TRUE,NA,2026-10-28,ok
+miami,http,http,200,TRUE,19603,TRUE,NA,2026-10-28,ok
+notredame,http,http,200,TRUE,4558,TRUE,NA,2026-10-28,ok
+upenn,http,http,200,TRUE,6866,TRUE,NA,2026-10-28,ok
+usc,http,http,200,TRUE,11424,TRUE,NA,2026-10-28,ok
+vanderbilt,http,http,200,TRUE,5929,TRUE,NA,2026-10-28,ok
+wustl,http,http,200,TRUE,10329,TRUE,NA,2026-10-28,ok
+yale,http,http,200,TRUE,3201,TRUE,NA,2026-10-28,ok
+mcgill,http,http,200,TRUE,8102,TRUE,NA,2026-10-28,ok
+utoronto,chromote,chromote,200,TRUE,5739,TRUE,NA,2026-10-28,ok

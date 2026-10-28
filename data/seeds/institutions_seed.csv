@@ -1,72 +1,72 @@
 inst_id,inst_name,country,has_soc_dept,faculty_url,url_verified,url_status,notes
-asu,Arizona State University,US,NA,https://thesanfordschool.asu.edu/people/faculty,2026-10-03,reachable_js_rendered,Unit is The Sanford School of Social and Family Dynamics; name lacks 'sociology' (codebook §2 rule 2): decide inclusion.
-gatech,Georgia Institute of Technology,US,NA,https://hsoc.gatech.edu/people/faculty,2026-10-03,reachable,NA
-indiana,Indiana University,US,NA,https://sociology.indiana.edu/about/faculty/index.html,2026-10-03,reachable,NA
-msu,Michigan State University,US,NA,https://sociology.msu.edu/people/index.html,2026-10-03,reachable_js_rendered,Roster renders client-side (chromote). Individual profile pages return a bot-challenge page (Incapsula) to plain HTTP: do not work around (codebook §10); collect research areas by hand.
-osu,The Ohio State University,US,NA,https://sociology.osu.edu/people,2026-10-03,reachable,NA
+asu,Arizona State University,US,NA,https://thesanfordschool.asu.edu/people/faculty,2026-10-28,reachable_js_rendered,Unit is The Sanford School of Social and Family Dynamics; name lacks 'sociology' (codebook §2 rule 2): decide inclusion.
+gatech,Georgia Institute of Technology,US,NA,https://hsoc.gatech.edu/people/faculty,2026-10-28,reachable,NA
+indiana,Indiana University,US,NA,https://sociology.indiana.edu/about/faculty/index.html,2026-10-28,reachable,NA
+msu,Michigan State University,US,NA,https://sociology.msu.edu/people/index.html,2026-10-28,reachable_js_rendered,Roster renders client-side (chromote). Individual profile pages return a bot-challenge page (Incapsula) to plain HTTP: do not work around (codebook §10); collect research areas by hand.
+osu,The Ohio State University,US,NA,https://sociology.osu.edu/people,2026-10-28,reachable,NA
 psu,The Pennsylvania State University,US,NA,https://sociology.la.psu.edu/people/tenure-track-faculty,2026-10-03,reachable,NA
-purdue,Purdue University,US,NA,https://www.cla.purdue.edu/academic/sociology/directory/index.html,2026-10-03,reachable,NA
-rutgers,Rutgers University – New Brunswick,US,NA,https://sociology.rutgers.edu/people/faculty,2026-10-03,reachable,NA
-stonybrook,Stony Brook University – The State University of New York,US,NA,https://www.stonybrook.edu/sociology/people/,2026-10-03,reachable,NA
-tamu,Texas A&M University,US,NA,https://artsci.tamu.edu/sociology/people/faculty.html,2026-10-03,reachable_js_rendered,Roster renders client-side: scrape with chromote.
-uarizona,The University of Arizona,US,NA,https://sociology.arizona.edu/people/faculty,2026-10-03,reachable,NA
-buffalo,University at Buffalo – The State University of New York,US,NA,https://arts-sciences.buffalo.edu/sociology-criminology/faculty/faculty-directory.html,2026-10-03,reachable,NA
-ucberkeley,"University of California, Berkeley",US,NA,https://sociology.berkeley.edu/people/faculty,2026-10-03,reachable,NA
+purdue,Purdue University,US,NA,https://www.cla.purdue.edu/academic/sociology/directory/index.html,2026-10-28,reachable,NA
+rutgers,Rutgers University – New Brunswick,US,NA,https://sociology.rutgers.edu/people/faculty,2026-10-28,reachable,NA
+stonybrook,Stony Brook University – The State University of New York,US,NA,https://www.stonybrook.edu/sociology/people/,2026-10-28,reachable,NA
+tamu,Texas A&M University,US,NA,https://artsci.tamu.edu/sociology/people/faculty.html,2026-10-28,reachable_js_rendered,Roster renders client-side: scrape with chromote.
+uarizona,The University of Arizona,US,NA,https://sociology.arizona.edu/people/faculty,2026-10-28,reachable,NA
+buffalo,University at Buffalo – The State University of New York,US,NA,https://arts-sciences.buffalo.edu/sociology-criminology/faculty/faculty-directory.html,2026-10-28,reachable,NA
+ucberkeley,"University of California, Berkeley",US,NA,https://sociology.berkeley.edu/people/faculty,2026-10-28,reachable,NA
 ucdavis,"University of California, Davis",US,TRUE,https://sociology.ucdavis.edu/people/faculty,2026-10-03,url_confirmed_by_hand_blocked,"Site returned 403 to automated access (do not work around, codebook §10); URL confirmed by hand 2026-10-03; faculty list must be collected by hand."
-ucirvine,"University of California, Irvine",US,NA,https://www.sociology.uci.edu/people/faculty.php,2026-10-03,reachable,NA
-ucla,"University of California, Los Angeles",US,NA,https://soc.ucla.edu/people/faculty,2026-10-03,reachable,NA
-ucriverside,"University of California, Riverside",US,NA,https://sociology.ucr.edu/faculty,2026-10-03,reachable_embedded,Roster is an iframe from profiles.ucr.edu; scrape the embed URL.
-ucsd,"University of California, San Diego",US,NA,https://sociology.ucsd.edu/people/faculty/index.html,2026-10-03,reachable,NA
-ucsb,"University of California, Santa Barbara",US,NA,https://soc.ucsb.edu/people,2026-10-03,reachable,NA
-ucsc,"University of California, Santa Cruz",US,NA,https://sociology.ucsc.edu/people/faculty/,2026-10-03,reachable,NA
-cuboulder,"University of Colorado, Boulder",US,NA,https://www.colorado.edu/sociology/our-people/faculty,2026-10-03,reachable_js_rendered,Roster renders client-side: scrape with chromote.
-ufl,University of Florida,US,NA,https://soccrim.clas.ufl.edu/directory/,2026-10-03,reachable,"Unit is Sociology, Criminology & Law."
-uiuc,University of Illinois Urbana-Champaign,US,NA,https://sociology.illinois.edu/directory/faculty,2026-10-03,reachable,NA
-uiowa,The University of Iowa,US,NA,https://sociology.uiowa.edu/people/faculty,2026-10-03,reachable,NA
-ku,The University of Kansas,US,NA,https://sociology.ku.edu/faculty,2026-10-03,reachable,NA
-umd,University of Maryland at College Park,US,NA,https://socy.umd.edu/faculty/Current%20Faculty,2026-10-03,reachable,NA
+ucirvine,"University of California, Irvine",US,NA,https://www.sociology.uci.edu/people/faculty.php,2026-10-28,reachable,NA
+ucla,"University of California, Los Angeles",US,NA,https://soc.ucla.edu/people/faculty,2026-10-28,reachable,NA
+ucriverside,"University of California, Riverside",US,NA,https://sociology.ucr.edu/faculty,2026-10-28,reachable_embedded,Roster is an iframe from profiles.ucr.edu; scrape the embed URL.
+ucsd,"University of California, San Diego",US,NA,https://sociology.ucsd.edu/people/faculty/index.html,2026-10-28,reachable,NA
+ucsb,"University of California, Santa Barbara",US,NA,https://soc.ucsb.edu/people,2026-10-28,reachable,NA
+ucsc,"University of California, Santa Cruz",US,NA,https://sociology.ucsc.edu/people/faculty/,2026-10-28,reachable,NA
+cuboulder,"University of Colorado, Boulder",US,NA,https://www.colorado.edu/sociology/our-people/faculty,2026-10-28,reachable_js_rendered,Roster renders client-side: scrape with chromote.
+ufl,University of Florida,US,NA,https://soccrim.clas.ufl.edu/directory/,2026-10-28,reachable,"Unit is Sociology, Criminology & Law."
+uiuc,University of Illinois Urbana-Champaign,US,NA,https://sociology.illinois.edu/directory/faculty,2026-10-28,reachable,NA
+uiowa,The University of Iowa,US,NA,https://sociology.uiowa.edu/people/faculty,2026-10-28,reachable,NA
+ku,The University of Kansas,US,NA,https://sociology.ku.edu/faculty,2026-10-28,reachable,NA
+umd,University of Maryland at College Park,US,NA,https://socy.umd.edu/faculty/Current%20Faculty,2026-10-28,reachable,NA
 umich,University of Michigan,US,TRUE,https://lsa.umich.edu/soc/people.directory.html,2026-10-03,url_confirmed_by_hand_blocked,"Site returned 403 to automated access (do not work around, codebook §10); URL confirmed by hand 2026-10-03; faculty list must be collected by hand."
-umn,"University of Minnesota, Twin Cities",US,NA,https://cla.umn.edu/sociology/people/faculty,2026-10-03,reachable,NA
-mizzou,"University of Missouri, Columbia",US,NA,https://sociology.missouri.edu/people,2026-10-03,reachable,NA
-unc,The University of North Carolina at Chapel Hill,US,NA,https://sociology.unc.edu/people/faculty/,2026-10-03,reachable,NA
-uoregon,University of Oregon,US,NA,https://cas.uoregon.edu/directory/sociology,2026-10-03,reachable,NA
+umn,"University of Minnesota, Twin Cities",US,NA,https://cla.umn.edu/sociology/people/faculty,2026-10-28,reachable,NA
+mizzou,"University of Missouri, Columbia",US,NA,https://sociology.missouri.edu/people,2026-10-28,reachable,NA
+unc,The University of North Carolina at Chapel Hill,US,NA,https://sociology.unc.edu/people/faculty/,2026-10-28,reachable,NA
+uoregon,University of Oregon,US,NA,https://cas.uoregon.edu/directory/sociology,2026-10-28,reachable,NA
 pitt,University of Pittsburgh,US,NA,https://www.sociology.pitt.edu/people/faculty,2026-10-03,reachable_names_only,"Listing shows names only, paginated; rank must come from profile pages."
-usf,University of South Florida,US,NA,https://www.usf.edu/arts-sciences/departments/sociology/people/index.aspx,2026-10-03,reachable,NA
-utaustin,The University of Texas at Austin,US,NA,https://liberalarts.utexas.edu/sociology/faculty/,2026-10-03,reachable_js_rendered,Roster renders client-side: scrape with chromote.
-utah,The University of Utah,US,NA,https://soc.utah.edu/people/index.php,2026-10-03,reachable,NA
-uva,University of Virginia,US,NA,https://sociology.as.virginia.edu/faculty,2026-10-03,reachable,NA
-uw,University of Washington,US,NA,https://soc.washington.edu/people/faculty,2026-10-03,reachable,NA
-wisc,The University of Wisconsin – Madison,US,NA,https://sociology.wisc.edu/faculty/,2026-10-03,reachable_js_rendered,Roster renders client-side: scrape with chromote.
-bu,Boston University,US,NA,https://www.bu.edu/sociology/people/faculty/,2026-10-03,reachable,NA
+usf,University of South Florida,US,NA,https://www.usf.edu/arts-sciences/departments/sociology/people/index.aspx,2026-10-28,reachable,NA
+utaustin,The University of Texas at Austin,US,NA,https://liberalarts.utexas.edu/sociology/faculty/,2026-10-28,reachable_js_rendered,Roster renders client-side: scrape with chromote.
+utah,The University of Utah,US,NA,https://soc.utah.edu/people/index.php,2026-10-28,reachable,NA
+uva,University of Virginia,US,NA,https://sociology.as.virginia.edu/faculty,2026-10-28,reachable,NA
+uw,University of Washington,US,NA,https://soc.washington.edu/people/faculty,2026-10-28,reachable,NA
+wisc,The University of Wisconsin – Madison,US,NA,https://sociology.wisc.edu/faculty/,2026-10-28,reachable_js_rendered,Roster renders client-side: scrape with chromote.
+bu,Boston University,US,NA,https://www.bu.edu/sociology/people/faculty/,2026-10-28,reachable,NA
 brandeis,Brandeis University,US,TRUE,https://www.brandeis.edu/sociology/people/index.html,2026-10-03,url_confirmed_by_hand_blocked,"Site returned 403 to automated access (do not work around, codebook §10); URL confirmed by hand 2026-10-03; faculty list must be collected by hand."
-brown,Brown University,US,NA,https://sociology.brown.edu/people/faculty,2026-10-03,reachable,NA
+brown,Brown University,US,NA,https://sociology.brown.edu/people/faculty,2026-10-28,reachable,NA
 caltech,California Institute of Technology,US,FALSE,NA,NA,no_soc_dept,No sociology department (confirmed by hand 2026-10-03).
 cmu,Carnegie Mellon University,US,FALSE,NA,NA,no_soc_dept,No sociology department (confirmed by hand 2026-10-03).
-cwru,Case Western Reserve University,US,NA,https://sociology.case.edu/people/,2026-10-03,reachable,NA
+cwru,Case Western Reserve University,US,NA,https://sociology.case.edu/people/,2026-10-28,reachable,NA
 columbia,Columbia University,US,TRUE,https://sociology.columbia.edu/faculty,2026-10-03,url_confirmed_by_hand_blocked,"Site returned 403 to automated access (do not work around, codebook §10); URL confirmed by hand 2026-10-03; faculty list must be collected by hand."
-cornell,Cornell University,US,NA,https://sociology.cornell.edu/faculty,2026-10-03,reachable,NA
-dartmouth,Dartmouth,US,NA,https://sociology.dartmouth.edu/people,2026-10-03,reachable,NA
-duke,Duke University,US,NA,https://sociology.duke.edu/people/faculty,2026-10-03,reachable,NA
-emory,Emory University,US,NA,https://sociology.emory.edu/people/index.html,2026-10-03,reachable,NA
-gwu,The George Washington University,US,NA,https://sociology.columbian.gwu.edu/core-faculty,2026-10-03,reachable,NA
+cornell,Cornell University,US,NA,https://sociology.cornell.edu/faculty,2026-10-28,reachable,NA
+dartmouth,Dartmouth,US,NA,https://sociology.dartmouth.edu/people,2026-10-28,reachable,NA
+duke,Duke University,US,NA,https://sociology.duke.edu/people/faculty,2026-10-28,reachable,NA
+emory,Emory University,US,NA,https://sociology.emory.edu/people/index.html,2026-10-28,reachable,NA
+gwu,The George Washington University,US,NA,https://sociology.columbian.gwu.edu/core-faculty,2026-10-28,reachable,NA
 harvard,Harvard University,US,TRUE,https://sociology.fas.harvard.edu/people/faculty,2026-10-03,url_confirmed_by_hand_blocked,"Site returned 403 to automated access (do not work around, codebook §10); URL confirmed by hand 2026-10-03; faculty list must be collected by hand."
 jhu,The Johns Hopkins University,US,TRUE,https://soc.jhu.edu/people/,2026-10-03,url_confirmed_by_hand_blocked,"Site returned 403 to automated access (do not work around, codebook §10); URL confirmed by hand 2026-10-03; faculty list must be collected by hand."
 mit,Massachusetts Institute of Technology,US,FALSE,NA,NA,no_soc_dept,No sociology department (confirmed by hand 2026-10-03).
-nyu,New York University,US,NA,https://as.nyu.edu/departments/sociology/people/faculty.html,2026-10-03,reachable,NA
-northwestern,Northwestern University,US,NA,https://sociology.northwestern.edu/people/faculty/,2026-10-03,reachable,NA
+nyu,New York University,US,NA,https://as.nyu.edu/departments/sociology/people/faculty.html,2026-10-28,reachable,NA
+northwestern,Northwestern University,US,NA,https://sociology.northwestern.edu/people/faculty/,2026-10-28,reachable,NA
 princeton,Princeton University,US,TRUE,https://sociology.princeton.edu/people/faculty,2026-10-03,url_confirmed_by_hand_blocked,"Site returned 403 to automated access (do not work around, codebook §10); URL confirmed by hand 2026-10-03; faculty list must be collected by hand."
-rice,Rice University,US,NA,https://sociology.rice.edu/department-faculty,2026-10-03,reachable_js_rendered,Roster renders client-side: scrape with chromote.
-stanford,Stanford University,US,NA,https://sociology.stanford.edu/people/faculty,2026-10-03,reachable,NA
-tufts,Tufts University,US,NA,https://as.tufts.edu/sociology/people/faculty,2026-10-03,reachable,NA
+rice,Rice University,US,NA,https://sociology.rice.edu/department-faculty,2026-10-28,reachable_js_rendered,Roster renders client-side: scrape with chromote.
+stanford,Stanford University,US,NA,https://sociology.stanford.edu/people/faculty,2026-10-28,reachable,NA
+tufts,Tufts University,US,NA,https://as.tufts.edu/sociology/people/faculty,2026-10-28,reachable,NA
 tulane,Tulane University,US,NA,https://liberalarts.tulane.edu/departments/sociology/people,2026-10-03,reachable,NA
-uchicago,The University of Chicago,US,NA,https://sociology.uchicago.edu/people/faculty,2026-10-03,reachable,NA
-miami,University of Miami,US,NA,https://www.sociology.as.miami.edu/people/index.html,2026-10-03,reachable,NA
-notredame,University of Notre Dame,US,NA,https://sociology.nd.edu/people/faculty/,2026-10-03,reachable,NA
-upenn,University of Pennsylvania,US,NA,https://sociology.sas.upenn.edu/people/standing-faculty,2026-10-03,reachable,NA
+uchicago,The University of Chicago,US,NA,https://sociology.uchicago.edu/people/faculty,2026-10-28,reachable,NA
+miami,University of Miami,US,NA,https://www.sociology.as.miami.edu/people/index.html,2026-10-28,reachable,NA
+notredame,University of Notre Dame,US,NA,https://sociology.nd.edu/people/faculty/,2026-10-28,reachable,NA
+upenn,University of Pennsylvania,US,NA,https://sociology.sas.upenn.edu/people/standing-faculty,2026-10-28,reachable,NA
 rochester,University of Rochester,US,FALSE,NA,NA,no_soc_dept,No sociology department (confirmed by hand 2026-10-03).
-usc,University of Southern California,US,NA,https://dornsife.usc.edu/soci/faculty/,2026-10-03,reachable,NA
-vanderbilt,Vanderbilt University,US,NA,https://as.vanderbilt.edu/sociology/people/,2026-10-03,reachable,NA
-wustl,Washington University in St. Louis,US,NA,https://sociology.washu.edu/faculty-staff,2026-10-03,reachable,NA
-yale,Yale University,US,NA,https://sociology.yale.edu/people,2026-10-03,reachable,NA
-mcgill,McGill University,CA,TRUE,https://www.mcgill.ca/sociology/contact-us/faculty,2026-10-03,reachable,Returned 403 on 2026-10-03; answered the polite scraper on 2026-10-21 (retry inside the collection window). St. George-style campus restriction does not apply (McGill is a single campus).
-utoronto,University of Toronto,CA,NA,https://sociology.utoronto.ca/people/directories/all-faculty/,2026-10-03,reachable_js_rendered,St. George campus only (codebook §1).
+usc,University of Southern California,US,NA,https://dornsife.usc.edu/soci/faculty/,2026-10-28,reachable,NA
+vanderbilt,Vanderbilt University,US,NA,https://as.vanderbilt.edu/sociology/people/,2026-10-28,reachable,NA
+wustl,Washington University in St. Louis,US,NA,https://sociology.washu.edu/faculty-staff,2026-10-28,reachable,NA
+yale,Yale University,US,NA,https://sociology.yale.edu/people,2026-10-28,reachable,NA
+mcgill,McGill University,CA,TRUE,https://www.mcgill.ca/sociology/contact-us/faculty,2026-10-28,reachable,Returned 403 on 2026-10-03; answered the polite scraper on 2026-10-21 (retry inside the collection window). St. George-style campus restriction does not apply (McGill is a single campus).
+utoronto,University of Toronto,CA,NA,https://sociology.utoronto.ca/people/directories/all-faculty/,2026-10-28,reachable_js_rendered,St. George campus only (codebook §1).

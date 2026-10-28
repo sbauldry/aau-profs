@@ -28,3 +28,6 @@ data/raw_html/
 
 # Hand-built comparison database (local only; used by R/21_compare_head.R)
 data/Head - AAU Database.xlsx
+
+# Hand-saved copies of AAU's members page (the dated CSV in data/seeds and the diff log are the record)
+data/hand_collected/*.html

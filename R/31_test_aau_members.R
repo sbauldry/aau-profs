@@ -11,6 +11,18 @@ stopifnot(nrow(t) == 6, setequal(t$inst_name, c("Brown University", "University 
 stopifnot(t$entry_year[t$inst_name == "Brown University"] == 1933L, t$entry_year[t$inst_name == "Emory University"] == 1985L, t$entry_year[t$inst_name == "Case Western Reserve University"] == 1969L,
           !"Some navigation line" %in% t$inst_name, !"AAU Member Universities by Year of Entry" %in% t$inst_name)
 
+# --- AAU-style text: headings set sector and country; the title and "Published" lines before the first heading are ignored
+writeLines(c("AAU Member Universities By Year of Entry", "Published: Nov 20, 2024", "Public", "Arizona State University (2023)", "The University of Texas at Austin (1929)", "",
+             "Private", "Brown University (1933)", "Dartmouth (2019)", "", "Canadian", "McGill University (1926)", "", "Sign up for the newsletter", "Submit"), f <- file.path(tmp, "aau.txt"))
+a <- parse_member_file(f)
+stopifnot(nrow(a) == 5, !any(str_detect(a$inst_name, "Published")), a$sector[a$inst_name == "Brown University"] == "private", a$sector[a$inst_name == "Arizona State University"] == "public",
+          a$country[a$inst_name == "McGill University"] == "CA", a$country[a$inst_name == "Dartmouth"] == "US", a$entry_year[a$inst_name == "Dartmouth"] == 2019L)
+# the same page as saved HTML: the whole list sits in one block separated by line breaks, with navigation lists around it
+writeLines(c("<html><body><nav><ul><li>Home</li><li>About 2024</li></ul></nav><main><h1>AAU Member Universities By Year of Entry</h1><p>Published: Nov 20, 2024</p>",
+             "<p>Public<br>Arizona State University (2023)<br>The University of Texas at Austin (1929)</p><p>Private<br>Brown University (1933)<br>Dartmouth (2019)</p><p>Canadian<br>McGill University (1926)</p>",
+             "<p>Sign up for the newsletter</p></main></body></html>"), f <- file.path(tmp, "aau.html"))
+h <- parse_member_file(f); stopifnot(nrow(h) == 5, h$sector[h$inst_name == "Dartmouth"] == "private", h$country[h$inst_name == "McGill University"] == "CA")
+
 # --- csv and html (table, then list items)
 write_csv(tibble(inst_name = c("Yale University", "Rice University"), entry_year = c(1900, 1985), sector = c("private", "private"), country = "US"), f <- file.path(tmp, "m.csv"))
 c1 <- parse_member_file(f); stopifnot(nrow(c1) == 2, c1$entry_year[1] == 1900L, c1$sector[1] == "private")

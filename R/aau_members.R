@@ -28,13 +28,21 @@ parse_member_file <- function(path) {
 }
 
 # Text: one member per line with a four-digit year at the start or end (separator: tab, comma, dash, parentheses, spaces).
+# Lines "Public", "Private" and "Canadian" are section headings (as on AAU's page): they set sector and country for the
+# lines that follow, and when any heading is present, lines before the first heading (title, "Published: ...") are ignored.
 parse_member_text <- function(lines) {
   y <- "(?:18|19|20)\\d{2}"
   m <- tibble(line = str_squish(lines)) |> filter(nzchar(line)) |>
-    mutate(year_end = str_match(line, paste0("^(.*?)[\\s,;\\-–—(]+(", y, ")\\)?$")),
-           year_start = str_match(line, paste0("^(", y, ")[\\s,;\\-–—):]+(.*)$")))
-  tibble(inst_name = coalesce(m$year_end[, 2], m$year_start[, 3]), entry_year = coalesce(m$year_end[, 3], m$year_start[, 2])) |>
-    filter(!is.na(inst_name), !is.na(entry_year))
+    mutate(heading = str_to_lower(str_remove(line, ":$")) %in% c("public", "private", "canadian"),
+           section = if_else(heading, str_to_lower(str_remove(line, ":$")), NA_character_)) |> fill(section) |>
+    mutate(year_end = str_match(line, paste0("^(.*?)[\\s,;\\-\u2013\u2014(]+(", y, ")\\)?$")),
+           year_start = str_match(line, paste0("^(", y, ")[\\s,;\\-\u2013\u2014):]+(.*)$")))
+  out <- tibble(inst_name = coalesce(m$year_end[, 2], m$year_start[, 3]), entry_year = coalesce(m$year_end[, 3], m$year_start[, 2]),
+                section = m$section, heading = m$heading) |> filter(!heading, !is.na(inst_name), !is.na(entry_year))
+  if (any(m$heading)) out <- filter(out, !is.na(section))
+  out |> mutate(sector = case_when(section == "public" ~ "public", section == "private" ~ "private", TRUE ~ NA_character_),
+                country = case_when(section %in% c("public", "private") ~ "US", section == "canadian" ~ "CA", TRUE ~ NA_character_)) |>
+    select(-section, -heading) |> select(where(~ !all(is.na(.x))))
 }
 
 # HTML: a table with a name column and a year column; otherwise list items "Name (year)".
@@ -47,7 +55,10 @@ parse_member_html <- function(path) {
       sector = if ("Sector" %in% nm) t[["Sector"]] else NA_character_, country = if ("Country" %in% nm) t[["Country"]] else NA_character_) |>
       select(where(~ !all(is.na(.x)))))
   }
-  parse_member_text(rvest::html_text2(rvest::html_elements(doc, "li, p, tr")))
+  node <- rvest::html_element(doc, "main"); if (inherits(node, "xml_missing")) node <- rvest::html_element(doc, "body")
+  txt <- rvest::html_text2(node)
+  from_text <- parse_member_text(str_split_1(txt, "\n"))
+  if (nrow(from_text) > 0) from_text else parse_member_text(rvest::html_text2(rvest::html_elements(doc, "li, p, tr")))
 }
 
 # --- assembling and checking --------------------------------------------------------------------------------------

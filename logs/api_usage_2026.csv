@@ -916,3 +916,4 @@ timestamp,step,model,prompt_ver,source_url,input,output,cached_input
 2026-10-28 12:43:43,extract,claude-sonnet-5-5,v1,https://profiles.rice.edu/faculty/ruth-n-lopez-turley,1134,288,4050
 2026-10-28 12:44:21,code,claude-opus-5-5,v1,areas_2026_batch_1,7388,4124,0
 2026-10-28 12:44:34,code,claude-opus-5-5,v1,areas_2026_batch_2,569,1561,5448
+2026-10-29 09:42:08,extract,claude-sonnet-5-5,v1,https://www.sociology.utoronto.ca/people/directories/all-faculty,4220,628,0

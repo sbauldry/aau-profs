@@ -19,3 +19,7 @@ Your hand-built database (`data/Head - AAU Database.xlsx`, local only) already h
 ## The AAU member list
 
 AAU's "members by year of entry" page blocked our scraper on 2026-10-21, so the dated member list is saved by hand too. Open <https://www.aau.edu/resource-library/aau-member-universities-by-year-of-entry> in your own browser and save it here as `aau_members__<YYYY-MM-DD>.html` (File, Save Page As; the date is the day you saved it), or copy the member lines into `aau_members__<YYYY-MM-DD>.txt` (one university per line with its entry year), or make `aau_members__<YYYY-MM-DD>.csv` with columns `inst_name`, `entry_year` (and optionally `sector`, `country`). Then run `Rscript R/00_build_aau_member_list.R`: it writes `data/seeds/aau_members_<date>.csv` (sector and country carried over from the previous list for known members) and `logs/aau_members_diff_<date>.md` (members added, removed, possible renames, entry-year changes). It stops without writing if the parse looks wrong (fewer than 50 or more than 110 members, missing or duplicate entries). A new member needs a row in `data/seeds/institutions_seed_candidates.csv` and a URL check.
+
+## Single-person additions to a scraped roster
+
+`utoronto__faculty.txt` (2026-10-29) holds one person, Yoonkyung Lee, who is missing from the scraped Toronto directory pages. Its extraction was appended to `data/interim/2026/rosters/utoronto.csv`, not loaded by `R/28`. Do not run `R/28` with `FORCE=1` for Toronto: it would overwrite the full scraped roster with this one record.
